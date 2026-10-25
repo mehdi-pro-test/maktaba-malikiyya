@@ -1,0 +1,110 @@
+'use client';
+import {
+  useCallback,
+  createContext,
+  useContext,
+  useEffect,
+  useState,
+  useSyncExternalStore,
+} from 'react';
+import { Button } from './ui/button';
+type Line = { productId: string; quantity: number };
+type Context = {
+  items: Line[];
+  setQuantity: (id: string, q: number) => void;
+  clear: () => void;
+  message: string;
+};
+const CartContext = createContext<Context | null>(null);
+const subscribe = () => () => {};
+export function CartProvider({ children }: { children: React.ReactNode }) {
+  const ready = useSyncExternalStore(
+    subscribe,
+    () => true,
+    () => false,
+  );
+  const [items, setItems] = useState<Line[]>(() => {
+    if (typeof window === 'undefined') return [];
+    try {
+      const data = JSON.parse(localStorage.getItem('maktaba-cart') ?? '[]');
+      return Array.isArray(data)
+        ? data.filter(
+            (i: Line) =>
+              typeof i.productId === 'string' &&
+              Number.isInteger(i.quantity) &&
+              i.quantity > 0 &&
+              i.quantity <= 10,
+          )
+        : [];
+    } catch {
+      return [];
+    }
+  });
+  const [message, setMessage] = useState('');
+  const clear = useCallback(() => setItems([]), []);
+  useEffect(() => {
+    if (ready) localStorage.setItem('maktaba-cart', JSON.stringify(items));
+  }, [items, ready]);
+  const setQuantity = (id: string, q: number) => {
+    setItems((prev) =>
+      q <= 0
+        ? prev.filter((i) => i.productId !== id)
+        : [...prev.filter((i) => i.productId !== id), { productId: id, quantity: Math.min(10, q) }],
+    );
+    setMessage(q > 0 ? 'Panier mis à jour.' : 'Livre retiré du panier.');
+  };
+  return (
+    <CartContext.Provider value={{ items: ready ? items : [], setQuantity, clear, message }}>
+      {children}
+      <div className="sr-only" role="status" aria-live="polite">
+        {message}
+      </div>
+    </CartContext.Provider>
+  );
+}
+export function useCart() {
+  const ctx = useContext(CartContext);
+  if (!ctx) throw new Error('Cart provider missing');
+  return ctx;
+}
+export function CartCount() {
+  const { items } = useCart();
+  return <span className="cart-count">{items.reduce((n, i) => n + i.quantity, 0)}</span>;
+}
+export function AddToCart({ id, stock }: { id: string; stock: number }) {
+  const { items, setQuantity } = useCart();
+  const [added, setAdded] = useState(false);
+  const [quantity, setQuantityInput] = useState(1);
+  const inCart = items.find((i) => i.productId === id)?.quantity ?? 0;
+  return (
+    <div className="add-area">
+      <div className="add-controls">
+        <label className="sr-only" htmlFor={`quantity-${id}`}>
+          Quantité pour ce livre
+        </label>
+        <select
+          id={`quantity-${id}`}
+          value={quantity}
+          onChange={(e) => setQuantityInput(Number(e.target.value))}
+          disabled={!stock}
+        >
+          {Array.from({ length: Math.max(1, Math.min(stock, 10)) }, (_, i) => (
+            <option key={i} value={i + 1}>
+              {i + 1}
+            </option>
+          ))}
+        </select>
+        <Button
+          disabled={inCart + quantity > stock || stock === 0}
+          onClick={() => {
+            setQuantity(id, inCart + quantity);
+            setAdded(true);
+          }}
+        >
+          {stock === 0 ? 'Indisponible' : added ? 'Ajouté au panier ✓' : 'Ajouter au panier'}
+        </Button>
+      </div>
+      {inCart > 0 && <small>{inCart} exemplaire(s) dans votre panier</small>}
+    </div>
+  );
+}
