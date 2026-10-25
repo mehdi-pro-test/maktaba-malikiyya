@@ -8,6 +8,8 @@ export class DatabaseReadinessError extends Error {
   }
 }
 export const shopTables = [
+  'Category',
+  'CatalogDraft',
   'Product',
   'Order',
   'OrderItem',
@@ -57,6 +59,14 @@ export async function checkDatabase(connectionString: string | undefined, bootst
       throw new DatabaseReadinessError(
         'DATABASE_SCHEMA_MISSING',
         'La base est connectée mais les tables manquent. Sur la nouvelle base dédiée, effectuez une fois npm run vercel:setup, puis rétablissez npm run vercel:build.',
+      );
+    const categoryColumn = await client.query(
+      "SELECT 1 FROM information_schema.columns WHERE table_schema=current_schema() AND table_name='Product' AND column_name='categoryId'",
+    );
+    if (!categoryColumn.rowCount)
+      throw new DatabaseReadinessError(
+        'DATABASE_SCHEMA_MISSING',
+        'La migration V1.1 manque. Sauvegardez la base dédiée puis appliquez npm run db:migrate avant de déployer. Aucune migration automatique des données existantes n’est exécutée.',
       );
     const active = await client.query<{ count: number }>(
       'SELECT count(*)::int AS count FROM "Product" WHERE active = true',

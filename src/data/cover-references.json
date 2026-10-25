@@ -1,0 +1,52 @@
+{
+  "version": "1.1",
+  "imageRightsNote": "Références de visuels réels identifiés en ligne. La publication/reproduction nécessite un droit adapté et la vérification de l'édition physique. Ne pas prétendre à une licence.",
+  "covers": [
+    {
+      "productId": "moshaf-coran",
+      "title": "Coran (Moshaf) — exemple d'une couverture Tajwid réelle",
+      "sourcePage": "https://mushaf.store/en/products/mushaf-al-tajweed-economic-edition-artistic-cover-with-word-meanings-17-24-cm",
+      "imageUrl": "https://mushaf.store/cdn/shop/files/MushafAl-Tajweed_EconomicEditionArtisticCoverwithWordMeanings17x24C1.jpg?v=1736446187&width=1080",
+      "sourceName": "Mushaf Store",
+      "editionVerified": false,
+      "reusePermissionConfirmed": false,
+      "productionUse": false,
+      "copyrightStatus": "UNVERIFIED",
+      "lastReviewedAt": "2026-10-25",
+      "realCoverPath": null,
+      "reviewOutcome": "Aucune autorisation de réutilisation établie ; édition physique non vérifiée. Photos non téléchargées, SVG conservés.",
+      "sourceReachability": "Blocked by environment network proxy: HTTP 403"
+    },
+    {
+      "productId": "sahih-al-bukhari",
+      "title": "Sahih al-Bukhari — exemple de couverture de l'annonce 4 volumes",
+      "sourcePage": "https://www.alsalam-buch.com/product-page/%D8%B5%D8%AD%D9%8A%D8%AD-%D8%A7%D9%84%D8%A8%D8%AE%D8%A7%D8%B1%D9%8A",
+      "imageUrl": "https://static.wixstatic.com/media/79790a_f50d807751094dd09b73240dd55e0179~mv2.jpg/v1/fill/w_980%2Ch_1375%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/79790a_f50d807751094dd09b73240dd55e0179~mv2.jpg",
+      "sourceName": "Al-Salam Verlag",
+      "editionVerified": false,
+      "reusePermissionConfirmed": false,
+      "productionUse": false,
+      "copyrightStatus": "UNVERIFIED",
+      "lastReviewedAt": "2026-10-25",
+      "realCoverPath": null,
+      "reviewOutcome": "Aucune autorisation de réutilisation établie ; édition physique non vérifiée. Photos non téléchargées, SVG conservés.",
+      "sourceReachability": "Blocked by environment network proxy: HTTP 403"
+    },
+    {
+      "productId": "mukhtasar-al-akhdari",
+      "title": "Mukhtasar al-Akhdari — référence de couverture d'ouvrage physique en arabe",
+      "sourcePage": "https://iqrashop.net/41215",
+      "imageUrl": "https://iqrashop.net/images/41215-mukhtasar-al-akhdari.gif",
+      "sourceName": "IqraShop",
+      "editionVerified": false,
+      "reusePermissionConfirmed": false,
+      "productionUse": false,
+      "isbnFromExternalListing_NotApprovedForOurProduct": "9782752401359",
+      "copyrightStatus": "UNVERIFIED",
+      "lastReviewedAt": "2026-10-25",
+      "realCoverPath": null,
+      "reviewOutcome": "Aucune autorisation de réutilisation établie ; édition physique non vérifiée. Photos non téléchargées, SVG conservés.",
+      "sourceReachability": "Blocked by environment network proxy: HTTP 403"
+    }
+  ]
+}
