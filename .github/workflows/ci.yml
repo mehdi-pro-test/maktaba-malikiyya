@@ -1,0 +1,50 @@
+name: Qualité et parcours boutique
+on:
+  push:
+    branches: [main, 'feat/**', develop]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  boutique:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: maktaba
+          POSTGRES_DB: maktaba_test
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U maktaba -d maktaba_test"
+          --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      DATABASE_URL: postgresql://maktaba@127.0.0.1:5432/maktaba_test
+      APP_URL: http://localhost:3000
+      SHIPPING_ALLOWED_COUNTRIES: FR,BE,DE,ES,IT,LU,NL
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run db:generate
+      - run: npm run db:migrate
+      - run: npm run lint
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run test:integration
+      - run: npm run db:seed
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - run: npm run build
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-failures
+          path: |
+            test-results/
+            playwright-report/
+          retention-days: 7
