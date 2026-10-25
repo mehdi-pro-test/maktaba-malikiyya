@@ -67,3 +67,28 @@ it('les requêtes V1 continuent de voir exactement deux produits achetables aux 
     { id: 'sahih-al-bukhari', priceCents: 10000 },
   ]);
 });
+
+it('active Akhdari à 15 EUR/15 exemplaires sans modifier les produits et commandes V1', async () => {
+  const sql = await readFile('prisma/migrations/202610250003_akhdari_active/migration.sql', 'utf8');
+  await client.query(sql);
+  await client.query(sql);
+  expect(
+    (
+      await client.query(
+        `SELECT "priceCents","stockOnHand",active FROM "Product" WHERE id='mukhtasar-al-akhdari'`,
+      )
+    ).rows,
+  ).toEqual([{ priceCents: 1500, stockOnHand: 15, active: true }]);
+  expect(
+    (await client.query(`SELECT * FROM "CatalogDraft" WHERE id='mukhtasar-al-akhdari'`)).rowCount,
+  ).toBe(0);
+  const after = await snapshot();
+  after[0] = (after[0] as { id: string }[]).filter((p) => p.id !== 'mukhtasar-al-akhdari');
+  expect(after).toEqual(before);
+  await client.query(`UPDATE "Product" SET "stockOnHand"=14 WHERE id='mukhtasar-al-akhdari'`);
+  await client.query(sql);
+  expect(
+    (await client.query(`SELECT "stockOnHand" FROM "Product" WHERE id='mukhtasar-al-akhdari'`))
+      .rows[0].stockOnHand,
+  ).toBe(14);
+});

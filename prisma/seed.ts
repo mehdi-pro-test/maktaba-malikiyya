@@ -27,19 +27,17 @@ for (const c of bookCategories) {
     update: { nameFr: c.nameFr, sortOrder: c.sortOrder, active: c.active },
   });
 }
-await db.catalogDraft.upsert({
-  where: { id: 'mukhtasar-al-akhdari' },
-  create: {
+const products = [
+  {
     id: 'mukhtasar-al-akhdari',
     slug: 'mukhtasar-al-akhdari',
     titleFr: 'Mukhtasar al-Akhdari',
     titleAr: 'مختصر الأخضري',
-    categoryId: 'fiqh',
+    category: 'fiqh',
     imagePath: '/images/akhdari.svg',
+    priceCents: 1500,
+    stockOnHand: 15,
   },
-  update: {},
-});
-const products = [
   {
     id: 'moshaf-coran',
     slug: 'moshaf-coran',
@@ -62,8 +60,11 @@ const products = [
 for (const p of products)
   await db.product.upsert({
     where: { id: p.id },
-    create: { ...p, categoryId: p.category, stockOnHand: 10 },
+    create: { ...p, categoryId: p.category, stockOnHand: p.stockOnHand ?? 10 },
     update: {},
   });
+await db.catalogDraft.deleteMany({
+  where: { id: 'mukhtasar-al-akhdari', slug: 'mukhtasar-al-akhdari' },
+});
 await db.$disconnect();
 console.log('Catalogue initial disponible. Le seed préserve les produits et stocks existants.');

@@ -2287,3 +2287,8 @@ label small {
     gap: 12px;
   }
 }
+
+/* Question changes and touch selection must not race a document-wide smooth scroll. */
+html:has(.quiz-game) {
+  scroll-behavior: auto;
+}

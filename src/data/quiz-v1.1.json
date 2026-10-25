@@ -79,99 +79,283 @@
     },
     {
       "id": "q03",
-      "status": "draft",
+      "status": "published",
       "order": 3,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Dans l’école malikite, combien d’obligations le petit rituel d’ablution comporte-t-il ?",
+      "options": [
+        {
+          "id": "q03-1",
+          "label": "4"
+        },
+        {
+          "id": "q03-2",
+          "label": "5"
+        },
+        {
+          "id": "q03-3",
+          "label": "7"
+        },
+        {
+          "id": "q03-4",
+          "label": "9"
+        }
+      ],
+      "correctOptionIds": ["q03-3"],
+      "explanationFr": "On retient sept obligations pour le wudû dans l’école malikite.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Ablutions humides",
+          "url": "https://www.doctrine-malikite.fr/Les-ablutions-humides_r57.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q04",
-      "status": "draft",
+      "status": "published",
       "order": 4,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Quel geste désigne le dalk pendant les ablutions ?",
+      "options": [
+        {
+          "id": "q04-1",
+          "label": "Frotter les membres lavés"
+        },
+        {
+          "id": "q04-2",
+          "label": "Réciter une sourate"
+        },
+        {
+          "id": "q04-3",
+          "label": "Lever les mains"
+        },
+        {
+          "id": "q04-4",
+          "label": "Essuyer les vêtements"
+        }
+      ],
+      "correctOptionIds": ["q04-1"],
+      "explanationFr": "Le dalk est le frottement des parties du corps que l’on lave.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Ablutions humides",
+          "url": "https://www.doctrine-malikite.fr/Les-ablutions-humides_r57.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q05",
-      "status": "draft",
+      "status": "published",
       "order": 5,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Jusqu’où les bras doivent-ils être lavés pendant le wudû ?",
+      "options": [
+        {
+          "id": "q05-1",
+          "label": "Aux poignets seulement"
+        },
+        {
+          "id": "q05-2",
+          "label": "Aux coudes inclus"
+        },
+        {
+          "id": "q05-3",
+          "label": "Aux épaules"
+        },
+        {
+          "id": "q05-4",
+          "label": "Aux doigts seulement"
+        }
+      ],
+      "correctOptionIds": ["q05-2"],
+      "explanationFr": "Le lavage des bras comprend les coudes.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Ablutions humides",
+          "url": "https://www.doctrine-malikite.fr/Les-ablutions-humides_r57.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q06",
-      "status": "draft",
+      "status": "published",
       "order": 6,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Quel événement marque le début du temps de Maghrib ?",
+      "options": [
+        {
+          "id": "q06-1",
+          "label": "Le lever du soleil"
+        },
+        {
+          "id": "q06-2",
+          "label": "Le midi solaire"
+        },
+        {
+          "id": "q06-3",
+          "label": "Le coucher du soleil"
+        },
+        {
+          "id": "q06-4",
+          "label": "L’aube"
+        }
+      ],
+      "correctOptionIds": ["q06-3"],
+      "explanationFr": "Le temps de Maghrib s’ouvre au coucher du soleil.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Temps des prières",
+          "url": "https://www.doctrine-malikite.fr/Les-temps-des-prieres_r84.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q07",
-      "status": "draft",
+      "status": "published",
       "order": 7,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Quelle prière obligatoire commence à l’aube véritable ?",
+      "options": [
+        {
+          "id": "q07-1",
+          "label": "Dhuhr"
+        },
+        {
+          "id": "q07-2",
+          "label": "ʿAsr"
+        },
+        {
+          "id": "q07-3",
+          "label": "ʿIshâ"
+        },
+        {
+          "id": "q07-4",
+          "label": "Subh"
+        }
+      ],
+      "correctOptionIds": ["q07-4"],
+      "explanationFr": "Subh est la prière obligatoire de l’aube.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Temps des prières",
+          "url": "https://www.doctrine-malikite.fr/Les-temps-des-prieres_r84.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q08",
-      "status": "draft",
+      "status": "published",
       "order": 8,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Combien de prosternations comporte une rakʿa ordinaire ?",
+      "options": [
+        {
+          "id": "q08-1",
+          "label": "Une"
+        },
+        {
+          "id": "q08-2",
+          "label": "Deux"
+        },
+        {
+          "id": "q08-3",
+          "label": "Trois"
+        },
+        {
+          "id": "q08-4",
+          "label": "Quatre"
+        }
+      ],
+      "correctOptionIds": ["q08-2"],
+      "explanationFr": "Une unité de prière comprend deux prosternations distinctes.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Façon de faire la prière",
+          "url": "https://www.doctrine-malikite.fr/Facon-de-faire-la-priere_r47.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q09",
-      "status": "draft",
+      "status": "published",
       "order": 9,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "À quel moment débute l’abstention quotidienne du jeûne de Ramadan ?",
+      "options": [
+        {
+          "id": "q09-1",
+          "label": "À l’aube"
+        },
+        {
+          "id": "q09-2",
+          "label": "Au lever du soleil"
+        },
+        {
+          "id": "q09-3",
+          "label": "À midi"
+        },
+        {
+          "id": "q09-4",
+          "label": "Au coucher du soleil"
+        }
+      ],
+      "correctOptionIds": ["q09-1"],
+      "explanationFr": "La période quotidienne de jeûne commence à l’aube.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Jeûne de Ramadan",
+          "url": "https://www.doctrine-malikite.fr/Introduction_r63.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     },
     {
       "id": "q10",
-      "status": "draft",
+      "status": "published",
       "order": 10,
-      "category": null,
-      "type": null,
-      "promptFr": null,
-      "options": [],
-      "correctOptionIds": [],
-      "explanationFr": null,
-      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "Quel repère met fin à une journée de jeûne de Ramadan ?",
+      "options": [
+        {
+          "id": "q10-1",
+          "label": "La disparition des étoiles"
+        },
+        {
+          "id": "q10-2",
+          "label": "Le lever de la lune"
+        },
+        {
+          "id": "q10-3",
+          "label": "Le coucher du soleil"
+        },
+        {
+          "id": "q10-4",
+          "label": "Minuit"
+        }
+      ],
+      "correctOptionIds": ["q10-3"],
+      "explanationFr": "L’abstention du jour prend fin au coucher du soleil.",
+      "sources": [
+        {
+          "title": "Doctrine Malikite — Jeûne de Ramadan",
+          "url": "https://www.doctrine-malikite.fr/Introduction_r63.html"
+        }
+      ],
+      "editorialNote": "Formulation originale sur des faits vérifiés ; ajout autorisé par le propriétaire le 25 octobre 2026."
     }
   ]
 }

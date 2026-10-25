@@ -1,3 +1,5 @@
+> **Rapport historique de la première livraison.** Pour l’état actuel (PR fusionnée, déploiement, sauvegardes et finalisation), voir [FINALISATION.md](FINALISATION.md). Les mentions de limites d’accès et de preview ci-dessous décrivent l’état initial.
+
 # Livraison V1.1 — 25 octobre 2026
 
 Branche `feat/v1.1-livres-quiz`, créée depuis `origin/main` à jour (`2044abc`). Dossier local `/workspace/maktaba-malikiya`. La branche main et la base de Production n’ont pas reçu les changements V1.1.

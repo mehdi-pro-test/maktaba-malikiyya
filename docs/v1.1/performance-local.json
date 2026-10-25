@@ -1,0 +1,84 @@
+{
+  "environment": "http://localhost:3101",
+  "method": "Chromium, mobile emulated, 3 new contexts/route, no CPU/network throttling; laboratory data only",
+  "routes": [
+    {
+      "path": "/",
+      "medianTtfbMs": 261,
+      "medianLcpMs": 908,
+      "maxCls": 0,
+      "samples": [
+        {
+          "ttfb": 710.3000000007451,
+          "domContentLoaded": 970.3999999994412,
+          "lcp": 1196,
+          "cls": 0
+        },
+        {
+          "ttfb": 106.29999999981374,
+          "domContentLoaded": 543.9000000003725,
+          "lcp": 908,
+          "cls": 0
+        },
+        {
+          "ttfb": 261.20000000018626,
+          "domContentLoaded": 762.3999999994412,
+          "lcp": 776,
+          "cls": 0
+        }
+      ]
+    },
+    {
+      "path": "/livres",
+      "medianTtfbMs": 78,
+      "medianLcpMs": 504,
+      "maxCls": 0,
+      "samples": [
+        {
+          "ttfb": 31.5,
+          "domContentLoaded": 420.6000000005588,
+          "lcp": 436,
+          "cls": 0
+        },
+        {
+          "ttfb": 78.09999999962747,
+          "domContentLoaded": 325.8999999994412,
+          "lcp": 680,
+          "cls": 0
+        },
+        {
+          "ttfb": 131.29999999981374,
+          "domContentLoaded": 504.09999999962747,
+          "lcp": 504,
+          "cls": 0
+        }
+      ]
+    },
+    {
+      "path": "/quiz",
+      "medianTtfbMs": 15,
+      "medianLcpMs": 436,
+      "maxCls": 0,
+      "samples": [
+        {
+          "ttfb": 13.5,
+          "domContentLoaded": 653.5,
+          "lcp": 448,
+          "cls": 0
+        },
+        {
+          "ttfb": 14.5,
+          "domContentLoaded": 153.90000000037253,
+          "lcp": 436,
+          "cls": 0
+        },
+        {
+          "ttfb": 59,
+          "domContentLoaded": 194.3999999994412,
+          "lcp": 420,
+          "cls": 0
+        }
+      ]
+    }
+  ]
+}

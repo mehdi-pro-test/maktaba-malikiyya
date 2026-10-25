@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { questions } from '@/lib/quiz-data';
 import { ArrowRight, BookOpen, Truck, ShieldCheck } from 'lucide-react';
 import { Books } from '@/components/books';
 import { visibleCategories } from '@/data/categories';
@@ -119,8 +120,9 @@ export default function Home() {
           <span className="eyebrow">LE PLAISIR D’APPRENDRE</span>
           <h2>Et si le savoir se jouait ?</h2>
           <p>
-            Deux questions pour explorer vos connaissances, à votre rythme.
-            <br />2 questions disponibles — d’autres arrivent.
+            {questions.length} questions pour explorer vos connaissances, à votre rythme.
+            <br />
+            {questions.length} questions disponibles.
           </p>
         </div>
         <Button asChild>

@@ -64,7 +64,7 @@ test('320px, clavier et confidentialité de confirmation', async ({ page }) => {
 test('Image indisponible : titre et ajout restent accessibles', async ({ page }) => {
   await page.route('**/images/coran.svg', (route) => route.abort());
   await page.goto('/livres/moshaf-coran');
-  await expect(page.getByText('Visuel indisponible', { exact: true })).toBeVisible();
+  await expect(page.getByText('Illustration de remplacement', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Ajouter au panier' })).toBeEnabled();
 });
 
