@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "bidayat-al-mujtahid",
+    "level": "ultime",
+    "titleAr": "بداية المجتهد ونهاية المقتصد",
+    "authorAr": "محمد بن أحمد بن رشد الحفيد",
+    "defaultSectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "bidayat-al-mujtahid-01",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Combien de positions Ibn Rushd distingue-t-il sur le lavage des mains avant leur entrée dans le récipient ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Trois"
+        },
+        {
+          "id": "b",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "c",
+          "textFr": "Une seule"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Il distingue sunna générale, recommandation liée au doute, obligation au réveil, et obligation après le sommeil nocturne. Il rapporte une cartographie des avis.",
+      "references": [
+        {
+          "sourceId": "bidaya-4",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "فتحصل في ذلك أربعة أقوال",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/4/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-02",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quel avis le passage attribue-t-il à Dāwūd et ses disciples pour celui qui se réveille ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une sunna générale sans obligation au réveil"
+        },
+        {
+          "id": "b",
+          "textFr": "Une obligation limitée au seul vendredi"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lavage des mains est obligatoire avant l’entrée dans le récipient"
+        },
+        {
+          "id": "d",
+          "textFr": "Une simple recommandation pour le seul doute"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Il s’agit d’un avis rapporté de Dāwūd, à ne pas présenter comme la position malikite retenue.",
+      "references": [
+        {
+          "sourceId": "bidaya-4",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "وقيل : إن غسل اليد واجب على المنتبه من النوم",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/4/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-03",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quel avis Ibn Rushd rapporte-t-il d’Aḥmad sur ce lavage au réveil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il ne distingue jamais jour et nuit dans ce passage"
+        },
+        {
+          "id": "b",
+          "textFr": "Il limite l’obligation au sommeil diurne"
+        },
+        {
+          "id": "c",
+          "textFr": "Il exige seulement de secouer la main sans eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Il distingue le sommeil nocturne du sommeil diurne"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage rapporte une obligation liée au sommeil nocturne, et non diurne ; la question porte sur cette attribution textuelle.",
+      "references": [
+        {
+          "sourceId": "bidaya-4",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "فأوجبوا ذلك في نوم الليل ولم يوجبوه في نوم النهار",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/4/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-04",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quelle interprétation du mot « bāta » contribue à limiter cet avis à la nuit ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le comprendre comme renvoyant au sommeil nocturne"
+        },
+        {
+          "id": "b",
+          "textFr": "Le comprendre comme toute somnolence légère sans distinction"
+        },
+        {
+          "id": "c",
+          "textFr": "Le comprendre comme l’entrée dans la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Le comprendre comme une simple mesure de volume"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Ibn Rushd rattache une partie de la divergence au sens du terme dans le hadith, et non à une simple préférence de propreté.",
+      "references": [
+        {
+          "sourceId": "bidaya-4",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "ومن فهم من هؤلاء من لفظ البيات نوم الليل أوجب ذلك من نوم الليل فقط",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/4/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-05",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Comment le passage présente-t-il le rinçage de la bouche et l’aspiration nasale dans l’avis de Mālik, al-Shāfiʿī et Abū Ḥanīfa au wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une obligation pour le nez seulement dans les trois écoles ici"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux sunnas"
+        },
+        {
+          "id": "c",
+          "textFr": "Deux obligations dans les trois écoles ici"
+        },
+        {
+          "id": "d",
+          "textFr": "Une obligation pour la bouche seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La question est limitée au wuḍūʾ ; il ne faut pas étendre cette réponse aux positions de chaque école sur le ghusl.",
+      "references": [
+        {
+          "sourceId": "bidaya-5",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "قول : إنهما سنتان في الوضوء",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/5/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-06",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Pour expliquer la distinction entre bouche et nez chez certains juristes, quelle différence de preuve Ibn Rushd évoque-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une différence entre eau de mer et eau de puits"
+        },
+        {
+          "id": "b",
+          "textFr": "Une différence de nombre de rinçages seulement"
+        },
+        {
+          "id": "c",
+          "textFr": "Le rapport d’un acte pour la bouche et d’un ordre pour le nez"
+        },
+        {
+          "id": "d",
+          "textFr": "Une différence de pureté intrinsèque entre bouche et nez"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Il expose le raisonnement de ceux qui donnent à l’ordre une portée obligatoire et à l’acte une portée de recommandation. Cela décrit leur argument, pas un consensus.",
+      "references": [
+        {
+          "sourceId": "bidaya-5",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "ومن كان عنده القول محمولا على الوجوب والفعل محمولا على الندب فرق بين المضمضة والاستنشاق",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/5/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-07",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quelle ambiguïté linguistique explique une partie du débat sur l’inclusion des coudes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le sens du bāʾ de l’essuyage de la tête"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sens de la nuit dans le hadith du réveil"
+        },
+        {
+          "id": "c",
+          "textFr": "Le nombre de répétitions des lavages"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sens de « ilā » et l’extension du mot « main »"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Ibn Rushd combine l’analyse de la préposition et celle de la partie du membre désignée, puis discute les traditions.",
+      "references": [
+        {
+          "sourceId": "bidaya-7",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "الاشتراك الذي في حرف ( إلى ) وفي اسم اليد في كلام العرب",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/7/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-08",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’essuyage de toute la tête est obligatoire"
+        },
+        {
+          "id": "b",
+          "textFr": "Le tiers de la tête seulement dans cette attribution"
+        },
+        {
+          "id": "c",
+          "textFr": "Le quart de la tête seulement dans cette attribution"
+        },
+        {
+          "id": "d",
+          "textFr": "Une partie non déterminée suffit dans cette attribution"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Il rapporte cette position de Mālik, puis d’autres opinions sur la quantité minimale. La présentation demeure comparative.",
+      "references": [
+        {
+          "sourceId": "bidaya-8",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "فذهب مالك إلى أن الواجب مسحه كله",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/8/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-09",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quelle lettre Ibn Rushd place-t-il au cœur de la divergence sur l’étendue de l’essuyage de la tête ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le mot ghusl dans le bain rituel"
+        },
+        {
+          "id": "b",
+          "textFr": "La préposition bāʾ"
+        },
+        {
+          "id": "c",
+          "textFr": "La préposition ilā dans la limite des bras"
+        },
+        {
+          "id": "d",
+          "textFr": "Le mot bāta dans le hadith du réveil"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le débat exposé porte sur un bāʾ compris comme confirmation ou comme indication partitive. Il ne faut pas présenter cette analyse grammaticale comme l’unique argument de toutes les écoles.",
+      "references": [
+        {
+          "sourceId": "bidaya-8",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "وأصل هذا الاختلاف الاشتراك الذي في الباء في كلام العرب",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/8/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "bidayat-al-mujtahid-10",
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quel minimum les juristes admettent-ils pour les membres lavés, selon l’accord rapporté ici ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Trois lavages même si le premier couvre tout"
+        },
+        {
+          "id": "b",
+          "textFr": "Un essuyage sans lavage du membre"
+        },
+        {
+          "id": "c",
+          "textFr": "Un lavage complet qui atteint tout le membre"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux lavages même si le premier couvre tout"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage distingue le lavage unique complet, obligatoire, des répétitions recommandées. Il traite ensuite à part de l’essuyage de la tête.",
+      "references": [
+        {
+          "sourceId": "bidaya-9",
+          "workTitleAr": "بداية المجتهد ونهاية المقتصد",
+          "authorAr": "محمد بن أحمد بن رشد الحفيد",
+          "sectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
+          "locator": "",
+          "quoteAr": "اتفق العلماء على أن الواجب من طهارة الأعضاء المغسولة هو مرة مرة إذا أسبغ",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/97/9/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

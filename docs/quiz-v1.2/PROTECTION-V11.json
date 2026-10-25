@@ -1,0 +1,161 @@
+{
+  "baseline": "cad05a9cf7200ce11f5f51dcbe0d3610ef87434a",
+  "scope": "Comparaison de fichiers, pas lecture de données Production",
+  "files": [
+    {
+      "path": ".github/workflows/backup.yml",
+      "sha256": "0cec8f7bcb4b3365365a89bf30aa4b9effa08b547280ced53928e22b18e15359",
+      "unchanged": true
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "9c41bdd4490b5ac4163742d99ef34cab97b031b14f8ee20889519805af27335c",
+      "unchanged": true
+    },
+    {
+      "path": ".github/workflows/maintenance.yml",
+      "sha256": "db90ba8755a4d15297f277c25b7d19ff599d8966c4de45d693177cfa302cf99c",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "698636a52d968e8ef124c8127d8c4427141e9d4a50f4234e79477878b6e11125",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "sha256": "b5a1e0de8b851e906a6b9e085f2e276c604f6c59643c5782bb3894cbcbb4c9aa",
+      "unchanged": true
+    },
+    {
+      "path": "prisma/migrations/202610250001_initial/migration.sql",
+      "sha256": "1703233706a3174c9633d599a25bdd3a84d6237ebf9acd9daa8f60ba7b233052",
+      "unchanged": true
+    },
+    {
+      "path": "prisma/migrations/202610250002_categories_drafts/migration.sql",
+      "sha256": "f3c0c849371b5708bc8e429e29b35d7e9a58228f23b17275e92edf9c918a92de",
+      "unchanged": true
+    },
+    {
+      "path": "prisma/migrations/202610250003_akhdari_active/migration.sql",
+      "sha256": "2a98e3960161eb1571c768db2082843a8de6d7151ab615762f5e792b8e254933",
+      "unchanged": true
+    },
+    {
+      "path": "prisma/schema.prisma",
+      "sha256": "a54abe6acf586bf394ca6a7e1d88b5b386e1fe0f9b76f868e479ee27354e80d4",
+      "unchanged": true
+    },
+    {
+      "path": "prisma/seed.ts",
+      "sha256": "7d552998a5630db81d9aad610c3d265512a3a63a2ed9e2bebd82dc786b868c70",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/akhdari.svg",
+      "sha256": "49a07391562517d6abfdce4e3f0ec602c85a6e8be3ca9a60380595bf2478608a",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/book-fallback.svg",
+      "sha256": "e2eee9c9442a19f5a3263ea1c7478dddd1d6c90268502b65d159211c5f5d00a0",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/bukhari.svg",
+      "sha256": "02c06a9eeeece079a8d5e2af2e25ad340516e0d5ea8449337429ec22fcbc557d",
+      "unchanged": true
+    },
+    {
+      "path": "public/images/coran.svg",
+      "sha256": "32601b08326339fcdc94b6b60a8aa9a21328fb816981399daf1aa2c2671ea265",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/migrate.ts",
+      "sha256": "a792d1a90687792a9e7c89f8b43d765dc7444bf8a3990e0efe0ffc73697e3230",
+      "unchanged": true
+    },
+    {
+      "path": "scripts/vercel-build.ts",
+      "sha256": "97e8ec96358c1f5876eee8a0de4a3d79f4f8145743e481331a1a33477999e028",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/api/checkout/route.ts",
+      "sha256": "e7588edbc4bebe3424f88ccac833c6416f3dba3cecdf9416a2a9e7d1c0dc51a5",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/api/orders/route.ts",
+      "sha256": "f24944ac1af2b1bdaee56f7e0adecca13890301904e97043c8849a43f7b75ab4",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/api/webhooks/stripe/route.ts",
+      "sha256": "45f47dee681fa5b223e3d51ebc851dc45c4c2f8d42dcbd8599ebcf8889dc5a30",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/commande/confirmation/page.tsx",
+      "sha256": "d42c2156629f1b0e672359c2a4a66ab97d034537f87b3a30b9b10b69296cb203",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/commande/page.tsx",
+      "sha256": "f8059e97ea8e6ef8c60b9f32d234e1b40f6aa7157d094b2988b580f897d510aa",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/livres/[slug]/page.tsx",
+      "sha256": "966fa8290f221db5b51c4f4715b48cd4256b73998e81f5854097bc0e24c0de87",
+      "unchanged": true
+    },
+    {
+      "path": "src/app/livres/page.tsx",
+      "sha256": "cebfc7b5bcce9ac2fb2d8d63f5a044f50afcfb9f2a7476fe4f35e873b2848412",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/cart-provider.tsx",
+      "sha256": "d11b6fdf956233899d40b3a512c9c530ecf81440c2f14ebec5e9b71f88f5c44c",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/categories.ts",
+      "sha256": "7deaa7bc8d717104a9591c84fb6e8208e0922570eac510c41a66436ffc50cee9",
+      "unchanged": true
+    },
+    {
+      "path": "src/data/quiz-v1.1.json",
+      "sha256": "a2cf22cde27dc27bbad96f80795585146f2e6337f3139120c16e83010695eb8d",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/db.ts",
+      "sha256": "4f044af9c1d2dc6a40bcc10f1ca521691441b5581bc2f37815b8d0c3724b780e",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/email.ts",
+      "sha256": "591e0f30421785846c40976aa05fe6f42789962921905f6e2783a5cd3d03ba0d",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/orders.ts",
+      "sha256": "7496d5105236a487b0c960fe3d42589f3b9daa57b57b890d9fea5fed2d2a18a0",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/payments.ts",
+      "sha256": "5805000194c1f78c9ad9dc002425a90d1cfd9a605e732738eb0f86680d882215",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/rules.ts",
+      "sha256": "675e582fb06f99931b61ea99d48165816ae024041339c3165e7167010d7d16e6",
+      "unchanged": true
+    }
+  ]
+}

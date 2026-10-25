@@ -7,3 +7,6 @@ playwright-report
 test-results
 next-env.d.ts
 docs/specifications-v1.1
+
+# Original research archive and provenance must retain their delivered bytes.
+docs/quiz-v1.2/recherche

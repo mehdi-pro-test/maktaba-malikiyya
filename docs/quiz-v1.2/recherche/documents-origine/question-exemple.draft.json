@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.2-draft",
+  "status": "draft",
+  "notice": "Exemple de structure UNIQUEMENT : ne contient aucune question, aucune réponse ni citation publiable.",
+  "bookId": "moukhtassar-al-akhdari",
+  "level": "debutant",
+  "questions": [
+    {
+      "id": "debutant-moukhtassar-al-akhdari-001",
+      "status": "draft",
+      "order": 1,
+      "topic": null,
+      "type": "single",
+      "promptFr": null,
+      "instructionFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "sources": [
+        {
+          "bookTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "edition": null,
+          "chapterAr": null,
+          "sectionAr": null,
+          "volume": null,
+          "page": null,
+          "quoteAr": null,
+          "url": null,
+          "verificationStatus": "unverified",
+          "reviewedBy": null,
+          "reviewedAt": null
+        }
+      ]
+    }
+  ]
+}

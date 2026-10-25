@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "moukhtassar-al-akhdari",
+    "level": "debutant",
+    "titleAr": "مختصر الأخضري",
+    "authorAr": "عبد الرحمن الأخضري",
+    "defaultSectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "moukhtassar-al-akhdari-01",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Combien d’obligations des ablutions al-Akhḍarī énumère-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dix"
+        },
+        {
+          "id": "b",
+          "textFr": "Sept"
+        },
+        {
+          "id": "c",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "d",
+          "textFr": "Cinq"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le matn annonce sept obligations, puis les énumère. Ce décompte correspond à sa présentation malikite.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "فَرَائِضُ الْوُضُوءِ سَبْع",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-02",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel statut donne-t-il à l’intention au wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un acte méritoire seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Une condition propre au seul ghusl"
+        },
+        {
+          "id": "c",
+          "textFr": "Une obligation"
+        },
+        {
+          "id": "d",
+          "textFr": "Une sunna du wuḍūʾ"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "L’intention ouvre l’énumération des obligations ; elle ne se réduit pas au lavage matériel.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "اَلنِّيَّةُ، وَغَسْلُ الْوَجْه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-03",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel membre est essuyé, plutôt que lavé, dans la liste des obligations ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le visage"
+        },
+        {
+          "id": "b",
+          "textFr": "Les pieds"
+        },
+        {
+          "id": "c",
+          "textFr": "Les avant-bras"
+        },
+        {
+          "id": "d",
+          "textFr": "La tête"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte dit masḥ pour la tête, et ghasl pour le visage, les bras et les pieds.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَمَسْحُ الرَّأْس",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-04",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Jusqu’à quelle limite le texte décrit-il le lavage des bras ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Aux coudes"
+        },
+        {
+          "id": "b",
+          "textFr": "Aux poignets seulement"
+        },
+        {
+          "id": "c",
+          "textFr": "Au milieu des avant-bras"
+        },
+        {
+          "id": "d",
+          "textFr": "Aux épaules"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La formule citée donne les coudes comme limite du lavage des bras.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَغَسْلُ الْيَدَيْنِ إِلَى الْمِرْفَقَيْن",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-05",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel statut le matn attribue-t-il au frottement des membres (dalk) ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une obligation du ghusl seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Une obligation"
+        },
+        {
+          "id": "c",
+          "textFr": "Une sunna seulement"
+        },
+        {
+          "id": "d",
+          "textFr": "Un acte méritoire seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le dalk figure avec les obligations, et non dans les listes suivantes des sunnas ou des actes méritoires.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَالدَّلْكُ، وَالْفَوْر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-06",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Que désigne le fawr, cité parmi les obligations ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Renouveler l’eau pour les oreilles"
+        },
+        {
+          "id": "b",
+          "textFr": "Répéter trois fois chaque lavage"
+        },
+        {
+          "id": "c",
+          "textFr": "Enchaîner les actes sans interruption injustifiée"
+        },
+        {
+          "id": "d",
+          "textFr": "Respecter l’ordre des membres"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Fawr désigne la continuité des actes. Les cas d’oubli ou d’impossibilité demandent des précisions et ne sont pas tranchés par cette question.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَالدَّلْكُ، وَالْفَوْر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-07",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel statut le rinçage de la bouche reçoit-il dans cette liste ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une obligation"
+        },
+        {
+          "id": "b",
+          "textFr": "Un acte méritoire seulement"
+        },
+        {
+          "id": "c",
+          "textFr": "Une condition de validité de l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Une sunna"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La maḍmaḍa apparaît dans la liste des sunnas des ablutions.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَالْمَضْمَضَةُ، وَالِاسْتِنْشَاق",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-08",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel statut reçoit l’essuyage des oreilles ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une sunna"
+        },
+        {
+          "id": "b",
+          "textFr": "Une obligation comme l’essuyage de la tête"
+        },
+        {
+          "id": "c",
+          "textFr": "Un acte méritoire seulement"
+        },
+        {
+          "id": "d",
+          "textFr": "Un remplacement de l’essuyage de la tête"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le matn range l’essuyage des oreilles parmi les sunnas. Il ne faut pas le confondre avec le masḥ obligatoire de la tête.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَمَسْحُ اَلْأُذُنَيْنِ وَتَجْدِيدُ الْمَاءِ لَهُمَا",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-09",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Comment al-Akhḍarī classe-t-il le siwāk dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Parmi les conditions de validité de l’eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Parmi les actes méritoires"
+        },
+        {
+          "id": "c",
+          "textFr": "Parmi les obligations"
+        },
+        {
+          "id": "d",
+          "textFr": "Parmi les sunnas énumérées ici"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le siwāk est mentionné sous le titre des faḍāʾil.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "التَّسْمِيَّةُ وَالسِّوَاك",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-al-akhdari-10",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel comportement envers l’eau figure parmi les actes méritoires ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Employer toujours plus d’eau pour multiplier les récompenses"
+        },
+        {
+          "id": "b",
+          "textFr": "Réserver toute l’eau au seul premier lavage"
+        },
+        {
+          "id": "c",
+          "textFr": "En utiliser peu tout en accomplissant correctement le lavage"
+        },
+        {
+          "id": "d",
+          "textFr": "Fixer un volume identique pour chaque membre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage recommande l’économie d’eau ; il ne fixe pas ici un volume obligatoire.",
+      "references": [
+        {
+          "sourceId": "akhdari",
+          "workTitleAr": "مختصر الأخضري",
+          "authorAr": "عبد الرحمن الأخضري",
+          "sectionAr": "فصل فرائض الوضوء وسننه وفضائله",
+          "locator": "",
+          "quoteAr": "وَقِلَّةُ الْمَاءِ عَلَى الْعُضْو",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://books.islam-db.com/book/متن_الاخضري_في_العبادات_علي_مذهب_الامام_مالك/5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

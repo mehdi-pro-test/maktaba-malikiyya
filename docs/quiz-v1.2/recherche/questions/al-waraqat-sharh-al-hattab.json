@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "al-waraqat-sharh-al-hattab",
+    "level": "usul",
+    "titleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+    "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+    "defaultSectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "al-waraqat-sharh-al-hattab-01",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle définition de l’aṣl le matn propose-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Toute règle qui admet une exception"
+        },
+        {
+          "id": "b",
+          "textFr": "Ce sur quoi autre chose est construit"
+        },
+        {
+          "id": "c",
+          "textFr": "Ce qui est construit sur autre chose"
+        },
+        {
+          "id": "d",
+          "textFr": "Ce qui ne relève que d’un détail pratique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le matn donne une définition structurelle, illustrée dans le commentaire par la fondation d’un mur et la racine d’un arbre.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "فالأصل ما بني عليه غيره",
+          "quoteLayer": "matn",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 7,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-02",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle définition du farʿ accompagne celle de l’aṣl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Toute preuve générale sans application"
+        },
+        {
+          "id": "b",
+          "textFr": "Une règle qui ne dépend d’aucun fondement"
+        },
+        {
+          "id": "c",
+          "textFr": "Ce qui est construit sur autre chose"
+        },
+        {
+          "id": "d",
+          "textFr": "Ce sur quoi autre chose se construit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le commentaire fait le rapprochement entre branches de l’arbre et branches du fiqh.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "والفرع ما يبنى على غيره",
+          "quoteLayer": "matn",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 7,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-03",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans l’expression « uṣūl al-fiqh », quels deux sens généraux al-Ḥaṭṭāb distingue-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le sens littéral du terme et son contraire juridique"
+        },
+        {
+          "id": "b",
+          "textFr": "La définition du seul fiqh et celle de la seule grammaire"
+        },
+        {
+          "id": "c",
+          "textFr": "Le sens certain et le sens faible de chaque preuve"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sens de la construction en annexion et le nom propre de la discipline"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Il distingue le sens iḍāfī et le sens laqabī avant de commenter la définition de la discipline.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "أحدهما: معناه الإضافي",
+          "quoteLayer": "commentary",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 7,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-04",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Le commentaire présente-t-il le fiqh comme la mémorisation de toutes les règles de manière actuellement présente à l’esprit ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il vise aussi la capacité acquise d’y revenir par l’examen"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, la définition interdit toute consultation ultérieure"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, l’oubli d’une seule règle supprime toute compétence"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, parce que la mémorisation seule suffit toujours sans capacité d’examen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Al-Ḥaṭṭāb précise que connaître toutes les règles signifie ici être préparé à les connaître en reprenant l’examen.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "والمراد بمعرفة جميع ذلك التهيؤ لذلك",
+          "quoteLayer": "commentary",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 8,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-05",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Pourquoi le matn dénombre-t-il sept catégories là où le commentaire signale cinq catégories générales ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il considère les sept comme des prières quotidiennes distinctes"
+        },
+        {
+          "id": "b",
+          "textFr": "Il distingue aussi le valide et l’invalide, qui renvoient aux cinq dans l’analyse donnée"
+        },
+        {
+          "id": "c",
+          "textFr": "Il ajoute deux catégories de demande indépendantes aux cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Il compte deux fois obligatoire et recommandé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le commentaire explique ce décompte, au lieu de corriger arbitrairement le matn. Il s’agit ici de catégories de qualification.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "وجعله الأحكام سبعة اصطلاح له، والذي عليه الجمهور أن الأحكام خمسة لا سبعة",
+          "quoteLayer": "commentary",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 9,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-06",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle définition du wājib le matn donne-t-il dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ce dont l’abandon est récompensé et l’acte passible de sanction"
+        },
+        {
+          "id": "b",
+          "textFr": "Ce qui n’attache en soi ni récompense ni sanction à l’acte ou l’abandon"
+        },
+        {
+          "id": "c",
+          "textFr": "Ce dont l’accomplissement est récompensé et l’abandon passible de sanction"
+        },
+        {
+          "id": "d",
+          "textFr": "Ce dont l’acte est récompensé sans sanction liée à l’abandon"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "C’est une définition par les conséquences caractéristiques. Le commentaire discute ses limites ; elle n’impose pas que chaque personne soit effectivement punie.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "فالواجب ما يثاب على فعله ويعاقب على تركه",
+          "quoteLayer": "matn",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 9,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-07",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle différence le matn établit-il entre le mandūb et le wājib ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’acte du mandūb est passible de sanction"
+        },
+        {
+          "id": "b",
+          "textFr": "Le wājib et le mandūb sont exactement identiques ici"
+        },
+        {
+          "id": "c",
+          "textFr": "Le mandūb n’est jamais demandé"
+        },
+        {
+          "id": "d",
+          "textFr": "L’abandon du mandūb n’est pas passible de sanction en tant que tel"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le matn associe le mandūb à la récompense de l’acte sans la sanction de son abandon.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "ما يثاب على فعله ولا يعاقب على تركه",
+          "quoteLayer": "matn",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 10,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-08",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans l’explication d’al-Ḥaṭṭāb, comment complète-t-on la définition du mubāḥ pour éviter d’y faire entrer interdit et déconseillé ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "En considérant à la fois l’acte et l’abandon"
+        },
+        {
+          "id": "b",
+          "textFr": "En considérant seulement l’absence de récompense de l’acte"
+        },
+        {
+          "id": "c",
+          "textFr": "En supprimant l’abandon de l’analyse"
+        },
+        {
+          "id": "d",
+          "textFr": "En réservant la définition aux seuls actes déjà interdits"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le commentaire explicite l’absence de récompense ou de sanction attachée en soi aussi bien à l’acte qu’à son abandon.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "أي لا يتعلق بكل من فعله وتركه ثواب ولا عقاب",
+          "quoteLayer": "commentary",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 10,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-09",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle précision accompagne la récompense de l’abandon du makrūh ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Tout abandon matériel involontaire suffit dans la définition citée"
+        },
+        {
+          "id": "b",
+          "textFr": "L’abandon doit être fait en obéissance"
+        },
+        {
+          "id": "c",
+          "textFr": "Aucune intention n’est distinguée entre abstention et obéissance"
+        },
+        {
+          "id": "d",
+          "textFr": "L’acte lui-même doit être accompli pour obtenir cette récompense"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le texte ajoute imtithālan : la simple absence matérielle de l’acte et son abandon par obéissance sont distingués.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "ما يثاب على تركه امتثالا ولا يعاقب على فعله",
+          "quoteLayer": "matn",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 11,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab-10",
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Comment le commentaire distingue-t-il le contrat et l’acte cultuel dans son vocabulaire de validité ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le contrat seul peut être valide, jamais le culte"
+        },
+        {
+          "id": "b",
+          "textFr": "Les deux termes sont ici refusés aux contrats"
+        },
+        {
+          "id": "c",
+          "textFr": "Le contrat est qualifié par l’effet juridique et la reconnaissance ; le culte par la reconnaissance"
+        },
+        {
+          "id": "d",
+          "textFr": "Le culte seul est décrit par la production d’effets contractuels"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Al-Ḥaṭṭāb précise l’emploi technique des deux termes plutôt que de les confondre.",
+      "references": [
+        {
+          "sourceId": "hattab-scan",
+          "workTitleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+          "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
+          "sectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
+          "locator": "Titre de section dans le PDF",
+          "quoteAr": "والعقد في الاصطلاح يوصف بالنفوذ والاعتداد، والعبادات توصف بالاعتداد فقط",
+          "quoteLayer": "commentary",
+          "edition": "Texte ضبط نصه وعلق عليه جلال علي عامر الجهاني ; exemplaire numérique Kurat_Ayn.pdf ; éditeur, date et pagination imprimée non vérifiés",
+          "printedPage": null,
+          "pdfPage": 11,
+          "url": "https://archive.org/download/Sharh_Kurat_Ayn/Kurat_Ayn.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "issal-as-salik",
+    "level": "usul",
+    "titleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+    "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+    "defaultSectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "issal-as-salik-01",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans la définition exposée par al-Walātī, à quels types de règles le fiqh s’intéresse-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "À la seule mémorisation sans examen des preuves"
+        },
+        {
+          "id": "b",
+          "textFr": "Aux règles religieuses pratiques tirées des preuves détaillées"
+        },
+        {
+          "id": "c",
+          "textFr": "Aux seules règles de croyance"
+        },
+        {
+          "id": "d",
+          "textFr": "À toute connaissance linguistique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La définition du fiqh limite ici son objet et sa méthode ; elle n’assimile pas toute connaissance au fiqh.",
+      "references": [
+        {
+          "sourceId": "issal-5",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "العلم بالأحكام الشرعية العملية المكتسب من الأدلة التفصيلية",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-02",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans le décompte présenté par le poème commenté, combien de preuves sont annoncées ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dix"
+        },
+        {
+          "id": "b",
+          "textFr": "Dix-huit"
+        },
+        {
+          "id": "c",
+          "textFr": "Seize"
+        },
+        {
+          "id": "d",
+          "textFr": "Quatre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le commentaire expose ce décompte particulier. Il ne faut pas le présenter comme une liste universelle sur laquelle tous les auteurs malikites s’accordent.",
+      "references": [
+        {
+          "sourceId": "issal-6",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "مالك الإمام ستة عشر",
+          "quoteLayer": "quoted-poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-6",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-03",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Comment le commentaire définit-il le naṣṣ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un énoncé dont deux sens sont équiprobables"
+        },
+        {
+          "id": "b",
+          "textFr": "Un énoncé dont un sens domine mais reste contestable"
+        },
+        {
+          "id": "c",
+          "textFr": "Un énoncé dépourvu de sens déterminable"
+        },
+        {
+          "id": "d",
+          "textFr": "Un énoncé dont le sens ne comporte ici aucune autre interprétation possible"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte oppose cette définition technique du naṣṣ au ẓāhir, qui admet une possibilité moins probable.",
+      "references": [
+        {
+          "sourceId": "issal-6",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "والنص: هو اللفظ الدال على معنى لا يحتمل غيره أصلًا",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-6",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-04",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle caractéristique distingue le ẓāhir dans la définition donnée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il admet un autre sens, mais moins probable"
+        },
+        {
+          "id": "b",
+          "textFr": "Il exclut toute autre possibilité de sens"
+        },
+        {
+          "id": "c",
+          "textFr": "Il présente deux sens strictement égaux"
+        },
+        {
+          "id": "d",
+          "textFr": "Il ne possède aucun sens prépondérant"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le ẓāhir a un sens prépondérant, sans supprimer toute autre possibilité de sens.",
+      "references": [
+        {
+          "sourceId": "issal-7",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "لكنه يحتمل غيره احتمالًا مرجوحًا",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-7",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-05",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quand le commentaire admet-il de préférer une interprétation au sens apparent ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Seulement parce que l’opinion est plus récente"
+        },
+        {
+          "id": "b",
+          "textFr": "Lorsqu’une autre preuve de la Loi l’appuie"
+        },
+        {
+          "id": "c",
+          "textFr": "Dès qu’une autre lecture est imaginable sans preuve"
+        },
+        {
+          "id": "d",
+          "textFr": "Chaque fois que le texte paraît difficile"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage énonce la priorité de l’apparent puis cette condition ; il ne donne pas une autorisation d’interprétation arbitraire.",
+      "references": [
+        {
+          "sourceId": "issal-7",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "إلا إذا عضد التأويل دليل آخر من الشريعة",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-7",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-06",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Si une restriction décrit seulement le cas habituel, faut-il en tirer automatiquement une exclusion des autres cas ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, même si le contexte établit le cas habituel"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, parce qu’aucune restriction ne peut jamais être normative"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, le commentaire en fait un obstacle au mafhūm al-mukhālafa"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, toute restriction exclut automatiquement les autres cas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage distingue une restriction réellement normative et la description du cas le plus fréquent.",
+      "references": [
+        {
+          "sourceId": "issal-10",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "خارجا مخرج الغالب لا مخرج التقييد",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-10",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-07",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "La mention d’une qualité à titre de bienfait permet-elle automatiquement d’interdire ce qui n’a pas cette qualité ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, toute qualité louée est une condition nécessaire"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, même lorsque le texte indique un simple bienfait"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, parce que tout qualificatif est juridiquement dépourvu de sens"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, le passage distingue le bienfait de la restriction"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "L’auteur cite le langage du bienfait parmi les obstacles à une inférence contraire automatique.",
+      "references": [
+        {
+          "sourceId": "issal-10",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "كون ذكر القيد لأجل الامتنان لا التقييد",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-10",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-08",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel autre contexte peut empêcher d’inférer un sens contraire d’un nombre cité ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un nombre employé pour l’insistance et l’amplification"
+        },
+        {
+          "id": "b",
+          "textFr": "La simple présence d’un chiffre dans un texte"
+        },
+        {
+          "id": "c",
+          "textFr": "La seule brièveté du passage"
+        },
+        {
+          "id": "d",
+          "textFr": "L’existence de deux variantes d’orthographe sans changement de sens"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage évoque la mubālagha : un nombre peut souligner une idée sans instituer un seuil juridique opposable.",
+      "references": [
+        {
+          "sourceId": "issal-11",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "خرج مخرج المبالغة",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-11",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-09",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Pourquoi le mafhūm al-muwāfaqa porte-t-il ce nom dans le commentaire ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il exclut toute inférence au-delà des mots explicites"
+        },
+        {
+          "id": "b",
+          "textFr": "Le cas non exprimé rejoint le cas exprimé dans la règle"
+        },
+        {
+          "id": "c",
+          "textFr": "Le cas implicite reçoit nécessairement la règle contraire"
+        },
+        {
+          "id": "d",
+          "textFr": "Les deux cas sont sans aucun rapport de règle"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le commentaire le définit par la conformité de la règle applicable au cas implicite et au cas exprimé.",
+      "references": [
+        {
+          "sourceId": "issal-12",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "لكون المعنى المسكوت عنه موافقًا للمعنى المنطوق به في الحكم",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-12",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "issal-as-salik-10",
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel type d’inférence le commentaire illustre-t-il en rapprochant l’interdiction de dire « uff » aux parents de celle de les frapper ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une restriction limitant l’interdit aux seules paroles"
+        },
+        {
+          "id": "b",
+          "textFr": "Une abrogation de l’interdiction initiale"
+        },
+        {
+          "id": "c",
+          "textFr": "Une conformité à plus forte raison"
+        },
+        {
+          "id": "d",
+          "textFr": "Un sens contraire permettant les actes plus nuisibles"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La nuisance est plus forte dans les coups ; l’exemple illustre le mafhūm al-awlā, sans inventer une nouvelle citation coranique.",
+      "references": [
+        {
+          "sourceId": "issal-12",
+          "workTitleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+          "authorAr": "محمد يحيى بن محمد المختار الولاتي",
+          "sectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
+          "locator": "",
+          "quoteAr": "لأن العلة في تحريم التأفيف عليهما هي الإيذاء، وتلك العلة أتم في الضرب منها في التأفيف",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/12910/p-12",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

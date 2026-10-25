@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "hashiyat-al-dasuqi",
+    "level": "avance",
+    "titleAr": "حاشية الدسوقي على الشرح الكبير",
+    "authorAr": "محمد بن أحمد الدسوقي",
+    "defaultSectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "hashiyat-al-dasuqi-01",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quelle distinction permet au Dasūqī de classer l’eau de mer parmi l’eau muṭlaq ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Toute qualification géographique retire le pouvoir purifiant"
+        },
+        {
+          "id": "b",
+          "textFr": "Le complément « de mer » n’est pas indispensable pour la nommer eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Son sel la transforme nécessairement en liquide autre que l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Seule l’eau sans aucune provenance est muṭlaq"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "On peut appeler l’eau de mer simplement « eau » ; l’ajout de provenance n’est pas un qualificatif inséparable.",
+      "references": [
+        {
+          "sourceId": "dasuqi-water",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "مُقَيَّدًا بِقَيْدٍ غَيْرِ لَازِمٍ بَلْ مُنْفَكٌّ كَمَاءِ الْبَحْرِ وَالْعَيْنِ وَالْبِئْرِ وَالْمَطَر",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/13/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-02",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Pourquoi l’eau de rose est-elle exclue de l’eau muṭlaq dans l’explication citée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Son prix retire son pouvoir purifiant"
+        },
+        {
+          "id": "b",
+          "textFr": "Tout parfum implique une impureté matérielle"
+        },
+        {
+          "id": "c",
+          "textFr": "Son qualificatif est inséparable de sa désignation"
+        },
+        {
+          "id": "d",
+          "textFr": "La rose est nécessairement une impureté"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le problème est la désignation liée : ce liquide n’est nommé ici qu’avec le complément « de rose ». Cela ne signifie pas que toute eau de rose soit impure.",
+      "references": [
+        {
+          "sourceId": "dasuqi-water",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "بِقَيْدٍ لَازِمٍ كَمَاءِ الْوَرْدِ وَالزَّهْرِ وَالْعَجِين",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/13/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-03",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Si le changement de l’eau et sa cause nuisible demeurent douteux, quel principe le Dasūqī rappelle-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le passage automatique à l’impureté dès le doute"
+        },
+        {
+          "id": "b",
+          "textFr": "La perte de pureté dès qu’une cause est imaginable"
+        },
+        {
+          "id": "c",
+          "textFr": "L’interdiction de toute eau de puits par précaution"
+        },
+        {
+          "id": "d",
+          "textFr": "La présomption du maintien de son pouvoir purifiant"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le doute ne suffit pas ici à faire sortir l’eau de son statut initial ; le passage précise ensuite les cas de certitude ou de présomption.",
+      "references": [
+        {
+          "sourceId": "dasuqi-water",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "لِأَنَّ الْأَصْلَ بَقَاؤُهُ عَلَى الطَّهُورِيَّة",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/13/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-04",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Dans sa discussion, le Dasūqī présente-t-il la règle sur l’eau peu abondante et la faible impureté sans changement comme absolument unanime ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il rapporte une divergence d’Ibn al-Qāsim"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, il présente l’impureté automatique comme unanime"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, il nie toute position suivie dans la Risāla"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, mais la divergence concerne seulement la couleur du récipient"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le texte signale un désaccord et rappelle une position suivie dans la Risāla. On ne doit pas effacer les divergences internes à l’école.",
+      "references": [
+        {
+          "sourceId": "dasuqi-water",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "خِلَافًا لِمَا قَالَهُ ابْنُ الْقَاسِمِ مِنْ أَنَّ قَلِيلَ الْمَاءِ يُنَجِّسُهُ قَلِيلُ النَّجَاسَة",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/13/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-05",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Dans la glose sur les poils du visage, le seul fait de mouiller leur extérieur équivaut-il au takhlīl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, le takhlīl désigne nécessairement le rasage"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il faut ici atteindre la peau sous les poils concernés"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, l’extérieur suffit toujours dans sa définition du takhlīl"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, même si la peau reste sèche sous les poils clairsemés"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La glose explicite « la peau où poussent les poils » et exclut l’idée de s’arrêter à leur surface.",
+      "references": [
+        {
+          "sourceId": "dasuqi-face",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "وَلَيْسَ الْمُرَادُ إيصَالَ الْمَاءِ لِظَاهِرِ الشَّعْرِ فَقَط",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-06",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Pour la règle des poils clairsemés du visage, le Dasūqī distingue-t-il l’homme et la femme ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il dispense tous les hommes du takhlīl du clairsemé"
+        },
+        {
+          "id": "b",
+          "textFr": "Il limite le devoir à la seule moustache masculine"
+        },
+        {
+          "id": "c",
+          "textFr": "Il leur applique ici la même obligation"
+        },
+        {
+          "id": "d",
+          "textFr": "Il dispense toutes les femmes du takhlīl du clairsemé"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La glose indique expressément que la femme est comme l’homme pour le devoir de faire pénétrer l’eau à travers les poils clairsemés.",
+      "references": [
+        {
+          "sourceId": "dasuqi-face",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "الْمَرْأَةَ كَالرَّجُلِ فِي وُجُوبِ تَخْلِيلِ الْخَفِيف",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-07",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Comment la glose décrit-elle les trois possibilités évoquées pour le sens du mot waḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Trois avis doctrinaux attribués à trois écoles"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois obligations distinctes ajoutées par le Dardīr"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois degrés de pureté de l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Des interprétations possibles, pas trois avis juridiques"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La précision empêche de transformer une hésitation d’analyse lexicale en divergence doctrinale attribuée à des juristes.",
+      "references": [
+        {
+          "sourceId": "dasuqi-face",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "أَنَّهُ يَحْتَمِلُ احْتِمَالَاتٍ ثَلَاثَةً وَلَيْسَتْ أَقْوَالًا",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-08",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Si une cavité cicatrisée ne peut être frottée mais peut recevoir de l’eau, que précise la glose ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Y verser l’eau sans frottement reste requis dans ce cas"
+        },
+        {
+          "id": "b",
+          "textFr": "La difficulté du frottement dispense toujours de verser l’eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Il faut frotter malgré l’impossibilité physique"
+        },
+        {
+          "id": "d",
+          "textFr": "Tout le visage doit être remplacé par un tayammum dans ce seul cas"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le Dasūqī distingue soigneusement les deux possibilités physiques ; on ne doit pas supprimer l’une à cause de l’autre.",
+      "references": [
+        {
+          "sourceId": "dasuqi-face",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "وَإِنْ كَانَ لَا بُدَّ مِنْ صَبِّ الْمَاءِ فِيهِ بِدُونِ دَلْكٍ حَيْثُ أَمْكَنَ صَبَّهُ فِيه",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-09",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Si une cavité cicatrisée est assez large pour être lavée et frottée, que précise la glose ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’existence d’une cicatrice dispense de tout lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "L’eau et le frottement sont requis"
+        },
+        {
+          "id": "c",
+          "textFr": "Seule l’eau est requise même lorsque le frottement est possible"
+        },
+        {
+          "id": "d",
+          "textFr": "Le frottement devient déconseillé du fait de la cicatrice"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage réserve la dispense au cas d’impossibilité, et non à toute dépression du relief de la peau.",
+      "references": [
+        {
+          "sourceId": "dasuqi-face",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "وَأَمَّا إذَا كَانَ يُمْكِنُ دَلْكُهُ لِاتِّسَاعِهِ وَجَبَ صَبُّ الْمَاءِ فِيهِ وَدَلْكُه",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "hashiyat-al-dasuqi-10",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quel principe explique la petite zone frontière lavée avec le visage et essuyée avec la tête ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’inclusion de toute la tête dans le visage"
+        },
+        {
+          "id": "b",
+          "textFr": "La suppression du masḥ dès lors que le visage a été lavé"
+        },
+        {
+          "id": "c",
+          "textFr": "Assurer l’accomplissement complet de chacun des deux actes"
+        },
+        {
+          "id": "d",
+          "textFr": "Une huitième obligation indépendante"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La glose explique que la zone frontière sert à assurer l’intégralité du lavage et du masḥ ; elle ne supprime pas leur distinction.",
+      "references": [
+        {
+          "sourceId": "dasuqi-face",
+          "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+          "authorAr": "محمد بن أحمد الدسوقي",
+          "sectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
+          "locator": "",
+          "quoteAr": "فَإِنَّهُ يُغْسَلُ وَيُمْسَحُ لِأَجْلِ تَمَامِ كُلٍّ مِنْ غَسْلِ الْوَجْهِ وَمَسْحِ الرَّأْس",
+          "quoteLayer": "gloss",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

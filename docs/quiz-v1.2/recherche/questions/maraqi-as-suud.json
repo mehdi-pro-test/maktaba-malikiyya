@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "maraqi-as-suud",
+    "level": "usul",
+    "titleAr": "مراقي السعود لمبتغي الرقي والصعود",
+    "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+    "defaultSectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "maraqi-as-suud-01",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel qualificatif distingue l’injonction produisant l’obligation dans le vers cité ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La simple mention d’une coutume"
+        },
+        {
+          "id": "b",
+          "textFr": "La demande ferme d’accomplir l’acte"
+        },
+        {
+          "id": "c",
+          "textFr": "L’égalité entre acte et abstention"
+        },
+        {
+          "id": "d",
+          "textFr": "La demande non ferme de faire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le vers relie la demande de faire, lorsqu’elle est ferme, à l’ījāb.",
+      "references": [
+        {
+          "sourceId": "maraqi-2",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 29",
+          "quoteAr": "ثم الخطاب المقتضي للفعلجزما فإيجاب",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-02",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel effet le poème rattache-t-il à une demande ferme de délaisser un acte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La permission"
+        },
+        {
+          "id": "b",
+          "textFr": "La demande non ferme de délaisser"
+        },
+        {
+          "id": "c",
+          "textFr": "La qualification d’interdiction"
+        },
+        {
+          "id": "d",
+          "textFr": "La recommandation"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le vers mentionne taḥrīm pour la demande ferme d’abandon. L’analyse d’une occurrence concrète réclame toujours la lecture de ses preuves.",
+      "references": [
+        {
+          "sourceId": "maraqi-2",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 30",
+          "quoteAr": "وما التركَ طلبجزمًا فتحريم",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-03",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans la définition de l’ibāḥa, quel rapport y a-t-il entre accomplir et délaisser ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’acte est demandé fermement"
+        },
+        {
+          "id": "b",
+          "textFr": "L’abandon est demandé fermement"
+        },
+        {
+          "id": "c",
+          "textFr": "L’acte est demandé sans fermeté"
+        },
+        {
+          "id": "d",
+          "textFr": "Ils sont placés à égalité dans le discours permissif"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le poème définit la permission par l’égalité entre accomplissement et abstention dans ce discours.",
+      "references": [
+        {
+          "sourceId": "maraqi-2",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 32",
+          "quoteAr": "والإباحة الخطابفيه استوى الفعل والاجتناب",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-04",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelles conditions générales du taklīf le vers mentionne-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La connaissance et la capacité"
+        },
+        {
+          "id": "b",
+          "textFr": "La richesse et le voyage"
+        },
+        {
+          "id": "c",
+          "textFr": "L’âge adulte et la seule richesse"
+        },
+        {
+          "id": "d",
+          "textFr": "La capacité physique sans aucune considération de connaissance"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le vers nomme ʿilm et wusʿ. Il s’agit d’une formulation générale d’uṣūl, non d’une décision individuelle sur une excuse particulière.",
+      "references": [
+        {
+          "sourceId": "maraqi-2",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 35",
+          "quoteAr": "والعلم والوُسع على المعروفشرط يعم كل ذي تكليف",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-05",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "À quelle catégorie appartient le discours établissant une cause, une condition ou un empêchement ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La seule interdiction de délaisser"
+        },
+        {
+          "id": "b",
+          "textFr": "Khiṭāb al-waḍʿ"
+        },
+        {
+          "id": "c",
+          "textFr": "La seule recommandation de faire"
+        },
+        {
+          "id": "d",
+          "textFr": "La simple permission"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Les vers décrivent le discours de qualification objective, différent de la seule demande de faire ou de délaisser.",
+      "references": [
+        {
+          "sourceId": "maraqi-3",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 36–37",
+          "quoteAr": "ثم خطاب الوضع هو الوارد",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-06",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Comment le poème traite-t-il les termes farḍ et wājib dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Comme deux degrés de simple recommandation"
+        },
+        {
+          "id": "b",
+          "textFr": "Comme deux degrés de désapprobation"
+        },
+        {
+          "id": "c",
+          "textFr": "Comme concordants"
+        },
+        {
+          "id": "d",
+          "textFr": "Comme toujours distincts à la manière de certaines terminologies hanafites"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Cette équivalence est la terminologie du passage ; ne pas l’étendre sans réserve à la terminologie d’autres écoles, notamment hanafite.",
+      "references": [
+        {
+          "sourceId": "maraqi-3",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 38",
+          "quoteAr": "والفرض والواجب قد توافقا",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-07",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quels termes le vers présente-t-il comme synonymes dans cette discussion ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ḥarām et mubāḥ"
+        },
+        {
+          "id": "b",
+          "textFr": "Certitude et doute"
+        },
+        {
+          "id": "c",
+          "textFr": "Condition et pilier"
+        },
+        {
+          "id": "d",
+          "textFr": "Faḍīla, nadb et mustaḥabb"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le poème rapproche ces termes de recommandation. L’application terminologique doit rester fidèle au contexte de l’ouvrage.",
+      "references": [
+        {
+          "sourceId": "maraqi-3",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 43",
+          "quoteAr": "فضيلة والندب والذي استحبترادفت",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-08",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Si une condition nécessaire manque, que devient le conditionné selon le vers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il manque aussi dans le rapport de condition considéré"
+        },
+        {
+          "id": "b",
+          "textFr": "Il existe nécessairement"
+        },
+        {
+          "id": "c",
+          "textFr": "Il devient simplement recommandé"
+        },
+        {
+          "id": "d",
+          "textFr": "Sa présence est garantie par une autre condition quelconque"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le vers énonce la conséquence de l’absence de condition ; il ne dit pas que toute présence d’une condition suffit à réaliser le conditionné.",
+      "references": [
+        {
+          "sourceId": "maraqi-4",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 56",
+          "quoteAr": "ولازمٌ مِنِ انتفاءِ الشرطعدمُ مشروط",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-4",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-09",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelle distinction le poème pose-t-il entre pilier et condition ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les deux sont nécessairement facultatifs"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pilier appartient à la constitution de l’acte ; la condition lui est extérieure"
+        },
+        {
+          "id": "c",
+          "textFr": "La condition est toujours une partie constitutive de l’acte"
+        },
+        {
+          "id": "d",
+          "textFr": "Le pilier est toujours extérieur à l’acte"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le vers oppose le rukn, partie constitutive, et le sharṭ extérieur, sans nier la nécessité de la condition.",
+      "references": [
+        {
+          "sourceId": "maraqi-4",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 59",
+          "quoteAr": "والركن جزء الذات والشرط خرج",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-4",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "maraqi-as-suud-10",
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Pour les obligations dont la validité n’exige pas d’intention, la simple exécution sans visée d’obéissance garantit-elle la récompense dans les vers cités ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, parce que tout acte sans intention est invalide"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, dès que l’acte est matériellement terminé"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, le poème distingue exécution valide et récompense"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, validité et récompense sont identiques dans tous les cas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Les vers 40–41 portent précisément sur les actes dont l’intention n’est pas condition de validité. Ne pas transformer cela en dispense d’intention pour toutes les adorations.",
+      "references": [
+        {
+          "sourceId": "maraqi-3",
+          "workTitleAr": "مراقي السعود لمبتغي الرقي والصعود",
+          "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
+          "sectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
+          "locator": "Vers 40–41",
+          "quoteAr": "وليس في الواجب من نَوَالِعند انتفاء قصد الامتثال",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/25829/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

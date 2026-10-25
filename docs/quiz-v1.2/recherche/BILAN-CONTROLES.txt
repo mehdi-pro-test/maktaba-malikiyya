@@ -1,0 +1,18 @@
+25/10/2026 — livraison documentaire, sans modification applicative
+
+Commande exécutée : python3 verifier.py
+OK : 15 ouvrages, 150 questions, 4 choix distincts, 1 réponse par question.
+OK : 10 questions par ouvrage ; lots individuels identiques à la banque.
+OK : citations, références HTTPS, provenance et registres cohérents.
+Contrôles textuels : {'matched-transcription': 120, 'read-facsimile': 30}
+Publication : 0 ; relectures humaines approuvées : 0 ; questions en revue : 150.
+SHA256 banque : e38485848ae01fbd0b38ed0c9d055cd76976247a21fa263b092fe2df00329fb8
+
+150 citations rapprochées de leur témoin : 120 contrôles de transcription ; 30 lectures visuelles de fac-similés.
+Le rapprochement automatique a été effectué pendant la recherche ; verifier.py vérifie ensuite hors ligne la structure et le registre.
+
+HEAD distant main vérifié : cad05a9cf7200ce11f5f51dcbe0d3610ef87434a
+Dépôt de travail sans modification à la fin de cette livraison.
+Aucun test npm/Playwright ni test de paiement exécuté dans ce travail documentaire.
+Aucune migration ni écriture SQL, aucun déploiement, aucune fusion.
+Aucune validation doctrinale humaine revendiquée.

@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "ar-risala-ibn-abi-zayd",
+    "level": "intermediaire",
+    "titleAr": "الرسالة",
+    "authorAr": "عبد الله بن أبي زيد القيرواني",
+    "defaultSectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "ar-risala-ibn-abi-zayd-01",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "L’istinjāʾ doit-il toujours être immédiatement suivi du wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, toute interruption invalide les deux"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, la Risāla les distingue"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, c’est l’une des obligations du wuḍūʾ"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, c’est l’une de ses sunnas propres"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le texte distingue le nettoyage de la souillure et les actes propres aux ablutions.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§97",
+          "quoteAr": "وَلَيْسَ الِاسْتِنْجَاءُ مِمَّا يَجِبُ أَنْ يُوصَلَ بِهِ الْوُضُوء",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-02",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Le nettoyage d’un vêtement souillé exige-t-il une intention rituelle pour ôter la souillure ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, seulement si la souillure est ancienne"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, seulement si le vêtement est destiné à la prière"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, dans le passage cité"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, comme le wuḍūʾ"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage traite de l’enlèvement de la souillure, valable sans intention ; il ne supprime pas l’intention du wuḍūʾ.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§99",
+          "quoteAr": "وَيُجْزِئُ فِعْلُهُ بِغَيْرِ نِيَّةٍ، وَكَذَلِكَ غَسْلُ الثَّوْبِ النَّجِس",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-03",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Le matn demande-t-il l’istinjāʾ après la seule émission d’un gaz ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, comme après l’urine"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, uniquement avant la prière obligatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, mais uniquement aux pierres"
+        },
+        {
+          "id": "d",
+          "textFr": "Non"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte exclut expressément l’istinjāʾ pour un gaz. Le renouvellement du wuḍūʾ est une autre question.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§102",
+          "quoteAr": "وَلَا يُسْتَنْجَى مِنْ رِيح",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-04",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Pour le nettoyage aux pierres décrit ici, quelle condition est donnée à la troisième pierre ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Qu’elle ressorte propre"
+        },
+        {
+          "id": "b",
+          "textFr": "Qu’elle soit différente de toutes les précédentes par sa matière"
+        },
+        {
+          "id": "c",
+          "textFr": "Qu’elle soit humide"
+        },
+        {
+          "id": "d",
+          "textFr": "Qu’elle soit plus grande que les deux premières"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La Risāla décrit trois pierres dont la dernière ressort propre : il s’agit d’obtenir la propreté, non d’une matière précieuse.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§103",
+          "quoteAr": "بِثَلَاثَةِ أَحْجَارٍ يَخْرُجُ آخِرُهُنَّ نَقِيًّا أَجْزَأَه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-05",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quel avantage pratique est donné au récipient placé à droite ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cela détermine la pureté de l’eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Il est plus commode d’y prendre l’eau"
+        },
+        {
+          "id": "c",
+          "textFr": "C’est une condition de validité"
+        },
+        {
+          "id": "d",
+          "textFr": "Cela remplace le devoir de commencer par la droite"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le matn donne ici une explication de commodité ; il n’en fait pas une condition de validité.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§107",
+          "quoteAr": "وَكَوْنُ الْإِنَاءِ عَلَى يَمِينِهِ أَمْكَنُ لَهُ فِي تَنَاوُلِه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-06",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Le texte exige-t-il toujours trois rinçages de la bouche pour que l’acte soit suffisant ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, mais seulement pour le nez"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, mais seulement pour la bouche"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, moins de trois peut suffire"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, trois fois constituent le minimum obligatoire"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le texte autorise moins de trois pour la bouche et le nez, tout en présentant l’accomplissement complet comme meilleur.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§111",
+          "quoteAr": "وَيُجْزِئُهُ أَقَلُّ مِنْ ثَلَاثٍ فِي الْمَضْمَضَةِ وَالِاسْتِنْشَاق",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-07",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quelle conduite la description principale donne-t-elle pour les coudes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les exclure du lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "Les essuyer au lieu de les laver"
+        },
+        {
+          "id": "c",
+          "textFr": "Laver le coude droit mais essuyer le gauche"
+        },
+        {
+          "id": "d",
+          "textFr": "Les inclure dans le lavage"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le matn les inclut, puis rapporte une autre opinion au paragraphe suivant. La question vise la description principale.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§119 ; divergence au §120",
+          "quoteAr": "وَيَبْلُغُ فِيهِمَا بِالْغَسْلِ إِلَى الْمِرْفَقَيْنِ، يُدْخِلُهُمَا فِي غَسْلِه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-08",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "La seule manière décrite pour essuyer la tête est-elle la seule valide ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, toute manière qui couvre la tête peut suffire"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, seule la trajectoire décrite est valide"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, tout essuyage partiel suffit"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, l’essuyage du bandeau suffit toujours"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le matn distingue la meilleure manière décrite et la validité lorsque toute la tête est couverte.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§124",
+          "quoteAr": "وَكَيْفَمَا مَسَحَ أَجْزَأَهُ إِذَا أَوْعَبَ رَأْسَهُ، وَالْأَوَّلُ أَحْسَن",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-09",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Lors de l’essuyage, quelles parties des oreilles la description comprend-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lobe seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "L’intérieur et l’extérieur"
+        },
+        {
+          "id": "c",
+          "textFr": "L’extérieur seulement"
+        },
+        {
+          "id": "d",
+          "textFr": "L’intérieur seulement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La Risāla mentionne les deux faces des oreilles, sans imposer de laver l’intérieur profond du conduit.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§126",
+          "quoteAr": "ثُمَّ يَمْسَحُ أُذُنَيْهِ ظَاهِرَهُمَا وَبَاطِنَهُمَا",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-10",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Comment le matn traite-t-il le passage de l’eau entre les orteils dans cette description ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il le classe comme annulatif du wuḍūʾ"
+        },
+        {
+          "id": "b",
+          "textFr": "Il le substitue au lavage de l’ensemble du pied"
+        },
+        {
+          "id": "c",
+          "textFr": "Il le permet sans rendre son omission fautive en soi"
+        },
+        {
+          "id": "d",
+          "textFr": "Il l’impose sans exception comme une obligation propre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le texte laisse le choix et précise l’absence de gêne en cas d’omission. Cela suppose que le lavage obligatoire atteigne bien le pied.",
+      "references": [
+        {
+          "sourceId": "risala-wudu",
+          "workTitleAr": "الرسالة",
+          "authorAr": "عبد الله بن أبي زيد القيرواني",
+          "sectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
+          "locator": "§129",
+          "quoteAr": "وَإِنْ شَاءَ خَلَّلَ أَصَابِعَهُ فِي ذَلِكَ، وَإِنْ تَرَكَ فَلَا حَرَج",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/ar-risala/?partie=5",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}
