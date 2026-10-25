@@ -1,6 +1,9 @@
 import type { NextConfig } from 'next';
 const config: NextConfig = {
   poweredByHeader: false,
+  async redirects() {
+    return [{ source: '/quiz', destination: '/quiz/niveaux', permanent: true }];
+  },
   devIndicators: false,
   logging: { incomingRequests: { ignore: [/\/api\/orders/, /\/commande\/confirmation/] } },
   serverExternalPackages: ['@prisma/client'],

@@ -45,8 +45,8 @@ export default async function Page({
           Les questions de cet ouvrage sont en cours de relecture. Revenez découvrir le quiz
           lorsqu’il sera prêt.
         </p>
-        <Link className="button" href="/quiz">
-          Jouer au quiz classique
+        <Link className="button" href="/quiz/niveaux">
+          Voir les quiz par niveau
         </Link>
       </section>
     );

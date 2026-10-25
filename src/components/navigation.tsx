@@ -62,7 +62,12 @@ export function Navigation() {
           </div>
         )}
       </div>
-      <Link href="/quiz" aria-current={path === '/quiz' ? 'page' : undefined}>
+      <Link
+        href="/quiz/niveaux"
+        aria-current={
+          path === '/quiz/niveaux' || path.startsWith('/quiz/niveaux/') ? 'page' : undefined
+        }
+      >
         Quiz
       </Link>
     </nav>

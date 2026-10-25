@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { questions } from '@/lib/quiz-data';
+import { library } from '@/lib/quiz-v12-data';
 import { ArrowRight, BookOpen, Truck, ShieldCheck } from 'lucide-react';
 import { Books } from '@/components/books';
 import { visibleCategories } from '@/data/categories';
@@ -7,6 +7,7 @@ import { CategoryTabs } from '@/components/category-tabs';
 import { Button } from '@/components/ui/button';
 export const dynamic = 'force-dynamic';
 export default function Home() {
+  const availableQuizCount = library.filter((book) => book.available).length;
   return (
     <>
       <section className="hero">
@@ -120,14 +121,14 @@ export default function Home() {
           <span className="eyebrow">LE PLAISIR D’APPRENDRE</span>
           <h2>Et si le savoir se jouait ?</h2>
           <p>
-            {questions.length} questions pour explorer vos connaissances, à votre rythme.
+            {availableQuizCount} quiz par niveau et par ouvrage, à votre rythme.
             <br />
-            {questions.length} questions disponibles.
+            {availableQuizCount * 10} questions disponibles.
           </p>
         </div>
         <Button asChild>
-          <Link href="/quiz">
-            Commencer le quiz <ArrowRight size={16} />
+          <Link href="/quiz/niveaux">
+            Découvrir les quiz <ArrowRight size={16} />
           </Link>
         </Button>
       </section>
