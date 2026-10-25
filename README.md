@@ -4,6 +4,16 @@ Librairie française de livres en arabe. V1 de démonstration : **Stripe test un
 
 Next.js App Router / React / TypeScript / Tailwind 4 / composant Button suivant le modèle shadcn (Radix Slot) / PostgreSQL 17 / Prisma 7.10.1 / Stripe Checkout / Resend. Les versions exactes sont verrouillées dans `package-lock.json`. Node 24 LTS recommandé (`.nvmrc`).
 
+## Évolution V1.1 — Livres, quiz et confort d’achat
+
+La branche `feat/v1.1-livres-quiz` fait évoluer la V1 sans supprimer les données existantes. Navigation : Accueil / Livres (Coran, Hadith, Fiqh) / Quiz / Panier. Le Mukhtasar al-Akhdari est un brouillon non achetable, sans prix ni stock inventés. Le quiz contient uniquement les deux questions du PO ; huit emplacements restent cachés. Les couvertures réelles sont des références non autorisées à publier : les SVG sont conservés.
+
+Une nouvelle migration additive est nécessaire **avant** d’utiliser le code V1.1 sur une base existante. Pour la preview, utiliser une base distincte de Production, la préparer explicitement puis lancer le build. La production reste sur `main` tant que la PR n’est pas validée. Ne pas re-seeder des stocks manuellement ni remplacer le runner de migrations.
+
+Voir [architecture et décisions](docs/v1.1/ARCHITECTURE.md), [migration/preview/rollback](docs/v1.1/MIGRATION-ET-PREVIEW.md) et [validation V1.1](docs/v1.1/VALIDATION.md). La documentation PO originale est dans `docs/specifications-v1.1`. Les références média sont dans `src/data/cover-references.json`.
+
+Pour ajouter une catégorie : modifier `src/data/categories.ts`, choisir un slug distinct des produits, puis exécuter `npm run db:seed` sur la base concernée. Pour compléter le quiz : renseigner les huit brouillons de `src/data/quiz-v1.1.json` avec choix/réponses/explication validés, puis passer leur statut à `published`. Le score et le nombre affiché se recalculent depuis les questions valides, sans modifier les composants.
+
 ## Démarrer en local
 
 ```sh

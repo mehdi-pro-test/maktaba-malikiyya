@@ -1,5 +1,6 @@
 name: Qualité et parcours boutique
 on:
+  workflow_dispatch:
   push:
     branches: [main, 'feat/**', develop]
   pull_request:
