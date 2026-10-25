@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { QuizLibrary } from '@/components/quiz-library';
 import { library } from '@/lib/quiz-v12-data';
 export const metadata = {
@@ -16,9 +15,6 @@ export default function Page() {
         correction et les références arabes.
       </p>
       <p>Les quiz en préparation attendent la relecture de leurs questions.</p>
-      <Link className="text-link" href="/quiz">
-        Jouer au quiz classique · 10 questions →
-      </Link>
       <QuizLibrary books={library} />
     </section>
   );

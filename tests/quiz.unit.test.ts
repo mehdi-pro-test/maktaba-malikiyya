@@ -1,12 +1,12 @@
 import { describe, it, expect } from 'vitest';
 import { createElement } from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
-import source from '../src/data/quiz-v1.1.json';
+import source from '../docs/v1.1/archive/quiz-v1.1.json';
 import { isCorrect, publishedQuestions, quizScore } from '../src/lib/quiz';
 import { QuizGame } from '../src/components/quiz-game';
 import { shippingProgress } from '../src/lib/shipping-progress';
 const all = publishedQuestions(source);
-describe('Quiz éditorial approuvé', () => {
+describe('Archive V1.1 — compatibilité du moteur', () => {
   it('charge dix questions complètes et les huit nouvelles ont leurs sources', () => {
     expect(source.questions).toHaveLength(10);
     expect(all).toHaveLength(10);

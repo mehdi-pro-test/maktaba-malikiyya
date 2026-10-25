@@ -63,8 +63,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <Link href="/livres/fiqh">
                   La jurisprudence (Fiqh) <ArrowUpRight size={14} />
                 </Link>
-                <Link href="/quiz">
-                  Le quiz de la Maktaba <ArrowUpRight size={14} />
+                <Link href="/quiz/niveaux">
+                  Les quiz par niveau <ArrowUpRight size={14} />
                 </Link>
               </div>
               <div>

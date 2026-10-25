@@ -1,5 +1,7 @@
 # V1.2 — architecture et intégration
 
+**Navigation actuelle :** à la demande du propriétaire le 26/10/2026, le classique est retiré et `/quiz` redirige vers les niveaux. Voir `NAVIGATION-QUIZ.md`. Les paragraphes de compatibilité V1.1 ci-dessous décrivent la livraison initiale ; les données classiques sont désormais archivées hors de `src/`.
+
 ## État livré
 
 La recherche jointe est importée : 150 questions complètes réparties en quinze ouvrages, cinq parcours. L’import conserve les textes, IDs, options, réponses, explications et références ; le test unitaire compare les données parsées à la banque d’origine. La copie source est conservée dans `recherche/` avec son registre et ses empreintes d’origine. Ce répertoire d’archive est exclu du reformatage ; les documents historiques de cahier des charges sont conservés à sa racine.

@@ -1,24 +1,29 @@
 import { test, expect } from '@playwright/test';
-import data from '../../src/data/quiz-v1.1.json' with { type: 'json' };
-import { publishedQuestions } from '../../src/lib/quiz';
-const questions = publishedQuestions(data);
-async function finishExtra(page: import('@playwright/test').Page, correct: boolean) {
-  for (const q of questions.slice(2)) {
-    await page.getByRole('button', { name: 'Question suivante' }).click();
+import bank from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
+import AxeBuilder from '@axe-core/playwright';
+const quizPath = '/quiz/niveaux/debutant/moukhtassar-al-akhdari';
+const questions = bank.questions.filter((q) => q.bookId === 'moukhtassar-al-akhdari');
+async function finishQuiz(page: import('@playwright/test').Page, correct: boolean) {
+  for (const [index, q] of questions.entries()) {
+    await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
     const option = q.options.find((o) =>
-      correct ? q.correctOptionIds.includes(o.id) : !q.correctOptionIds.includes(o.id),
+      correct ? o.id === q.correctOptionId : o.id !== q.correctOptionId,
     )!;
+    await page.getByRole('button', { name: option.textFr, exact: true }).click();
+    await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+    await expect(
+      page.getByText(`Score : ${correct ? index + 1 : 0}/10`, { exact: true }),
+    ).toBeVisible();
+    await expect(page.getByLabel('Références arabes de la correction')).toContainText(
+      q.references[0].quoteAr,
+    );
     expect(
       await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth),
     ).toBe(true);
-    await page.getByRole('button', { name: option.label, exact: true }).click();
-    await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+    await page
+      .getByRole('button', { name: index === 9 ? 'Voir mon résultat' : 'Question suivante' })
+      .click();
   }
-}
-import AxeBuilder from '@axe-core/playwright';
-async function correctImams(page: import('@playwright/test').Page) {
-  for (const name of ['Abû Hanîfa', 'Mâlik ibn Anas', 'Ash-Shâfiʿî', 'Ahmad ibn Hanbal'])
-    await page.getByRole('button', { name: new RegExp(name) }).click();
 }
 test('Livres parent, catégories, Akhdari actif et redirections V1', async ({ page }) => {
   await page.goto('/');
@@ -81,48 +86,25 @@ test('Mini-panier clavier, focus restauré et seuil France/Europe', async ({ pag
   await expect(page.getByRole('progressbar')).toHaveCount(0);
   await expect(page.getByText(/70,00/)).toBeVisible();
 });
-test('Quiz : sélection exacte, score, feedback, résultat et rejouer', async ({ page }) => {
-  await page.goto('/quiz');
+test('Quiz ouvrage : sélection, score, correction, résultat et rejouer', async ({ page }) => {
+  await page.goto(quizPath);
   await expect(page.getByText('10 questions disponibles', { exact: true })).toBeVisible();
-  await expect(page.getByText(/2 questions disponibles/)).toHaveCount(0);
   await page.getByRole('button', { name: 'Commencer le quiz' }).click();
-  await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
-  await correctImams(page);
-  await expect(page.getByText('4/4 sélectionnées')).toBeVisible();
-  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
-  await expect(page.getByText('Score : 1/10', { exact: true })).toBeVisible();
-  await expect(page.getByRole('status').filter({ hasText: 'Bonne réponse !' })).toBeVisible();
-  await page.getByRole('button', { name: 'Question suivante' }).click();
-  await expect(page.getByText('Question 2 sur 10')).toBeVisible();
-  await page.getByRole('button', { name: '2', exact: true }).click();
-  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
-  await expect(page.getByRole('status').filter({ hasText: /tahârat al-hadath/ })).toContainText(
-    'طهارة الخبث',
-  );
-  await finishExtra(page, true);
-  await page.getByRole('button', { name: 'Voir mon résultat' }).click();
+  await finishQuiz(page, true);
   await expect(page.getByLabel('Score final : 10 sur 10')).toBeVisible();
   await page.getByRole('button', { name: 'Rejouer' }).click();
   await expect(page.getByText('Question 1 sur 10')).toBeVisible();
   await expect(page.getByText('Score : 0/10', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
 });
-test('Quiz : mauvaises réponses donnent 0/10 et correction lisible', async ({ page }) => {
-  await page.goto('/quiz');
+test('Quiz ouvrage : mauvaises réponses donnent 0/10 et correction lisible', async ({ page }) => {
+  await page.goto(quizPath);
   await page.getByRole('button', { name: 'Commencer le quiz' }).click();
-  for (const name of ['Abû Hanîfa', 'Mâlik ibn Anas', 'Ash-Shâfiʿî', 'Al-Bukhârî'])
-    await page.getByRole('button', { name: new RegExp(name) }).click();
-  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
-  await expect(page.getByText('Score : 0/10', { exact: true })).toBeVisible();
-  await page.getByRole('button', { name: 'Question suivante' }).click();
-  await page.getByRole('button', { name: '3', exact: true }).click();
-  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
-  await finishExtra(page, false);
-  await page.getByRole('button', { name: 'Voir mon résultat' }).click();
+  await finishQuiz(page, false);
   await expect(page.getByLabel('Score final : 0 sur 10')).toBeVisible();
 });
 test('Accessibilité des nouveautés, mini-panier et quiz actifs', async ({ page }) => {
-  for (const route of ['/livres', '/livres/fiqh', '/quiz']) {
+  for (const route of ['/livres', '/livres/fiqh', quizPath]) {
     await page.goto(route);
     const results = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
