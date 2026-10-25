@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { ShoppingBag, ArrowUpRight } from 'lucide-react';
 import { CartProvider, CartCount } from '@/components/cart-provider';
+import { Navigation } from '@/components/navigation';
+import { MiniCart } from '@/components/mini-cart';
 import './globals.css';
 export const metadata: Metadata = {
   title: {
@@ -29,11 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Maktaba <em>Malikiya</em>
               <small>LIBRAIRIE • SCIENCES ISLAMIQUES</small>
             </Link>
-            <nav aria-label="Navigation principale">
-              <Link href="/">Accueil</Link>
-              <Link href="/coran">Coran</Link>
-              <Link href="/hadith">Hadith</Link>
-            </nav>
+            <Navigation />
             <Link href="/panier" className="cart-link">
               <ShoppingBag size={19} />
               <span>Panier</span>
@@ -41,6 +39,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </Link>
           </header>
           <main id="contenu">{children}</main>
+          <MiniCart />
           <footer>
             <div className="footer-top">
               <div>
@@ -55,11 +54,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
               <div>
                 <span className="eyebrow">EXPLORER LA MAKTABA</span>
-                <Link href="/coran">
+                <Link href="/livres/coran">
                   Le Saint Coran <ArrowUpRight size={14} />
                 </Link>
-                <Link href="/hadith">
+                <Link href="/livres/hadith">
                   Les sciences du hadith <ArrowUpRight size={14} />
+                </Link>
+                <Link href="/livres/fiqh">
+                  La jurisprudence (Fiqh) <ArrowUpRight size={14} />
+                </Link>
+                <Link href="/quiz">
+                  Le quiz de la Maktaba <ArrowUpRight size={14} />
                 </Link>
               </div>
               <div>

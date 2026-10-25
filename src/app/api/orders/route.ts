@@ -11,6 +11,9 @@ export async function GET(request: Request) {
       reference: true,
       status: true,
       totalCents: true,
+      subtotalCents: true,
+      shippingCents: true,
+      items: { select: { titleFr: true, quantity: true, unitPriceCents: true } },
       emailDelivery: { select: { status: true } },
     },
   });

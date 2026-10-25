@@ -1,4 +1,4 @@
-import { catalog } from '@/lib/catalog';
+import { purchasableCatalog } from '@/lib/catalog';
 import { countries } from '@/lib/rules';
 import { checkoutAvailable } from '@/lib/payments';
 import { CartCheckout } from '@/components/cart-checkout';
@@ -11,7 +11,7 @@ export default async function Page() {
       <h1>Un pas de plus vers le savoir.</h1>
       <p>Commandez simplement, sans créer de compte.</p>
       <CartCheckout
-        products={await catalog()}
+        products={await purchasableCatalog()}
         allowed={countries()}
         checkout
         paymentAvailable={checkoutAvailable()}
