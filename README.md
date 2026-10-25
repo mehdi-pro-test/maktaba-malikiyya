@@ -1,3 +1,5 @@
+> **État actuel V1.1 :** PR #1 fusionnée et boutique démo publiée. Akhdari confirmé à 15 € / 15 exemplaires, édition Maktaba Malikiyya ; quiz étendu à dix questions et visuels existants conservés. Voir [le suivi de finalisation](docs/v1.1/FINALISATION.md) pour migrations, sauvegardes, recette et blocages effectifs Stripe/Resend/GitHub. Les anciennes sections de livraison ci-dessous sont conservées comme historique.
+
 # Maktaba Malikiya
 
 Librairie française de livres en arabe. V1 de démonstration : **Stripe test uniquement, aucune vente réelle**.

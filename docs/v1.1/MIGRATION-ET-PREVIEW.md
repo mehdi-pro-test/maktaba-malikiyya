@@ -1,3 +1,5 @@
+> **Rapport historique de la première livraison.** Pour l’état actuel (PR fusionnée, déploiement, sauvegardes et finalisation), voir [FINALISATION.md](FINALISATION.md). Les mentions de limites d’accès et de preview ci-dessous décrivent l’état initial.
+
 # V1.1 — Migration, preview et retour arrière
 
 ## Branches et sécurité

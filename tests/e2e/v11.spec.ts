@@ -1,10 +1,26 @@
 import { test, expect } from '@playwright/test';
+import data from '../../src/data/quiz-v1.1.json' with { type: 'json' };
+import { publishedQuestions } from '../../src/lib/quiz';
+const questions = publishedQuestions(data);
+async function finishExtra(page: import('@playwright/test').Page, correct: boolean) {
+  for (const q of questions.slice(2)) {
+    await page.getByRole('button', { name: 'Question suivante' }).click();
+    const option = q.options.find((o) =>
+      correct ? q.correctOptionIds.includes(o.id) : !q.correctOptionIds.includes(o.id),
+    )!;
+    expect(
+      await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth),
+    ).toBe(true);
+    await page.getByRole('button', { name: option.label, exact: true }).click();
+    await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  }
+}
 import AxeBuilder from '@axe-core/playwright';
 async function correctImams(page: import('@playwright/test').Page) {
   for (const name of ['Abû Hanîfa', 'Mâlik ibn Anas', 'Ash-Shâfiʿî', 'Ahmad ibn Hanbal'])
     await page.getByRole('button', { name: new RegExp(name) }).click();
 }
-test('Livres parent, catégories, brouillon et redirections V1', async ({ page }) => {
+test('Livres parent, catégories, Akhdari actif et redirections V1', async ({ page }) => {
   await page.goto('/');
   await page
     .getByRole('navigation', { name: 'Navigation principale', exact: true })
@@ -18,11 +34,11 @@ test('Livres parent, catégories, brouillon et redirections V1', async ({ page }
     .click();
   await expect(page).toHaveURL(/\/livres\/fiqh$/);
   await expect(page.getByRole('heading', { name: 'Mukhtasar al-Akhdari' })).toBeVisible();
-  await expect(page.getByText('Prix à venir')).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Bientôt disponible' })).toBeDisabled();
-  await expect(page.getByRole('button', { name: 'Ajouter au panier' })).toHaveCount(0);
+  await expect(page.getByText('15,00 €', { exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ajouter au panier' })).toBeEnabled();
   await page.getByRole('link', { name: 'Mukhtasar al-Akhdari', exact: true }).click();
   await expect(page).toHaveURL(/\/livres\/mukhtasar-al-akhdari$/);
+  await expect(page.getByText(/Édition : Maktaba Malikiyya/)).toBeVisible();
   await expect(page.getByRole('navigation', { name: 'Fil d’Ariane' })).toContainText(
     'LivresFiqhMukhtasar al-Akhdari',
   );
@@ -67,41 +83,43 @@ test('Mini-panier clavier, focus restauré et seuil France/Europe', async ({ pag
 });
 test('Quiz : sélection exacte, score, feedback, résultat et rejouer', async ({ page }) => {
   await page.goto('/quiz');
-  await expect(page.getByText('2 questions disponibles', { exact: true })).toBeVisible();
-  await expect(page.getByText(/10 questions/)).toHaveCount(0);
+  await expect(page.getByText('10 questions disponibles', { exact: true })).toBeVisible();
+  await expect(page.getByText(/2 questions disponibles/)).toHaveCount(0);
   await page.getByRole('button', { name: 'Commencer le quiz' }).click();
   await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
   await correctImams(page);
   await expect(page.getByText('4/4 sélectionnées')).toBeVisible();
   await page.getByRole('button', { name: 'Valider ma réponse' }).click();
-  await expect(page.getByText('Score : 1/2', { exact: true })).toBeVisible();
+  await expect(page.getByText('Score : 1/10', { exact: true })).toBeVisible();
   await expect(page.getByRole('status').filter({ hasText: 'Bonne réponse !' })).toBeVisible();
   await page.getByRole('button', { name: 'Question suivante' }).click();
-  await expect(page.getByText('Question 2 sur 2')).toBeVisible();
+  await expect(page.getByText('Question 2 sur 10')).toBeVisible();
   await page.getByRole('button', { name: '2', exact: true }).click();
   await page.getByRole('button', { name: 'Valider ma réponse' }).click();
   await expect(page.getByRole('status').filter({ hasText: /tahârat al-hadath/ })).toContainText(
     'طهارة الخبث',
   );
+  await finishExtra(page, true);
   await page.getByRole('button', { name: 'Voir mon résultat' }).click();
-  await expect(page.getByLabel('Score final : 2 sur 2')).toBeVisible();
+  await expect(page.getByLabel('Score final : 10 sur 10')).toBeVisible();
   await page.getByRole('button', { name: 'Rejouer' }).click();
-  await expect(page.getByText('Question 1 sur 2')).toBeVisible();
-  await expect(page.getByText('Score : 0/2', { exact: true })).toBeVisible();
+  await expect(page.getByText('Question 1 sur 10')).toBeVisible();
+  await expect(page.getByText('Score : 0/10', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
 });
-test('Quiz : mauvaises réponses donnent 0/2 et correction lisible', async ({ page }) => {
+test('Quiz : mauvaises réponses donnent 0/10 et correction lisible', async ({ page }) => {
   await page.goto('/quiz');
   await page.getByRole('button', { name: 'Commencer le quiz' }).click();
   for (const name of ['Abû Hanîfa', 'Mâlik ibn Anas', 'Ash-Shâfiʿî', 'Al-Bukhârî'])
     await page.getByRole('button', { name: new RegExp(name) }).click();
   await page.getByRole('button', { name: 'Valider ma réponse' }).click();
-  await expect(page.getByText('Score : 0/2', { exact: true })).toBeVisible();
+  await expect(page.getByText('Score : 0/10', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Question suivante' }).click();
   await page.getByRole('button', { name: '3', exact: true }).click();
   await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await finishExtra(page, false);
   await page.getByRole('button', { name: 'Voir mon résultat' }).click();
-  await expect(page.getByLabel('Score final : 0 sur 2')).toBeVisible();
+  await expect(page.getByLabel('Score final : 0 sur 10')).toBeVisible();
 });
 test('Accessibilité des nouveautés, mini-panier et quiz actifs', async ({ page }) => {
   for (const route of ['/livres', '/livres/fiqh', '/quiz']) {
@@ -154,7 +172,7 @@ test('Panier invalide : aucune navigation active vers le checkout', async ({ pag
   await page.addInitScript(() =>
     localStorage.setItem(
       'maktaba-cart',
-      JSON.stringify([{ productId: 'mukhtasar-al-akhdari', quantity: 1 }]),
+      JSON.stringify([{ productId: 'unknown-draft', quantity: 1 }]),
     ),
   );
   await page.goto('/panier');

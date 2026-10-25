@@ -6,6 +6,18 @@ import { visibleCategories } from '../src/data/categories';
 beforeAll(async () => {
   if (!process.env.DATABASE_URL?.includes('maktaba_test'))
     throw new Error('Base de test obligatoire');
+  await db.catalogDraft.upsert({
+    where: { id: 'fixture-draft' },
+    create: {
+      id: 'fixture-draft',
+      slug: 'fixture-draft',
+      titleFr: 'Brouillon test',
+      titleAr: 'مسودة',
+      categoryId: 'fiqh',
+      imagePath: '/images/akhdari.svg',
+    },
+    update: {},
+  });
   await db.product.upsert({
     where: { id: 'moshaf-coran' },
     create: {
@@ -22,7 +34,10 @@ beforeAll(async () => {
     update: {},
   });
 });
-afterAll(() => db.$disconnect());
+afterAll(async () => {
+  await db.catalogDraft.deleteMany({ where: { id: 'fixture-draft' } });
+  await db.$disconnect();
+});
 it('les trois disciplines sont enfants de Livres en base', async () => {
   const parent = await db.category.findUniqueOrThrow({
     where: { slug: 'livres' },
@@ -30,11 +45,10 @@ it('les trois disciplines sont enfants de Livres en base', async () => {
   });
   expect(parent.children.map((c) => c.slug)).toEqual(visibleCategories().map((c) => c.slug));
 });
-it('Fiqh contient Akhdari avec prix et stock inconnus', async () => {
+it('un brouillon conserve prix et stock inconnus', async () => {
   const result = await catalog('fiqh');
-  expect(result).toHaveLength(1);
-  expect(result[0]).toMatchObject({
-    slug: 'mukhtasar-al-akhdari',
+  expect(result.find((p) => p.id === 'fixture-draft')).toMatchObject({
+    slug: 'fixture-draft',
     status: 'DRAFT',
     priceCents: null,
     stockOnHand: null,
@@ -45,7 +59,7 @@ it('un brouillon forcé dans le checkout ne crée ni commande ni réservation', 
   const before = [await db.order.count(), await db.stockReservation.count()];
   await expect(
     reserveOrder({
-      items: [{ productId: 'mukhtasar-al-akhdari', quantity: 1 }],
+      items: [{ productId: 'fixture-draft', quantity: 1 }],
       email: 'fixture@example.com',
       recipient: 'Client fictif',
       address: '1 rue fictive',
@@ -58,9 +72,9 @@ it('un brouillon forcé dans le checkout ne crée ni commande ni réservation', 
 });
 it('la contrainte SQL refuse un faux prix sur le brouillon', async () => {
   await expect(
-    db.catalogDraft.update({ where: { id: 'mukhtasar-al-akhdari' }, data: { priceCents: 0 } }),
+    db.catalogDraft.update({ where: { id: 'fixture-draft' }, data: { priceCents: 0 } }),
   ).rejects.toThrow();
   expect(
-    (await db.catalogDraft.findUniqueOrThrow({ where: { id: 'mukhtasar-al-akhdari' } })).priceCents,
+    (await db.catalogDraft.findUniqueOrThrow({ where: { id: 'fixture-draft' } })).priceCents,
   ).toBeNull();
 });

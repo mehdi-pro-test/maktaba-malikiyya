@@ -1,0 +1,22 @@
+name: Sauvegarde Neon quotidienne
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: neon-backup-production
+  cancel-in-progress: false
+jobs:
+  backup:
+    if: vars.BACKUPS_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NEON_API_KEY: ${{ secrets.NEON_API_KEY }}
+      NEON_PROJECT_ID: sparkling-sky-87954967
+      NEON_PRODUCTION_BRANCH_ID: br-soft-star-b8w9q232
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/neon-backup.py --source "$NEON_PRODUCTION_BRANCH_ID"

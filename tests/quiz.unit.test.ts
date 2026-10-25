@@ -7,9 +7,11 @@ import { QuizGame } from '../src/components/quiz-game';
 import { shippingProgress } from '../src/lib/shipping-progress';
 const all = publishedQuestions(source);
 describe('Quiz éditorial approuvé', () => {
-  it('charge exactement les deux questions valides, jamais les huit brouillons', () => {
+  it('charge dix questions complètes et les huit nouvelles ont leurs sources', () => {
     expect(source.questions).toHaveLength(10);
-    expect(all.map((q) => q.id)).toEqual(['q01', 'q02']);
+    expect(all).toHaveLength(10);
+    expect(all.slice(2).every((q) => q.sources?.length)).toBe(true);
+    expect(quizScore(all, Object.fromEntries(all.map((q) => [q.id, q.correctOptionIds])))).toBe(10);
   });
   it('valide les quatre imams sans importance de l’ordre', () => {
     expect(isCorrect(all[0], ['ahmad', 'shafii', 'malik', 'abu-hanifa'])).toBe(true);

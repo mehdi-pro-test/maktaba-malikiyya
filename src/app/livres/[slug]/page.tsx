@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation';
+import { productEditions } from '@/data/product-details';
 import Link from 'next/link';
 import { catalog } from '@/lib/catalog';
 import { money } from '@/lib/rules';
@@ -70,8 +71,10 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
             {p.priceCents === null ? 'Prix à venir' : money(p.priceCents)}
           </p>
           <p>
-            Un ouvrage pour accompagner votre cheminement dans les sciences islamiques. Les
-            informations d’édition seront précisées ultérieurement.
+            Un ouvrage pour accompagner votre cheminement dans les sciences islamiques.{' '}
+            {productEditions[p.id]
+              ? `Édition : ${productEditions[p.id]}.`
+              : 'Les informations d’édition seront précisées ultérieurement.'}
           </p>
           {p.status === 'DRAFT' ? (
             <div className="draft-message">

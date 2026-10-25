@@ -5,6 +5,21 @@ import { ArrowRight, BookOpen, RotateCcw, Sparkles, Check, X } from 'lucide-reac
 import type { QuizQuestion as Question } from '@/lib/quiz';
 import { visibleCategories } from '@/data/categories';
 import { isCorrect, quizScore } from '@/lib/quiz';
+function QuestionSources({ question }: { question: Question }) {
+  return question.sources?.length ? (
+    <p className="muted">
+      Sources :{' '}
+      {question.sources.map((source, index) => (
+        <span key={source.url}>
+          {index > 0 && ' · '}
+          <a href={source.url} target="_blank" rel="noopener noreferrer">
+            {source.title}
+          </a>
+        </span>
+      ))}
+    </p>
+  ) : null;
+}
 function ArabicText({ text }: { text: string }) {
   return (
     <>
@@ -70,7 +85,7 @@ function QuizQuestion({
           ? `Choix multiples : sélectionner ${question.requiredSelectionCount} réponses`
           : 'Choisir une réponse'
       }
-      className={`quiz-choices ${question.type === 'single' ? 'quiz-number-choices' : ''}`}
+      className={`quiz-choices ${question.type === 'single' && question.options.every((option) => /^\d+$/.test(option.label)) ? 'quiz-number-choices' : ''}`}
     >
       {question.options.map((option, index) => {
         const picked = selected.includes(option.id);
@@ -155,6 +170,7 @@ function QuizResults({
             <p>
               <ArabicText text={q.explanationFr} />
             </p>
+            <QuestionSources question={q} />
           </article>
         ))}
       </div>
@@ -178,7 +194,10 @@ export function QuizGame({ questions }: { questions: Question[] }) {
   const [finished, setFinished] = useState(false);
   const heading = useRef<HTMLHeadingElement>(null);
   useEffect(() => {
-    if (started && !finished) heading.current?.focus();
+    if (started && !finished) {
+      heading.current?.focus({ preventScroll: true });
+      heading.current?.scrollIntoView({ behavior: 'instant', block: 'start' });
+    }
   }, [started, index, finished]);
   if (!questions.length)
     return (
@@ -263,6 +282,7 @@ export function QuizGame({ questions }: { questions: Question[] }) {
           <p>
             <ArabicText text={q.explanationFr} />
           </p>
+          <QuestionSources question={q} />
         </div>
       )}
       <div className="quiz-bottom">

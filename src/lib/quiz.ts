@@ -9,6 +9,17 @@ const questionSchema = z
     id: z.string().min(1),
     status: z.literal('published'),
     category: z.string().min(1),
+    sources: z
+      .array(
+        z.object({
+          title: z.string().min(1),
+          url: z
+            .string()
+            .url()
+            .refine((value) => value.startsWith('https://')),
+        }),
+      )
+      .optional(),
     order: z.number().int(),
     type: z.enum(['single', 'multiple']),
     promptFr: z.string().min(1),
