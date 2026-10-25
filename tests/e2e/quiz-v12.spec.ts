@@ -117,7 +117,8 @@ test('Ancienne adresse redirigée, aucun accès au classique et accueil actualis
   await expect(page.getByRole('heading', { name: 'Les quiz par niveau.' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Commencer le quiz' })).toHaveCount(0);
   await page.goto('/');
-  await expect(page.getByText('150 questions disponibles.', { exact: true })).toBeVisible();
+  await expect(page.locator('.quiz-teaser')).toContainText('15 quiz par niveau et par ouvrage');
+  await expect(page.locator('.quiz-teaser')).toContainText('150 questions disponibles.');
   await page.getByRole('link', { name: 'Découvrir les quiz', exact: true }).click();
   await expect(page).toHaveURL(/\/quiz\/niveaux$/);
 });
