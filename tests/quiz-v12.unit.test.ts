@@ -1,4 +1,5 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
+import original from '../docs/quiz-v1.2/recherche/banque-150-questions.json';
 import raw from '../src/data/quiz-v1.2/research.json';
 import reports from '../src/data/quiz-v1.2/reviews.json';
 import {
@@ -20,16 +21,53 @@ describe('Banque V1.2 et publication', () => {
     for (const b of bank.books)
       expect(bank.questions.filter((q) => q.bookId === b.id)).toHaveLength(10);
   });
-  it('ne rend aucun lot réel jouable et ne projette aucune correction au public', () => {
+  it('active les quinze lots approuvés et conserve les 150 contenus originaux', () => {
     const report = validateReviewReport(bank, reports);
-    const pub = publicLibrary(bank, report);
+    expect(report.reviews).toHaveLength(150);
+    expect(publicLibrary(bank, report).filter((b) => b.available)).toHaveLength(15);
+    for (const b of bank.books) expect(playableBook(bank, report, b.level, b.id)).toHaveLength(10);
+    expect(bank.sources).toEqual(original.sources);
+    const content = (q: (typeof bank.questions)[number]) => {
+      return Object.fromEntries(
+        Object.entries(q).filter(([key]) => !['status', 'scholarlyReview'].includes(key)),
+      );
+    };
+    expect(bank.questions.map(content)).toEqual(
+      original.questions.map((q) => {
+        return Object.fromEntries(
+          Object.entries(q).filter(([key]) => !['status', 'scholarlyReview'].includes(key)),
+        );
+      }),
+    );
+  });
+  it('maintient les lots non approuvés fermés et ne projette aucune correction au catalogue', () => {
+    const unreviewed = researchBankSchema.parse(original);
+    const report = validateReviewReport(unreviewed, { schemaVersion: '1.2-review-1', reviews: [] });
+    const pub = publicLibrary(unreviewed, report);
     expect(pub.filter((b) => b.available)).toHaveLength(0);
-    for (const b of bank.books) expect(playableBook(bank, report, b.level, b.id)).toEqual([]);
-    const payload = JSON.stringify(pub);
-    for (const q of bank.questions) {
-      expect(payload).not.toContain(q.questionFr);
-      expect(payload).not.toContain(q.explanationFr);
-      expect(payload).not.toContain(q.references[0].quoteAr);
+    for (const b of unreviewed.books)
+      expect(playableBook(unreviewed, report, b.level, b.id)).toEqual([]);
+    for (const data of [pub, publicLibrary(bank, validateReviewReport(bank, reports))]) {
+      const payload = JSON.stringify(data);
+      for (const q of bank.questions) {
+        expect(payload).not.toContain(q.questionFr);
+        expect(payload).not.toContain(q.explanationFr);
+        expect(payload).not.toContain(q.references[0].quoteAr);
+      }
+    }
+  });
+  it('accepte une validation datée du jour en France après minuit même si UTC est encore la veille', () => {
+    vi.useFakeTimers();
+    try {
+      vi.setSystemTime(new Date('2026-10-25T23:30:00Z'));
+      const f = fixtureBank();
+      const report = fixtureReport(f);
+      report.reviews.forEach((r) => (r.reviewedAt = '2026-10-26'));
+      expect(() => validateReviewReport(f, report)).not.toThrow();
+      report.reviews[0].reviewedAt = '2026-10-27';
+      expect(() => validateReviewReport(f, report)).toThrow(/Date/);
+    } finally {
+      vi.useRealTimers();
     }
   });
   it.each([

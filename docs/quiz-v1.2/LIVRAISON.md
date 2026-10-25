@@ -1,4 +1,6 @@
-# V1.2 — audit, recette et livraison
+# V1.2 — audit et livraison initiale avant validation
+
+**Historique :** ce rapport décrit l’état initial de la PR, avant l’accord humain. L’état courant et les contrôles d’activation sont dans [ACTIVATION-2026-10-26.md](ACTIVATION-2026-10-26.md).
 
 ## Audit initial
 

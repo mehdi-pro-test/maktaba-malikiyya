@@ -4,12 +4,12 @@
 
 La recherche jointe est importée : 150 questions complètes réparties en quinze ouvrages, cinq parcours. L’import conserve les textes, IDs, options, réponses, explications et références ; le test unitaire compare les données parsées à la banque d’origine. La copie source est conservée dans `recherche/` avec son registre et ses empreintes d’origine. Ce répertoire d’archive est exclu du reformatage ; les documents historiques de cahier des charges sont conservés à sa racine.
 
-Les quinze lots restent **en préparation** : zéro décision humaine approuvée. L’application ne reçoit aucune fausse validation ; les données réelles ne sont pas remplacées par des fixtures.
+Les quinze lots sont activés après la confirmation explicite de relecture humaine du propriétaire le 26/10/2026. Voir `ACTIVATION-2026-10-26.md` pour la provenance de cette décision et le tableau courant. Les données réelles ne sont pas remplacées par des fixtures.
 
 ## Contrats et frontières
 
 - `src/data/quiz-v1.2/research.json` : banque de recherche inchangée sur le fond.
-- `src/data/quiz-v1.2/reviews.json` : rapport indépendant, actuellement vide.
+- `src/data/quiz-v1.2/reviews.json` : rapport indépendant contenant les 150 décisions approuvées sur déclaration du propriétaire.
 - `src/lib/quiz-v12.ts` : validation Zod stricte, contrôles croisés, empreinte canonique, contrôle du rapport, projection publique et adaptation au moteur historique.
 - `src/lib/quiz-v12-data.ts` : chargement **server-only**. Les pages de préparation n’envoient au navigateur que les métadonnées du catalogue, jamais les questions et leurs réponses.
 - `src/lib/quiz.ts` : API historique conservée ; seul le contrat optionnel des références détaillées a été ajouté.
@@ -44,7 +44,7 @@ Import d’un rapport déjà relu et validé :
 npx tsx scripts/quiz-review.ts /chemin/rapport.json --import
 ```
 
-Une seule décision par question est permise. Les dates antérieures à la constitution de la banque et futures sont refusées ; une question inconnue ou une empreinte différente bloque le rapport. Une décision rejetée ou demandant des corrections ne vaut jamais approbation.
+Une seule décision par question est permise. Les dates antérieures à la constitution de la banque et futures selon le jour civil en `Europe/Paris` sont refusées ; une question inconnue ou une empreinte différente bloque le rapport. Une décision rejetée ou demandant des corrections ne vaut jamais approbation.
 
 Préparer la version candidate avant son envoi au relecteur, y compris les statuts de publication envisagés. Il faut dix questions du livre approuvées pour cette empreinte exacte, les statuts `published` du livre et des dix questions, et `publicationAllowed: true` pour que le lot soit jouable. Les métadonnées `scholarlyReview` issues de la recherche ne suffisent jamais à ouvrir un lot. L’import du rapport ne modifie pas silencieusement les questions ni les statuts. Ne pas changer les statuts après signature sans une nouvelle revue portant sur la nouvelle empreinte.
 

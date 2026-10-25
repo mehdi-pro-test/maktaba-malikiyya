@@ -1,9 +1,9 @@
 {
   "schemaVersion": "1.2-research-1",
   "createdAt": "2026-10-25",
-  "status": "review",
-  "publicationAllowed": false,
-  "notice": "150 questions rédigées et appuyées sur des passages consultés ; relecture humaine compétente non effectuée. Aucun quiz V1.2 publié par ce dossier.",
+  "status": "published",
+  "publicationAllowed": true,
+  "notice": "150 questions approuvées par le propriétaire après sa confirmation explicite de relecture humaine le 26/10/2026. Aucun nom ni qualification de relecteur indépendant n’est revendiqué. Activation applicative sur la branche V1.2 ; mise en Production soumise à un accord distinct.",
   "books": [
     {
       "id": "moukhtassar-al-akhdari",
@@ -11,9 +11,9 @@
       "titleAr": "مختصر الأخضري",
       "authorAr": "عبد الرحمن الأخضري",
       "defaultSectionAr": "فصل فرائض الوضوء وسننه وفضائله",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "matn-ibn-ashir",
@@ -21,9 +21,9 @@
       "titleAr": "المرشد المعين على الضروري من علوم الدين",
       "authorAr": "عبد الواحد بن عاشر",
       "defaultSectionAr": "كتاب الطهارة",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "al-achmawiyya",
@@ -31,9 +31,9 @@
       "titleAr": "المقدمة العشماوية",
       "authorAr": "عبد الباري العشماوي",
       "defaultSectionAr": "أبواب الوضوء والغسل والتيمم",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "al-mouqaddima-al-izziyya",
@@ -41,9 +41,9 @@
       "titleAr": "المقدمة العزية للجماعة الأزهرية",
       "authorAr": "علي بن محمد المنوفي الشاذلي",
       "defaultSectionAr": "الباب الأول في الطهارة",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "ashal-al-masalik",
@@ -51,9 +51,9 @@
       "titleAr": "أسهل المسالك في مذهب الإمام مالك",
       "authorAr": "محمد البشار",
       "defaultSectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "ar-risala-ibn-abi-zayd",
@@ -61,9 +61,9 @@
       "titleAr": "الرسالة",
       "authorAr": "عبد الله بن أبي زيد القيرواني",
       "defaultSectionAr": "باب صفة الوضوء ومسنونه ومفروضه وذكر الاستنجاء والاستجمار",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "moukhtassar-khalil",
@@ -71,9 +71,9 @@
       "titleAr": "مختصر خليل",
       "authorAr": "خليل بن إسحاق الجندي",
       "defaultSectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "sharh-al-dardir",
@@ -81,9 +81,9 @@
       "titleAr": "الشرح الكبير على مختصر خليل",
       "authorAr": "أحمد بن محمد الدردير",
       "defaultSectionAr": "فرائض الوضوء: غسل الوجه",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "hashiyat-al-dasuqi",
@@ -91,9 +91,9 @@
       "titleAr": "حاشية الدسوقي على الشرح الكبير",
       "authorAr": "محمد بن أحمد الدسوقي",
       "defaultSectionAr": "الطهارة: الماء المطلق وحدود غسل الوجه",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "bidayat-al-mujtahid",
@@ -101,9 +101,9 @@
       "titleAr": "بداية المجتهد ونهاية المقتصد",
       "authorAr": "محمد بن أحمد بن رشد الحفيد",
       "defaultSectionAr": "كتاب الوضوء: أسباب اختلاف الفقهاء في أركانه وصفته",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "al-istidhkar",
@@ -111,9 +111,9 @@
       "titleAr": "الاستذكار",
       "authorAr": "يوسف بن عبد الله بن عبد البر",
       "defaultSectionAr": "كتاب الطهارة: باب العمل في الوضوء",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "issal-as-salik",
@@ -121,9 +121,9 @@
       "titleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
       "authorAr": "محمد يحيى بن محمد المختار الولاتي",
       "defaultSectionAr": "شرح أدلة المذهب: النص والظاهر ودليل الخطاب وتنبيه الخطاب",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "al-waraqat-sharh-al-hattab",
@@ -131,9 +131,9 @@
       "titleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
       "authorAr": "عبد الملك الجويني (المتن)؛ محمد بن محمد بن عبد الرحمن الحطاب الرعيني (الشرح)",
       "defaultSectionAr": "تعريف الأصل والفرع والأحكام الشرعية",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "murtaqa-al-wusul",
@@ -141,9 +141,9 @@
       "titleAr": "مرتقى الوصول إلى علم الأصول",
       "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
       "defaultSectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     },
     {
       "id": "maraqi-as-suud",
@@ -151,9 +151,9 @@
       "titleAr": "مراقي السعود لمبتغي الرقي والصعود",
       "authorAr": "عبد الله بن الحاج إبراهيم العلوي الشنقيطي",
       "defaultSectionAr": "الحكم التكليفي وخطاب الوضع والشرط والركن",
-      "status": "review",
-      "reviewer": null,
-      "reviewedAt": null
+      "status": "published",
+      "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26"
     }
   ],
   "sources": [
@@ -460,7 +460,7 @@
       "id": "moukhtassar-al-akhdari-01",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Combien d’obligations des ablutions al-Akhḍarī énumère-t-il ?",
       "options": [
         {
@@ -499,17 +499,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-02",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut donne-t-il à l’intention au wuḍūʾ ?",
       "options": [
         {
@@ -548,17 +548,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-03",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel membre est essuyé, plutôt que lavé, dans la liste des obligations ?",
       "options": [
         {
@@ -597,17 +597,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-04",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Jusqu’à quelle limite le texte décrit-il le lavage des bras ?",
       "options": [
         {
@@ -646,17 +646,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-05",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut le matn attribue-t-il au frottement des membres (dalk) ?",
       "options": [
         {
@@ -695,17 +695,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-06",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que désigne le fawr, cité parmi les obligations ?",
       "options": [
         {
@@ -744,17 +744,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-07",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut le rinçage de la bouche reçoit-il dans cette liste ?",
       "options": [
         {
@@ -793,17 +793,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-08",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut reçoit l’essuyage des oreilles ?",
       "options": [
         {
@@ -842,17 +842,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-09",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment al-Akhḍarī classe-t-il le siwāk dans ce passage ?",
       "options": [
         {
@@ -891,17 +891,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-al-akhdari-10",
       "bookId": "moukhtassar-al-akhdari",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel comportement envers l’eau figure parmi les actes méritoires ?",
       "options": [
         {
@@ -940,17 +940,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-01",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel nombre de sunnas du wuḍūʾ Ibn ʿĀshir annonce-t-il ?",
       "options": [
         {
@@ -989,17 +989,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-02",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans quel groupe le poème place-t-il l’ordre des actes obligatoires du wuḍūʾ ?",
       "options": [
         {
@@ -1038,17 +1038,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-03",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment est classée la basmala dans les vers sur le wuḍūʾ ?",
       "options": [
         {
@@ -1087,17 +1087,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-04",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que recommande le poème concernant les deuxièmes et troisièmes lavages ?",
       "options": [
         {
@@ -1136,17 +1136,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-05",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Par quelle partie de la tête est-il recommandé de commencer l’essuyage ?",
       "options": [
         {
@@ -1185,17 +1185,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-06",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut le poème donne-t-il au passage de l’eau entre les orteils ?",
       "options": [
         {
@@ -1234,17 +1234,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-07",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel sommeil est explicitement cité parmi les annulatifs du wuḍūʾ ?",
       "options": [
         {
@@ -1283,17 +1283,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-08",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si les poils du visage sont clairsemés et laissent voir la peau, que demande le poème ?",
       "options": [
         {
@@ -1332,17 +1332,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-09",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle eau le vers écarte-t-il explicitement lorsqu’une impureté l’a altérée ?",
       "options": [
         {
@@ -1381,17 +1381,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "matn-ibn-ashir-10",
       "bookId": "matn-ibn-ashir",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que recommande le vers pour les endroits du corps difficiles à atteindre lors du ghusl ?",
       "options": [
         {
@@ -1430,17 +1430,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-01",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "En combien de catégories l’Achmawiyya répartit-elle les annulatifs du wuḍūʾ ?",
       "options": [
         {
@@ -1479,17 +1479,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-02",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Parmi ces émissions, laquelle est explicitement citée comme annulatif ?",
       "options": [
         {
@@ -1528,17 +1528,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-03",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle étendue de la tête le matn demande-t-il d’essuyer au wuḍūʾ ?",
       "options": [
         {
@@ -1577,17 +1577,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-04",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Combien d’obligations du ghusl le matn énumère-t-il ?",
       "options": [
         {
@@ -1626,17 +1626,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-05",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans le ghusl, l’eau doit-elle atteindre tout le corps ?",
       "options": [
         {
@@ -1675,17 +1675,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-06",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut le rinçage de la bouche reçoit-il dans le chapitre du ghusl ?",
       "options": [
         {
@@ -1724,17 +1724,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-07",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le frottement de tout le corps appartient-il aux obligations du ghusl dans ce matn ?",
       "options": [
         {
@@ -1773,17 +1773,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-08",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que demande le texte pour les cheveux lors du ghusl ?",
       "options": [
         {
@@ -1822,17 +1822,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-09",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le lavage initial des mains jusqu’aux poignets est-il cité dans les sunnas du ghusl ?",
       "options": [
         {
@@ -1871,17 +1871,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-achmawiyya-10",
       "bookId": "al-achmawiyya",
       "level": "debutant",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle continuité le matn cite-t-il parmi les obligations du ghusl ?",
       "options": [
         {
@@ -1920,17 +1920,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-01",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le matn définit-il l’eau ṭahūr ?",
       "options": [
         {
@@ -1969,17 +1969,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-02",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle eau est citée parmi les exemples d’eau purifiante ?",
       "options": [
         {
@@ -2018,17 +2018,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-03",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quels trois caractères de l’eau sont examinés dans le passage ?",
       "options": [
         {
@@ -2067,17 +2067,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-04",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel exemple de substance pure, habituellement séparable de l’eau, le matn donne-t-il ?",
       "options": [
         {
@@ -2116,17 +2116,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-05",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si le lait altère réellement l’un des trois caractères de l’eau dans le cas décrit, quel statut donne le matn au mélange ?",
       "options": [
         {
@@ -2165,17 +2165,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-06",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel statut reçoit l’eau dont un caractère est altéré par une impureté telle que l’urine ?",
       "options": [
         {
@@ -2214,17 +2214,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-07",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "L’altération par la terre du lit de l’eau retire-t-elle ici son pouvoir purifiant ?",
       "options": [
         {
@@ -2263,17 +2263,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-08",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "L’altération naturelle par des algues issues de l’eau est-elle traitée comme le mélange de lait ?",
       "options": [
         {
@@ -2312,17 +2312,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-09",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le seul séjour prolongé de l’eau, dans le cas mentionné, lui retire-t-il son pouvoir purifiant ?",
       "options": [
         {
@@ -2361,17 +2361,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-mouqaddima-al-izziyya-10",
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si une impureté tombe dans une petite quantité d’eau sans la modifier, que dit ici le matn lorsque l’on dispose d’une autre eau ?",
       "options": [
         {
@@ -2410,17 +2410,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-01",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le poème compte-t-il les obligations du wuḍūʾ ?",
       "options": [
         {
@@ -2459,17 +2459,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-02",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le poème demande-t-il l’essuyage de toute la tête ?",
       "options": [
         {
@@ -2508,17 +2508,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-03",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le poème compte-t-il les sunnas du wuḍūʾ dans sa propre présentation ?",
       "options": [
         {
@@ -2557,17 +2557,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-04",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le renouvellement de l’eau pour les oreilles figure-t-il dans les sunnas décrites ?",
       "options": [
         {
@@ -2606,17 +2606,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-05",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Combien d’actes méritoires des ablutions le poème annonce-t-il ?",
       "options": [
         {
@@ -2655,17 +2655,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-06",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "À quel groupe le poème rattache-t-il le siwāk ?",
       "options": [
         {
@@ -2704,17 +2704,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-07",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Par quelle zone de la tête le poème recommande-t-il de commencer l’essuyage ?",
       "options": [
         {
@@ -2753,17 +2753,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-08",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel cas de sommeil annule les ablutions dans les vers cités ?",
       "options": [
         {
@@ -2802,17 +2802,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-09",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel cas de sommeil le vers suivant n’assimile-t-il pas au sommeil profond ?",
       "options": [
         {
@@ -2851,17 +2851,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ashal-al-masalik-10",
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle perte de facultés figure parmi les causes annulant les ablutions ?",
       "options": [
         {
@@ -2900,17 +2900,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-01",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "L’istinjāʾ doit-il toujours être immédiatement suivi du wuḍūʾ ?",
       "options": [
         {
@@ -2949,17 +2949,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-02",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le nettoyage d’un vêtement souillé exige-t-il une intention rituelle pour ôter la souillure ?",
       "options": [
         {
@@ -2998,17 +2998,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-03",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le matn demande-t-il l’istinjāʾ après la seule émission d’un gaz ?",
       "options": [
         {
@@ -3047,17 +3047,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-04",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pour le nettoyage aux pierres décrit ici, quelle condition est donnée à la troisième pierre ?",
       "options": [
         {
@@ -3096,17 +3096,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-05",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel avantage pratique est donné au récipient placé à droite ?",
       "options": [
         {
@@ -3145,17 +3145,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-06",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le texte exige-t-il toujours trois rinçages de la bouche pour que l’acte soit suffisant ?",
       "options": [
         {
@@ -3194,17 +3194,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-07",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle conduite la description principale donne-t-elle pour les coudes ?",
       "options": [
         {
@@ -3243,17 +3243,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-08",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "La seule manière décrite pour essuyer la tête est-elle la seule valide ?",
       "options": [
         {
@@ -3292,17 +3292,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-09",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Lors de l’essuyage, quelles parties des oreilles la description comprend-elle ?",
       "options": [
         {
@@ -3341,17 +3341,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "ar-risala-ibn-abi-zayd-10",
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le matn traite-t-il le passage de l’eau entre les orteils dans cette description ?",
       "options": [
         {
@@ -3390,17 +3390,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-01",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel repère de largeur Khalīl donne-t-il pour le lavage du visage ?",
       "options": [
         {
@@ -3439,17 +3439,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-02",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Une implantation de cheveux atypique suffit-elle à redéfinir la limite supérieure du visage dans le qualificatif employé par Khalīl ?",
       "options": [
         {
@@ -3488,17 +3488,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-03",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel aspect de la barbe le matn nomme-t-il expressément dans le lavage du visage ?",
       "options": [
         {
@@ -3537,17 +3537,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-04",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Parmi ces zones, laquelle Khalīl demande-t-il expressément de laver dans le détail du visage ?",
       "options": [
         {
@@ -3586,17 +3586,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-05",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Les plis du front sont-ils expressément mentionnés dans le détail de Khalīl ?",
       "options": [
         {
@@ -3635,17 +3635,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-06",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel élément externe le matn cite-t-il après les plis du front ?",
       "options": [
         {
@@ -3684,17 +3684,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-07",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "La formule de Khalīl sur les bras inclut-elle les coudes dans le lavage ?",
       "options": [
         {
@@ -3733,17 +3733,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-08",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel geste Khalīl mentionne-t-il avec le lavage des mains ?",
       "options": [
         {
@@ -3782,17 +3782,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-09",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle opération le matn applique-t-il à ce qui couvre la boîte crânienne ?",
       "options": [
         {
@@ -3831,17 +3831,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "moukhtassar-khalil-10",
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans le passage sur la tête, Khalīl limite-t-il la mention aux seuls cheveux qui ne retombent pas ?",
       "options": [
         {
@@ -3880,17 +3880,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-01",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans l’explication du Dardīr, quelle implantation des cheveux sert à déterminer la limite supérieure du visage ?",
       "options": [
         {
@@ -3929,17 +3929,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-02",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que précise le Dardīr sur le lavage extérieur de la barbe ?",
       "options": [
         {
@@ -3978,17 +3978,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-03",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que signifie le takhlīl dans l’explication citée ?",
       "options": [
         {
@@ -4027,17 +4027,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-04",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans le wuḍūʾ, à quels poils le devoir de takhlīl est-il ici appliqué ?",
       "options": [
         {
@@ -4076,17 +4076,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-05",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pourquoi le Dardīr demande-t-il de dépasser légèrement la limite du visage vers la tête ?",
       "options": [
         {
@@ -4125,17 +4125,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-06",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que désigne la watara que l’explication demande de laver ?",
       "options": [
         {
@@ -4174,17 +4174,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-07",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que désignent les asārīr du front dans ce passage ?",
       "options": [
         {
@@ -4223,17 +4223,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-08",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle partie des lèvres le passage inclut-il dans le lavage du visage ?",
       "options": [
         {
@@ -4272,17 +4272,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-09",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le Dardīr assimile-t-il toute la surface frontale du lavage au point de contact du front dans la prosternation ?",
       "options": [
         {
@@ -4321,17 +4321,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "sharh-al-dardir-10",
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pour une cavité cicatrisée impossible à frotter, le commentaire dispense-t-il automatiquement d’y faire parvenir l’eau ?",
       "options": [
         {
@@ -4370,17 +4370,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-01",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle distinction permet au Dasūqī de classer l’eau de mer parmi l’eau muṭlaq ?",
       "options": [
         {
@@ -4419,17 +4419,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-02",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pourquoi l’eau de rose est-elle exclue de l’eau muṭlaq dans l’explication citée ?",
       "options": [
         {
@@ -4468,17 +4468,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-03",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si le changement de l’eau et sa cause nuisible demeurent douteux, quel principe le Dasūqī rappelle-t-il ?",
       "options": [
         {
@@ -4517,17 +4517,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-04",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans sa discussion, le Dasūqī présente-t-il la règle sur l’eau peu abondante et la faible impureté sans changement comme absolument unanime ?",
       "options": [
         {
@@ -4566,17 +4566,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-05",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans la glose sur les poils du visage, le seul fait de mouiller leur extérieur équivaut-il au takhlīl ?",
       "options": [
         {
@@ -4615,17 +4615,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-06",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pour la règle des poils clairsemés du visage, le Dasūqī distingue-t-il l’homme et la femme ?",
       "options": [
         {
@@ -4664,17 +4664,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-07",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment la glose décrit-elle les trois possibilités évoquées pour le sens du mot waḍūʾ ?",
       "options": [
         {
@@ -4713,17 +4713,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-08",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si une cavité cicatrisée ne peut être frottée mais peut recevoir de l’eau, que précise la glose ?",
       "options": [
         {
@@ -4762,17 +4762,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-09",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si une cavité cicatrisée est assez large pour être lavée et frottée, que précise la glose ?",
       "options": [
         {
@@ -4811,17 +4811,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "hashiyat-al-dasuqi-10",
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel principe explique la petite zone frontière lavée avec le visage et essuyée avec la tête ?",
       "options": [
         {
@@ -4860,17 +4860,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-01",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Combien de positions Ibn Rushd distingue-t-il sur le lavage des mains avant leur entrée dans le récipient ?",
       "options": [
         {
@@ -4909,17 +4909,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-02",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel avis le passage attribue-t-il à Dāwūd et ses disciples pour celui qui se réveille ?",
       "options": [
         {
@@ -4958,17 +4958,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-03",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel avis Ibn Rushd rapporte-t-il d’Aḥmad sur ce lavage au réveil ?",
       "options": [
         {
@@ -5007,17 +5007,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-04",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle interprétation du mot « bāta » contribue à limiter cet avis à la nuit ?",
       "options": [
         {
@@ -5056,17 +5056,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-05",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le passage présente-t-il le rinçage de la bouche et l’aspiration nasale dans l’avis de Mālik, al-Shāfiʿī et Abū Ḥanīfa au wuḍūʾ ?",
       "options": [
         {
@@ -5105,17 +5105,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-06",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pour expliquer la distinction entre bouche et nez chez certains juristes, quelle différence de preuve Ibn Rushd évoque-t-il ?",
       "options": [
         {
@@ -5154,17 +5154,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-07",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle ambiguïté linguistique explique une partie du débat sur l’inclusion des coudes ?",
       "options": [
         {
@@ -5203,17 +5203,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-08",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
       "options": [
         {
@@ -5252,17 +5252,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-09",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle lettre Ibn Rushd place-t-il au cœur de la divergence sur l’étendue de l’essuyage de la tête ?",
       "options": [
         {
@@ -5301,17 +5301,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "bidayat-al-mujtahid-10",
       "bookId": "bidayat-al-mujtahid",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel minimum les juristes admettent-ils pour les membres lavés, selon l’accord rapporté ici ?",
       "options": [
         {
@@ -5350,17 +5350,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-01",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel problème de transmission Ibn ʿAbd al-Barr relève-t-il dans l’identification de ʿAbd Allāh b. Zayd comme grand-père de ʿAmr ?",
       "options": [
         {
@@ -5399,17 +5399,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-02",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans le propos de Mālik rapporté ici, introduire une main effectivement propre sans lavage préalable rend-il automatiquement le wuḍūʾ invalide ?",
       "options": [
         {
@@ -5448,17 +5448,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-03",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle réserve Ibn ʿAbd al-Barr apporte-t-il au fait de dépasser trois lavages ?",
       "options": [
         {
@@ -5497,17 +5497,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-04",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le fait de frotter les dents avec le doigt est-il constitutif du rinçage buccal selon cette analyse ?",
       "options": [
         {
@@ -5546,17 +5546,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-05",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle définition le passage donne-t-il de l’istinthār ?",
       "options": [
         {
@@ -5595,17 +5595,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-06",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Selon les avis de Mālik et d’al-Shāfiʿī rapportés ici, quel statut ont le rinçage de la bouche et le nettoyage nasal dans le wuḍūʾ et le ghusl ?",
       "options": [
         {
@@ -5644,17 +5644,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-07",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle distinction le texte rapporte-t-il d’Abū Ḥanīfa sur ces deux actes ?",
       "options": [
         {
@@ -5693,17 +5693,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-08",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel fondement invoquent ceux qui distinguent le caractère obligatoire du nettoyage nasal et celui du rinçage buccal ?",
       "options": [
         {
@@ -5742,17 +5742,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-09",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel minimum suffit pour laver le visage selon l’accord rapporté par l’auteur ?",
       "options": [
         {
@@ -5791,17 +5791,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-istidhkar-10",
       "bookId": "al-istidhkar",
       "level": "ultime",
-      "status": "review",
+      "status": "published",
       "questionFr": "À quel autre de ses ouvrages Ibn ʿAbd al-Barr renvoie-t-il pour les voies du hadith et les variantes de ses rapporteurs ?",
       "options": [
         {
@@ -5840,17 +5840,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-01",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans la définition exposée par al-Walātī, à quels types de règles le fiqh s’intéresse-t-il ?",
       "options": [
         {
@@ -5889,17 +5889,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-02",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans le décompte présenté par le poème commenté, combien de preuves sont annoncées ?",
       "options": [
         {
@@ -5938,17 +5938,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-03",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le commentaire définit-il le naṣṣ ?",
       "options": [
         {
@@ -5987,17 +5987,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-04",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle caractéristique distingue le ẓāhir dans la définition donnée ?",
       "options": [
         {
@@ -6036,17 +6036,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-05",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quand le commentaire admet-il de préférer une interprétation au sens apparent ?",
       "options": [
         {
@@ -6085,17 +6085,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-06",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si une restriction décrit seulement le cas habituel, faut-il en tirer automatiquement une exclusion des autres cas ?",
       "options": [
         {
@@ -6134,17 +6134,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-07",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "La mention d’une qualité à titre de bienfait permet-elle automatiquement d’interdire ce qui n’a pas cette qualité ?",
       "options": [
         {
@@ -6183,17 +6183,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-08",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel autre contexte peut empêcher d’inférer un sens contraire d’un nombre cité ?",
       "options": [
         {
@@ -6232,17 +6232,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-09",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pourquoi le mafhūm al-muwāfaqa porte-t-il ce nom dans le commentaire ?",
       "options": [
         {
@@ -6281,17 +6281,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "issal-as-salik-10",
       "bookId": "issal-as-salik",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel type d’inférence le commentaire illustre-t-il en rapprochant l’interdiction de dire « uff » aux parents de celle de les frapper ?",
       "options": [
         {
@@ -6330,17 +6330,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-01",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle définition de l’aṣl le matn propose-t-il ?",
       "options": [
         {
@@ -6379,17 +6379,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-02",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle définition du farʿ accompagne celle de l’aṣl ?",
       "options": [
         {
@@ -6428,17 +6428,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-03",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans l’expression « uṣūl al-fiqh », quels deux sens généraux al-Ḥaṭṭāb distingue-t-il ?",
       "options": [
         {
@@ -6477,17 +6477,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-04",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le commentaire présente-t-il le fiqh comme la mémorisation de toutes les règles de manière actuellement présente à l’esprit ?",
       "options": [
         {
@@ -6526,17 +6526,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-05",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pourquoi le matn dénombre-t-il sept catégories là où le commentaire signale cinq catégories générales ?",
       "options": [
         {
@@ -6575,17 +6575,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-06",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle définition du wājib le matn donne-t-il dans ce passage ?",
       "options": [
         {
@@ -6624,17 +6624,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-07",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle différence le matn établit-il entre le mandūb et le wājib ?",
       "options": [
         {
@@ -6673,17 +6673,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-08",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans l’explication d’al-Ḥaṭṭāb, comment complète-t-on la définition du mubāḥ pour éviter d’y faire entrer interdit et déconseillé ?",
       "options": [
         {
@@ -6722,17 +6722,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-09",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle précision accompagne la récompense de l’abandon du makrūh ?",
       "options": [
         {
@@ -6771,17 +6771,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "al-waraqat-sharh-al-hattab-10",
       "bookId": "al-waraqat-sharh-al-hattab",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le commentaire distingue-t-il le contrat et l’acte cultuel dans son vocabulaire de validité ?",
       "options": [
         {
@@ -6820,17 +6820,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-01",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans la définition du poème, le fiqh porte-t-il sur les règles détaillées des branches de la Loi ?",
       "options": [
         {
@@ -6869,17 +6869,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-02",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Que désigne ici l’ensemble des preuves générales ?",
       "options": [
         {
@@ -6918,17 +6918,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-03",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Le poème exclut-il toute connaissance probable des détails du droit ?",
       "options": [
         {
@@ -6967,17 +6967,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-04",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelles disciplines le vers cite-t-il parmi les ressources des uṣūl ?",
       "options": [
         {
@@ -7016,17 +7016,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-05",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le poème décrit-il le savoir certain dans la définition citée ?",
       "options": [
         {
@@ -7065,17 +7065,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-06",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel état correspond à deux possibilités sans prépondérance ?",
       "options": [
         {
@@ -7114,17 +7114,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-07",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le poème nomme-t-il l’hypothèse prépondérante ?",
       "options": [
         {
@@ -7163,17 +7163,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-08",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel terme le poème réserve-t-il à l’hypothèse moins probable ?",
       "options": [
         {
@@ -7212,17 +7212,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-09",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel nom le vers donne-t-il à ce qui produit une connaissance probable ?",
       "options": [
         {
@@ -7261,17 +7261,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "murtaqa-al-wusul-10",
       "bookId": "murtaqa-al-wusul",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans la typologie du poème, les preuves se limitent-elles aux seules perceptions sensibles ?",
       "options": [
         {
@@ -7310,17 +7310,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-01",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel qualificatif distingue l’injonction produisant l’obligation dans le vers cité ?",
       "options": [
         {
@@ -7359,17 +7359,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-02",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quel effet le poème rattache-t-il à une demande ferme de délaisser un acte ?",
       "options": [
         {
@@ -7408,17 +7408,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-03",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Dans la définition de l’ibāḥa, quel rapport y a-t-il entre accomplir et délaisser ?",
       "options": [
         {
@@ -7457,17 +7457,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-04",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelles conditions générales du taklīf le vers mentionne-t-il ?",
       "options": [
         {
@@ -7506,17 +7506,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-05",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "À quelle catégorie appartient le discours établissant une cause, une condition ou un empêchement ?",
       "options": [
         {
@@ -7555,17 +7555,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-06",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Comment le poème traite-t-il les termes farḍ et wājib dans ce passage ?",
       "options": [
         {
@@ -7604,17 +7604,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-07",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quels termes le vers présente-t-il comme synonymes dans cette discussion ?",
       "options": [
         {
@@ -7653,17 +7653,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-08",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Si une condition nécessaire manque, que devient le conditionné selon le vers ?",
       "options": [
         {
@@ -7702,17 +7702,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-09",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Quelle distinction le poème pose-t-il entre pilier et condition ?",
       "options": [
         {
@@ -7751,17 +7751,17 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     },
     {
       "id": "maraqi-as-suud-10",
       "bookId": "maraqi-as-suud",
       "level": "usul",
-      "status": "review",
+      "status": "published",
       "questionFr": "Pour les obligations dont la validité n’exige pas d’intention, la simple exécution sans visée d’obéissance garantit-elle la récompense dans les vers cités ?",
       "options": [
         {
@@ -7800,10 +7800,10 @@
         }
       ],
       "scholarlyReview": {
-        "status": "pending",
-        "reviewer": null,
-        "reviewedAt": null,
-        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+        "status": "approved",
+        "reviewer": "mehdi-pro-test — validation déclarée dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
       }
     }
   ]

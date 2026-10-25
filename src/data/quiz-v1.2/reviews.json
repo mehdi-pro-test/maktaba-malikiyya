@@ -1,1 +1,1205 @@
-{ "schemaVersion": "1.2-review-1", "reviews": [] }
+{
+  "schemaVersion": "1.2-review-1",
+  "reviews": [
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-al-akhdari-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "matn-ibn-ashir-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-achmawiyya-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-mouqaddima-al-izziyya-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ashal-al-masalik-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "ar-risala-ibn-abi-zayd-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "moukhtassar-khalil-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "sharh-al-dardir-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "hashiyat-al-dasuqi-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "bidayat-al-mujtahid-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-istidhkar-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "issal-as-salik-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "al-waraqat-sharh-al-hattab-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "murtaqa-al-wusul-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-01",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-02",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-03",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-04",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-05",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-06",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-07",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-08",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-09",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    },
+    {
+      "bankSha256": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+      "questionId": "maraqi-as-suud-10",
+      "decision": "approved",
+      "reviewerName": "mehdi-pro-test — validation déclarée dans la conversation",
+      "reviewedAt": "2026-10-26",
+      "notes": "Validation explicite du propriétaire dans la conversation : « relecture humaine ok / je valide ». Périmètre : les 150 questions fournies. Aucune identité ou qualification de relecteur indépendant ajoutée."
+    }
+  ]
+}

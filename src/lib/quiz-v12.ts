@@ -197,7 +197,16 @@ export function validateReviewReport(bank: ResearchBank, value: unknown): Review
     if (r.bankSha256 !== digest) throw new Error('Rapport périmé : empreinte de banque différente');
     if (!bank.questions.some((q) => q.id === r.questionId))
       throw new Error('Question inconnue dans la revue');
-    if (r.reviewedAt < bank.createdAt || r.reviewedAt > new Date().toISOString().slice(0, 10))
+    if (
+      r.reviewedAt < bank.createdAt ||
+      r.reviewedAt >
+        new Intl.DateTimeFormat('en-CA', {
+          timeZone: 'Europe/Paris',
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit',
+        }).format(new Date())
+    )
       throw new Error('Date de revue incohérente');
   }
   return report;

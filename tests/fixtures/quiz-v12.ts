@@ -2,12 +2,14 @@
 import raw from '../../src/data/quiz-v1.2/research.json';
 import { researchBankSchema, bankDigest, type ReviewReport } from '../../src/lib/quiz-v12';
 export function fixtureBank() {
-  const data = structuredClone(raw);
+  const data = researchBankSchema.parse(structuredClone(raw));
   data.publicationAllowed = true;
   for (const [index, b] of data.books.entries()) {
     b.titleAr = `كتاب تجريبي ${index + 1}`;
     b.authorAr = 'مؤلف تجريبي';
-    if (index === 0) b.status = 'published';
+    b.status = index === 0 ? 'published' : 'review';
+    b.reviewer = null;
+    b.reviewedAt = null;
   }
   for (const s of data.sources) {
     s.url = `https://example.test/ar/${s.id}`;
@@ -21,7 +23,13 @@ export function fixtureBank() {
     );
     q.correctOptionId = 'a';
     q.explanationFr = 'Correction fictive réservée au test du moteur.';
-    if (q.bookId === data.books[0].id) q.status = 'published';
+    q.status = q.bookId === data.books[0].id ? 'published' : 'review';
+    q.scholarlyReview = {
+      status: 'pending',
+      reviewer: null,
+      reviewedAt: null,
+      notes: 'Fixture synthétique uniquement.',
+    };
     for (const r of q.references) {
       r.workTitleAr = b.titleAr;
       r.authorAr = b.authorAr;
