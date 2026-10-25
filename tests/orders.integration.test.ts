@@ -314,4 +314,17 @@ describe('Commandes réelles en PostgreSQL, prestataires simulés', () => {
     expect((await checkout(request('x'.repeat(12001)))).status).toBe(413);
     expect(await db.order.count()).toBe(0);
   });
+  it('refuse le checkout sans webhook configuré avant toute réservation', async () => {
+    vi.stubEnv('STRIPE_WEBHOOK_SECRET', '');
+    const response = await checkout(
+      new Request('http://localhost:3000/api/checkout', {
+        method: 'POST',
+        headers: { origin: 'http://localhost:3000' },
+        body: JSON.stringify(input()),
+      }),
+    );
+    expect(response.status).toBe(503);
+    expect(await db.order.count()).toBe(0);
+    expect(await db.stockReservation.count()).toBe(0);
+  });
 });

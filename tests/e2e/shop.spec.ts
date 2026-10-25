@@ -27,8 +27,10 @@ test('Découverte, panier, livraison et formulaire invité', async ({ page }) =>
   await page.getByLabel('Code postal').fill('75001');
   await page.getByLabel('Ville', { exact: true }).fill('Paris');
   // No Stripe credentials in this browser suite: verify honest disabled integration response.
-  await page.getByRole('button', { name: 'Payer par carte (test)' }).click();
-  await expect(page.getByRole('main').getByRole('alert')).toContainText('clé Stripe de test');
+  await expect(page.getByRole('button', { name: 'Payer par carte (test)' })).toBeDisabled();
+  await expect(page.getByRole('main').getByRole('alert')).toContainText(
+    'paiement de test n’est pas encore disponible',
+  );
   const overflow = await page.evaluate(
     () => document.documentElement.scrollWidth > window.innerWidth,
   );
@@ -36,7 +38,8 @@ test('Découverte, panier, livraison et formulaire invité', async ({ page }) =>
 });
 test('Catégories, fiche et suppression du panier', async ({ page }) => {
   await page.goto('/hadith');
-  await expect(page.getByRole('heading', { name: 'Les sciences du hadith' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Catégorie Hadith' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Coran (Moshaf)', exact: true })).toHaveCount(0);
   await page.getByRole('link', { name: 'Sahih al-Bukhari', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Sahih al-Bukhari' })).toBeVisible();
   await page.getByRole('button', { name: 'Ajouter au panier' }).click();

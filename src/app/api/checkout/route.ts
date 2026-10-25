@@ -7,13 +7,21 @@ import { readLimitedBody } from '@/lib/request';
 export const runtime = 'nodejs';
 export async function POST(request: Request) {
   try {
-    const origin = appUrl();
+    const origin = appUrl(request.headers.get('origin') ?? undefined);
     if (request.headers.get('origin') !== origin)
       return NextResponse.json({ error: 'Origine de la demande refusée.' }, { status: 403 });
     const body = await readLimitedBody(request, 12000);
     if (body.length > 12000)
       return NextResponse.json({ error: 'Demande trop volumineuse.' }, { status: 413 });
     const stripe = stripeClient(); // Fail BEFORE reserving inventory if credentials missing/live.
+    if (!process.env.STRIPE_WEBHOOK_SECRET)
+      return NextResponse.json(
+        {
+          error:
+            'Le paiement de test est momentanément indisponible. Veuillez réessayer plus tard.',
+        },
+        { status: 503 },
+      );
     const { order, token } = await reserveOrder(JSON.parse(body));
     const session = await stripe.checkout.sessions.create(
       {

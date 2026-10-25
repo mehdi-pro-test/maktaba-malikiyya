@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { shipping, checkoutSchema, money } from '../src/lib/rules';
-import { stripeClient, appUrl } from '../src/lib/payments';
+import { stripeClient, appUrl, checkoutAvailable } from '../src/lib/payments';
 import { vi, afterEach } from 'vitest';
 afterEach(() => vi.unstubAllEnvs());
 describe('Livraison en centimes', () => {
@@ -74,5 +74,35 @@ describe('Validation & mode test', () => {
     vi.stubEnv('APP_URL', 'http://example.com');
     expect(() => appUrl()).toThrow();
   });
+  it('utilise automatiquement le domaine Vercel sans APP_URL', () => {
+    vi.stubEnv('APP_URL', '');
+    vi.stubEnv('VERCEL', '1');
+    vi.stubEnv('VERCEL_URL', 'boutique-preview.vercel.app');
+    expect(appUrl()).toBe('https://boutique-preview.vercel.app');
+  });
+  it('accepte sa preview Vercel mais jamais un domaine provenant uniquement du navigateur', () => {
+    vi.stubEnv('APP_URL', 'https://boutique.example');
+    vi.stubEnv('VERCEL', '1');
+    vi.stubEnv('VERCEL_URL', 'boutique-preview.vercel.app');
+    expect(appUrl('https://boutique-preview.vercel.app')).toBe(
+      'https://boutique-preview.vercel.app',
+    );
+    expect(appUrl('https://evil.example')).toBe('https://boutique.example');
+  });
+  it('ignore les variables Vercel hors de la plateforme', () => {
+    vi.stubEnv('APP_URL', '');
+    vi.stubEnv('VERCEL', '');
+    vi.stubEnv('VERCEL_URL', 'untrusted.example');
+    expect(appUrl()).toBe('http://localhost:3000');
+  });
   it('formate EUR', () => expect(money(1000)).toContain('10,00'));
+  it('annonce le paiement disponible uniquement avec clé test et signature webhook', () => {
+    vi.stubEnv('STRIPE_SECRET_KEY', 'sk_test_OFFLINE_TEST_FIXTURE');
+    vi.stubEnv('STRIPE_WEBHOOK_SECRET', '');
+    expect(checkoutAvailable()).toBe(false);
+    vi.stubEnv('STRIPE_WEBHOOK_SECRET', 'whsec_OFFLINE_TEST_FIXTURE');
+    expect(checkoutAvailable()).toBe(true);
+    vi.stubEnv('STRIPE_SECRET_KEY', 'sk_live_OFFLINE_TEST_FIXTURE');
+    expect(checkoutAvailable()).toBe(false);
+  });
 });

@@ -17,10 +17,12 @@ export function CartCheckout({
   products,
   allowed,
   checkout = false,
+  paymentAvailable = true,
 }: {
   products: Book[];
   allowed: string[];
   checkout?: boolean;
+  paymentAvailable?: boolean;
 }) {
   const { items, setQuantity } = useCart();
   const [country, setCountry] = useState(allowed.includes('FR') ? 'FR' : (allowed[0] ?? ''));
@@ -119,6 +121,12 @@ export function CartCheckout({
             <strong>Paiement en mode test — aucun débit réel</strong>
             <span>Utilisez uniquement des coordonnées fictives et une carte de test Stripe.</span>
           </div>
+          {!paymentAvailable && (
+            <div className="form-error" role="alert">
+              Le paiement de test n’est pas encore disponible sur ce site. Vous pouvez préparer
+              votre panier ; la commande sera possible dès l’activation du paiement.
+            </div>
+          )}
           <h2>Vos coordonnées</h2>
           <label>
             E-mail
@@ -191,7 +199,7 @@ export function CartCheckout({
               {error}
             </p>
           )}
-          <Button disabled={busy || invalid} type="submit">
+          <Button disabled={busy || invalid || !paymentAvailable} type="submit">
             {busy ? 'Préparation du paiement…' : 'Payer par carte (test)'} <ArrowRight size={16} />
           </Button>
         </form>

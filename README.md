@@ -17,7 +17,7 @@ npm run db:seed
 npm run dev
 ```
 
-Ouvrir le serveur sur le port 3000. Le catalogue, les catégories, les fiches, le panier persistant et le formulaire invité fonctionnent sans clé de paiement. Le bouton de paiement signale explicitement une configuration manquante ; il ne simule pas un paiement réussi. N’utiliser que des coordonnées fictives.
+Ouvrir le serveur sur le port 3000. Le catalogue, les catégories, les fiches, le panier persistant et le formulaire invité fonctionnent sans clé de paiement. Le formulaire signale avant soumission si la clé Stripe de test ou le secret webhook manque ; le bouton est alors désactivé. Aucune commande ni paiement réussi n’est simulé. N’utiliser que des coordonnées fictives.
 
 Le fichier `.env` est chargé par Next et `dotenv` pour les scripts. Ne jamais commiter les valeurs privées. L’authentification PostgreSQL `trust` de Compose est réservée à la machine locale et au port loopback, jamais à une base distante.
 
@@ -91,18 +91,11 @@ Pour une évolution du schéma, générer et relire une nouvelle migration SQL a
 
 ## GitHub et Vercel
 
-Branche locale : `feat/boutique-v1`. Dépôt cible **privé** : `mehdi-pro-test/maktaba-malikiya`. L’API GitHub de l’environnement a répondu `Forbidden` à la lecture et à la création ; aucun autre dépôt n’a été modifié, aucun push n’est annoncé.
+Dépôt : https://github.com/mehdi-pro-test/maktaba-malikiyya. Le projet a été poussé sur `main` et `feat/boutique-v1`. Le dépôt a été créé par le propriétaire ; la tentative de passage en privé via l’intégration a été refusée, sa visibilité est à vérifier dans GitHub. Aucun autre dépôt n’a été modifié.
 
-Après obtention d’un accès adapté, vérifier d’abord que le dépôt cible n’existe pas, puis :
+La boutique est déployée à l’adresse fournie par le propriétaire : https://maktaba-malikiyya.vercel.app. Un statut de build Vercel réussi a été constaté ; cela ne valide pas la base distante, les paiements ou les e-mails. La CI est livrée, son résultat hébergé doit être vérifié dans Actions. Utiliser la branche de développement pour les changements et configurer les protections de branche selon les accès disponibles.
 
-```sh
-gh repo create mehdi-pro-test/maktaba-malikiya --private --source=. --remote=origin
-git push -u origin feat/boutique-v1
-```
-
-Faire passer la CI sur cette branche avant de créer/fusionner la branche `main` et configurer les protections de branche dans GitHub (checks requis, PR, interdiction des force-push). Le workflow est livré ; son exécution hébergée n’est pas attestée tant qu’il n’est pas publié.
-
-Pour Vercel : importer **ce nouveau dépôt**, choisir Node 24, créer une base PostgreSQL dédiée Preview, renseigner les variables serveur ci-dessus, appliquer `db:migrate` puis `db:seed` depuis un runner de confiance connecté à cette base. `vercel.json` prépare le build. `APP_URL` doit être l’origine HTTPS exacte du déploiement de test. Configurer un endpoint Stripe test `/api/webhooks/stripe` avec `checkout.session.completed` et `checkout.session.expired`, puis son secret propre. Les previews avec origine changeante exigent leur configuration propre ; ne pas réutiliser une base/endpoint de production.
+Pour Vercel : importer **ce nouveau dépôt**, choisir Node 24, créer une base PostgreSQL dédiée Preview, renseigner les variables serveur ci-dessus, appliquer `db:migrate` puis `db:seed` depuis un runner de confiance connecté à cette base. `vercel.json` prépare le build. `APP_URL`, si renseignée, doit être l’origine HTTPS du site. Sans cette variable sur Vercel, l’application utilise automatiquement `VERCEL_URL`. Les domaines fournis par `VERCEL_URL` et `VERCEL_PROJECT_PRODUCTION_URL` sont aussi reconnus pour les previews, sans faire confiance aux en-têtes Host envoyés par le navigateur. Configurer un endpoint Stripe test `/api/webhooks/stripe` avec `checkout.session.completed` et `checkout.session.expired`, puis son secret propre. Chaque preview doit conserver sa base et son endpoint de test isolés ; ne pas réutiliser une base/endpoint de production.
 
 Ne pas activer le déploiement public avant d’avoir réglé la protection d’accès de preview et la confidentialité. Aucune URL Vercel n’est annoncée sans déploiement réussi. Accès Vercel/liaison GitHub et secrets test restent à fournir dans les paramètres sécurisés, jamais dans le chat.
 

@@ -25,7 +25,9 @@ export async function Books({ category }: { category?: string }) {
             </Link>
             <div className="book-info">
               <div>
-                <span className="eyebrow">{p.category === 'coran' ? 'CORAN' : 'HADITH'}</span>
+                <span className="eyebrow">
+                  {p.category === 'coran' ? 'CATÉGORIE : CORAN' : 'CATÉGORIE : HADITH'}
+                </span>
                 <h3>
                   <Link href={`/livres/${p.slug}`}>{p.titleFr}</Link>
                 </h3>
