@@ -3,9 +3,52 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, RotateCcw, Sparkles, Check, X } from 'lucide-react';
 import type { QuizQuestion as Question } from '@/lib/quiz';
+export type QuizContext = {
+  titleFr: string;
+  titleAr: string;
+  levelLabel: string;
+  returnHref: string;
+  returnLabel: string;
+};
+const returnLink = (context?: QuizContext) => ({
+  href: context?.returnHref ?? '/livres',
+  label: context?.returnLabel ?? 'Retour aux livres',
+});
 import { visibleCategories } from '@/data/categories';
 import { isCorrect, quizScore } from '@/lib/quiz';
 function QuestionSources({ question }: { question: Question }) {
+  if (question.sources?.some((s) => s.reference))
+    return (
+      <div className="quiz-primary-sources" aria-label="Références arabes de la correction">
+        {question.sources.map((source, index) => {
+          const r = source.reference;
+          return (
+            <div className="quiz-primary-reference" key={`${source.url}-${index}`}>
+              {r && (
+                <>
+                  <p lang="ar" dir="rtl">
+                    <strong>{r.workTitleAr}</strong> — {r.authorAr}
+                  </p>
+                  <p lang="ar" dir="rtl">
+                    {r.sectionAr}
+                  </p>
+                  <blockquote lang="ar" dir="rtl">
+                    {r.quoteAr}
+                  </blockquote>
+                  {r.edition && <p>Édition : {r.edition}</p>}
+                  {r.printedPage && <p>Page imprimée : {r.printedPage}</p>}
+                  {r.pdfPage && <p>Page du PDF : {r.pdfPage}</p>}
+                  {r.locator && <p>{r.locator}</p>}
+                </>
+              )}
+              <a href={source.url} target="_blank" rel="noopener noreferrer">
+                Consulter le passage arabe
+              </a>
+            </div>
+          );
+        })}
+      </div>
+    );
   return question.sources?.length ? (
     <p className="muted">
       Sources :{' '}
@@ -35,7 +78,15 @@ function ArabicText({ text }: { text: string }) {
     </>
   );
 }
-export function QuizIntro({ count, start }: { count: number; start: () => void }) {
+export function QuizIntro({
+  count,
+  start,
+  context,
+}: {
+  count: number;
+  start: () => void;
+  context?: QuizContext;
+}) {
   return (
     <div className="quiz-intro">
       <div className="quiz-emblem" aria-hidden="true">
@@ -43,10 +94,23 @@ export function QuizIntro({ count, start }: { count: number; start: () => void }
       </div>
       <span className="eyebrow">LE QUIZ DE LA MAKTABA</span>
       <h1>
-        Un peu de jeu.
-        <br />
-        <em>Beaucoup à apprendre.</em>
+        {context ? (
+          <>
+            {context.titleFr}
+            <br />
+            <em lang="ar" dir="rtl">
+              {context.titleAr}
+            </em>
+          </>
+        ) : (
+          <>
+            Un peu de jeu.
+            <br />
+            <em>Beaucoup à apprendre.</em>
+          </>
+        )}
       </h1>
+      {context && <p>{context.levelLabel} · Un quiz par ouvrage</p>}
       <p>
         Explorez vos connaissances en sciences islamiques.
         <br />
@@ -136,10 +200,12 @@ function QuizResults({
   all,
   answers,
   replay,
+  context,
 }: {
   all: Question[];
   answers: Record<string, string[]>;
   replay: () => void;
+  context?: QuizContext;
 }) {
   const ref = useRef<HTMLHeadingElement>(null);
   useEffect(() => ref.current?.focus(), []);
@@ -150,7 +216,11 @@ function QuizResults({
       <h1 ref={ref} tabIndex={-1}>
         Chaque question est un pas de plus.
       </h1>
-      <div className="quiz-final-score" aria-label={`Score final : ${score} sur ${all.length}`}>
+      <div
+        className="quiz-final-score"
+        aria-live="polite"
+        aria-label={`Score final : ${score} sur ${all.length}`}
+      >
         {score}
         <span>/{all.length}</span>
       </div>
@@ -179,14 +249,14 @@ function QuizResults({
           <RotateCcw size={17} />
           Rejouer
         </button>
-        <Link href="/livres" className="text-link">
-          Retour aux livres <ArrowRight size={16} />
+        <Link href={returnLink(context).href} className="text-link">
+          {returnLink(context).label} <ArrowRight size={16} />
         </Link>
       </div>
     </div>
   );
 }
-export function QuizGame({ questions }: { questions: Question[] }) {
+export function QuizGame({ questions, context }: { questions: Question[]; context?: QuizContext }) {
   const [started, setStarted] = useState(false);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string[]>([]);
@@ -205,8 +275,8 @@ export function QuizGame({ questions }: { questions: Question[] }) {
         <span className="eyebrow">LE QUIZ DE LA MAKTABA</span>
         <h1>Le quiz se prépare.</h1>
         <p>Aucune question n’est disponible pour le moment.</p>
-        <Link className="button" href="/livres">
-          Retour aux livres
+        <Link className="button" href={returnLink(context).href}>
+          {returnLink(context).label}
         </Link>
       </div>
     );
@@ -217,8 +287,9 @@ export function QuizGame({ questions }: { questions: Question[] }) {
     setFinished(false);
     setStarted(true);
   };
-  if (!started) return <QuizIntro count={questions.length} start={replay} />;
-  if (finished) return <QuizResults all={questions} answers={answers} replay={replay} />;
+  if (!started) return <QuizIntro count={questions.length} start={replay} context={context} />;
+  if (finished)
+    return <QuizResults all={questions} answers={answers} replay={replay} context={context} />;
   const q = questions[index];
   const validated = Boolean(answers[q.id]);
   const correct = isCorrect(q, selected);
@@ -234,10 +305,18 @@ export function QuizGame({ questions }: { questions: Question[] }) {
     <div className="quiz-game">
       <div className="quiz-topline">
         <span className="eyebrow">LE QUIZ DE LA MAKTABA</span>
-        <Link href="/livres" className="quiz-exit">
+        <Link href={returnLink(context).href} className="quiz-exit">
           Quitter <X size={14} />
         </Link>
       </div>
+      {context && (
+        <p className="quiz-book-context">
+          {context.levelLabel} · {context.titleFr}{' '}
+          <span lang="ar" dir="rtl">
+            {context.titleAr}
+          </span>
+        </p>
+      )}
       <div className="quiz-progress-label">
         <span>
           Question {index + 1} sur {questions.length}

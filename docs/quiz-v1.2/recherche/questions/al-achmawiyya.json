@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "al-achmawiyya",
+    "level": "debutant",
+    "titleAr": "المقدمة العشماوية",
+    "authorAr": "عبد الباري العشماوي",
+    "defaultSectionAr": "أبواب الوضوء والغسل والتيمم",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "al-achmawiyya-01",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "En combien de catégories l’Achmawiyya répartit-elle les annulatifs du wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre : selon les quatre membres"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux : émissions et causes d’émissions"
+        },
+        {
+          "id": "c",
+          "textFr": "Une catégorie unique sans distinction"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois : obligations, sunnas et actes méritoires"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le début du chapitre distingue les aḥdāth et les asbāb aḥdāth. Ce sont deux catégories, non deux annulatifs au total.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "باب نواقض الوضوء، §3",
+          "quoteAr": "عَلَى قِسْمَيْنِ: أَحْدَاثٍ، وَأَسْبَابِ أَحْدَاث",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-02",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Parmi ces émissions, laquelle est explicitement citée comme annulatif ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La salive ordinaire"
+        },
+        {
+          "id": "b",
+          "textFr": "La sueur"
+        },
+        {
+          "id": "c",
+          "textFr": "L’urine"
+        },
+        {
+          "id": "d",
+          "textFr": "Les larmes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le texte cite l’urine parmi les émissions provenant de l’orifice antérieur.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§4",
+          "quoteAr": "وَهِيَ: الْمَذْيُ، وَالْوَدْيُ، وَالْبَوْل",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-03",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quelle étendue de la tête le matn demande-t-il d’essuyer au wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une partie quelconque de la tête"
+        },
+        {
+          "id": "b",
+          "textFr": "Le tiers de la tête seulement"
+        },
+        {
+          "id": "c",
+          "textFr": "Le quart de la tête seulement"
+        },
+        {
+          "id": "d",
+          "textFr": "Toute la tête"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La formule est explicite : « l’essuyage de toute la tête ».",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§17",
+          "quoteAr": "وَمَسْحُ جَمِيعِ الرَّأْس",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-04",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Combien d’obligations du ghusl le matn énumère-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Onze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le chapitre du ghusl annonce cinq obligations : intention, généralisation de l’eau, frottement, continuité et pénétration de l’eau dans les cheveux.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "باب فرائض الغسل، §22",
+          "quoteAr": "فَأَمَّا فَرَائِضُهُ فَخَمْسَة",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-05",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Dans le ghusl, l’eau doit-elle atteindre tout le corps ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Seulement les zones visibles des vêtements"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, cela fait partie des obligations citées"
+        },
+        {
+          "id": "c",
+          "textFr": "Seulement les quatre membres du wuḍūʾ"
+        },
+        {
+          "id": "d",
+          "textFr": "Seulement la tête et le tronc"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le matn cite taʿmīm al-jasad bi-l-māʾ parmi les obligations du bain rituel.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§22",
+          "quoteAr": "وَتَعْمِيمُ الْجَسَدِ بِالْمَاء",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-06",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel statut le rinçage de la bouche reçoit-il dans le chapitre du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un acte méritoire seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Une condition préalable du ghusl"
+        },
+        {
+          "id": "c",
+          "textFr": "Une sunna"
+        },
+        {
+          "id": "d",
+          "textFr": "Une obligation selon cette liste"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La maḍmaḍa est dans les quatre sunnas du ghusl, et non dans les cinq obligations.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§23",
+          "quoteAr": "وَالْمَضْمَضَةُ، وَالِاسْتِنْشَاقُ، وَمَسْحُ صِمَاخِ الْأُذُنَيْن",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-07",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Le frottement de tout le corps appartient-il aux obligations du ghusl dans ce matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il est seulement méritoire ici"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il ne concerne que les bras"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il concerne seulement le wuḍūʾ"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte cite expressément le dalk de l’ensemble du corps.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§22",
+          "quoteAr": "وَدَلْكُ جَمِيعِ الْجَسَد",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-08",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Que demande le texte pour les cheveux lors du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Faire pénétrer l’eau dans la chevelure"
+        },
+        {
+          "id": "b",
+          "textFr": "Mouiller seulement la surface extérieure des cheveux"
+        },
+        {
+          "id": "c",
+          "textFr": "Les essuyer au lieu de les laver"
+        },
+        {
+          "id": "d",
+          "textFr": "Se limiter aux racines en laissant la longueur sèche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le takhlīl al-shaʿr figure parmi les obligations ; les modalités de coiffure demandent une étude distincte.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§22",
+          "quoteAr": "وَتَخْلِيلُ الشَّعْر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-09",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Le lavage initial des mains jusqu’aux poignets est-il cité dans les sunnas du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, le texte ne le mentionne pas"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, c’est une obligation distincte ici"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, c’est seulement un acte méritoire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage ouvre les quatre sunnas du ghusl par le lavage des mains jusqu’aux poignets.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§23",
+          "quoteAr": "غَسْلُ يَدَيْهِ أَوَّلًا إِلَى كُوعَيْه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-achmawiyya-10",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quelle continuité le matn cite-t-il parmi les obligations du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La répétition obligatoire de trois bains"
+        },
+        {
+          "id": "b",
+          "textFr": "Un délai minimal entre chaque lavage"
+        },
+        {
+          "id": "c",
+          "textFr": "Le fawr, l’enchaînement des actes"
+        },
+        {
+          "id": "d",
+          "textFr": "L’ordre obligatoire des membres comme au wuḍūʾ"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Fawr figure dans la liste des cinq obligations. Les excuses et oublis relèvent de précisions supplémentaires.",
+      "references": [
+        {
+          "sourceId": "ashmawiyya",
+          "workTitleAr": "المقدمة العشماوية",
+          "authorAr": "عبد الباري العشماوي",
+          "sectionAr": "أبواب الوضوء والغسل والتيمم",
+          "locator": "§22",
+          "quoteAr": "وَالْفَوْرُ، وَتَخْلِيلُ الشَّعْر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-ashmawiyya/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

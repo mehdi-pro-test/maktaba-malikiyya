@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "sharh-al-dardir",
+    "level": "avance",
+    "titleAr": "الشرح الكبير على مختصر خليل",
+    "authorAr": "أحمد بن محمد الدردير",
+    "defaultSectionAr": "فرائض الوضوء: غسل الوجه",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "sharh-al-dardir-01",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Dans l’explication du Dardīr, quelle implantation des cheveux sert à déterminer la limite supérieure du visage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La pointe des cheveux les plus longs"
+        },
+        {
+          "id": "b",
+          "textFr": "L’implantation habituelle"
+        },
+        {
+          "id": "c",
+          "textFr": "L’implantation actuelle propre à la calvitie de chacun"
+        },
+        {
+          "id": "d",
+          "textFr": "Le bas de toute frange même anormalement basse"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le qualificatif muʿtād évite de modifier la frontière du visage selon une calvitie ou une implantation atypique.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "من منابت شعر الرأس المعتاد إلى آخر الذقن أو اللحية",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-02",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Que précise le Dardīr sur le lavage extérieur de la barbe ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Essuyer simplement les pointes sans eau de lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "Se limiter à laver les poils au niveau du menton"
+        },
+        {
+          "id": "c",
+          "textFr": "Passer la main avec l’eau et remuer la barbe"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver nécessairement la peau sous toute barbe dense"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Il distingue le mouvement de la main à l’extérieur et le takhlīl faisant parvenir l’eau à la peau.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "والمراد بغسل ظاهرها إمرار اليد عليها مع الماء وتحريكها",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-03",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Que signifie le takhlīl dans l’explication citée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Faire circuler l’eau à la seule surface des poils"
+        },
+        {
+          "id": "b",
+          "textFr": "Compter les répétitions du lavage"
+        },
+        {
+          "id": "c",
+          "textFr": "Ramener les mains lors du masḥ de la tête"
+        },
+        {
+          "id": "d",
+          "textFr": "Faire parvenir l’eau à la peau sous les poils"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le commentaire donne expressément cette définition pour le passage à travers les poils.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "والتخليل إيصال الماء للبشرة",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-04",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Dans le wuḍūʾ, à quels poils le devoir de takhlīl est-il ici appliqué ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Aux poils clairsemés laissant voir la peau"
+        },
+        {
+          "id": "b",
+          "textFr": "À tous les poils denses sans réserve"
+        },
+        {
+          "id": "c",
+          "textFr": "Aux seuls cheveux du crâne"
+        },
+        {
+          "id": "d",
+          "textFr": "Aux seuls poils de moustache même sans visibilité de la peau"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le texte explique la condition « la peau apparaît au-dessous » et la distingue de la densité.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "وخرج بتظهر البشرة تحته ، وهو الخفيف",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-05",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Pourquoi le Dardīr demande-t-il de dépasser légèrement la limite du visage vers la tête ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Pour compter ce dépassement comme une obligation indépendante"
+        },
+        {
+          "id": "b",
+          "textFr": "Pour assurer l’accomplissement complet du lavage obligatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Parce que la tête entière devient une partie du visage"
+        },
+        {
+          "id": "d",
+          "textFr": "Parce que le lavage remplace toujours le masḥ"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Il applique le principe du moyen indispensable à la réalisation complète de l’obligation ; cela ne transforme pas toute la tête en visage.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "ولا بد من إدخال جزء من الرأس لأنه مما لا يتم الواجب إلا به",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-06",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Que désigne la watara que l’explication demande de laver ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lobe de l’oreille"
+        },
+        {
+          "id": "b",
+          "textFr": "Le bord extérieur des paupières"
+        },
+        {
+          "id": "c",
+          "textFr": "La séparation entre les deux narines"
+        },
+        {
+          "id": "d",
+          "textFr": "Le creux entre lèvre et menton"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le Dardīr précise ce terme anatomique pour attirer l’attention sur une zone que l’eau peut manquer.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "وهي الحائل بين طاقتي الأنف",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-07",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Que désignent les asārīr du front dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les sourcils eux-mêmes"
+        },
+        {
+          "id": "b",
+          "textFr": "Les cheveux des tempes"
+        },
+        {
+          "id": "c",
+          "textFr": "Les plis du cou"
+        },
+        {
+          "id": "d",
+          "textFr": "Les lignes et plis du front"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le commentaire explique le mot par khuṭūṭuhā ; le lavage doit atteindre ces reliefs extérieurs du visage.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "وأسارير جبهته ) أي خطوطها",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-08",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quelle partie des lèvres le passage inclut-il dans le lavage du visage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ce qui apparaît lorsque les lèvres se ferment naturellement"
+        },
+        {
+          "id": "b",
+          "textFr": "Toute la cavité buccale"
+        },
+        {
+          "id": "c",
+          "textFr": "La partie visible en ouvrant volontairement grand la bouche"
+        },
+        {
+          "id": "d",
+          "textFr": "Uniquement le bord interne de la lèvre inférieure"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La fermeture naturelle sert de repère pour la partie extérieure des lèvres, sans exiger une ouverture forcée.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "وهو ما يظهر عند انطباقهما انطباقا طبيعيا",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-09",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Le Dardīr assimile-t-il toute la surface frontale du lavage au point de contact du front dans la prosternation ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, parce que le front entier serait exclu du lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il distingue les deux emplois"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, les deux ont nécessairement les mêmes limites"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, les côtés du front sont exclus des ablutions"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Il explique que le front au lavage comprend les côtés, alors que sa description relative à la prosternation est plus restreinte.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "والجبهة ما ارتفع عن الحاجبين إلى مبدإ الرأس فتشمل الجبينين",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "sharh-al-dardir-10",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Pour une cavité cicatrisée impossible à frotter, le commentaire dispense-t-il automatiquement d’y faire parvenir l’eau ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, toute cavité cicatrisée est hors du visage"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il faut rouvrir la cavité pour pouvoir la frotter"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il faut y faire parvenir l’eau si c’est possible"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, l’impossibilité du frottement dispense toujours de l’eau"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Il distingue la possibilité de frotter et la possibilité d’atteindre la zone avec l’eau ; aucune manipulation médicale n’est prescrite par la question.",
+      "references": [
+        {
+          "sourceId": "dardir-face",
+          "workTitleAr": "الشرح الكبير على مختصر خليل",
+          "authorAr": "أحمد بن محمد الدردير",
+          "sectionAr": "فرائض الوضوء: غسل الوجه",
+          "locator": "",
+          "quoteAr": "ولا بد من إيصال الماء إليه إن أمكن",
+          "quoteLayer": "commentary",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/13/76/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

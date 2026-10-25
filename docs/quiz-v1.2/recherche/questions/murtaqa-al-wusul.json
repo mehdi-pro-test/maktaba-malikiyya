@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "murtaqa-al-wusul",
+    "level": "usul",
+    "titleAr": "مرتقى الوصول إلى علم الأصول",
+    "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+    "defaultSectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "murtaqa-al-wusul-01",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans la définition du poème, le fiqh porte-t-il sur les règles détaillées des branches de la Loi ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, mais seulement aux questions de croyance"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, en les connaissant par leur preuve"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il exclut toute notion de preuve"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il se réduit aux preuves générales seules"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le vers associe règles des branches, détail et preuve. Il faut distinguer cet objet des preuves générales étudiées en uṣūl.",
+      "references": [
+        {
+          "sourceId": "murtaqa-2",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 30",
+          "quoteAr": "وَالْفِقْهُ أَنْ يُعْلَمَ عَنْ دَلِيْلِ ... حُكْمُ فُرُوْعِ الشَّرْعِ بِالتَّفْصِيْل",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-02",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Que désigne ici l’ensemble des preuves générales ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les seules opinions personnelles des élèves"
+        },
+        {
+          "id": "b",
+          "textFr": "La seule mémorisation de cas sans preuve"
+        },
+        {
+          "id": "c",
+          "textFr": "Les fondements du fiqh"
+        },
+        {
+          "id": "d",
+          "textFr": "Les seules règles détaillées déjà appliquées"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le poème oppose les preuves globales aux détails des branches. La qualification de certitude est celle exposée par ce texte.",
+      "references": [
+        {
+          "sourceId": "murtaqa-2",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 31",
+          "quoteAr": "وَجُمْلَةُ الأَدِلَّةِ الْكُلِّيَّهْ ... أُصُوْلُه",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-03",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Le poème exclut-il toute connaissance probable des détails du droit ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, tous les détails sont ici nécessairement certains"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, aucun raisonnement probable n’est recevable"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, mais le poème l’identifie à la certitude"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il reconnaît le ẓann dans certains détails"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le vers admet la probabilité dans certains détails et la présente comme un appui recevable dans ce cadre.",
+      "references": [
+        {
+          "sourceId": "murtaqa-2",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 32",
+          "quoteAr": "وَالظَّنُّ في بَعْضِ التَّفَاصِيْلِ يَقَع",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-04",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quelles disciplines le vers cite-t-il parmi les ressources des uṣūl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Kalām, grammaire, langue et règles"
+        },
+        {
+          "id": "b",
+          "textFr": "Langue et grammaire seulement, sans autre ressource citée"
+        },
+        {
+          "id": "c",
+          "textFr": "Les seuls usages commerciaux"
+        },
+        {
+          "id": "d",
+          "textFr": "Les seules biographies des transmetteurs"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Il énumère les disciplines qui nourrissent cette science, sans dire que la seule grammaire suffirait à produire une règle.",
+      "references": [
+        {
+          "sourceId": "murtaqa-2",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 34",
+          "quoteAr": "وَمُسْتَمَدُّهُ مِنَ الْكَلاَمِ ... وَالنَّحْوِ وَالُّلغَةِ وَالأَحْكَام",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-2",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-05",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Comment le poème décrit-il le savoir certain dans la définition citée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’hypothèse la moins probable"
+        },
+        {
+          "id": "b",
+          "textFr": "Une connaissance qui n’admet pas son contradictoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Deux possibilités de poids égal"
+        },
+        {
+          "id": "d",
+          "textFr": "Une possibilité prépondérante sans certitude"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le vers définit ici ʿilm par l’exclusion de la possibilité contradictoire, avant de distinguer doute et probabilité.",
+      "references": [
+        {
+          "sourceId": "murtaqa-3",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 40",
+          "quoteAr": "وَالْعِلْمُ مَا يُدْرِكُهُ الْعَقْلُ وَلاَ ... يُرَى لِمَا نَاقَضَهُ مُحْتَمِلا",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-06",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel état correspond à deux possibilités sans prépondérance ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La possibilité faible, wahm"
+        },
+        {
+          "id": "b",
+          "textFr": "L’hypothèse prépondérante, ẓann"
+        },
+        {
+          "id": "c",
+          "textFr": "Le doute, shakk"
+        },
+        {
+          "id": "d",
+          "textFr": "La certitude, ʿilm"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le vers emploie l’idée de participation égale des deux possibilités.",
+      "references": [
+        {
+          "sourceId": "murtaqa-3",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 42",
+          "quoteAr": "وَالشَّكُّ مَا كَانَ مِنَ الإدْرَاكِ ... مُحْتَمِلًا أَمْرَيَنِ بِاشْتِرَاك",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-07",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Comment le poème nomme-t-il l’hypothèse prépondérante ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Wahm"
+        },
+        {
+          "id": "b",
+          "textFr": "Shakk"
+        },
+        {
+          "id": "c",
+          "textFr": "ʿIlm"
+        },
+        {
+          "id": "d",
+          "textFr": "Ẓann"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le ẓann est la possibilité dont le poids est supérieur, et non une certitude ni la possibilité faible.",
+      "references": [
+        {
+          "sourceId": "murtaqa-3",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 43",
+          "quoteAr": "وَالظَّنُّ مَا كَانَ لَهُ التَّرْجِيْح",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-08",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel terme le poème réserve-t-il à l’hypothèse moins probable ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Wahm"
+        },
+        {
+          "id": "b",
+          "textFr": "Ẓann"
+        },
+        {
+          "id": "c",
+          "textFr": "Shakk"
+        },
+        {
+          "id": "d",
+          "textFr": "ʿIlm"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le même vers oppose explicitement le ẓann prépondérant et le wahm minoré.",
+      "references": [
+        {
+          "sourceId": "murtaqa-3",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 43",
+          "quoteAr": "وَالْوَهْمُ هُوَ الْمَرْجُوْح",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-09",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Quel nom le vers donne-t-il à ce qui produit une connaissance probable ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’absence de toute perception"
+        },
+        {
+          "id": "b",
+          "textFr": "Amāra"
+        },
+        {
+          "id": "c",
+          "textFr": "Une preuve procurant nécessairement la certitude"
+        },
+        {
+          "id": "d",
+          "textFr": "L’hypothèse faible elle-même"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "L’amāra est ici un indice de probabilité ; le vers suivant traite séparément de ce qui procure la connaissance certaine.",
+      "references": [
+        {
+          "sourceId": "murtaqa-3",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 44",
+          "quoteAr": "وَادْعُ أَمَارَةً مُفِيْدَ الظَّن",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "murtaqa-al-wusul-10",
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "status": "review",
+      "questionFr": "Dans la typologie du poème, les preuves se limitent-elles aux seules perceptions sensibles ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, mais il exclut la transmission"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, mais il exclut toute preuve rationnelle"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il cite aussi raison, combinaison et transmission"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, aux seules perceptions sensibles"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le vers distingue les preuves sensibles et rationnelles, leur combinaison et la transmission. Il ne les rend pas interchangeables dans toutes les matières.",
+      "references": [
+        {
+          "sourceId": "murtaqa-3",
+          "workTitleAr": "مرتقى الوصول إلى علم الأصول",
+          "authorAr": "أبو بكر محمد بن محمد بن عاصم القيسي الغرناطي",
+          "sectionAr": "تعريف الفقه والأصول ومراتب الإدراك والأدلة",
+          "locator": "Vers 49",
+          "quoteAr": "دَلِيْلُ حِسٍّ وَدَلِيْلُ عَقْلِ ... وَمِنْهُمَا مُرَكَّبٌ وَنَقْلِي",
+          "quoteLayer": "poem",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamarchive.cc/ketab_content/103044/p-3",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

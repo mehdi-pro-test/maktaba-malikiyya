@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "1.2-draft",
+  "baselineCommit": "cad05a9cf7200ce11f5f51dcbe0d3610ef87434a",
+  "status": "editorial-planning-only",
+  "notice": "Ce catalogue ne constitue ni une vérification bibliographique ni une banque de questions publiables. Les auteurs et titres doivent être vérifiés sur les éditions primaires avant publication.",
+  "levels": [
+    {
+      "id": "debutant",
+      "label": "Débutant",
+      "order": 1
+    },
+    {
+      "id": "intermediaire",
+      "label": "Intermédiaire",
+      "order": 2
+    },
+    {
+      "id": "avance",
+      "label": "Avancé",
+      "order": 3
+    },
+    {
+      "id": "ultime",
+      "label": "Ultime",
+      "order": 4
+    },
+    {
+      "id": "usul",
+      "label": "Oussoul al-fiqh malikite",
+      "order": 5
+    }
+  ],
+  "books": [
+    {
+      "id": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "titleAr": "مختصر الأخضري",
+      "titleFr": "Moukhtassar al-Akhdari",
+      "authorAr": "عبد الرحمن الأخضري",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "matn-ibn-ashir",
+      "level": "debutant",
+      "titleAr": "المرشد المعين على الضروري من علوم الدين (متن ابن عاشر)",
+      "titleFr": "Matn Ibn Ashir",
+      "authorAr": "عبد الواحد بن عاشر",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "al-achmawiyya",
+      "level": "debutant",
+      "titleAr": "المقدمة العشماوية",
+      "titleFr": "Al-'Achmawiyya",
+      "authorAr": "عبد الباري العشماوي",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "titleAr": "المقدمة العزية",
+      "titleFr": "Al-Mouqaddima al-'Izziyya",
+      "authorAr": null,
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "ashal-al-masalik",
+      "level": "intermediaire",
+      "titleAr": "أسهل المسالك",
+      "titleFr": "Ashhal al-Masalik",
+      "authorAr": null,
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "titleAr": "الرسالة",
+      "titleFr": "Ar-Risala d'Ibn Abi Zayd",
+      "authorAr": "ابن أبي زيد القيرواني",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "moukhtassar-khalil",
+      "level": "avance",
+      "titleAr": "مختصر خليل",
+      "titleFr": "Moukhtassar Khalil",
+      "authorAr": "خليل بن إسحاق",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "sharh-al-dardir",
+      "level": "avance",
+      "titleAr": "الشرح الكبير على مختصر خليل",
+      "titleFr": "Sharh al-Dardir",
+      "authorAr": "أحمد الدردير",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "titleAr": "حاشية الدسوقي على الشرح الكبير",
+      "titleFr": "Hashiya ad-Dasuqi",
+      "authorAr": "محمد بن أحمد الدسوقي",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "titleAr": "بداية المجتهد ونهاية المقتصد",
+      "titleFr": "Bidayat al-Mujtahid",
+      "authorAr": "ابن رشد الحفيد",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "al-istidhkar",
+      "level": "ultime",
+      "titleAr": "الاستذكار",
+      "titleFr": "Al-Istidhkar",
+      "authorAr": "ابن عبد البر",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "issal-as-salik",
+      "level": "usul",
+      "titleAr": "إيصال السالك",
+      "titleFr": "Issal as-Salik",
+      "authorAr": null,
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "titleAr": "الورقات مع شرح الحطاب",
+      "titleFr": "Al-Waraqat (Sharh al-Hattab)",
+      "authorAr": null,
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "murtaqa-al-wusul",
+      "level": "usul",
+      "titleAr": "مرتقى الوصول",
+      "titleFr": "Murtaqa al-Wusul",
+      "authorAr": "ابن عاصم الغرناطي",
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    },
+    {
+      "id": "maraqi-as-suud",
+      "level": "usul",
+      "titleAr": "مراقي السعود",
+      "titleFr": "Maraqi as-Su'ud",
+      "authorAr": null,
+      "plannedQuestions": 10,
+      "status": "draft",
+      "edition": null,
+      "primarySourceUrl": null,
+      "verification": "required",
+      "questions": []
+    }
+  ]
+}

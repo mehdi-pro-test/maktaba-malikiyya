@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "matn-ibn-ashir",
+    "level": "debutant",
+    "titleAr": "المرشد المعين على الضروري من علوم الدين",
+    "authorAr": "عبد الواحد بن عاشر",
+    "defaultSectionAr": "كتاب الطهارة",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "matn-ibn-ashir-01",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel nombre de sunnas du wuḍūʾ Ibn ʿĀshir annonce-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Onze"
+        },
+        {
+          "id": "b",
+          "textFr": "Sept"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois"
+        },
+        {
+          "id": "d",
+          "textFr": "Huit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le vers annonce sept sunnas. Onze correspond dans les vers suivants aux actes méritoires.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 62 selon le site",
+          "quoteAr": "سُنَنُهُ السَّبْع",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-02",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Dans quel groupe le poème place-t-il l’ordre des actes obligatoires du wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les actes méritoires seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Les conditions de validité de l’eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Les sunnas"
+        },
+        {
+          "id": "d",
+          "textFr": "Les obligations"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le vers sur les sunnas inclut tartīb farḍihi et précise que c’est l’avis retenu.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 63",
+          "quoteAr": "تَرْتِيبُ فَرْضِهِ وَذَا الْمُخْتَار",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-03",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Comment est classée la basmala dans les vers sur le wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Parmi les sept obligations"
+        },
+        {
+          "id": "b",
+          "textFr": "Parmi les sept sunnas énumérées"
+        },
+        {
+          "id": "c",
+          "textFr": "Parmi les conditions préalables du wuḍūʾ"
+        },
+        {
+          "id": "d",
+          "textFr": "Parmi les actes méritoires"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le poème cite la tasmiya après l’annonce des onze faḍāʾil.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 64",
+          "quoteAr": "وَأَحَدَ عْشَرَ الْفَضَائِلُ أَتَتْتَسْمِيَة",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-04",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Que recommande le poème concernant les deuxièmes et troisièmes lavages ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ils sont méritoires pour les membres qui se lavent"
+        },
+        {
+          "id": "b",
+          "textFr": "Ils sont obligatoires pour les membres lavés"
+        },
+        {
+          "id": "c",
+          "textFr": "Ils sont aussi méritoires pour tout essuyage"
+        },
+        {
+          "id": "d",
+          "textFr": "Ils sont toujours déconseillés"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le vers mentionne le double et le triple lavage dans les membres lavés ; il n’étend pas cela à l’essuyage de la tête.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 65",
+          "quoteAr": "وَالشَّفْعُ وَالتَّثْلِيثُ فِي مَغْسُولِنَا",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-05",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Par quelle partie de la tête est-il recommandé de commencer l’essuyage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les oreilles"
+        },
+        {
+          "id": "b",
+          "textFr": "L’avant"
+        },
+        {
+          "id": "c",
+          "textFr": "La nuque"
+        },
+        {
+          "id": "d",
+          "textFr": "Le côté gauche de la tête"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Commencer par l’avant de la tête figure dans les actes méritoires, distincts du masḥ lui-même.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 67",
+          "quoteAr": "وَبَدْءُ مَسْحِ الرَّأْسِ مِنْ مُقَدَّمِه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-06",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel statut le poème donne-t-il au passage de l’eau entre les orteils ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une sunna au même rang que l’essuyage des oreilles"
+        },
+        {
+          "id": "b",
+          "textFr": "Un geste déconseillé en toute circonstance"
+        },
+        {
+          "id": "c",
+          "textFr": "Un acte méritoire"
+        },
+        {
+          "id": "d",
+          "textFr": "Une obligation distincte en tout cas"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le vers le cite dans la suite des faḍāʾil. L’obligation d’atteindre les zones effectivement sèches reste une question distincte.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 67",
+          "quoteAr": "تَخْلِيلُهُ أَصَابِعًا بِقَدَمِه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-07",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quel sommeil est explicitement cité parmi les annulatifs du wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Tout sommeil léger même bref"
+        },
+        {
+          "id": "b",
+          "textFr": "Le seul fait de s’allonger éveillé"
+        },
+        {
+          "id": "c",
+          "textFr": "Toute distraction pendant l’ablution"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil profond"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte emploie « sommeil lourd ». Il ne permet pas de traiter identiquement tous les états de somnolence.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 73",
+          "quoteAr": "نَوْمٌ ثَقِيل",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-08",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Si les poils du visage sont clairsemés et laissent voir la peau, que demande le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Faire parvenir l’eau à travers eux"
+        },
+        {
+          "id": "b",
+          "textFr": "Laver uniquement la surface extérieure des poils"
+        },
+        {
+          "id": "c",
+          "textFr": "Essuyer les poils sans lavage du visage"
+        },
+        {
+          "id": "d",
+          "textFr": "Reporter leur lavage aux seules grandes ablutions"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le vers demande le takhlīl des poils du visage lorsque la peau apparaît au-dessous.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 61",
+          "quoteAr": "وَشَعَرْوَجْهٍ إِذَا مِنْ تَحْتِهِ الْجِلْدُ ظَهَر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-09",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Quelle eau le vers écarte-t-il explicitement lorsqu’une impureté l’a altérée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Toute eau restée longtemps dans un puits"
+        },
+        {
+          "id": "b",
+          "textFr": "L’eau altérée par une impureté"
+        },
+        {
+          "id": "c",
+          "textFr": "Toute eau comportant un sel naturel"
+        },
+        {
+          "id": "d",
+          "textFr": "Toute eau issue de neige fondue"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le vers dit de rejeter l’eau altérée par une impureté ; il ne vise pas l’eau naturelle simplement froide.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 55",
+          "quoteAr": "إِذَا تَغَيَّرَ بِنَجْسٍ طُرِحَا",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "matn-ibn-ashir-10",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "status": "review",
+      "questionFr": "Que recommande le vers pour les endroits du corps difficiles à atteindre lors du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Remplacer seulement leur lavage par le tayammum sans autre précision"
+        },
+        {
+          "id": "b",
+          "textFr": "Frotter les seules zones facilement accessibles"
+        },
+        {
+          "id": "c",
+          "textFr": "Employer un linge, un moyen analogue ou une aide"
+        },
+        {
+          "id": "d",
+          "textFr": "Les laisser secs si la main ne les atteint pas directement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le vers cite le linge, la corde et l’aide d’autrui pour atteindre les zones difficiles.",
+      "references": [
+        {
+          "sourceId": "ibn-ashir-tahara",
+          "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+          "authorAr": "عبد الواحد بن عاشر",
+          "sectionAr": "كتاب الطهارة",
+          "locator": "Vers 80",
+          "quoteAr": "وَصِلْ لِمَا عَسُرَ بِالْمِنْدِيلِوَنَحْوِهِ كَالْحَبْلِ وَالتَّوْكِيل",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://fiqhmalikite.fr/livre/al-murshid-al-muin/?partie=5#livre-h",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

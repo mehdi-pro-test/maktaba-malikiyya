@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "moukhtassar-khalil",
+    "level": "avance",
+    "titleAr": "مختصر خليل",
+    "authorAr": "خليل بن إسحاق الجندي",
+    "defaultSectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "moukhtassar-khalil-01",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quel repère de largeur Khalīl donne-t-il pour le lavage du visage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La largeur comprenant toute la nuque"
+        },
+        {
+          "id": "b",
+          "textFr": "L’espace entre les deux oreilles"
+        },
+        {
+          "id": "c",
+          "textFr": "La seule distance entre les deux yeux"
+        },
+        {
+          "id": "d",
+          "textFr": "La distance entre les deux côtés du nez"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le matn donne la largeur entre les oreilles ; les commentaires précisent les repères anatomiques et les zones de jonction.",
+      "references": [
+        {
+          "sourceId": "khalil-wudu",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "غسل ما بين الأذنين",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/251/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-02",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Une implantation de cheveux atypique suffit-elle à redéfinir la limite supérieure du visage dans le qualificatif employé par Khalīl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, une frange atypique fait descendre la limite au-dessous du front"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, il faut prendre la racine du cheveu le plus haut pour chacun"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, le matn retient l’implantation habituelle"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, la calvitie fait monter la limite jusqu’au sommet"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le qualificatif muʿtād vise l’implantation normale ; les cas de calvitie et d’implantation basse sont explicités par les commentaires.",
+      "references": [
+        {
+          "sourceId": "khalil-wudu",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "ومنابت شعر الرأس المعتاد",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/251/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-03",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quel aspect de la barbe le matn nomme-t-il expressément dans le lavage du visage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La peau sous toute barbe dense sans distinction"
+        },
+        {
+          "id": "b",
+          "textFr": "La seule pointe des poils du menton"
+        },
+        {
+          "id": "c",
+          "textFr": "La couleur de la barbe comme condition de validité"
+        },
+        {
+          "id": "d",
+          "textFr": "Son extérieur"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le matn nomme ẓāhir al-liḥya. Le takhlīl selon la densité des poils est traité avec ses propres précisions.",
+      "references": [
+        {
+          "sourceId": "khalil-wudu",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "وظاهر اللحية",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/251/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-04",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Parmi ces zones, laquelle Khalīl demande-t-il expressément de laver dans le détail du visage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La watara, séparation entre les narines"
+        },
+        {
+          "id": "b",
+          "textFr": "L’intérieur profond de la cavité nasale"
+        },
+        {
+          "id": "c",
+          "textFr": "La muqueuse de la gorge"
+        },
+        {
+          "id": "d",
+          "textFr": "L’arrière des oreilles"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le mot watara est explicité par al-Ḥaṭṭāb comme la séparation entre les orifices du nez. Il s’agit d’un point extérieur susceptible d’être manqué par l’eau.",
+      "references": [
+        {
+          "sourceId": "khalil-255",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "فيغسل الوترة",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/255/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-05",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Les plis du front sont-ils expressément mentionnés dans le détail de Khalīl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, leur lavage est remplacé par le rinçage buccal"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, sous le terme asārīr"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, seules les zones planes du front sont concernées"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, ils sont réservés au seul ghusl"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le texte attire l’attention sur ces reliefs, déjà compris dans le visage, afin de ne pas les laisser sans lavage.",
+      "references": [
+        {
+          "sourceId": "khalil-255",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "وأسارير جبهته",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/255/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-06",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quel élément externe le matn cite-t-il après les plis du front ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le creux de la gorge"
+        },
+        {
+          "id": "b",
+          "textFr": "La seule face interne des lèvres"
+        },
+        {
+          "id": "c",
+          "textFr": "L’extérieur des lèvres"
+        },
+        {
+          "id": "d",
+          "textFr": "L’intérieur de la bouche"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le matn dit « l’extérieur des deux lèvres », à distinguer de la cavité buccale.",
+      "references": [
+        {
+          "sourceId": "khalil-255",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "وظاهر شفتيه",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/255/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-07",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "La formule de Khalīl sur les bras inclut-elle les coudes dans le lavage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il les exclut expressément"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il les réserve à l’essuyage"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, mais seulement le coude droit"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, il dit « avec les coudes »"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La formulation bi-mirfaqayhi est expliquée par al-Ḥaṭṭāb comme une inclusion des coudes, évitant une lecture excluant la limite.",
+      "references": [
+        {
+          "sourceId": "khalil-256",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "ويديه بمرفقيه",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/256/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-08",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quel geste Khalīl mentionne-t-il avec le lavage des mains ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le passage de l’eau entre les doigts"
+        },
+        {
+          "id": "b",
+          "textFr": "L’essuyage des mains au lieu de leur lavage"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lavage des poignets en remplacement des doigts"
+        },
+        {
+          "id": "d",
+          "textFr": "Le renouvellement de l’eau entre chaque doigt comme obligation distincte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le takhlīl des doigts accompagne le lavage ; la question concerne les doigts des mains et ne transpose pas sans preuve la règle aux orteils.",
+      "references": [
+        {
+          "sourceId": "khalil-262",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "بتخليل أصابعه",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/262/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-09",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Quelle opération le matn applique-t-il à ce qui couvre la boîte crânienne ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le seul rinçage des cheveux sans masḥ"
+        },
+        {
+          "id": "b",
+          "textFr": "L’essuyage"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lavage au titre du visage"
+        },
+        {
+          "id": "d",
+          "textFr": "Le lavage au titre des bras"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Khalīl emploie masḥ pour la tête, et non ghasl ; la portée de la zone est explicitée par les commentaires.",
+      "references": [
+        {
+          "sourceId": "khalil-268",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "ومسح ما على الجمجمة",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/268/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "moukhtassar-khalil-10",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "status": "review",
+      "questionFr": "Dans le passage sur la tête, Khalīl limite-t-il la mention aux seuls cheveux qui ne retombent pas ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, il exige de couper le cheveu avant le masḥ"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, parce qu’il impose le ghusl à tout porteur de cheveux longs"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il ajoute les cheveux retombants"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, il exclut tout cheveu retombant"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Al-Ḥaṭṭāb explique al-mustarkhī comme le cheveu qui s’allonge et retombe. La question porte sur l’inclusion dans le passage cité.",
+      "references": [
+        {
+          "sourceId": "khalil-270",
+          "workTitleAr": "مختصر خليل",
+          "authorAr": "خليل بن إسحاق الجندي",
+          "sectionAr": "فصل فرائض الوضوء: غسل الوجه واليدين ومسح الرأس",
+          "locator": "",
+          "quoteAr": "مع المسترخي",
+          "quoteLayer": "matn",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/19/270/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

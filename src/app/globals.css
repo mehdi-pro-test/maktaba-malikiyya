@@ -2292,3 +2292,109 @@ label small {
 html:has(.quiz-game) {
   scroll-behavior: auto;
 }
+
+.quiz-path-link {
+  margin: 0 auto 24px;
+  max-width: 1000px;
+  padding: 12px 0;
+}
+.quiz-library-page {
+  padding-top: 45px;
+  padding-bottom: 70px;
+}
+.quiz-library-page > h1,
+.quiz-preparation h1 {
+  font-family: var(--font-serif, Georgia, serif);
+  color: var(--forest);
+  font-size: clamp(32px, 5vw, 52px);
+}
+.quiz-library-page > p {
+  max-width: 740px;
+  line-height: 1.7;
+}
+.quiz-level {
+  margin-top: 55px;
+}
+.quiz-book-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+.quiz-book-card {
+  border: 1px solid #b9c3ac;
+  background: #f5f3e8;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 0;
+}
+.quiz-book-card h3 {
+  font-size: 25px;
+  color: var(--forest);
+  margin: 0;
+}
+.quiz-book-card > p {
+  margin: 0;
+  line-height: 1.7;
+}
+.quiz-book-card .text-link {
+  margin-top: auto;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+.quiz-book-arabic {
+  font-size: 25px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.quiz-preparation {
+  max-width: 850px;
+  padding-top: 45px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.quiz-primary-sources {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #b9c3ac;
+  line-height: 1.8;
+}
+.quiz-primary-sources blockquote {
+  margin: 14px 0;
+  padding: 12px;
+  border-inline-start: 3px solid #927037;
+  font-size: 23px;
+  overflow-wrap: anywhere;
+}
+.quiz-primary-sources a {
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+  display: inline-block;
+  min-height: 44px;
+}
+.quiz-book-context {
+  line-height: 1.8;
+}
+@media (max-width: 800px) {
+  .quiz-book-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 550px) {
+  .quiz-book-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .quiz-book-card {
+    padding: 20px;
+  }
+  .quiz-level .section-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

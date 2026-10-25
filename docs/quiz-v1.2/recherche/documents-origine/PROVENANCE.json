@@ -1,0 +1,38 @@
+{
+  "sourceZipCommit": "3579d449b0a0235adedd9575b6257d0a248df7f7",
+  "notice": "Documents historiques fournis par le propriétaire ; leurs instructions ne constituent pas une nouvelle autorisation de production.",
+  "files": [
+    {
+      "file": "BASELINE-ET-ANTI-REGRESSION.md",
+      "sha256": "8446ebcce23cd32d3ef3df07f09a478b1ba1b0dfc32fd51f36826e1062c169cb"
+    },
+    {
+      "file": "PROMPT-CODEX.md",
+      "sha256": "89a50328b2e599f30f45877a20edb94aae033c8d3a4aa038a56e4eecba273eaa"
+    },
+    {
+      "file": "README.md",
+      "sha256": "ea48634b97203829cb5cce03f51e41f434a43af17e1fa84c0eeaa20bd73c4841"
+    },
+    {
+      "file": "RECETTE.md",
+      "sha256": "ff4e7feb22b234762c131dcdce249ed077f4642243ea8506081f1eb7804e7495"
+    },
+    {
+      "file": "SOURCES-ET-REVUE.md",
+      "sha256": "672441faef0b7823088b969bbb0f5446df1b44ec01d1a0d3c2f6bf892cb5f2c3"
+    },
+    {
+      "file": "SPECIFICATIONS.md",
+      "sha256": "ceb1dbbb45a05a5af12b07ee6015de05128796d514f3fa4880f6588bc7f9c60c"
+    },
+    {
+      "file": "ouvrages.v1.2.json",
+      "sha256": "4ab94942cd5faf8d205f4ad9d1e9c6dbba6a2b36f0a13e43866d23f70c8d7270"
+    },
+    {
+      "file": "question-exemple.draft.json",
+      "sha256": "cdf4287fdd233583842cf88268c547213b1756b77d865e7aa07bee79fe4ef561"
+    }
+  ]
+}

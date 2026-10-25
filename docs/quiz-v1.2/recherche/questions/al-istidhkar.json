@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "al-istidhkar",
+    "level": "ultime",
+    "titleAr": "الاستذكار",
+    "authorAr": "يوسف بن عبد الله بن عبد البر",
+    "defaultSectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "al-istidhkar-01",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quel problème de transmission Ibn ʿAbd al-Barr relève-t-il dans l’identification de ʿAbd Allāh b. Zayd comme grand-père de ʿAmr ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’auteur affirme l’absence de toute chaîne de transmission"
+        },
+        {
+          "id": "b",
+          "textFr": "Cette identification n’est pas suivie par les autres rapporteurs de la même transmission"
+        },
+        {
+          "id": "c",
+          "textFr": "Cette précision est donnée de manière identique par tous les rapporteurs"
+        },
+        {
+          "id": "d",
+          "textFr": "Le seul désaccord concerne le nombre de lavages"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "L’auteur distingue le contenu du hadith et une précision généalogique dans l’isnād. Cette remarque ne doit pas devenir une invalidation globale du hadith.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1123",
+          "quoteAr": "إِلَّا مَالِكٌ ، وَلَمْ يُتَابِعْهُ أَحَدٌ عَلَى ذَلِك",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-02",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Dans le propos de Mālik rapporté ici, introduire une main effectivement propre sans lavage préalable rend-il automatiquement le wuḍūʾ invalide ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, mais seulement si l’eau est froide"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, parce que la désapprobation équivaut toujours à la nullité"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, le texte dit que cela ne lui nuit pas"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, sans tenir compte de la propreté de la main"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage rapporte une désapprobation, mais distingue celle-ci d’une atteinte à la validité lorsque la main est propre.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1131",
+          "quoteAr": "وَإِنْ كَانَتْ يَدُهُ طَاهِرَةً لَمْ يَضُرَّ ذَلِكَ وَضُوءَه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-03",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quelle réserve Ibn ʿAbd al-Barr apporte-t-il au fait de dépasser trois lavages ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Tout quatrième lavage est obligatoire"
+        },
+        {
+          "id": "b",
+          "textFr": "Tout quatrième lavage est interdit même pour une zone restée sèche"
+        },
+        {
+          "id": "c",
+          "textFr": "La répétition devient sans limite dès qu’un doute existe"
+        },
+        {
+          "id": "d",
+          "textFr": "Un ajout peut servir à compléter un lavage resté incomplet"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte qualifie l’excès d’abus, sauf s’il sert à remédier à une insuffisance réelle. Il ne recommande pas la répétition indéfinie.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1136",
+          "quoteAr": "وَمَا زَادَ فَهُوَ اعْتِدَاءٌ مَا لَمْ تَكُنِ الزِّيَادَةُ لِتَمَامِ نُقْصَان",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-04",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Le fait de frotter les dents avec le doigt est-il constitutif du rinçage buccal selon cette analyse ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il en est distinct"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, il est indispensable à toute maḍmaḍa"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, il remplace l’introduction de l’eau dans la bouche"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, mais il est obligatoire au titre du lavage du visage"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’auteur distingue maḍmaḍa et nettoyage des dents au doigt ; il ne faut pas rendre ce geste nécessaire à la définition du rinçage.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1137",
+          "quoteAr": "وَلَيْسَ إِدْخَالُ الْإِصْبَعِ وَدَلْكُ الْأَسْنَانِ بِهَا مِنَ الْمَضْمَضَة",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-05",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quelle définition le passage donne-t-il de l’istinthār ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ramener les mains sur la tête"
+        },
+        {
+          "id": "b",
+          "textFr": "Rejeter l’eau hors du nez"
+        },
+        {
+          "id": "c",
+          "textFr": "Aspirer l’eau par le nez"
+        },
+        {
+          "id": "d",
+          "textFr": "Faire circuler l’eau dans la bouche"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Il le distingue lexicalement de l’istinshāq, qui consiste à aspirer l’eau par le nez.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1139",
+          "quoteAr": "دَفْعُ الْمَاءِ مِنَ الْأَنْف",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-06",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Selon les avis de Mālik et d’al-Shāfiʿī rapportés ici, quel statut ont le rinçage de la bouche et le nettoyage nasal dans le wuḍūʾ et le ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une obligation au ghusl seulement dans ces avis"
+        },
+        {
+          "id": "b",
+          "textFr": "Une obligation au wuḍūʾ seulement dans ces avis"
+        },
+        {
+          "id": "c",
+          "textFr": "Une sunna, non une obligation"
+        },
+        {
+          "id": "d",
+          "textFr": "Une obligation dans le wuḍūʾ et le ghusl"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage attribue cette position aux deux imams et leurs disciples, avant de rapporter d’autres positions.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1142",
+          "quoteAr": "سُنَّةٌ لَا فَرِيضَةٌ ، لَا فِي الْوُضُوءِ وَلَا فِي الْجَنَابَة",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-07",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quelle distinction le texte rapporte-t-il d’Abū Ḥanīfa sur ces deux actes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Obligatoires au wuḍūʾ, sunnas au ghusl"
+        },
+        {
+          "id": "b",
+          "textFr": "Obligatoires dans les deux sans distinction"
+        },
+        {
+          "id": "c",
+          "textFr": "Sunnas dans les deux sans distinction"
+        },
+        {
+          "id": "d",
+          "textFr": "Obligatoires dans le ghusl de janāba, sunnas au wuḍūʾ"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Cette réponse rapporte la position hanafite exposée ; elle ne doit pas être étiquetée comme avis malikite.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1148",
+          "quoteAr": "هُمَا فَرْضٌ فِي الْجَنَابَةِ ، وَسُنَّةٌ فِي الْوُضُوء",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-08",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quel fondement invoquent ceux qui distinguent le caractère obligatoire du nettoyage nasal et celui du rinçage buccal ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La différence entre un acte rapporté et un ordre explicite"
+        },
+        {
+          "id": "b",
+          "textFr": "La différence de température entre les deux rinçages"
+        },
+        {
+          "id": "c",
+          "textFr": "Le consensus sur le caractère obligatoire de la bouche seule"
+        },
+        {
+          "id": "d",
+          "textFr": "L’idée que toute pratique rapportée impose nécessairement une obligation"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Ibn ʿAbd al-Barr présente leur raisonnement : la pratique ne suffit pas seule à rendre obligatoire, alors qu’ils comprennent l’ordre comme obligation sauf indication contraire.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1162–1164",
+          "quoteAr": "وَأَفْعَالُهُ مَنْدُوبٌ إِلَيْهَا لَيْسَتْ بِوَاجِبَةٍ إِلَّا بِدَلِيل",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-09",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "Quel minimum suffit pour laver le visage selon l’accord rapporté par l’auteur ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un essuyage au lieu du lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "Un lavage complet"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois lavages même si le premier couvre tout"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux lavages même si le premier couvre tout"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "L’auteur distingue le minimum complet et la perfection de trois lavages. L’adjectif « complet » est essentiel.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1165",
+          "quoteAr": "وَالْغَسْلَةُ الْوَاحِدَةُ إِذَا أَوْعَبَتْ تُجْزِئُ بِإِجْمَاعٍ مِنَ الْعُلَمَاء",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-istidhkar-10",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "status": "review",
+      "questionFr": "À quel autre de ses ouvrages Ibn ʿAbd al-Barr renvoie-t-il pour les voies du hadith et les variantes de ses rapporteurs ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Risāla"
+        },
+        {
+          "id": "b",
+          "textFr": "Bidāyat al-mujtahid"
+        },
+        {
+          "id": "c",
+          "textFr": "Al-Tamhīd"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Mudawwana"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le renvoi distingue son analyse des variantes de transmission et la discussion juridique menée ici. Al-Tamhīd et al-Istidhkār sont deux ouvrages du même auteur.",
+      "references": [
+        {
+          "sourceId": "istidhkar-wudu",
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة: باب العمل في الوضوء",
+          "locator": "§1126",
+          "quoteAr": "وَقَدْ ذَكَرْنَا طُرُقَ هَذَا الْحَدِيثِ فِي \" التَّمْهِيدِ \" وَاخْتِلَافَ رُوَاتِهِ فِي سِيَاقَتِهِ وَأَلْفَاظِه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "url": "https://www.islamweb.net/ar/library/content/93/78/",
+          "textCheck": "matched-transcription"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

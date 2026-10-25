@@ -13,6 +13,19 @@ const questionSchema = z
       .array(
         z.object({
           title: z.string().min(1),
+          reference: z
+            .object({
+              workTitleAr: z.string(),
+              authorAr: z.string(),
+              sectionAr: z.string(),
+              quoteAr: z.string(),
+              quoteLayer: z.string(),
+              locator: z.string(),
+              edition: z.string().nullable(),
+              printedPage: z.number().nullable(),
+              pdfPage: z.number().nullable(),
+            })
+            .optional(),
           url: z
             .string()
             .url()

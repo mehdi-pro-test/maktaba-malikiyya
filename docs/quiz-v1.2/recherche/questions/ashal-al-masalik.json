@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "ashal-al-masalik",
+    "level": "intermediaire",
+    "titleAr": "أسهل المسالك في مذهب الإمام مالك",
+    "authorAr": "محمد البشار",
+    "defaultSectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "ashal-al-masalik-01",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Comment le poème compte-t-il les obligations du wuḍūʾ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dix"
+        },
+        {
+          "id": "b",
+          "textFr": "Sept"
+        },
+        {
+          "id": "c",
+          "textFr": "Six"
+        },
+        {
+          "id": "d",
+          "textFr": "Huit"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le premier hémistiche annonce sept obligations, avant l’intention et les lavages.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "فرائض الوضوء سبع عدها",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-02",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Le poème demande-t-il l’essuyage de toute la tête ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, le tiers seulement est cité"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, seules les tempes sont concernées"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, le quart de la tête suffit dans ce vers"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "L’expression « toute la tête » est explicite dans le vers.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "ومسح كل الرأس بالمفارق",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-03",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Comment le poème compte-t-il les sunnas du wuḍūʾ dans sa propre présentation ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Sept"
+        },
+        {
+          "id": "b",
+          "textFr": "Six"
+        },
+        {
+          "id": "c",
+          "textFr": "Onze"
+        },
+        {
+          "id": "d",
+          "textFr": "Huit"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Asḥal al-masālik annonce huit, car sa manière de compter diffère de celle d’autres matns. Ce n’est pas une contradiction à effacer automatiquement.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "وقل ثمان عدة المسنون",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-04",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Le renouvellement de l’eau pour les oreilles figure-t-il dans les sunnas décrites ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, le texte le classe comme une obligation"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, le texte le place seulement parmi les faḍāʾil"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il suffit toujours de l’eau du lavage des bras"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le vers dit de renouveler l’eau pour les deux oreilles, puis évoque l’ordre des obligations.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "جدد لمائهما ورتب فرضه",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-05",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Combien d’actes méritoires des ablutions le poème annonce-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Sept"
+        },
+        {
+          "id": "b",
+          "textFr": "Dix"
+        },
+        {
+          "id": "c",
+          "textFr": "Huit"
+        },
+        {
+          "id": "d",
+          "textFr": "Onze"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Il annonce dix faḍāʾil. On doit conserver le décompte de cet ouvrage, sans y recopier celui d’un autre.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "أما فضائله فعشر تذكر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-06",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "À quel groupe le poème rattache-t-il le siwāk ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Aux obligations"
+        },
+        {
+          "id": "b",
+          "textFr": "Aux conditions de validité de l’eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Aux actes méritoires"
+        },
+        {
+          "id": "d",
+          "textFr": "Aux sunnas énumérées"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le siwāk suit l’annonce des faḍāʾil ; il ne remplace aucun lavage.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "تسويكه ثم المكان الطاهر",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-07",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Par quelle zone de la tête le poème recommande-t-il de commencer l’essuyage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La nuque"
+        },
+        {
+          "id": "b",
+          "textFr": "Le côté gauche de la tête"
+        },
+        {
+          "id": "c",
+          "textFr": "Les oreilles"
+        },
+        {
+          "id": "d",
+          "textFr": "L’avant de la tête"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le vers place le début de l’essuyage à l’avant dans la série des actes méritoires, sans confondre cette manière préférable avec l’obligation du masḥ lui-même.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "والبدء بالرأس من المقدم",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-08",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quel cas de sommeil annule les ablutions dans les vers cités ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le sommeil profond, long ou court"
+        },
+        {
+          "id": "b",
+          "textFr": "Uniquement le sommeil profond et long"
+        },
+        {
+          "id": "c",
+          "textFr": "Uniquement le sommeil diurne"
+        },
+        {
+          "id": "d",
+          "textFr": "Uniquement le sommeil léger mais long"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le vers oppose le sommeil lourd au sommeil léger : la profondeur compte ici même si la durée est courte.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "نوم طويل أو قصير إن ثقل",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 10,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-09",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quel cas de sommeil le vers suivant n’assimile-t-il pas au sommeil profond ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La perte de raison passagère"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sommeil léger, même prolongé"
+        },
+        {
+          "id": "c",
+          "textFr": "Le sommeil lourd même très bref"
+        },
+        {
+          "id": "d",
+          "textFr": "L’évanouissement bref"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le texte dit « non léger, même prolongé » puis évoque une recommandation ; ne pas en déduire que toute somnolence est profonde.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "لا خف مع قصر وندبا إن يطل",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 10,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "ashal-al-masalik-10",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quelle perte de facultés figure parmi les causes annulant les ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La simple fatigue sans perte de facultés"
+        },
+        {
+          "id": "b",
+          "textFr": "Le seul sommeil léger bref"
+        },
+        {
+          "id": "c",
+          "textFr": "La perte de raison par ivresse ou évanouissement"
+        },
+        {
+          "id": "d",
+          "textFr": "Le doute sur la quantité d’eau seulement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le poème cite la folie, l’ivresse et l’évanouissement comme exemples de disparition de la raison.",
+      "references": [
+        {
+          "sourceId": "ashal-scan",
+          "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+          "authorAr": "محمد البشار",
+          "sectionAr": "باب فرائض الوضوء وسننه وفضائله وباب نواقض الوضوء",
+          "locator": "Page droite 9 / gauche 10, PDF 6",
+          "quoteAr": "أسبابه زوال عقل إما بالجن أو بالسكر أو بالإغما",
+          "quoteLayer": "author",
+          "edition": null,
+          "printedPage": 9,
+          "pdfPage": 6,
+          "url": "https://archive.org/download/yacine_201809/أسهل المسالك في مذهب الإمام مالك.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}

@@ -1,0 +1,505 @@
+{
+  "schemaVersion": "1.2-research-1",
+  "book": {
+    "id": "al-mouqaddima-al-izziyya",
+    "level": "intermediaire",
+    "titleAr": "المقدمة العزية للجماعة الأزهرية",
+    "authorAr": "علي بن محمد المنوفي الشاذلي",
+    "defaultSectionAr": "الباب الأول في الطهارة",
+    "status": "review",
+    "reviewer": null,
+    "reviewedAt": null
+  },
+  "questions": [
+    {
+      "id": "al-mouqaddima-al-izziyya-01",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Comment le matn définit-il l’eau ṭahūr ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Toute eau dont le goût est agréable"
+        },
+        {
+          "id": "b",
+          "textFr": "Pure en elle-même et purifiante pour autre chose"
+        },
+        {
+          "id": "c",
+          "textFr": "Pure en elle-même mais non purifiante"
+        },
+        {
+          "id": "d",
+          "textFr": "Purifiante mais impure en elle-même"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La définition distingue la pureté de l’eau et son pouvoir de purification rituelle.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "الماء الطهور: ما كان طاهرا في نفسه، مطهرا لغيره",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-02",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quelle eau est citée parmi les exemples d’eau purifiante ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lait mêlé à l’eau jusqu’à en modifier le goût"
+        },
+        {
+          "id": "b",
+          "textFr": "Un liquide pur qui ne se nomme plus simplement eau"
+        },
+        {
+          "id": "c",
+          "textFr": "L’eau de mer"
+        },
+        {
+          "id": "d",
+          "textFr": "L’eau de rose comme telle"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le matn cite ensemble l’eau de mer, de puits et de pluie, sous les conditions indiquées ensuite.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "كالبحر والبئر والمطر",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-03",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quels trois caractères de l’eau sont examinés dans le passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Couleur, température et profondeur"
+        },
+        {
+          "id": "b",
+          "textFr": "Goût, quantité et température"
+        },
+        {
+          "id": "c",
+          "textFr": "Odeur, origine géographique et contenant"
+        },
+        {
+          "id": "d",
+          "textFr": "Couleur, goût et odeur"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le texte nomme les trois caractères dont l’altération est étudiée. La température n’est pas l’un des trois ici.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "وهي اللون والطعم والريح",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-04",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quel exemple de substance pure, habituellement séparable de l’eau, le matn donne-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lait"
+        },
+        {
+          "id": "b",
+          "textFr": "La terre naturelle de son lit"
+        },
+        {
+          "id": "c",
+          "textFr": "Les algues nées dans l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sel naturel de l’eau de mer"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le lait est cité avec le miel comme matière pure dont l’altération peut retirer le pouvoir purifiant.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "كاللبن والعسل",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-05",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Si le lait altère réellement l’un des trois caractères de l’eau dans le cas décrit, quel statut donne le matn au mélange ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Purifiant pour le wuḍūʾ mais non pour le ghusl"
+        },
+        {
+          "id": "b",
+          "textFr": "Pur mais non purifiant"
+        },
+        {
+          "id": "c",
+          "textFr": "Impur comme le mélange altéré par l’urine"
+        },
+        {
+          "id": "d",
+          "textFr": "Pur et purifiant sans réserve"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le matn refuse le wuḍūʾ, le ghusl et l’istinjāʾ avec cette eau et la qualifie ensuite de pure mais non purifiante.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "والمتغير بالطاهر طاهر غير طهور يستعمل في العادات ولا يستعمل في العبادات",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-06",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Quel statut reçoit l’eau dont un caractère est altéré par une impureté telle que l’urine ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Pure et purifiante avec une simple recommandation d’abstention"
+        },
+        {
+          "id": "b",
+          "textFr": "Purifiante pour le ghusl seulement"
+        },
+        {
+          "id": "c",
+          "textFr": "Impure"
+        },
+        {
+          "id": "d",
+          "textFr": "Pure mais non purifiante seulement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le texte classe comme najis l’eau altérée par l’impur, sans l’assimiler à l’eau altérée par du lait.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "والمتغير بالنجس نجس",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-07",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "L’altération par la terre du lit de l’eau retire-t-elle ici son pouvoir purifiant ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, comme tout changement sans distinction"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, dès que la couleur change même naturellement"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, parce que la terre est nécessairement impure"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, le matn la traite comme une exception"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage excepte ce qui relève du qarār naturel de l’eau, comme terre, sel et nūra. Ne pas généraliser à tout mélange de produits commerciaux.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "وإذا تغير بما هو من قراره كالتراب والملح والنورة",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 5,
+          "pdfPage": 9,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-08",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "L’altération naturelle par des algues issues de l’eau est-elle traitée comme le mélange de lait ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, le texte dit qu’elle ne nuit pas dans ce cas"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, les deux retirent toujours le pouvoir purifiant"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, les deux rendent nécessairement l’eau impure"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, car seul le lait serait toujours impur"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le texte excepte ce qui naît de l’eau elle-même ; il cite les algues.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "أو بما تولد منه كالطحلب أو بطول المكث فإنه لا يضر",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 6,
+          "pdfPage": 10,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-09",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Le seul séjour prolongé de l’eau, dans le cas mentionné, lui retire-t-il son pouvoir purifiant ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, car toute eau stagnante est impure"
+        },
+        {
+          "id": "b",
+          "textFr": "Non"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, dès que son odeur change par le seul séjour"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, au terme de chaque journée"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage associe le long séjour aux modifications qui ne nuisent pas ici au statut de l’eau. Il ne fixe pas de durée horaire.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "أو بطول المكث فإنه لا يضر ويستعمل في العادات والعبادات",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 6,
+          "pdfPage": 10,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-10",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "status": "review",
+      "questionFr": "Si une impureté tombe dans une petite quantité d’eau sans la modifier, que dit ici le matn lorsque l’on dispose d’une autre eau ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle reste purifiante sans aucune désapprobation ici"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle est seulement pure mais a perdu son pouvoir purifiant"
+        },
+        {
+          "id": "c",
+          "textFr": "La purification reste valide, mais son usage est déconseillé"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle devient nécessairement impure"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le texte affirme la validité puis la karāha en présence d’une autre eau. Il faut conserver les conditions : faible quantité, absence de changement, autre eau disponible.",
+      "references": [
+        {
+          "sourceId": "izziyya-scan",
+          "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+          "authorAr": "علي بن محمد المنوفي الشاذلي",
+          "sectionAr": "الباب الأول في الطهارة",
+          "locator": "Matn dans le cadre",
+          "quoteAr": "ولم تغيره فإنه يصح التطهير به، لكن يكره إذا وجد غيره",
+          "quoteLayer": "author",
+          "edition": "دار إحياء الكتب العربية، عيسى البابي الحلبي وشركاه ; exemplaire NYU aub_aco001345, date non contrôlée dans le volume",
+          "printedPage": 6,
+          "pdfPage": 10,
+          "url": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf",
+          "textCheck": "read-facsimile"
+        }
+      ],
+      "scholarlyReview": {
+        "status": "pending",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Contrôle textuel effectué ; relecture doctrinale et pédagogique humaine non effectuée."
+      }
+    }
+  ]
+}
