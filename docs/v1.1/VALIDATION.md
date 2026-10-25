@@ -62,3 +62,9 @@ Les API Stripe/Resend sont simulées pour les tests d’intégration ; leur vér
 - Stripe test, Resend et l’ordonnanceur de rapprochement/réessais nécessitent une recette externe dans l’environnement choisi. Aucun paiement réel n’a été activé.
 
 Proposer dans GitHub une protection de main : PR obligatoire, checks requis après leur premier passage, interdiction des force-push. La politique d’organisation et les droits de configuration doivent être vérifiés par le propriétaire ; cette livraison ne prétend pas avoir activé la protection.
+
+## PR et contrôle hébergé
+
+PR en brouillon : https://github.com/mehdi-pro-test/maktaba-malikiyya/pull/1 ; état des checks consultable dans l’onglet Checks de cette PR. Les premiers jobs hébergés ont passé migrations, lint, typage, unitaires et intégration, puis échoué pendant Playwright sous le serveur de développement. Les journaux détaillés ont été refusés par le proxy de téléchargement. La CI est alignée sur les essais locaux : build de production avant E2E, puis `next start`, sans retrait d’assertion ; les 28 cas ont été rejoués localement avec `CI=1` et ont passé.
+
+Une preview Vercel a été déclenchée mais son statut est en échec : aucune URL de preview fonctionnelle n’est validée. L’intégration ne donne pas accès à sa configuration de base ni à ses logs Vercel. Préparer et migrer explicitement une base Preview isolée avant de valider l’hébergement. La PR reste en brouillon et n’a pas été fusionnée ; aucun changement V1.1 en Production.

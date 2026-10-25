@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, RotateCcw, Sparkles, Check, X } from 'lucide-react';
 import type { QuizQuestion as Question } from '@/lib/quiz';
+import { visibleCategories } from '@/data/categories';
 import { isCorrect, quizScore } from '@/lib/quiz';
 function ArabicText({ text }: { text: string }) {
   return (
@@ -66,7 +67,7 @@ function QuizQuestion({
       role="group"
       aria-label={
         question.type === 'multiple'
-          ? 'Choix multiples : sélectionner quatre réponses'
+          ? `Choix multiples : sélectionner ${question.requiredSelectionCount} réponses`
           : 'Choisir une réponse'
       }
       className={`quiz-choices ${question.type === 'single' ? 'quiz-number-choices' : ''}`}
@@ -140,7 +141,7 @@ function QuizResults({
       </div>
       <p>
         {score === all.length
-          ? 'Une belle maîtrise de ces deux notions. Continuez à explorer !'
+          ? 'Une belle maîtrise de ces notions. Continuez à explorer !'
           : 'Le plus important : repartir avec quelque chose de nouveau.'}
       </p>
       <div className="quiz-recap">
@@ -237,7 +238,12 @@ export function QuizGame({ questions }: { questions: Question[] }) {
         <span style={{ width: `${((index + (validated ? 1 : 0)) / questions.length) * 100}%` }} />
       </div>
       <div className="quiz-question-heading">
-        <span className="eyebrow">FIQH · LES FONDEMENTS</span>
+        <span className="eyebrow">
+          {visibleCategories()
+            .find((c) => c.slug === q.category)
+            ?.nameFr.toUpperCase() ?? 'CONNAISSANCES'}{' '}
+          · LE SAVOIR EN QUESTIONS
+        </span>
         <h1 ref={heading} tabIndex={-1}>
           {q.promptFr}
         </h1>

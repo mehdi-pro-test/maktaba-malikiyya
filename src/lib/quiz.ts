@@ -8,6 +8,7 @@ const questionSchema = z
   .object({
     id: z.string().min(1),
     status: z.literal('published'),
+    category: z.string().min(1),
     order: z.number().int(),
     type: z.enum(['single', 'multiple']),
     promptFr: z.string().min(1),
