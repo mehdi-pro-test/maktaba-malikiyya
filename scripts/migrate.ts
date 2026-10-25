@@ -3,7 +3,8 @@ import { Client } from 'pg';
 import { readdir, readFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 // Apply committed Prisma-generated SQL with a PostgreSQL transaction and checksum journal.
-// Keeps deployment independent of native engine downloads. Never run migrations during next build.
+// Keeps deployment independent of native engine downloads.
+// Only initial installation in an empty dedicated production DB may run from vercel-build.
 const client = new Client({ connectionString: process.env.DATABASE_URL });
 await client.connect();
 try {

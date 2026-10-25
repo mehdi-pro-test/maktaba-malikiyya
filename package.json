@@ -18,7 +18,9 @@
     "email:retry": "tsx scripts/email-retry.ts",
     "catalog:update": "tsx scripts/catalog-update.ts",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "vercel:build": "tsx scripts/vercel-build.ts",
+    "vercel:setup": "tsx scripts/vercel-build.ts --setup"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.10.1",

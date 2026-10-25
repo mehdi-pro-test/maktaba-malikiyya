@@ -87,7 +87,7 @@ Sur cette machine, Chromium est déjà installé : `PLAYWRIGHT_CHROMIUM_EXECUTAB
 
 Prisma utilise son moteur client JavaScript et l’adaptateur officiel `@prisma/adapter-pg`, sans binaire de requête natif. Les migrations SQL versionnées proviennent du schéma Prisma ; `db:migrate` les applique avec `pg`, une transaction, un verrou et un journal de sommes SHA-256 `_MaktabaMigration`. Une migration déjà appliquée ne doit jamais être éditée. Ne pas mélanger ce journal avec `prisma migrate deploy`. La génération utilise Prisma 7 et son moteur client JavaScript stable. Ce runner SQL évite le téléchargement de moteurs natifs dans le cloud et fonctionne également sur une base gérée ; son journal est propre à cette application.
 
-Pour une évolution du schéma, générer et relire une nouvelle migration SQL avant de la commiter. Ne pas lancer de migration dans un build Vercel : les previews concurrentes ne doivent pas modifier une base commune.
+Pour une évolution du schéma, générer et relire une nouvelle migration SQL avant de la commiter. La toute première installation peut initialiser automatiquement une base vide dédiée en Production (voir ci-dessous). Les previews et les futures migrations ne modifient pas automatiquement le schéma pendant le build.
 
 ## GitHub et Vercel
 
@@ -95,9 +95,21 @@ Dépôt : https://github.com/mehdi-pro-test/maktaba-malikiyya. Le projet a été
 
 La boutique est déployée à l’adresse fournie par le propriétaire : https://maktaba-malikiyya.vercel.app. Un statut de build Vercel réussi a été constaté ; cela ne valide pas la base distante, les paiements ou les e-mails. La CI est livrée, son résultat hébergé doit être vérifié dans Actions. Utiliser la branche de développement pour les changements et configurer les protections de branche selon les accès disponibles.
 
-Pour Vercel : importer **ce nouveau dépôt**, choisir Node 24, créer une base PostgreSQL dédiée Preview, renseigner les variables serveur ci-dessus, appliquer `db:migrate` puis `db:seed` depuis un runner de confiance connecté à cette base. `vercel.json` prépare le build. `APP_URL`, si renseignée, doit être l’origine HTTPS du site. Sans cette variable sur Vercel, l’application utilise automatiquement `VERCEL_URL`. Les domaines fournis par `VERCEL_URL` et `VERCEL_PROJECT_PRODUCTION_URL` sont aussi reconnus pour les previews, sans faire confiance aux en-têtes Host envoyés par le navigateur. Configurer un endpoint Stripe test `/api/webhooks/stripe` avec `checkout.session.completed` et `checkout.session.expired`, puis son secret propre. Chaque preview doit conserver sa base et son endpoint de test isolés ; ne pas réutiliser une base/endpoint de production.
+Pour Vercel : importer **ce nouveau dépôt**, choisir Node 24, créer une base PostgreSQL dédiée Preview, renseigner les variables serveur ci-dessus, Le premier déploiement Production initialise une nouvelle base complètement vide ; pour une base déjà partiellement initialisée, exécuter explicitement `db:migrate` puis `db:seed` depuis un runner de confiance. `vercel.json` prépare le build. `APP_URL`, si renseignée, doit être l’origine HTTPS du site. Sans cette variable sur Vercel, l’application utilise automatiquement `VERCEL_URL`. Les domaines fournis par `VERCEL_URL` et `VERCEL_PROJECT_PRODUCTION_URL` sont aussi reconnus pour les previews, sans faire confiance aux en-têtes Host envoyés par le navigateur. Configurer un endpoint Stripe test `/api/webhooks/stripe` avec `checkout.session.completed` et `checkout.session.expired`, puis son secret propre. Chaque preview doit conserver sa base et son endpoint de test isolés ; ne pas réutiliser une base/endpoint de production.
 
 Ne pas activer le déploiement public avant d’avoir réglé la protection d’accès de preview et la confidentialité. Aucune URL Vercel n’est annoncée sans déploiement réussi. Accès Vercel/liaison GitHub et secrets test restent à fournir dans les paramètres sécurisés, jamais dans le chat.
+
+### Premier démarrage sur Vercel sans terminal
+
+1. Ouvrir le projet `maktaba-malikiyya`, puis **Storage → Create Database** et choisir PostgreSQL/Neon. Créer une **nouvelle base dédiée** à cette boutique et la connecter au projet, notamment à l’environnement Production. Les libellés exacts peuvent varier dans Vercel.
+2. Vérifier dans **Settings → Environment Variables** qu’une variable serveur `DATABASE_URL` a été ajoutée par l’intégration. Ne pas copier sa valeur dans le chat ou dans Git.
+3. Redéployer la branche `main` en **Production** avec la commande de build du dépôt : `npm run vercel:build` (retirer un éventuel ancien override `npm run build` dans les réglages).
+
+Le premier build Production vérifie que la base est vide, génère Prisma, applique les migrations versionnées et ajoute les deux produits. Ce mécanisme refuse une base contenant des tables étrangères au projet. Les builds suivants vérifient la connexion, les tables et le catalogue sans réinitialiser les produits ou les commandes. Les previews n’initialisent jamais une base automatiquement. Les évolutions futures du schéma exigent une migration explicite, hors build courant.
+
+Sans base connectée, le build échoue avec `DATABASE_URL_MISSING` au lieu d’annoncer un déploiement prêt dont le catalogue plante à l’ouverture. Les autres diagnostics sont `DATABASE_UNREACHABLE`, `DATABASE_SCHEMA_MISSING` et `CATALOG_EMPTY` ; aucune valeur de connexion n’est imprimée par ce contrôle. Le script `npm run vercel:setup` permet une initialisation/réparation explicite sur une base dédiée existante ; il est refusé dans une preview Vercel.
+
+Après le chargement du catalogue, le paiement nécessite encore les clés Stripe **test** et le webhook détaillés plus haut. Connecter PostgreSQL ne configure pas Stripe ou Resend.
 
 ## Avant une exploitation commerciale
 
