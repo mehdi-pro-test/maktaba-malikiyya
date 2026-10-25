@@ -2,16 +2,55 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { catalog } from '@/lib/catalog';
 import { money } from '@/lib/rules';
+import { visibleCategories } from '@/data/categories';
 import { AddToCart } from '@/components/cart-provider';
 import { BookImage } from '@/components/book-image';
+import { CategoryTabs } from '@/components/category-tabs';
+import { Breadcrumbs } from '@/components/breadcrumbs';
+import { Books } from '@/components/books';
 export const dynamic = 'force-dynamic';
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const c = visibleCategories().find((c) => c.slug === slug);
+  return {
+    title: c
+      ? `Catégorie ${c.nameFr}`
+      : slug === 'mukhtasar-al-akhdari'
+        ? 'Mukhtasar al-Akhdari'
+        : slug === 'moshaf-coran'
+          ? 'Coran (Moshaf)'
+          : slug === 'sahih-al-bukhari'
+            ? 'Sahih al-Bukhari'
+            : 'Ouvrage en arabe',
+  };
+}
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
+  const category = visibleCategories().find((c) => c.slug === slug);
+  if (category)
+    return (
+      <section className="section-wrap category-page">
+        <Breadcrumbs items={[{ label: 'Livres', href: '/livres' }, { label: category.nameFr }]} />
+        <span className="eyebrow">LIVRES / {category.nameFr.toUpperCase()}</span>
+        <h1>Catégorie {category.nameFr}</h1>
+        <p>{category.description}</p>
+        <CategoryTabs selected={category.slug} />
+        <Books category={category.slug} />
+      </section>
+    );
   const p = (await catalog()).find((p) => p.slug === slug);
   if (!p) notFound();
+  const c = visibleCategories().find((c) => c.slug === p.category);
   return (
     <section className="section-wrap product-page">
-      <Link className="text-link" href={`/${p.category}`}>
+      <Breadcrumbs
+        items={[
+          { label: 'Livres', href: '/livres' },
+          { label: c?.nameFr ?? p.category, href: `/livres/${p.category}` },
+          { label: p.titleFr },
+        ]}
+      />
+      <Link className="text-link" href={`/livres/${p.category}`}>
         ← Retour à la sélection
       </Link>
       <div className="product-layout">
@@ -20,18 +59,43 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
           <span className="visual-caption">Visuel provisoire · aucune édition représentée</span>
         </div>
         <div>
-          <span className="eyebrow">{p.category.toUpperCase()} · OUVRAGE EN ARABE</span>
+          <span className="eyebrow">
+            {c?.nameFr.toUpperCase() ?? p.category.toUpperCase()} · OUVRAGE EN ARABE
+          </span>
           <h1>{p.titleFr}</h1>
           <p lang="ar" dir="rtl" className="arabic product-arabic">
             {p.titleAr}
           </p>
-          <p className="product-price">{money(p.priceCents)}</p>
+          <p className="product-price">
+            {p.priceCents === null ? 'Prix à venir' : money(p.priceCents)}
+          </p>
           <p>
             Un ouvrage pour accompagner votre cheminement dans les sciences islamiques. Les
             informations d’édition seront précisées ultérieurement.
           </p>
-          <p className="stock">{p.available} exemplaire(s) disponible(s)</p>
-          <AddToCart id={p.id} stock={p.available} />
+          {p.status === 'DRAFT' ? (
+            <div className="draft-message">
+              <span className="eyebrow">BIENTÔT DISPONIBLE</span>
+              <p>
+                Le prix, le stock et l’édition de cet ouvrage restent à confirmer. L’achat n’est pas
+                encore ouvert.
+              </p>
+              <button className="button" disabled>
+                Bientôt disponible
+              </button>
+            </div>
+          ) : (
+            <>
+              <p className="stock">{p.available} exemplaire(s) disponible(s)</p>
+              <AddToCart
+                id={p.id}
+                stock={p.available}
+                title={p.titleFr}
+                priceCents={p.priceCents}
+                imagePath={p.imagePath}
+              />
+            </>
+          )}
           <div className="product-shipping">
             France métropolitaine : 4 €, offerts dès 50 € d’achats.
             <br />

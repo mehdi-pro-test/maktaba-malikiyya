@@ -1,0 +1,192 @@
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+async function correctImams(page: import('@playwright/test').Page) {
+  for (const name of ['Abû Hanîfa', 'Mâlik ibn Anas', 'Ash-Shâfiʿî', 'Ahmad ibn Hanbal'])
+    await page.getByRole('button', { name: new RegExp(name) }).click();
+}
+test('Livres parent, catégories, brouillon et redirections V1', async ({ page }) => {
+  await page.goto('/');
+  await page
+    .getByRole('navigation', { name: 'Navigation principale', exact: true })
+    .getByRole('link', { name: 'Livres', exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/livres$/);
+  await page.getByRole('button', { name: 'Afficher les catégories de livres' }).click();
+  await page
+    .locator('#book-subcategories')
+    .getByRole('link', { name: 'Fiqh', exact: true })
+    .click();
+  await expect(page).toHaveURL(/\/livres\/fiqh$/);
+  await expect(page.getByRole('heading', { name: 'Mukhtasar al-Akhdari' })).toBeVisible();
+  await expect(page.getByText('Prix à venir')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Bientôt disponible' })).toBeDisabled();
+  await expect(page.getByRole('button', { name: 'Ajouter au panier' })).toHaveCount(0);
+  await page.getByRole('link', { name: 'Mukhtasar al-Akhdari', exact: true }).click();
+  await expect(page).toHaveURL(/\/livres\/mukhtasar-al-akhdari$/);
+  await expect(page.getByRole('navigation', { name: 'Fil d’Ariane' })).toContainText(
+    'LivresFiqhMukhtasar al-Akhdari',
+  );
+  await page.goto('/coran');
+  await expect(page).toHaveURL(/\/livres\/coran$/);
+  await expect(page.getByRole('heading', { name: 'Coran (Moshaf)' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Sahih al-Bukhari' })).toHaveCount(0);
+  await page.goto('/hadith');
+  await expect(page).toHaveURL(/\/livres\/hadith$/);
+});
+test('Mini-panier clavier, focus restauré et seuil France/Europe', async ({ page }) => {
+  await page.goto('/livres/moshaf-coran');
+  const add = page.getByRole('button', { name: 'Ajouter au panier' });
+  await add.click();
+  const drawer = page.getByRole('dialog', { name: 'Votre panier', exact: true });
+  await expect(drawer).toBeVisible();
+  await expect(drawer.getByRole('heading', { name: 'Coran (Moshaf)' })).toBeVisible();
+  await expect(drawer.getByText(/Encore 40,00/)).toBeVisible();
+  await expect(drawer.getByRole('button', { name: 'Fermer le mini-panier' })).toBeFocused();
+  await page.keyboard.press('Shift+Tab');
+  await expect(drawer.getByRole('button', { name: 'Continuer mes découvertes' })).toBeFocused();
+  await page.keyboard.press('Tab');
+  await expect(drawer.getByRole('button', { name: 'Fermer le mini-panier' })).toBeFocused();
+  await page.keyboard.press('Escape');
+  await expect(drawer).not.toBeVisible();
+  await expect(page.getByRole('button', { name: 'Ajouté au panier ✓' })).toBeFocused();
+  await page.getByLabel('Quantité pour ce livre').selectOption('4');
+  await page.getByRole('button', { name: 'Ajouté au panier ✓' }).click();
+  await expect(
+    drawer.getByText('Vous profitez de la livraison offerte en France métropolitaine'),
+  ).toBeVisible();
+  await drawer.getByLabel('Destination de l’estimation').selectOption('EU');
+  await expect(drawer.getByRole('progressbar')).toHaveCount(0);
+  await expect(drawer.getByText('Livraison à 20 € pour ce pays, sans gratuité.')).toBeVisible();
+  await drawer.getByRole('link', { name: 'Voir le panier' }).click();
+  await expect(
+    page.getByText('Vous profitez de la livraison offerte en France métropolitaine'),
+  ).toBeVisible();
+  await page.getByLabel('Estimer la livraison').selectOption('BE');
+  await expect(page.getByRole('progressbar')).toHaveCount(0);
+  await expect(page.getByText(/70,00/)).toBeVisible();
+});
+test('Quiz : sélection exacte, score, feedback, résultat et rejouer', async ({ page }) => {
+  await page.goto('/quiz');
+  await expect(page.getByText('2 questions disponibles', { exact: true })).toBeVisible();
+  await expect(page.getByText(/10 questions/)).toHaveCount(0);
+  await page.getByRole('button', { name: 'Commencer le quiz' }).click();
+  await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
+  await correctImams(page);
+  await expect(page.getByText('4/4 sélectionnées')).toBeVisible();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByText('Score : 1/2', { exact: true })).toBeVisible();
+  await expect(page.getByRole('status').filter({ hasText: 'Bonne réponse !' })).toBeVisible();
+  await page.getByRole('button', { name: 'Question suivante' }).click();
+  await expect(page.getByText('Question 2 sur 2')).toBeVisible();
+  await page.getByRole('button', { name: '2', exact: true }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByRole('status').filter({ hasText: /tahârat al-hadath/ })).toContainText(
+    'طهارة الخبث',
+  );
+  await page.getByRole('button', { name: 'Voir mon résultat' }).click();
+  await expect(page.getByLabel('Score final : 2 sur 2')).toBeVisible();
+  await page.getByRole('button', { name: 'Rejouer' }).click();
+  await expect(page.getByText('Question 1 sur 2')).toBeVisible();
+  await expect(page.getByText('Score : 0/2', { exact: true })).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
+});
+test('Quiz : mauvaises réponses donnent 0/2 et correction lisible', async ({ page }) => {
+  await page.goto('/quiz');
+  await page.getByRole('button', { name: 'Commencer le quiz' }).click();
+  for (const name of ['Abû Hanîfa', 'Mâlik ibn Anas', 'Ash-Shâfiʿî', 'Al-Bukhârî'])
+    await page.getByRole('button', { name: new RegExp(name) }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await expect(page.getByText('Score : 0/2', { exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Question suivante' }).click();
+  await page.getByRole('button', { name: '3', exact: true }).click();
+  await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+  await page.getByRole('button', { name: 'Voir mon résultat' }).click();
+  await expect(page.getByLabel('Score final : 0 sur 2')).toBeVisible();
+});
+test('Accessibilité des nouveautés, mini-panier et quiz actifs', async ({ page }) => {
+  for (const route of ['/livres', '/livres/fiqh', '/quiz']) {
+    await page.goto(route);
+    const results = await new AxeBuilder({ page })
+      .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
+      .analyze();
+    expect(
+      results.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })),
+    ).toEqual([]);
+  }
+  await page.getByRole('button', { name: 'Commencer le quiz' }).click();
+  let results = await new AxeBuilder({ page })
+    .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
+    .analyze();
+  expect(
+    results.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })),
+  ).toEqual([]);
+  await page.goto('/livres/moshaf-coran');
+  await page.getByRole('button', { name: 'Ajouter au panier' }).click();
+  results = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
+  expect(
+    results.violations.map((v) => ({ id: v.id, nodes: v.nodes.map((n) => n.target) })),
+  ).toEqual([]);
+});
+test('320px, menu au clavier et reduced-motion', async ({ page }) => {
+  await page.setViewportSize({ width: 320, height: 800 });
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  for (const path of ['/', '/livres', '/livres/fiqh', '/quiz']) {
+    await page.goto(path);
+    expect(
+      await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth),
+    ).toBe(true);
+  }
+  await page.getByRole('button', { name: 'Afficher les catégories de livres' }).focus();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#book-subcategories')).toBeVisible();
+  await page.keyboard.press('Tab');
+  await expect(
+    page.locator('#book-subcategories').getByRole('link', { name: 'Tous les livres' }),
+  ).toBeFocused();
+  await page.keyboard.press('Escape');
+  await expect(
+    page.getByRole('button', { name: 'Afficher les catégories de livres' }),
+  ).toBeFocused();
+  await expect(page.locator('#book-subcategories')).not.toBeVisible();
+});
+
+test('Panier invalide : aucune navigation active vers le checkout', async ({ page }) => {
+  await page.addInitScript(() =>
+    localStorage.setItem(
+      'maktaba-cart',
+      JSON.stringify([{ productId: 'mukhtasar-al-akhdari', quantity: 1 }]),
+    ),
+  );
+  await page.goto('/panier');
+  await expect(
+    page.getByRole('button', { name: 'Stock insuffisant — modifiez votre panier' }),
+  ).toBeDisabled();
+  await expect(page.getByRole('link', { name: 'Passer commande' })).toHaveCount(0);
+});
+test('Confirmation : un échec e-mail ne devient jamais un envoi annoncé', async ({ page }) => {
+  await page.route('**/api/orders?token=failed-mail-fixture', (route) =>
+    route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({
+        reference: 'MM-EMAIL-FAIL',
+        status: 'PAID',
+        totalCents: 1400,
+        subtotalCents: 1000,
+        shippingCents: 400,
+        items: [{ titleFr: 'Coran (Moshaf)', quantity: 1, unitPriceCents: 1000 }],
+        emailDelivery: { status: 'FAILED' },
+      }),
+    }),
+  );
+  await page.goto('/commande/confirmation?token=failed-mail-fixture');
+  await expect(
+    page.getByText(
+      'Votre commande est confirmée. L’envoi de l’e-mail a échoué et nécessite un réessai.',
+    ),
+  ).toBeVisible();
+  await expect(
+    page.getByText('Votre e-mail de confirmation a été envoyé.', { exact: true }),
+  ).toHaveCount(0);
+  await expect(page.getByText('1 × Coran (Moshaf)', { exact: true })).toBeVisible();
+});

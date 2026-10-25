@@ -5,6 +5,7 @@ import { Minus, Plus, Trash2, ArrowRight, LockKeyhole } from 'lucide-react';
 import { useCart } from './cart-provider';
 import { money, shipping, europeanCountries } from '@/lib/rules';
 import { Button } from './ui/button';
+import { ShippingProgress } from './shipping-progress';
 import { BookImage } from './book-image';
 type Book = {
   id: string;
@@ -101,13 +102,21 @@ export function CartCheckout({
       <p className="muted">
         Les prix, frais et disponibilités seront vérifiés côté serveur avant le paiement.
       </p>
-      {!checkout && (
-        <Button asChild>
-          <Link aria-disabled={invalid} href={invalid ? '#stock' : '/commande'}>
-            Passer commande <ArrowRight size={17} />
-          </Link>
-        </Button>
-      )}
+      <ShippingProgress
+        subtotal={subtotal}
+        country={country}
+        itemCount={items.reduce((sum, i) => sum + i.quantity, 0)}
+      />
+      {!checkout &&
+        (invalid ? (
+          <Button disabled>Stock insuffisant — modifiez votre panier</Button>
+        ) : (
+          <Button asChild>
+            <Link href="/commande">
+              Passer commande <ArrowRight size={17} />
+            </Link>
+          </Button>
+        ))}
       <p className="payment-note">
         <LockKeyhole size={15} /> Carte bancaire · Stripe test uniquement
       </p>

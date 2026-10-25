@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { catalog } from '@/lib/catalog';
 import { money } from '@/lib/rules';
 import { AddToCart } from './cart-provider';
+import { visibleCategories } from '@/data/categories';
 import { BookImage } from './book-image';
 export async function Books({ category }: { category?: string }) {
   const books = await catalog(category);
@@ -15,7 +16,7 @@ export async function Books({ category }: { category?: string }) {
           <article className="book-card" key={p.id}>
             <Link className={`book-visual ${p.category}`} href={`/livres/${p.slug}`}>
               <span className="category-tag">
-                {p.category === 'coran' ? 'Le Saint Coran' : 'Sciences du hadith'}
+                {visibleCategories().find((c) => c.slug === p.category)?.nameFr ?? p.category}
               </span>
               <BookImage src={p.imagePath} title={p.titleFr} />
               <span className="visual-caption">Visuel provisoire</span>
@@ -25,9 +26,7 @@ export async function Books({ category }: { category?: string }) {
             </Link>
             <div className="book-info">
               <div>
-                <span className="eyebrow">
-                  {p.category === 'coran' ? 'CATÉGORIE : CORAN' : 'CATÉGORIE : HADITH'}
-                </span>
+                <span className="eyebrow">CATÉGORIE : {p.category.toUpperCase()}</span>
                 <h3>
                   <Link href={`/livres/${p.slug}`}>{p.titleFr}</Link>
                 </h3>
@@ -35,14 +34,33 @@ export async function Books({ category }: { category?: string }) {
                   {p.titleAr}
                 </p>
               </div>
-              <span className="price">{money(p.priceCents)}</span>
+              <span className="price">
+                {p.priceCents === null ? 'Prix à venir' : money(p.priceCents)}
+              </span>
             </div>
-            <div className="stock">
-              {p.available > 0
-                ? `${p.available} exemplaires disponibles`
-                : 'Momentanément indisponible'}
-            </div>
-            <AddToCart id={p.id} stock={p.available} />
+            {p.status === 'DRAFT' ? (
+              <div className="draft-message">
+                <span className="draft-badge">Bientôt disponible</span>
+                <button className="button" disabled>
+                  Bientôt disponible
+                </button>
+              </div>
+            ) : (
+              <>
+                <div className="stock">
+                  {p.available > 0
+                    ? `${p.available} exemplaires disponibles`
+                    : 'Momentanément indisponible'}
+                </div>
+                <AddToCart
+                  id={p.id}
+                  stock={p.available}
+                  title={p.titleFr}
+                  priceCents={p.priceCents}
+                  imagePath={p.imagePath}
+                />
+              </>
+            )}
           </article>
         ))
       )}

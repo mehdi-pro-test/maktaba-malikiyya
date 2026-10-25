@@ -327,4 +327,22 @@ describe('Commandes réelles en PostgreSQL, prestataires simulés', () => {
     expect(await db.order.count()).toBe(0);
     expect(await db.stockReservation.count()).toBe(0);
   });
+  it('l’API refuse Akhdari sans créer de session Stripe même si les services sont configurés', async () => {
+    const create = vi.spyOn(fixtureClient.checkout.sessions, 'create');
+    const response = await checkout(
+      new Request('http://localhost:3000/api/checkout', {
+        method: 'POST',
+        headers: { origin: 'http://localhost:3000' },
+        body: JSON.stringify({
+          ...input(),
+          items: [{ productId: 'mukhtasar-al-akhdari', quantity: 1 }],
+        }),
+      }),
+    );
+    expect(response.status).toBe(400);
+    expect(create).not.toHaveBeenCalled();
+    expect(await db.order.count()).toBe(0);
+    expect(await db.stockReservation.count()).toBe(0);
+    create.mockRestore();
+  });
 });

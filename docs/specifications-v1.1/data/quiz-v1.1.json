@@ -1,0 +1,184 @@
+{
+  "version": "1.1",
+  "plannedSlots": 10,
+  "language": "fr-FR",
+  "scoring": "1 point si la totalité des réponses attendues est correcte, sinon 0",
+  "questions": [
+    {
+      "id": "q01",
+      "status": "published",
+      "order": 1,
+      "category": "fiqh",
+      "type": "multiple",
+      "promptFr": "Qui sont les imams des quatre écoles juridiques sunnites ?",
+      "instructionFr": "Sélectionne les quatre imams fondateurs.",
+      "requiredSelectionCount": 4,
+      "options": [
+        {
+          "id": "abu-hanifa",
+          "label": "Abû Hanîfa",
+          "arabic": "أبو حنيفة"
+        },
+        {
+          "id": "malik",
+          "label": "Mâlik ibn Anas",
+          "arabic": "مالك بن أنس"
+        },
+        {
+          "id": "shafii",
+          "label": "Ash-Shâfiʿî",
+          "arabic": "الشافعي"
+        },
+        {
+          "id": "ahmad",
+          "label": "Ahmad ibn Hanbal",
+          "arabic": "أحمد بن حنبل"
+        },
+        {
+          "id": "bukhari",
+          "label": "Al-Bukhârî",
+          "arabic": "البخاري"
+        },
+        {
+          "id": "muslim",
+          "label": "Muslim ibn al-Hajjâj",
+          "arabic": "مسلم بن الحجاج"
+        }
+      ],
+      "correctOptionIds": [
+        "abu-hanifa",
+        "malik",
+        "shafii",
+        "ahmad"
+      ],
+      "editorialNote": "Les deux distracteurs de QCM sont des propositions UX à valider par le PO ; les quatre bonnes réponses viennent du PO.",
+      "explanationFr": "Les quatre écoles sont hanafite (Abû Hanîfa), malikite (Mâlik ibn Anas), shafi'ite (Ash-Shâfiʿî) et hanbalite (Ahmad ibn Hanbal)."
+    },
+    {
+      "id": "q02",
+      "status": "published",
+      "order": 2,
+      "category": "fiqh",
+      "type": "single",
+      "promptFr": "La tahâra se divise en combien de catégories ?",
+      "options": [
+        {
+          "id": "n1",
+          "label": "1"
+        },
+        {
+          "id": "n2",
+          "label": "2"
+        },
+        {
+          "id": "n3",
+          "label": "3"
+        },
+        {
+          "id": "n4",
+          "label": "4"
+        }
+      ],
+      "correctOptionIds": [
+        "n2"
+      ],
+      "explanationFr": "Deux catégories : tahârat al-hadath (طهارة الحدث) et tahârat al-khabath (طهارة الخبث)."
+    },
+    {
+      "id": "q03",
+      "status": "draft",
+      "order": 3,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q04",
+      "status": "draft",
+      "order": 4,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q05",
+      "status": "draft",
+      "order": 5,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q06",
+      "status": "draft",
+      "order": 6,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q07",
+      "status": "draft",
+      "order": 7,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q08",
+      "status": "draft",
+      "order": 8,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q09",
+      "status": "draft",
+      "order": 9,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    },
+    {
+      "id": "q10",
+      "status": "draft",
+      "order": 10,
+      "category": null,
+      "type": null,
+      "promptFr": null,
+      "options": [],
+      "correctOptionIds": [],
+      "explanationFr": null,
+      "editorialNote": "En attente d'énoncé, de réponses et de validation du Product Owner. Ne jamais afficher au public."
+    }
+  ]
+}

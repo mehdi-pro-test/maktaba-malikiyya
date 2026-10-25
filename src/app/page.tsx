@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { ArrowRight, BookOpen, Truck, ShieldCheck } from 'lucide-react';
 import { Books } from '@/components/books';
+import { visibleCategories } from '@/data/categories';
+import { CategoryTabs } from '@/components/category-tabs';
 import { Button } from '@/components/ui/button';
 export const dynamic = 'force-dynamic';
 export default function Home() {
@@ -22,7 +24,7 @@ export default function Home() {
             <br className="desktop-break" /> Une bibliothèque qui vous accompagne.
           </p>
           <Button asChild>
-            <Link href="#catalogue">
+            <Link href="/livres">
               Découvrir nos livres <ArrowRight size={17} />
             </Link>
           </Button>
@@ -94,19 +96,38 @@ export default function Home() {
             <h2>Votre prochain chapitre.</h2>
           </div>
           <p>
-            Deux essentiels pour commencer,
+            Des essentiels pour étudier,
             <br />
-            et le plaisir d’apprendre, toujours.
+            et de nouvelles lectures à découvrir.
           </p>
         </div>
-        <div className="catalog-tabs">
-          <span className="active">
-            Tous les ouvrages <small>02</small>
-          </span>
-          <Link href="/coran">Coran</Link>
-          <Link href="/hadith">Hadith</Link>
+        <div className="category-cards">
+          {visibleCategories().map((c) => (
+            <Link key={c.id} href={`/livres/${c.slug}`}>
+              <span className="eyebrow">LIVRES / {String(c.sortOrder).padStart(2, '0')}</span>
+              <h3>{c.nameFr}</h3>
+              <p>{c.description}</p>
+              <ArrowRight size={18} />
+            </Link>
+          ))}
         </div>
+        <CategoryTabs />
         <Books />
+      </section>
+      <section className="quiz-teaser section-wrap">
+        <div>
+          <span className="eyebrow">LE PLAISIR D’APPRENDRE</span>
+          <h2>Et si le savoir se jouait ?</h2>
+          <p>
+            Deux questions pour explorer vos connaissances, à votre rythme.
+            <br />2 questions disponibles — d’autres arrivent.
+          </p>
+        </div>
+        <Button asChild>
+          <Link href="/quiz">
+            Commencer le quiz <ArrowRight size={16} />
+          </Link>
+        </Button>
       </section>
       <section className="philosophy section-wrap">
         <div className="philosophy-monogram" aria-hidden="true">

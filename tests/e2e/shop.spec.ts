@@ -8,10 +8,7 @@ test('Découverte, panier, livraison et formulaire invité', async ({ page }) =>
     .filter({ has: page.getByRole('heading', { name: 'Coran (Moshaf)' }) });
   await coran.getByRole('combobox').selectOption('3');
   await coran.getByRole('button', { name: 'Ajouter au panier' }).click();
-  await page
-    .getByRole('link', { name: /Panier/ })
-    .first()
-    .click();
+  await page.getByRole('dialog').getByRole('link', { name: 'Voir le panier' }).click();
   await expect(page.getByText('30,00', { exact: false }).first()).toBeVisible();
   await page.getByRole('button', { name: 'Diminuer la quantité de Coran (Moshaf)' }).click();
   await expect(page.getByText('24,00', { exact: false })).toBeVisible();
@@ -43,11 +40,8 @@ test('Catégories, fiche et suppression du panier', async ({ page }) => {
   await page.getByRole('link', { name: 'Sahih al-Bukhari', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Sahih al-Bukhari' })).toBeVisible();
   await page.getByRole('button', { name: 'Ajouter au panier' }).click();
-  await page
-    .getByRole('link', { name: /Panier/ })
-    .first()
-    .click();
-  await expect(page.getByText('Offerte', { exact: true })).toBeVisible();
+  await page.getByRole('dialog').getByRole('link', { name: 'Voir le panier' }).click();
+  await expect(page.getByRole('main').getByText('Offerte', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'Retirer Sahih al-Bukhari' }).click();
   await expect(
     page.getByRole('heading', { name: 'Votre panier attend sa première lecture.' }),
@@ -98,7 +92,7 @@ test('Confirmation : attend le serveur puis affiche la référence et vide le pa
   await expect(page.getByRole('heading', { name: 'Merci pour votre confiance.' })).toBeVisible({
     timeout: 10000,
   });
-  await expect(page.getByText('MM-UI-FIXTURE', { exact: true })).toBeVisible();
+  await expect(page.getByText('MM-UI-FIXTURE', { exact: true }).first()).toBeVisible();
   await expect(
     page.getByText(
       'L’e-mail n’a pas été envoyé : le service de messagerie n’est pas encore configuré.',
