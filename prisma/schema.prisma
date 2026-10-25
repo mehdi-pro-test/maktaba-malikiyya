@@ -1,0 +1,80 @@
+generator client {
+ provider = "prisma-client-js"
+ engineType = "client"
+}
+datasource db {
+ provider = "postgresql"
+}
+model Product {
+ id String @id
+ slug String @unique
+ titleFr String
+ titleAr String
+ category String
+ imagePath String
+ priceCents Int
+ stockOnHand Int @default(10)
+ active Boolean @default(true)
+ updatedAt DateTime @updatedAt
+ items OrderItem[]
+ reservations StockReservation[]
+}
+model Order {
+ id String @id @default(uuid())
+ reference String @unique
+ tokenHash String @unique
+ email String
+ recipient String
+ address String
+ addressExtra String?
+ postalCode String
+ city String
+ countryCode String
+ subtotalCents Int
+ shippingCents Int
+ totalCents Int
+ status String @default("PENDING_PAYMENT")
+ stripeSessionId String? @unique
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ items OrderItem[]
+ reservations StockReservation[]
+ emailDelivery EmailDelivery?
+}
+model OrderItem {
+ id String @id @default(uuid())
+ orderId String
+ productId String
+ titleFr String
+ titleAr String
+ unitPriceCents Int
+ quantity Int
+ order Order @relation(fields:[orderId],references:[id])
+ product Product @relation(fields:[productId],references:[id])
+}
+model StockReservation {
+ id String @id @default(uuid())
+ orderId String
+ productId String
+ quantity Int
+ status String @default("ACTIVE")
+ expiresAt DateTime
+ order Order @relation(fields:[orderId],references:[id])
+ product Product @relation(fields:[productId],references:[id])
+ @@index([productId,status])
+}
+model WebhookEvent {
+ eventId String @id
+ type String
+ processedAt DateTime @default(now())
+}
+model EmailDelivery {
+ id String @id @default(uuid())
+ orderId String @unique
+ status String @default("PENDING")
+ attempts Int @default(0)
+ providerMessageId String?
+ createdAt DateTime @default(now())
+ updatedAt DateTime @updatedAt
+ order Order @relation(fields:[orderId],references:[id])
+}

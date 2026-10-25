@@ -1,0 +1,19 @@
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: maktaba
+      POSTGRES_DB: maktaba
+      # Isolated LOCAL development only. Never expose this port outside loopback.
+      POSTGRES_HOST_AUTH_METHOD: trust
+    ports:
+      - '127.0.0.1:5432:5432'
+    volumes:
+      - maktaba_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U maktaba -d maktaba']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  maktaba_pg:
