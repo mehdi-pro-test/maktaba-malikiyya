@@ -2,7 +2,7 @@
 
 Tu es Codex. Interviens comme équipe senior (Product Owner technique, UX/UI, Full Stack, QA, DevOps) pour livrer **la V1.1 du projet existant Maktaba Malikiyya**.
 
-**Dépôt existant :** https://github.com/mehdi-pro-test/maktaba-malikiyya  
+**Dépôt existant :** https://github.com/mehdi-pro-test/maktaba-malikiyya
 **Site actuel :** https://maktaba-malikiyya.vercel.app
 
 ## Avant toute modification

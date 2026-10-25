@@ -1,8 +1,8 @@
 # Maktaba Malikiyya — Package Product & Tech V1.1
 
-**Destinataire : Codex / équipe technique**  
-**Version :** 1.1 — 25/10/2026  
-**Projet existant :** https://github.com/mehdi-pro-test/maktaba-malikiyya  
+**Destinataire : Codex / équipe technique**
+**Version :** 1.1 — 25/10/2026
+**Projet existant :** https://github.com/mehdi-pro-test/maktaba-malikiyya
 **Environnement :** https://maktaba-malikiyya.vercel.app
 
 ## Objet
