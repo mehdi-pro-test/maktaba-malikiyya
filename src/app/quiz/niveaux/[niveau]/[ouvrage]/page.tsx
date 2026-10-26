@@ -1,7 +1,8 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuizGame } from '@/components/quiz-game';
-import { findQuizBook, bookQuestions, library } from '@/lib/quiz-v12-data';
+import { findQuizBook, library } from '@/lib/quiz-v12-data';
+import { startQuizAttempt } from '@/app/quiz/actions';
 import { quizLevels } from '@/lib/quiz-v12';
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -24,9 +25,8 @@ export default async function Page({
   const book = findQuizBook(niveau, ouvrage);
   const level = quizLevels.find((l) => l.id === niveau);
   if (!book || !level) notFound();
-  const questions = bookQuestions(niveau, ouvrage);
   const back = `/quiz/niveaux/${niveau}`;
-  if (!questions.length)
+  if (!book.available)
     return (
       <section className="section-wrap quiz-preparation">
         <Link className="text-link" href={back}>
@@ -56,7 +56,8 @@ export default async function Page({
         <Link href={back}>← Parcours {level.label}</Link>
       </nav>
       <QuizGame
-        questions={questions}
+        availableCount={book.approvedCount}
+        loadAttempt={startQuizAttempt.bind(null, niveau, ouvrage)}
         context={{
           titleFr: book.titleFr,
           titleAr: book.titleAr,

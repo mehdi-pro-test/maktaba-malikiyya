@@ -1,6 +1,12 @@
 import Link from 'next/link';
 import { quizLevels, type PublicBook } from '@/lib/quiz-v12';
-export function QuizLibrary({ books, levelId }: { books: PublicBook[]; levelId?: string }) {
+export function QuizLibrary({
+  books,
+  levelId,
+}: {
+  books: (PublicBook & { approvedCount?: number })[];
+  levelId?: string;
+}) {
   return (
     <div className="quiz-library">
       {quizLevels
@@ -37,7 +43,7 @@ export function QuizLibrary({ books, levelId }: { books: PublicBook[]; levelId?:
                     </p>
                     <p>
                       {book.available
-                        ? '10 questions disponibles'
+                        ? `${book.approvedCount ?? 10} questions disponibles · 10 par partie`
                         : `Relecture en cours · ${book.questionsToReview} questions à valider`}
                     </p>
                     <Link className="text-link" href={`/quiz/niveaux/${book.level}/${book.id}`}>

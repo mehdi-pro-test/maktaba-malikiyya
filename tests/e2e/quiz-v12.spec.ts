@@ -45,7 +45,10 @@ test('Les quinze quiz réels sont jouables et montrent la source arabe après va
     await page.goto(`/quiz/niveaux/${b.level}/${b.id}`);
     await expect(page.getByText('10 questions disponibles', { exact: true })).toBeVisible();
     await page.getByRole('button', { name: 'Commencer le quiz' }).click();
-    const q = raw.questions.find((q) => q.bookId === b.id)!;
+    await expect(page.locator('.quiz-game h1')).toBeVisible();
+    const prompt = await page.locator('.quiz-game h1').innerText();
+    const q = raw.questions.find((q) => q.bookId === b.id && q.questionFr === prompt)!;
+    expect(q).toBeDefined();
     await expect(page.getByRole('heading', { name: q.questionFr, exact: true })).toBeVisible();
     await expect(page.getByLabel('Références arabes de la correction')).toHaveCount(0);
     await page

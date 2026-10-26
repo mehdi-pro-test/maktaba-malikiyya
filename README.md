@@ -1,3 +1,5 @@
+> **V1.3 technique (PR en attente, non déployée)** : tirage serveur de dix questions distinctes par partie, stable jusqu’au résultat ; Rejouer effectue un nouveau tirage. La banque conserve **150 questions publiées** ; les **90 nouvelles candidates restent en brouillon**. Voir [architecture et import futur](docs/quiz-v1.3/TECHNIQUE.md), [inventaire exact](docs/quiz-v1.3/INVENTAIRE.md) et [tests et non-régression](docs/quiz-v1.3/VALIDATION.md). La navigation vers les niveaux et la suppression du classique sont conservées.
+
 > **État actuel V1.1 :** PR #1 fusionnée et boutique démo publiée. Akhdari confirmé à 15 € / 15 exemplaires, édition Maktaba Malikiyya ; quiz étendu à dix questions et visuels existants conservés. Voir [le suivi de finalisation](docs/v1.1/FINALISATION.md) pour migrations, sauvegardes, recette et blocages effectifs Stripe/Resend/GitHub. Les anciennes sections de livraison ci-dessous sont conservées comme historique.
 
 # Maktaba Malikiya
