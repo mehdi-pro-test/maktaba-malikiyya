@@ -1,5 +1,5 @@
 // Current approved public corpus for assertions against a randomized live game.
-import raw from '../../src/data/quiz-v1.2/research.json';
+import raw from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
 import { researchBankSchema } from '../../src/lib/quiz-v12';
 import { editorialLots } from '../../src/lib/quiz-v13-lots';
 import { inspectCandidateLots, candidateBatchSchema } from '../../src/lib/quiz-v13-editorial';
