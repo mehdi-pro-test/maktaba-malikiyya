@@ -1,0 +1,1150 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "matn-ibn-ashir",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "Brouillon éditorial nouveau. La transcription numérique comporte des graphies/diacritiques atypiques : réviser la citation et la leçon d'après une édition avant publication. Rien n'est ajouté aux banques V1.2 en Production.",
+  "questions": [
+    {
+      "id": "matn-ibn-ashir-v13-001",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة المتن",
+        "quoteAr": "في عَقْدِ الأشعري وفقه مالك وفي طَريقَةِ الجُنَيْدِ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quels sont les trois grands domaines annoncés au début du poème d’Ibn Ashir ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La grammaire, l’astronomie et la logique"
+        },
+        {
+          "id": "b",
+          "textFr": "Le commerce, la médecine et le voyage"
+        },
+        {
+          "id": "c",
+          "textFr": "La géographie, l’histoire et le calcul"
+        },
+        {
+          "id": "d",
+          "textFr": "La croyance ash'arite, le fiqh malikite et la voie d'al-Junayd"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « في عَقْدِ الأشعري وفقه مالك وفي طَريقَةِ الجُنَيْدِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-002",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة لكتاب الاعتقاد",
+        "quoteAr": "وَهْيَ الوُجوبُ الاسْتِحالَةُ الجَوازْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "En combien de catégories le poème divise-t-il le jugement rationnel ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "b",
+          "textFr": "Sept"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَهْيَ الوُجوبُ الاسْتِحالَةُ الجَوازْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-003",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة لكتاب الاعتقاد",
+        "quoteAr": "فواجب لا يَقْبَلُ النَّفْيَ بِحالْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle catégorie rationnelle n’admet pas la négation selon le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le recommandé"
+        },
+        {
+          "id": "b",
+          "textFr": "Le nécessaire (wâjib)"
+        },
+        {
+          "id": "c",
+          "textFr": "L’impossible"
+        },
+        {
+          "id": "d",
+          "textFr": "Le permis juridique"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « فواجب لا يَقْبَلُ النَّفْيَ بِحالْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-004",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة لكتاب الاعتقاد",
+        "quoteAr": "بِشَرطِ العقلِ مَعَ البُلــوغِ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelles deux conditions Ibn Ashir rattache-t-il explicitement à la responsabilité religieuse ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La raison et la puberté"
+        },
+        {
+          "id": "b",
+          "textFr": "La richesse et le voyage"
+        },
+        {
+          "id": "c",
+          "textFr": "La noblesse et la lecture"
+        },
+        {
+          "id": "d",
+          "textFr": "La profession et le mariage"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « بِشَرطِ العقلِ مَعَ البُلــوغِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-005",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة لكتاب الاعتقاد",
+        "quoteAr": "بِثَمان عّشْرَةِ ِ حَوْلاَ َ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel âge le texte cite-t-il parmi les signes possibles de la puberté ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Douze ans"
+        },
+        {
+          "id": "b",
+          "textFr": "Vingt-cinq ans"
+        },
+        {
+          "id": "c",
+          "textFr": "Trente ans"
+        },
+        {
+          "id": "d",
+          "textFr": "Dix-huit ans"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « بِثَمان عّشْرَةِ ِ حَوْلاَ َ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-006",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب أم القواعد",
+        "quoteAr": "يَجِبُ للهِ الوُجــودُ والقــِدَمْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle qualité divine est citée parmi les attributs nécessaires ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La faim"
+        },
+        {
+          "id": "b",
+          "textFr": "L’oubli"
+        },
+        {
+          "id": "c",
+          "textFr": "L’existence (wujûd)"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « يَجِبُ للهِ الوُجــودُ والقــِدَمْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-007",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب أم القواعد",
+        "quoteAr": "وَقُـدْرَةُ إرادَةُ عِلْـــمُ حَيَــا",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel attribut est expressément affirmé au sujet de Dieu dans l’Umm al-Qawâ'id ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La mortalité"
+        },
+        {
+          "id": "b",
+          "textFr": "La puissance (qudra)"
+        },
+        {
+          "id": "c",
+          "textFr": "La faiblesse"
+        },
+        {
+          "id": "d",
+          "textFr": "Le besoin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَقُـدْرَةُ إرادَةُ عِلْـــمُ حَيَــا ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-008",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب أم القواعد",
+        "quoteAr": "وجـهل وممات",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel attribut impossible pour Dieu Ibn Ashir cite-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La mortalité"
+        },
+        {
+          "id": "b",
+          "textFr": "La vie"
+        },
+        {
+          "id": "c",
+          "textFr": "La science"
+        },
+        {
+          "id": "d",
+          "textFr": "La volonté"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وجـهل وممات ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-009",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب أم القواعد",
+        "quoteAr": "يَجِبُ لِلرُّسْـلِ الكِـرامِ الصِّدْقُ أمــانَةُ تَبـْلـيغُهُـمْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quels trois attributs sont considérés comme nécessaires pour les messagers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Richesse, force et longévité"
+        },
+        {
+          "id": "b",
+          "textFr": "Commerce, écriture et royauté"
+        },
+        {
+          "id": "c",
+          "textFr": "Voyage, éloquence et médecine"
+        },
+        {
+          "id": "d",
+          "textFr": "Véracité, fidélité et transmission"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « يَجِبُ لِلرُّسْـلِ الكِـرامِ الصِّدْقُ أمــانَةُ تَبـْلـيغُهُـمْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-010",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب أم القواعد",
+        "quoteAr": "مُحَـــالُ الكَـذِبُ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel défaut est considéré comme impossible pour les messagers dans le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le sommeil naturel"
+        },
+        {
+          "id": "b",
+          "textFr": "La maladie non déshonorante"
+        },
+        {
+          "id": "c",
+          "textFr": "Le mensonge"
+        },
+        {
+          "id": "d",
+          "textFr": "Le fait de manger"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « مُحَـــالُ الكَـذِبُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-011",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فصل في قواعد الإسلام",
+        "quoteAr": "قَواعِدُ الإسلامِ خَمْسُ وَاجِباتْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de règles fondamentales de l’islam Ibn Ashir mentionne-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dix"
+        },
+        {
+          "id": "b",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois"
+        },
+        {
+          "id": "d",
+          "textFr": "Sept"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « قَواعِدُ الإسلامِ خَمْسُ وَاجِباتْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-012",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فصل في قواعد الإسلام",
+        "quoteAr": "وَهْيَ الشَّهادَتانِ شَرْطُ الباقِياتْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel pilier Ibn Ashir présente-t-il comme condition des autres piliers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les deux témoignages de foi"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pèlerinage"
+        },
+        {
+          "id": "c",
+          "textFr": "Le jeûne surérogatoire"
+        },
+        {
+          "id": "d",
+          "textFr": "La zakat du commerce"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَهْيَ الشَّهادَتانِ شَرْطُ الباقِياتْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-013",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فصل في قواعد الإسلام",
+        "quoteAr": "أن تَعْبُدَ اللَّهَ كَأنَّكَ تَــــراه",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Comment la section présente-t-elle l’ihsân ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ne jamais parler"
+        },
+        {
+          "id": "b",
+          "textFr": "Jeûner toute l’année"
+        },
+        {
+          "id": "c",
+          "textFr": "Rester toujours seul"
+        },
+        {
+          "id": "d",
+          "textFr": "Adorer Dieu comme si on Le voyait"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « أن تَعْبُدَ اللَّهَ كَأنَّكَ تَــــراه ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-014",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة من الأصول",
+        "quoteAr": "أَقْسـامُ حُكْـمِ الشَّرْعِ خَمْسّةُ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de catégories de jugements juridiques le poème énumère-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Six"
+        },
+        {
+          "id": "b",
+          "textFr": "Huit"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « أَقْسـامُ حُكْـمِ الشَّرْعِ خَمْسّةُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-015",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة من الأصول",
+        "quoteAr": "وَدونَ الْجَزْمِ مَنْدوبُ وُسِم",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Que désigne le mandûb selon la distinction donnée dans le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une chose nécessairement impossible"
+        },
+        {
+          "id": "b",
+          "textFr": "Une demande non impérative"
+        },
+        {
+          "id": "c",
+          "textFr": "Une interdiction catégorique"
+        },
+        {
+          "id": "d",
+          "textFr": "Une obligation certaine"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَدونَ الْجَزْمِ مَنْدوبُ وُسِم ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-016",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "مقدمة من الأصول",
+        "quoteAr": "وَالْفّرْضُ قِسْمانِ كِفايَةُ وَعَيْــن",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "En quelles deux espèces le texte subdivise-t-il le fard ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Obligation individuelle et collective"
+        },
+        {
+          "id": "b",
+          "textFr": "Rituel de jour et rituel de nuit"
+        },
+        {
+          "id": "c",
+          "textFr": "Grand et petit jeûne"
+        },
+        {
+          "id": "d",
+          "textFr": "Ablutions et pèlerinage"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَالْفّرْضُ قِسْمانِ كِفايَةُ وَعَيْــن ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-017",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب الطهارة",
+        "quoteAr": "إِذا تَغَيَّرَ بِنَجْسِ ِ طُرِحَـــا",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Comment est qualifiée l’eau altérée par une impureté dans les vers d’Ibn Ashir ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle est automatiquement recommandée"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle devient toujours plus pure"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle remplace la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle est écartée pour la purification"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « إِذا تَغَيَّرَ بِنَجْسِ ِ طُرِحَـــا ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-018",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فرائض الوضوء",
+        "quoteAr": "وَلْيَنْوِ رَفْعَ حَدّثِ ِ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Au moment de commencer le wudû, quelle intention le vers évoque-t-il parmi les possibilités ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Réciter un chapitre entier"
+        },
+        {
+          "id": "b",
+          "textFr": "Remplacer le ghusl sans motif"
+        },
+        {
+          "id": "c",
+          "textFr": "Lever l’état d’impureté rituelle"
+        },
+        {
+          "id": "d",
+          "textFr": "Acquérir une réputation"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَلْيَنْوِ رَفْعَ حَدّثِ ِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-019",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فرائض الوضوء",
+        "quoteAr": "خَلِّلْ أَصابِعَ الْيَدَيْنِ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel soin des mains le poème ordonne-t-il pendant les ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ne laver que les ongles"
+        },
+        {
+          "id": "b",
+          "textFr": "Faire passer l’eau entre les doigts"
+        },
+        {
+          "id": "c",
+          "textFr": "Couvrir les doigts de cendre"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver uniquement les paumes sans les doigts"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « خَلِّلْ أَصابِعَ الْيَدَيْنِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-020",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "نواقض الوضوء",
+        "quoteAr": "نَواقِضُ الْوُضوءِ سِتَّةَ عَشَرْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien d’annulatifs du wudû Ibn Ashir annonce-t-il dans le titre versifié de leur liste ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Seize"
+        },
+        {
+          "id": "b",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "c",
+          "textFr": "Dix"
+        },
+        {
+          "id": "d",
+          "textFr": "Trente"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « نَواقِضُ الْوُضوءِ سِتَّةَ عَشَرْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-021",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "نواقض الوضوء",
+        "quoteAr": "وَالشَّكُّ في الْحَدَثِ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel doute Ibn Ashir compte-t-il parmi les annulatifs du wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le doute sur le prix d’un livre"
+        },
+        {
+          "id": "b",
+          "textFr": "Le doute sur le jour du mois"
+        },
+        {
+          "id": "c",
+          "textFr": "Le doute sur son itinéraire"
+        },
+        {
+          "id": "d",
+          "textFr": "Le doute sur la survenue d’un hadath"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَالشَّكُّ في الْحَدَثِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-022",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فرائض الغسل",
+        "quoteAr": "وَالإِبْطِ وَالرُّفْغ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle zone cachée du corps le poème recommande-t-il de surveiller lors du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les doigts de l’autre personne"
+        },
+        {
+          "id": "b",
+          "textFr": "Le vêtement extérieur"
+        },
+        {
+          "id": "c",
+          "textFr": "Les aisselles"
+        },
+        {
+          "id": "d",
+          "textFr": "Les pointes des cheveux seulement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَالإِبْطِ وَالرُّفْغ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-023",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "موجب الغسل",
+        "quoteAr": "مُوجِبُهُ حَيْضُ ُ إِنْفاسُ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel événement le poème cite-t-il comme cause du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La récitation d’un vers"
+        },
+        {
+          "id": "b",
+          "textFr": "Les lochies (nifâs)"
+        },
+        {
+          "id": "c",
+          "textFr": "La simple marche"
+        },
+        {
+          "id": "d",
+          "textFr": "L’écoute du Coran"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « مُوجِبُهُ حَيْضُ ُ إِنْفاسُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-024",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "فصل لخَوْفِ ضُرِِّ أو عَدَمِ مـا",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle difficulté justifie le tayammum dans les vers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La crainte d’un dommage"
+        },
+        {
+          "id": "b",
+          "textFr": "Le désir de gagner du temps sans nécessité"
+        },
+        {
+          "id": "c",
+          "textFr": "La préférence personnelle en présence d’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "L’absence de vêtements blancs"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « فصل لخَوْفِ ضُرِِّ أو عَدَمِ مـا ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-025",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "وَصَلِّ فَرْضََا وَاحِداََ َ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de prières obligatoires le poème associe-t-il à un même tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Deux"
+        },
+        {
+          "id": "b",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Une"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَصَلِّ فَرْضََا وَاحِداََ َ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-026",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فروض التيمم",
+        "quoteAr": "لِلْكُوعِ والنِّيَّةُ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Jusqu’où doivent être essuyées les mains au titre des obligations du tayammum dans ces vers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Jusqu’aux coudes au titre d’obligation"
+        },
+        {
+          "id": "b",
+          "textFr": "Uniquement le bout des doigts"
+        },
+        {
+          "id": "c",
+          "textFr": "Jusqu’aux poignets"
+        },
+        {
+          "id": "d",
+          "textFr": "Jusqu’aux épaules"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « لِلْكُوعِ والنِّيَّةُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-027",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب الصلاة",
+        "quoteAr": "فَرائِضُ الصَّــلاةِ سِـتَّ عَشَرَهْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien d’obligations de la prière Ibn Ashir annonce-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Vingt"
+        },
+        {
+          "id": "b",
+          "textFr": "Seize"
+        },
+        {
+          "id": "c",
+          "textFr": "Treize"
+        },
+        {
+          "id": "d",
+          "textFr": "Sept"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « فَرائِضُ الصَّــلاةِ سِـتَّ عَشَرَهْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-028",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "كتاب الصلاة",
+        "quoteAr": "شُرُوطُهَـــا أَرْبَعـَةُ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de conditions de la prière le vers annonce-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "b",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "c",
+          "textFr": "Huit"
+        },
+        {
+          "id": "d",
+          "textFr": "Douze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « شُرُوطُهَـــا أَرْبَعـَةُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-029",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "سنن الصلاة",
+        "quoteAr": "مَـــــعَ الْقِيامِ أوَّلاََ َ والثَّانِيَهْ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Dans quelles unités de prière le poème situe-t-il la sunna d’ajouter une sourate après la Fâtiha ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La troisième uniquement"
+        },
+        {
+          "id": "b",
+          "textFr": "La quatrième uniquement"
+        },
+        {
+          "id": "c",
+          "textFr": "Après le salâm"
+        },
+        {
+          "id": "d",
+          "textFr": "La première et la deuxième"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « مَـــــعَ الْقِيامِ أوَّلاََ َ والثَّانِيَهْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "matn-ibn-ashir-v13-030",
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "المرشد المعين على الضروري من علوم الدين",
+        "authorAr": "عبد الواحد بن عاشر",
+        "chapterAr": "فرض العين وفرض الكفاية",
+        "quoteAr": "وَهْيَ كِفــايَةُ ُ لِمَيْتِ ِ",
+        "url": "https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Comment la prière funéraire est-elle classée par Ibn Ashir ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Acte interdit"
+        },
+        {
+          "id": "b",
+          "textFr": "Sunnah du tayammum"
+        },
+        {
+          "id": "c",
+          "textFr": "Obligation collective"
+        },
+        {
+          "id": "d",
+          "textFr": "Obligation individuelle quotidienne"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَهْيَ كِفــايَةُ ُ لِمَيْتِ ِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
+      "newComparedToV12": "manually-screened-not-approved"
+    }
+  ]
+}

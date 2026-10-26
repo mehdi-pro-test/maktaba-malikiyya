@@ -1,0 +1,135 @@
+{
+  "baselineDigest": "eb1b6ab9830e22a543603e0093f6c9ac100f6e9209cae403413c1528a26598fa",
+  "approvalsV12": 150,
+  "books": [
+    {
+      "bookId": "moukhtassar-al-akhdari",
+      "published": 10,
+      "draft": 30
+    },
+    {
+      "bookId": "matn-ibn-ashir",
+      "published": 10,
+      "draft": 30
+    },
+    {
+      "bookId": "al-achmawiyya",
+      "published": 10,
+      "draft": 30
+    },
+    {
+      "bookId": "al-mouqaddima-al-izziyya",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "ashal-al-masalik",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "moukhtassar-khalil",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "sharh-al-dardir",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "hashiyat-al-dasuqi",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "bidayat-al-mujtahid",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "al-istidhkar",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "issal-as-salik",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "murtaqa-al-wusul",
+      "published": 10,
+      "draft": 0
+    },
+    {
+      "bookId": "maraqi-as-suud",
+      "published": 10,
+      "draft": 0
+    }
+  ],
+  "candidateBatches": [
+    {
+      "bookId": "moukhtassar-al-akhdari",
+      "written": 30,
+      "approved": 0,
+      "digest": "44848abd2fc44c0bc13c6e8537ba700a6e435d2b166ccc91e183617890d96033"
+    },
+    {
+      "bookId": "matn-ibn-ashir",
+      "written": 30,
+      "approved": 0,
+      "digest": "483d99bb31b37c97e4b5a3f0c0875a345c47c5844724ff735937106e1a3d7ec8"
+    },
+    {
+      "bookId": "al-achmawiyya",
+      "written": 30,
+      "approved": 0,
+      "digest": "1bdeb6102d0f88db639a54f66395c0df98edcafb314503c823b6fb51b9565fdf"
+    }
+  ],
+  "publishedV13": 0,
+  "attributionDifferencesToReview": [
+    "al-achmawiyya-v13-001",
+    "al-achmawiyya-v13-002",
+    "al-achmawiyya-v13-003",
+    "al-achmawiyya-v13-004",
+    "al-achmawiyya-v13-005",
+    "al-achmawiyya-v13-006",
+    "al-achmawiyya-v13-007",
+    "al-achmawiyya-v13-008",
+    "al-achmawiyya-v13-009",
+    "al-achmawiyya-v13-010",
+    "al-achmawiyya-v13-011",
+    "al-achmawiyya-v13-012",
+    "al-achmawiyya-v13-013",
+    "al-achmawiyya-v13-014",
+    "al-achmawiyya-v13-015",
+    "al-achmawiyya-v13-016",
+    "al-achmawiyya-v13-017",
+    "al-achmawiyya-v13-018",
+    "al-achmawiyya-v13-019",
+    "al-achmawiyya-v13-020",
+    "al-achmawiyya-v13-021",
+    "al-achmawiyya-v13-022",
+    "al-achmawiyya-v13-023",
+    "al-achmawiyya-v13-024",
+    "al-achmawiyya-v13-025",
+    "al-achmawiyya-v13-026",
+    "al-achmawiyya-v13-027",
+    "al-achmawiyya-v13-028",
+    "al-achmawiyya-v13-029",
+    "al-achmawiyya-v13-030"
+  ],
+  "note": "Contrôle structurel seulement. Doublons sémantiques et exactitude religieuse à relire. Aucun fichier modifié."
+}

@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useTransition } from 'react';
 import Link from 'next/link';
 import { ArrowRight, BookOpen, RotateCcw, Sparkles, Check, X } from 'lucide-react';
 import type { QuizQuestion as Question } from '@/lib/quiz';
@@ -82,9 +82,11 @@ export function QuizIntro({
   count,
   start,
   context,
+  pending = false,
 }: {
   count: number;
   start: () => void;
+  pending?: boolean;
   context?: QuizContext;
 }) {
   return (
@@ -123,8 +125,8 @@ export function QuizIntro({
         </span>
         <span>Sans chrono. À votre rythme.</span>
       </div>
-      <button className="button" onClick={start}>
-        Commencer le quiz <ArrowRight size={18} />
+      <button className="button" onClick={start} disabled={pending}>
+        {pending ? 'Chargement…' : 'Commencer le quiz'} <ArrowRight size={18} />
       </button>
       <p className="muted">Sans compte et sans enregistrement de votre score.</p>
     </div>
@@ -201,10 +203,12 @@ function QuizResults({
   answers,
   replay,
   context,
+  pending,
 }: {
   all: Question[];
   answers: Record<string, string[]>;
   replay: () => void;
+  pending?: boolean;
   context?: QuizContext;
 }) {
   const ref = useRef<HTMLHeadingElement>(null);
@@ -245,9 +249,9 @@ function QuizResults({
         ))}
       </div>
       <div className="quiz-result-actions">
-        <button className="button" onClick={replay}>
+        <button className="button" onClick={replay} disabled={pending}>
           <RotateCcw size={17} />
-          Rejouer
+          {pending ? 'Chargement…' : 'Rejouer'}
         </button>
         <Link href={returnLink(context).href} className="text-link">
           {returnLink(context).label} <ArrowRight size={16} />
@@ -256,7 +260,22 @@ function QuizResults({
     </div>
   );
 }
-export function QuizGame({ questions, context }: { questions: Question[]; context?: QuizContext }) {
+export function QuizGame({
+  questions: initialQuestions = [],
+  context,
+  availableCount,
+  loadAttempt,
+}: {
+  questions?: Question[];
+  context?: QuizContext;
+  availableCount?: number;
+  loadAttempt?: () => Promise<Question[]>;
+}) {
+  const [questions, setQuestions] = useState(initialQuestions);
+  const [pending, startTransition] = useTransition();
+  const [error, setError] = useState('');
+  const loading = useRef(false);
+  const count = availableCount ?? initialQuestions.length;
   const [started, setStarted] = useState(false);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<string[]>([]);
@@ -269,7 +288,7 @@ export function QuizGame({ questions, context }: { questions: Question[]; contex
       heading.current?.scrollIntoView({ behavior: 'instant', block: 'start' });
     }
   }, [started, index, finished]);
-  if (!questions.length)
+  if (count < 10)
     return (
       <div className="quiz-intro">
         <span className="eyebrow">LE QUIZ DE LA MAKTABA</span>
@@ -281,15 +300,46 @@ export function QuizGame({ questions, context }: { questions: Question[]; contex
       </div>
     );
   const replay = () => {
-    setIndex(0);
-    setSelected([]);
-    setAnswers({});
-    setFinished(false);
-    setStarted(true);
+    if (loading.current) return;
+    loading.current = true;
+    setError('');
+    startTransition(async () => {
+      try {
+        const next = loadAttempt ? await loadAttempt() : [...initialQuestions];
+        if (next.length !== 10 || new Set(next.map((q) => q.id)).size !== 10) {
+          setError('Ce quiz est en préparation. Revenez aux niveaux ou réessayez plus tard.');
+          return;
+        }
+        setQuestions(next);
+        setIndex(0);
+        setSelected([]);
+        setAnswers({});
+        setFinished(false);
+        setStarted(true);
+      } catch {
+        setError('Le quiz n’a pas pu démarrer. Veuillez réessayer.');
+      } finally {
+        loading.current = false;
+      }
+    });
   };
-  if (!started) return <QuizIntro count={questions.length} start={replay} context={context} />;
-  if (finished)
-    return <QuizResults all={questions} answers={answers} replay={replay} context={context} />;
+  if (!started || finished)
+    return (
+      <>
+        {error && <p role="alert">{error}</p>}
+        {finished ? (
+          <QuizResults
+            all={questions}
+            answers={answers}
+            replay={replay}
+            context={context}
+            pending={pending}
+          />
+        ) : (
+          <QuizIntro count={count} start={replay} context={context} pending={pending} />
+        )}
+      </>
+    );
   const q = questions[index];
   const validated = Boolean(answers[q.id]);
   const correct = isCorrect(q, selected);

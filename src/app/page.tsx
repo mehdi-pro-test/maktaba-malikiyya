@@ -123,7 +123,8 @@ export default function Home() {
           <p>
             {availableQuizCount} quiz par niveau et par ouvrage, à votre rythme.
             <br />
-            {availableQuizCount * 10} questions disponibles.
+            {library.reduce((sum, book) => sum + (book.available ? book.approvedCount : 0), 0)}{' '}
+            questions disponibles.
           </p>
         </div>
         <Button asChild>

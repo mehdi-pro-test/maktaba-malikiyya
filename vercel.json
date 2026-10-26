@@ -3,5 +3,10 @@
   "framework": "nextjs",
   "buildCommand": "npm run vercel:build",
   "installCommand": "npm ci",
-  "regions": ["cdg1"]
+  "regions": ["cdg1"],
+  "git": {
+    "deploymentEnabled": {
+      "feat/quiz-v1.3-tirage": false
+    }
+  }
 }

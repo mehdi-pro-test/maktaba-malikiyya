@@ -1,0 +1,1150 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "moukhtassar-al-akhdari",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "Brouillon éditorial réel ; citations relevées sur une transcription accessible en ligne, non collationnées à une édition imprimée. Aucun changement des 150 questions publiées. Ne pas importer en statut published.",
+  "questions": [
+    {
+      "id": "moukhtassar-al-akhdari-v13-001",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "تَصْحِيحُ إِيمَانِهِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Selon l’ouverture de l’Akhdari, quelle est la première obligation de la personne responsable ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Rectifier sa foi"
+        },
+        {
+          "id": "b",
+          "textFr": "Accomplir le pèlerinage"
+        },
+        {
+          "id": "c",
+          "textFr": "Apprendre le commerce"
+        },
+        {
+          "id": "d",
+          "textFr": "Réciter toute la Risala"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « تَصْحِيحُ إِيمَانِهِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-002",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "كَأَحْكَامِ الصَّلَاةِ وَالطَّهَارَةِ وَالصِّيَامِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Parmi ces domaines, lequel l’Akhdari cite-t-il comme savoir individuel à acquérir ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La généalogie"
+        },
+        {
+          "id": "b",
+          "textFr": "Les techniques de commerce"
+        },
+        {
+          "id": "c",
+          "textFr": "La grammaire grecque"
+        },
+        {
+          "id": "d",
+          "textFr": "Les règles de la prière"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « كَأَحْكَامِ الصَّلَاةِ وَالطَّهَارَةِ وَالصِّيَامِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-003",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "النَّدَمُ عَلَى مَا فَاتَ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel sentiment fait partie des conditions du repentir dans l’Akhdari ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La joie d'avoir fauté"
+        },
+        {
+          "id": "b",
+          "textFr": "L’indifférence"
+        },
+        {
+          "id": "c",
+          "textFr": "Le regret du péché"
+        },
+        {
+          "id": "d",
+          "textFr": "La satisfaction de soi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « النَّدَمُ عَلَى مَا فَاتَ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-004",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "وَالنِّيَّةُ أَنْ لَا يَعُودَ إِلَى ذَنْبٍ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle résolution l’Akhdari associe-t-il au repentir ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cesser seulement devant des témoins"
+        },
+        {
+          "id": "b",
+          "textFr": "Ne pas retourner au péché"
+        },
+        {
+          "id": "c",
+          "textFr": "Répéter volontairement le péché"
+        },
+        {
+          "id": "d",
+          "textFr": "Reporter toute réparation"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَالنِّيَّةُ أَنْ لَا يَعُودَ إِلَى ذَنْبٍ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-005",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "وَأَنْ يَتْرُكَ الْمَعْصِيَةَ فِي سَاعَتِهَا",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Si la personne est en train de commettre un péché, que demande le texte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Abandonner immédiatement cet acte"
+        },
+        {
+          "id": "b",
+          "textFr": "Attendre le lendemain"
+        },
+        {
+          "id": "c",
+          "textFr": "Attendre une nouvelle année"
+        },
+        {
+          "id": "d",
+          "textFr": "Continuer jusqu’à la prochaine prière"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَأَنْ يَتْرُكَ الْمَعْصِيَةَ فِي سَاعَتِهَا ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-006",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "وَلَا يَحِلُّ لَهُ أَنْ يُؤَخِّرَ التَّوْبَةَ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Selon l’Akhdari, peut-on délibérément retarder son repentir ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, jusqu’à la vieillesse"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, uniquement pendant le Ramadan"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, tant que personne ne le voit"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il ne faut pas le différer"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَلَا يَحِلُّ لَهُ أَنْ يُؤَخِّرَ التَّوْبَةَ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-007",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "حِفْظُ لِسَانِهِ مِنَ الْفَحْشَاءِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel organe doit être préservé des paroles indécentes selon le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La main seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pied"
+        },
+        {
+          "id": "c",
+          "textFr": "La langue"
+        },
+        {
+          "id": "d",
+          "textFr": "L’oreille seulement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « حِفْظُ لِسَانِهِ مِنَ الْفَحْشَاءِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-008",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "أول ما يجب على المكلف",
+        "quoteAr": "الْكَذِبُ وَالْغِيبَةُ وَالنَّمِيمَةُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel vice verbal est explicitement interdit dans la préface ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La récitation"
+        },
+        {
+          "id": "b",
+          "textFr": "La médisance"
+        },
+        {
+          "id": "c",
+          "textFr": "Le silence prudent"
+        },
+        {
+          "id": "d",
+          "textFr": "Le salut"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « الْكَذِبُ وَالْغِيبَةُ وَالنَّمِيمَةُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-009",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل في الطهارة",
+        "quoteAr": "طَهَارَةُ حَدَثٍ، وَطَهَارَةُ خَبَثٍ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelles sont les deux grandes formes de purification distinguées dans l’Akhdari ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Purification de l’état rituel et de la souillure"
+        },
+        {
+          "id": "b",
+          "textFr": "Purification du vêtement et du livre"
+        },
+        {
+          "id": "c",
+          "textFr": "Purification du matin et du soir"
+        },
+        {
+          "id": "d",
+          "textFr": "Purification du voyage et du séjour"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « طَهَارَةُ حَدَثٍ، وَطَهَارَةُ خَبَثٍ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-010",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل في الطهارة",
+        "quoteAr": "لَمْ يَتَغَيَّرْ لَوْنُهُ أَوْ طَعْمُهُ أَوْ رَائِحَتُهُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle caractéristique de l’eau constitue une cause d’altération examinée par le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Son contenant en verre"
+        },
+        {
+          "id": "b",
+          "textFr": "La couleur de son récipient"
+        },
+        {
+          "id": "c",
+          "textFr": "La position du récipient"
+        },
+        {
+          "id": "d",
+          "textFr": "Son odeur"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « لَمْ يَتَغَيَّرْ لَوْنُهُ أَوْ طَعْمُهُ أَوْ رَائِحَتُهُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-011",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل في الطهارة",
+        "quoteAr": "إِذَا تَعَيَّنَتِ النَّجَاسَةُ غُسِلَ مَحَلُّهَا",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle attitude l’Akhdari demande-t-il lorsque la souillure se trouve précisément en un lieu connu ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ignorer la souillure connue"
+        },
+        {
+          "id": "b",
+          "textFr": "Ne laver que les chaussures"
+        },
+        {
+          "id": "c",
+          "textFr": "Laver l’endroit atteint"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver obligatoirement tout le quartier"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « إِذَا تَعَيَّنَتِ النَّجَاسَةُ غُسِلَ مَحَلُّهَا ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-012",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "غَسْلُ الرِّجْلَيْنِ إِلَى الْكَعْبَيْنِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Jusqu’où le matn prévoit-il le lavage des pieds pendant les ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Seulement la plante du pied"
+        },
+        {
+          "id": "b",
+          "textFr": "Jusqu’aux chevilles"
+        },
+        {
+          "id": "c",
+          "textFr": "Jusqu’aux genoux"
+        },
+        {
+          "id": "d",
+          "textFr": "Jusqu’aux hanches"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « غَسْلُ الرِّجْلَيْنِ إِلَى الْكَعْبَيْنِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-013",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل سنن الوضوء",
+        "quoteAr": "غَسْلُ الْيَدَيْنِ إِلَى الْكُوعَيْنِ عِنْدَ الشُّرُوعِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Au début des ablutions, jusqu’à quel repère le lavage des mains est-il cité comme sunna ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Jusqu’aux poignets"
+        },
+        {
+          "id": "b",
+          "textFr": "Jusqu’aux épaules"
+        },
+        {
+          "id": "c",
+          "textFr": "Jusqu’aux genoux"
+        },
+        {
+          "id": "d",
+          "textFr": "Jusqu’au cou"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « غَسْلُ الْيَدَيْنِ إِلَى الْكُوعَيْنِ عِنْدَ الشُّرُوعِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-014",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل سنن الوضوء",
+        "quoteAr": "وَالِاسْتِنْشَاقُ، وَالِاسْتِنْثَارُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel acte nasal figure parmi les sunnas des ablutions dans l’Akhdari ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Déposer de la poussière dans le nez"
+        },
+        {
+          "id": "b",
+          "textFr": "Ne pas toucher le nez"
+        },
+        {
+          "id": "c",
+          "textFr": "Se couvrir le nez avec un linge"
+        },
+        {
+          "id": "d",
+          "textFr": "Faire entrer l’eau dans le nez"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَالِاسْتِنْشَاقُ، وَالِاسْتِنْثَارُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-015",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل سنن الوضوء",
+        "quoteAr": "وَتَجْدِيدُ الْمَاءِ لَهُمَا",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Que mentionne le texte au sujet de l’eau utilisée pour les oreilles ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La remplacer par de l’huile"
+        },
+        {
+          "id": "b",
+          "textFr": "Employer seulement de l’eau déjà souillée"
+        },
+        {
+          "id": "c",
+          "textFr": "La renouveler pour les oreilles"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne jamais utiliser d’eau pour les oreilles"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَتَجْدِيدُ الْمَاءِ لَهُمَا ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-016",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل سنن الوضوء",
+        "quoteAr": "فَإِنْ تَذَكَّرَهُ بِالْقُرْبِ فَعَلَهُ وَمَا بَعْدَهُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Que doit faire celui qui retrouve rapidement la mémoire d’une obligation omise du wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Attendre le prochain wudû"
+        },
+        {
+          "id": "b",
+          "textFr": "Faire l’acte manqué et ce qui suit"
+        },
+        {
+          "id": "c",
+          "textFr": "Recommencer uniquement la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne rien faire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « فَإِنْ تَذَكَّرَهُ بِالْقُرْبِ فَعَلَهُ وَمَا بَعْدَهُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-017",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل سنن الوضوء",
+        "quoteAr": "وَإِنْ تَرَكَ سُنَّةً فَعَلَهَا وَلَا يُعِيدُ الصَّلَاةَ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Si une sunna du wudû a été oubliée, quelle conséquence sur la prière déjà accomplie indique le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ne pas refaire la prière pour cette seule omission"
+        },
+        {
+          "id": "b",
+          "textFr": "Refaire obligatoirement un mois de prières"
+        },
+        {
+          "id": "c",
+          "textFr": "Faire un pèlerinage expiatoire"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne plus prier ce jour-là"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَإِنْ تَرَكَ سُنَّةً فَعَلَهَا وَلَا يُعِيدُ الصَّلَاةَ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-018",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل سنن الوضوء",
+        "quoteAr": "فَلَا يَرْجِعُ إِلَيْهِمَا حَتَّى يُتِمَّ وُضُوءَهُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Lorsqu’on a déjà commencé à laver le visage, que dit l’Akhdari concernant le retour immédiat à la bouche et au nez oubliés ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Revenir immédiatement à la bouche"
+        },
+        {
+          "id": "b",
+          "textFr": "Abandonner définitivement les ablutions"
+        },
+        {
+          "id": "c",
+          "textFr": "Remplacer cela par le tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Achever d’abord les ablutions"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « فَلَا يَرْجِعُ إِلَيْهِمَا حَتَّى يُتِمَّ وُضُوءَهُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-019",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل فضائل الوضوء",
+        "quoteAr": "وَتَقْدِيمُ الْيُمْنَى عَلَى الْيُسْرَى",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel côté est recommandé avant l’autre dans les ablutions selon les actes méritoires ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le côté inférieur avant le supérieur"
+        },
+        {
+          "id": "b",
+          "textFr": "Les deux simultanément dans tous les cas"
+        },
+        {
+          "id": "c",
+          "textFr": "Le droit avant le gauche"
+        },
+        {
+          "id": "d",
+          "textFr": "Le gauche avant le droit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَتَقْدِيمُ الْيُمْنَى عَلَى الْيُسْرَى ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-020",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل نواقض الوضوء",
+        "quoteAr": "النَّوْمُ الثَّقِيلُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel sommeil figure dans les causes d’annulation des ablutions du matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le silence pendant une prière"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sommeil profond"
+        },
+        {
+          "id": "c",
+          "textFr": "Une simple distraction de quelques secondes"
+        },
+        {
+          "id": "d",
+          "textFr": "La méditation en étant éveillé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « النَّوْمُ الثَّقِيلُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-021",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل نواقض الوضوء",
+        "quoteAr": "وَالْإِغْمَاءُ وَالسُّكْرُ وَالْجُنُونُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Parmi ces états, lequel l’Akhdari cite-t-il comme cause d’annulation des ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’évanouissement"
+        },
+        {
+          "id": "b",
+          "textFr": "La lecture attentive"
+        },
+        {
+          "id": "c",
+          "textFr": "La marche"
+        },
+        {
+          "id": "d",
+          "textFr": "L’écoute d’une leçon"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَالْإِغْمَاءُ وَالسُّكْرُ وَالْجُنُونُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-022",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل نواقض الوضوء",
+        "quoteAr": "إِلَّا أَنْ يَكُونَ مُوَسْوَسًا فَلَا شَيْءَ عَلَيْهِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle exception le matn mentionne-t-il concernant le doute d’avoir perdu les ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le voyageur en bonne santé seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Le professeur seulement"
+        },
+        {
+          "id": "c",
+          "textFr": "L’enfant qui sait lire"
+        },
+        {
+          "id": "d",
+          "textFr": "La personne sujette à des obsessions répétées"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « إِلَّا أَنْ يَكُونَ مُوَسْوَسًا فَلَا شَيْءَ عَلَيْهِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-023",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل الغسل",
+        "quoteAr": "اَلْجَنَابَةِ وَالْحَيْضِ وَالنِّفَاسِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quels sont les trois grands motifs de ghusl annoncés dans l’Akhdari ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Vendredi, repas et sport"
+        },
+        {
+          "id": "b",
+          "textFr": "Salat, zakat et hajj"
+        },
+        {
+          "id": "c",
+          "textFr": "Janâba, menstruations et lochies"
+        },
+        {
+          "id": "d",
+          "textFr": "Voyage, sommeil et lecture"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « اَلْجَنَابَةِ وَالْحَيْضِ وَالنِّفَاسِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-024",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل الغسل",
+        "quoteAr": "وَلَمْ يَخْرُجْ مِنْهُ مَنِيٌّ فَلَا شَيْءَ عَلَيْهِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "D’après l’Akhdari, un rêve de rapport intime sans émission de sperme impose-t-il le ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Seulement en voyage"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, pas à lui seul"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, systématiquement"
+        },
+        {
+          "id": "d",
+          "textFr": "Seulement après le Maghrib"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَلَمْ يَخْرُجْ مِنْهُ مَنِيٌّ فَلَا شَيْءَ عَلَيْهِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-025",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل فرائض الغسل",
+        "quoteAr": "وَالْفَوْرُ وَالدَّلْكُ وَالْعُمُومُ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel critère figure parmi les obligations du ghusl dans le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Faire parvenir l’eau à tout le corps"
+        },
+        {
+          "id": "b",
+          "textFr": "Laver uniquement la tête"
+        },
+        {
+          "id": "c",
+          "textFr": "N’employer que de l’eau parfumée"
+        },
+        {
+          "id": "d",
+          "textFr": "Rester immobile une heure"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَالْفَوْرُ وَالدَّلْكُ وَالْعُمُومُ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-026",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل فضائل الغسل",
+        "quoteAr": "وَتَثْلِيثُ غُسْلِ الرَّأْسِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de lavages de la tête le matn recommande-t-il parmi les mérites du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Deux"
+        },
+        {
+          "id": "b",
+          "textFr": "Sept"
+        },
+        {
+          "id": "c",
+          "textFr": "Dix"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَتَثْلِيثُ غُسْلِ الرَّأْسِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-027",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "وَيَتَيَمَّمُ الْمُسَافِرُ فِي غَيْرِ مَعْصِيَةٍ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel motif permet le tayammum au voyageur dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Préférer la poussière en présence d’eau suffisante"
+        },
+        {
+          "id": "b",
+          "textFr": "Être uniquement chez soi sans nécessité"
+        },
+        {
+          "id": "c",
+          "textFr": "Voyager dans un cadre non illicite et ne pas disposer de l’eau requise"
+        },
+        {
+          "id": "d",
+          "textFr": "Vouloir éviter toute purification sans raison"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَيَتَيَمَّمُ الْمُسَافِرُ فِي غَيْرِ مَعْصِيَةٍ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-028",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "لِلْفَرَائِضِ إِذَا خَافَ خُرُوجَ وَقْتِهَا",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Pour quelle prière un résident en bonne santé peut-il faire tayammum par crainte de l’expiration de son temps selon le texte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une prière funéraire sans exception"
+        },
+        {
+          "id": "b",
+          "textFr": "Une prière obligatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Toute prière surérogatoire sans condition"
+        },
+        {
+          "id": "d",
+          "textFr": "La prière du vendredi dans tous les cas"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « لِلْفَرَائِضِ إِذَا خَافَ خُرُوجَ وَقْتِهَا ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-029",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "باب في السهو",
+        "quoteAr": "فَلِلنُّقْصَانِ سَجْدَتَانِ قَبْلَ السَّلَامِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Où se place normalement le sujûd as-sahw pour une diminution dans la prière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Avant le salâm"
+        },
+        {
+          "id": "b",
+          "textFr": "Après la prochaine prière"
+        },
+        {
+          "id": "c",
+          "textFr": "Avant la Fâtiha"
+        },
+        {
+          "id": "d",
+          "textFr": "Après un mois"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « فَلِلنُّقْصَانِ سَجْدَتَانِ قَبْلَ السَّلَامِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "moukhtassar-al-akhdari-v13-030",
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "مختصر الأخضري",
+        "authorAr": "عبد الرحمن الأخضري",
+        "chapterAr": "باب في السهو",
+        "quoteAr": "وَلِلزِّيَادَةِ سَجْدَتَانِ بَعْدَ السَّلَامِ",
+        "url": "https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Où se place normalement le sujûd as-sahw pour un ajout involontaire dans la prière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Pendant le takbîr initial"
+        },
+        {
+          "id": "b",
+          "textFr": "Avant les deux premières rakʿa"
+        },
+        {
+          "id": "c",
+          "textFr": "Jamais selon le texte"
+        },
+        {
+          "id": "d",
+          "textFr": "Après le salâm"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans « مختصر الأخضري », la règle est présentée comme suit : « وَلِلزِّيَادَةِ سَجْدَتَانِ بَعْدَ السَّلَامِ ». La réponse correspond à cette formulation; elle doit être relue avec l'édition de référence avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    }
+  ]
+}

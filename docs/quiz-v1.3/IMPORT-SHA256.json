@@ -1,0 +1,18 @@
+{
+  "docs/quiz-v1.3-pack/01-ETAT-DU-REPO.md": "a9ac1d770573e3b42060104ed2913dddcdb60dbae5f94e1184610b02d97dd449",
+  "docs/quiz-v1.3-pack/02-DONNEES-IMPORT-ET-DEDUP.md": "c376f56ed132990fa9fcafc388f7f4b9e08f4ecc96c10a24a261948a0a735f2e",
+  "docs/quiz-v1.3-pack/03-TIRAGE-ALEATOIRE.md": "77cf4990b77bb55527265ad3df6cbe8c7972653e291ab764d4092d5e5c3e2e3d",
+  "docs/quiz-v1.3-pack/04-REVUE-ET-SOURCES.md": "52ca81df628ce96c20f7ef0373faba1cd584c63ea84f47bf4dbb4cc2338f5103",
+  "docs/quiz-v1.3-pack/05-TESTS-ET-NON-REGRESSION.md": "87a81fba234c9d4ea418e2b7152c540ca0ba2adacdb42ba1c0770a67185f0ae1",
+  "docs/quiz-v1.3-pack/06-LIVRAISON.md": "13d7ec6c61f52939dfed329938bd8a08076c7a464aafeef587a576cc494fd287",
+  "docs/quiz-v1.3-pack/MANIFEST-ET-ETAT-EDITORIAL.json": "1f4b7867a35427d30986fcb4ddde40f7f6e166dec2c56f1def7b3248e14b2fa4",
+  "docs/quiz-v1.3-pack/PROMPT-A-COLLER-DANS-CODEX.md": "39be37678e96a6da0b4930209a6c7e39e09eb5842bcc68e7599b261d105dee1a",
+  "docs/quiz-v1.3-pack/QUESTIONS-REPONSES-V1.2-150.csv": "295a673a8b03bf4f78d50be7f709e1514d06a234ad63412339f992c74c958caa",
+  "docs/quiz-v1.3-pack/README-COMMENCER-ICI.md": "411b1a42a9dc19ba1bf0330039f86f1f317c87c63bfe6441bc65f4fc2d942016",
+  "docs/quiz-v1.3-pack/recherche-v1.3/01-akhdari-30-candidats.json": "f0299434748cc1d58e2c51008bf7dec2c505540a65445fa1a2da90360a85d35a",
+  "docs/quiz-v1.3-pack/recherche-v1.3/02-ibn-ashir-30-candidats.json": "7f36dfc0b4ebf79081309ad7c827e93edc594e73380f5d12866914f7c73e7bd7",
+  "docs/quiz-v1.3-pack/recherche-v1.3/03-achmawiyya-30-candidats.json": "f0cf26cf265bee9428d740e15ca960e36182f2dabeded8f052c26f911170a265",
+  "docs/quiz-v1.3-pack/recherche-v1.3/MANIFEST-90-QUESTIONS.json": "bfe50eeeac0599bc0bd65a39b4514de204f74ba9457b02577a41f162fb2cb469",
+  "docs/quiz-v1.3-pack/recherche-v1.3/QUESTIONS-REPONSES-NOUVELLES-90.csv": "605bdccd1c8b23146d361cb25f35af5d190f2b7fece24149cb3cbf2128d722ad",
+  "docs/quiz-v1.3-pack/recherche-v1.3/README.md": "55815aa04968d4c67ac8700f70e4b7671615c9671d311ecd72e20a61f2ca71df"
+}

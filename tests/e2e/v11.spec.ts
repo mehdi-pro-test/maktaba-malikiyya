@@ -4,7 +4,11 @@ import AxeBuilder from '@axe-core/playwright';
 const quizPath = '/quiz/niveaux/debutant/moukhtassar-al-akhdari';
 const questions = bank.questions.filter((q) => q.bookId === 'moukhtassar-al-akhdari');
 async function finishQuiz(page: import('@playwright/test').Page, correct: boolean) {
-  for (const [index, q] of questions.entries()) {
+  for (let index = 0; index < 10; index++) {
+    await expect(page.locator('.quiz-game h1')).toBeVisible();
+    const prompt = await page.locator('.quiz-game h1').innerText();
+    const q = questions.find((q) => q.questionFr === prompt)!;
+    expect(q).toBeDefined();
     await expect(page.getByRole('button', { name: 'Valider ma réponse' })).toBeDisabled();
     const option = q.options.find((o) =>
       correct ? o.id === q.correctOptionId : o.id !== q.correctOptionId,
