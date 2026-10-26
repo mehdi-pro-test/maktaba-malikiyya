@@ -1,42 +1,43 @@
-# PROMPT UNIQUE CODEX — Maktaba Malikiyya V1.3
+# PROMPT CODEX — Maktaba Malikiyya V1.3, RECHERCHE RÉELLE JOINTE
 
-Tu travailles sur **le dépôt GitHub existant**, pas sur un nouveau site : https://github.com/mehdi-pro-test/maktaba-malikiyya.
+Je te donne un **seul ZIP** : l'archive de la branche `docs/recherche-edito-quiz-v1.3-20261026`, reprenant le projet GitHub Maktaba Malikiyya (https://github.com/mehdi-pro-test/maktaba-malikiyya), la V1.2 et le lot de recherche éditoriale V1.3.
 
-Je te fournis **une seule archive** : le ZIP de la branche documentaire `docs/pack-unique-quiz-v1.3-20261026`. Il contient **l'intégralité du code à la date du snapshot**, 150 questions-réponses V1.2 complètes dans `src/data/quiz-v1.2/research.json`, 150 validations dans `src/data/quiz-v1.2/reviews.json`, un export lisible `docs/quiz-v1.3-pack/QUESTIONS-REPONSES-V1.2-150.csv`, et la documentation V1.3 sous `docs/quiz-v1.3-pack/`.
+**TA MISSION EST UNIQUEMENT TECHNIQUE. INTERDICTION DE RECHERCHER, INVENTER OU RÉDIGER DES QUESTIONS-RÉPONSES RELIGIEUSES.**
 
-**Ta mission est UNIQUEMENT technique.** Tu ne dois **jamais** rédiger, chercher, inventer ou modifier doctrinalement une question/réponse/source. L'équipe éditoriale fournit le contenu religieux séparément; seuls les fichiers effectivement présents comptent.
+## 1. Auditer le dépôt et le contenu de mon ZIP
 
-## Audit obligatoire
+- Lis `AGENTS.md`, les documents `docs/quiz-v1.3-pack/`, surtout `README-COMMENCER-ICI.md`, `03-TIRAGE-ALEATOIRE.md`, `05-TESTS-ET-NON-REGRESSION.md` et `recherche-v1.3/README.md`.
+- Récupère **le dernier `origin/main`**, pas seulement le commit ancien `c25a20696b6c44ba6e7ba0cac25ba7e9cd640980`; compare tous les développements V1.2 récents.
+- Crée une branche `feat/quiz-v1.3-tirage`; pas de travail directement sur `main`.
+- Vérifie les **150 QCM V1.2 publiés** : 15 livres avec 10 questions chacun dans `src/data/quiz-v1.2/research.json` et leurs 150 validations indépendantes dans `reviews.json`.
+- Vérifie les **90 nouvelles questions V1.3** effectivement présentes, 30 par matn débutant, dans `docs/quiz-v1.3-pack/recherche-v1.3/`. Chaque candidat possède 4 choix, réponse, explication et référence arabe. **Ce sont des BROUILLONS NON APPROUVÉS**, pas 90 nouveaux jeux déjà publiables.
+- Inventaire honnête : 40 rédigées par ouvrage débutant (10 V1.2 + 30 V1.3), mais **seules les 10 V1.2 sont publiées**. Manquent 60 questions nouvelles par matn débutant, soit 180 pour arriver à 100 sur chacun. Ne prétends jamais que le ZIP contient 300 questions débutantes publiées.
 
-1. Lis `AGENTS.md`, les guides locaux Next.js 16, `docs/quiz-v1.3-pack/README-COMMENCER-ICI.md`, `03-TIRAGE-ALEATOIRE.md`, `05-TESTS-ET-NON-REGRESSION.md`, et toute la documentation jointe.
-2. Récupère le **tout dernier HEAD de `main`**, qui peut être plus récent que le snapshot `c25a20696b6c44ba6e7ba0cac25ba7e9cd640980`. Crée `feat/quiz-v1.3-tirage-aleatoire` depuis la vraie dernière version, en intégrant la documentation utile sans écraser d'autres commits. Ne modifie jamais directement `main`.
-3. Vérifie le nombre réel de questions : **15 livres × 10 = 150** sur ce snapshot. Vérifie leurs schémas, 4 choix, bonnes réponses, références, status et validations. Les 150 réponses et leurs sources doivent rester intactes.
-4. **Blocage éditorial explicite :** le lot annoncé de 300 questions débutantes (3 × 100) n'a PAS été joint à cette archive. Il n'existe donc **aucune banque de 100 effectivement disponible dans ce ZIP**. Ne la reconstruis pas, ne recycle pas des QCM existants, ne duplique pas des questions, et ne prétends pas livrer 300 ou 1 500 questions. Note cette absence dans ton rapport.
+## 2. Construire le moteur d'échantillonnage
 
-## Mission V1.3 : préparer un système de tirage réel
+- Lors du lancement d'une **nouvelle partie** d'un ouvrage, sélectionner aléatoirement **10 questions distinctes sans remplacement** parmi le pool **effectivement approuvé** de cet ouvrage.
+- Si le pool contient 100 questions validées ultérieurement, sélectionner uniformément 10 parmi 100; s'il en contient 10, garder la compatibilité V1.2 (10 parmi 10, ordre éventuellement mélangé); s'il en contient moins de dix, afficher « En préparation ».
+- La sélection reste **immuable pendant une tentative**, corrections incluses; un `rerender` ne doit pas modifier le tirage.
+- Le bouton « Rejouer » génère un nouveau tirage indépendant (des recoupements entre parties restent possibles).
+- Score sur 10, explications, citations arabes, liens sûrs HTTPS, RTL, responsive, accessibilité clavier/lecteur d'écran.
+- Aucun contenu brouillon ni bonne réponse des ouvrages indisponibles dans leur HTML/RSC ou leur payload.
+- Utiliser un générateur d'aléa injectable pour des tests reproductibles; ne pas rendre le quiz aléatoire définitivement au build.
+- Prévoir une architecture d'extension **additive** permettant d'importer des lots futurs de 100 questions par ouvrage, avec déduplication et revue SHA distincte.
+- Les 90 questions `research-draft` du pack peuvent servir aux tests du parseur/editorial import et sont conservées comme objets éditoriaux lisibles, mais **NE DOIVENT PAS DEVENIR `published` SANS MON ACCORD ET UNE REVUE SPÉCIALISÉE**.
+- Ne pas altérer le SHA canonique de la banque V1.2 (les 150 approbations y sont rattachées), et ne pas écrire sur la base Neon Production.
 
-- Un visiteur choisit `/quiz/niveaux` puis l'un des 15 ouvrages.
-- Chaque **nouvelle partie** sélectionne uniformément au hasard **exactement dix IDs distincts sans remise** parmi les questions **publiées et autorisées** du livre, en utilisant un Fisher–Yates sur copie ou un équivalent testable.
-- Une fois la partie commencée, les dix questions et leur ordre restent stables durant la réponse, correction, progression, retour et résultat; ils ne changent pas sur un rerender/hydration. `Rejouer` crée une tentative différente et **relance le tirage** (un chevauchement entre deux tentatives reste possible).
-- Si le livre ne contient que **10** questions admissibles, conserver ses dix questions actuelles sans annoncer `10 parmi 100`. Si **100** questions distinctes et validées sont importées ultérieurement, le même moteur devra tirer 10 parmi ces 100. Si moins de dix, afficher une indisponibilité honnête.
-- Score sur 10, quatre choix, feedback, textes et citations arabes, références HTTPS après validation et dans le récapitulatif, RTL et accessibilité mobile/clavier.
-- Protéger le chargement côté serveur et éviter d'envoyer au navigateur les réponses et questions d'ouvrages indisponibles. Pas de sélection figée au build Next.js. Un tirage aléatoire testable est injecté via une source d'aléa maîtrisable dans les tests.
-- Préparer un adaptateur **additif** pour de nouvelles banques de 100 dans `src/data/quiz-v1.3/` quand le fichier éditorial authentique sera fourni; garder la revue V1.3 séparée, liée à un SHA-256 du nouveau contenu. Aucun statut `research_verified` ne vaut `published`.
-- Préserver la V1.2 et les relectures signées sur son empreinte canonique; ne pas modifier leurs données pour passer de 10 à 100.
-- La base existante n'a pas besoin d'être migrée pour préparer le tirage. Si tu juges qu'un stockage PostgreSQL/Prisma dédié est nécessaire pour les 1 500 questions futures, **propose d'abord** un schéma séparé et une migration additive; ne l'applique jamais à Production et ne crée pas de dépendance bloquante pour les quinze quiz actuellement en ligne sans validation.
+## 3. Protection de la V1.2 et de la boutique
 
-## Non-régression absolument prioritaire
+- Le quiz classique **a été retiré** sur la dernière version du site : `/quiz` redirige en 308 vers `/quiz/niveaux`. Conserver menu, accueil et pied de page conduisant aux niveaux.
+- Préserver les quinze ouvrages, niveaux, URL et résultats.
+- Ne modifier ni prix ni stocks courants, ni panier, ni mini-panier, ni frais, ni commande invitée, ni Stripe TEST/webhooks, ni Resend/outbox, ni Prisma/migrations, ni sauvegardes, ni CI.
+- Ne pas réinitialiser la BD; migrations additives éventuelles uniquement après justification explicite, jamais exécutées en Production.
 
-- **Ne recrée pas** le quiz classique V1.1 : à la demande du propriétaire, il a été supprimé et `/quiz` redirige vers `/quiz/niveaux`. Le header, l'accueil et le pied de page doivent continuer à mener aux niveaux.
-- Préserve les quinze quiz V1.2, leurs URL et leurs scores, ainsi que les références et le processus de revue.
-- Préserve Accueil / Livres / Coran / Hadith / Fiqh / Panier, identifiants et slugs, prix et stocks **actuels**, Akhdari actif (prix 15 € et stock initial 15), frais FR/Europe, panier `maktaba-cart`, mini-panier, commande invitée, Stripe exclusivement TEST, signatures de webhook/idempotence, Resend/outbox, bases Neon, scripts de migrations, sauvegardes, workflows CI et Vercel. Aucun reset, aucun secret commité, aucun paiement live.
-- Ne supprime, n'affaiblis, ne skippe aucun test pour obtenir un résultat vert.
+## 4. Tests et livrables
 
-## Vérification et rendu
+- Exécuter format, lint, TypeScript, unitaires, build, Playwright multi-écrans, et tests PostgreSQL uniquement sur une BD locale dédiée si nécessaires.
+- Couvrir les sélections 10/10, 10/100 (avec fixtures synthétiques clairement identifiées), absence de doublons, rejouer, stabilité du tirage, score, RTL/références, refus des brouillons, non-régression boutique.
+- Fournir tableau des questions réellement enregistrées/validées/jouables par ouvrage; signaler **180 nouvelles questions débutantes encore à rédiger éditorialement**.
+- Ouvrir une PR **non fusionnée** et ne pas déployer sans validation.
 
-1. Ajoute des tests robustes pour tirage de 10 sur 10/100, absence de doublons, stabilité durant la partie, replay, score 0/10–10/10, contrôle des sources/status, protection HTML/RTL, desktop/mobile/clavier, et régression des quinze ouvrages.
-2. Exécute réellement `npm ci`, format, lint, typecheck, tests unitaires, build et E2E. Les tests PostgreSQL **destructifs** ne s'exécutent que sur une DB **jetable** dont le nom contient `maktaba_test`, jamais Neon Production. Signale toute commande non exécutée.
-3. Fournis audit du pool par ouvrage, nombre d'items existants, nouveaux réellement importés (ce sera **zéro** tant que le fichier de 300 manque), nombre approuvé/jouable et anomalies.
-4. Ouvre une **PR non fusionnée** depuis la branche de fonctionnalité. Pas de déploiement Production, pas de migration ni de fusion sans mon accord.
-
-**Commence par audit/diff/plan bref puis réalise l'implémentation uniquement avec les données existantes. Si on te demande de livrer 100 questions par matn alors que le lot 300 est absent, déclare le blocage éditorial au lieu d'inventer des questions.**
+Commence par l'audit du dernier dépôt, lis les fichiers exacts du ZIP, puis intègre techniquement la fonction de tirage. **Si l'on te demande 100 questions réellement publiées par matn à ce stade, signale le manque de données éditoriales plutôt que d'inventer.**
