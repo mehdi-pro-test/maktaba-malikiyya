@@ -1,0 +1,1240 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "ar-risala-ibn-abi-zayd",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "30 questions nouvelles rédigées sous forme de propositions éditoriales. Sources arabes et options non collationnées à une édition de référence. Jamais publier sans revue factuelle et religieuse.",
+  "questions": [
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-001",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle différence la Risala signale-t-elle entre un sommeil lourd et un repos simplement léger ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Tout repos léger rend le ghusl obligatoire"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sommeil léger annule toujours le wudû"
+        },
+        {
+          "id": "c",
+          "textFr": "Le sommeil lourd fait perdre les ablutions"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil ne joue jamais sur la purification"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le sommeil lourd fait perdre les ablutions ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "يجب الوضوء من زوال العقل بنوم مستثقل",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-002",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle substance le texte décrit-il comme blanchâtre et épaisse, apparaissant après l'urine ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le madhy"
+        },
+        {
+          "id": "b",
+          "textFr": "Le manî"
+        },
+        {
+          "id": "c",
+          "textFr": "Le sang des règles"
+        },
+        {
+          "id": "d",
+          "textFr": "Le wadî"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le wadî ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "الودي فهو ماء أبيض خاثر يخرج بإثر البول",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-003",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel liquide est décrit comme blanc, fin et associé à l'excitation ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le madhy"
+        },
+        {
+          "id": "b",
+          "textFr": "Le wadî"
+        },
+        {
+          "id": "c",
+          "textFr": "Le manî"
+        },
+        {
+          "id": "d",
+          "textFr": "L’urine"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le madhy ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "وهو ماء أبيض رقيق يخرج عند اللذة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-004",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel liquide corporel est décrit comme émis lors de la jouissance majeure ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le wadî"
+        },
+        {
+          "id": "b",
+          "textFr": "Le manî"
+        },
+        {
+          "id": "c",
+          "textFr": "Le madhy"
+        },
+        {
+          "id": "d",
+          "textFr": "La salive"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le manî ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "وأما المني فهو الماء الدافق",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-005",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelles catégories de sang féminin justifient le ghusl lorsqu'elles cessent ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le wadî"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sommeil lourd fait perdre les ablutions"
+        },
+        {
+          "id": "c",
+          "textFr": "Règles et lochies"
+        },
+        {
+          "id": "d",
+          "textFr": "La fin de la nuit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Règles et lochies ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "أو انقطاع دم الحيضة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-006",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel signe de pureté postmenstruelle est explicitement retenu dans la Risala ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quinze jours dans le cas décrit"
+        },
+        {
+          "id": "b",
+          "textFr": "Règles et lochies"
+        },
+        {
+          "id": "c",
+          "textFr": "Prier deux rakʿa avant de s'asseoir"
+        },
+        {
+          "id": "d",
+          "textFr": "La perte blanche (qassa baydâ')"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La perte blanche (qassa baydâ') ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "وإذا رأت المرأة القصة البيضاء تطهرت",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-007",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel autre signe de fin des règles, en plus de la perte blanche, est admis ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le dessèchement (jufûf)"
+        },
+        {
+          "id": "b",
+          "textFr": "Le madhy"
+        },
+        {
+          "id": "c",
+          "textFr": "Un contact corporel accompagné de plaisir"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne pas recommencer le witr"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le dessèchement (jufûf) ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "وكذلك إذا رأت الجفوف تطهرت",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-008",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle durée maximale est mentionnée dans le passage pour des règles persistantes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq jours"
+        },
+        {
+          "id": "b",
+          "textFr": "Quinze jours dans le cas décrit"
+        },
+        {
+          "id": "c",
+          "textFr": "Dix jours"
+        },
+        {
+          "id": "d",
+          "textFr": "Trente jours"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Quinze jours dans le cas décrit ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "بلغت خمسة عشر يوما ثم هي مستحاضة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-009",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle durée maximale la Risala donne-t-elle ici aux lochies persistantes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dix jours"
+        },
+        {
+          "id": "b",
+          "textFr": "Quinze jours"
+        },
+        {
+          "id": "c",
+          "textFr": "Soixante nuits"
+        },
+        {
+          "id": "d",
+          "textFr": "Quarante jours"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Soixante nuits ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "جلست ستين ليلة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-010",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans sa liste de causes du wudû, quel état de conscience est cité avec le sommeil profond ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un contact corporel accompagné de plaisir"
+        },
+        {
+          "id": "b",
+          "textFr": "Le dessèchement (jufûf)"
+        },
+        {
+          "id": "c",
+          "textFr": "Maghrib et Isha"
+        },
+        {
+          "id": "d",
+          "textFr": "L'évanouissement"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'évanouissement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "أو إغماء أو سكر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-011",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type de contact le matn cite-t-il comme cause des ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un contact corporel accompagné de plaisir"
+        },
+        {
+          "id": "b",
+          "textFr": "La perte blanche (qassa baydâ')"
+        },
+        {
+          "id": "c",
+          "textFr": "Le madhy"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil lourd fait perdre les ablutions"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب ما يجب منه الوضوء والغسل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Un contact corporel accompagné de plaisir ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب ما يجب منه الوضوء والغسل",
+        "quoteAr": "المباشرة بالجسد للذة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-012",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle prière est citée comme ayant des règles spécifiques de lecture à voix haute dans ses deux premières rakʿa ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le Dhuhr"
+        },
+        {
+          "id": "b",
+          "textFr": "Le Maghrib"
+        },
+        {
+          "id": "c",
+          "textFr": "Le Subh"
+        },
+        {
+          "id": "d",
+          "textFr": "Le ‘Asr"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب صفة العمل في الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le Maghrib ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب صفة العمل في الصلوات",
+        "quoteAr": "وأما المغرب فيجهر بالقراءة في الركعتين الأوليين",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-013",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que lit-on à la troisième rakʿa du Maghrib selon la description ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Accomplir deux unités surérogatoires"
+        },
+        {
+          "id": "b",
+          "textFr": "Le Maghrib"
+        },
+        {
+          "id": "c",
+          "textFr": "La Fâtiha seulement"
+        },
+        {
+          "id": "d",
+          "textFr": "Règles et lochies"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب صفة العمل في الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La Fâtiha seulement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب صفة العمل في الصلوات",
+        "quoteAr": "وفي الثالثة بأم القرآن فقط",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-014",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle recommandation la Risala donne-t-elle après le Maghrib ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La Fâtiha seulement"
+        },
+        {
+          "id": "b",
+          "textFr": "Le Maghrib"
+        },
+        {
+          "id": "c",
+          "textFr": "Les accomplir quand on s'en souvient"
+        },
+        {
+          "id": "d",
+          "textFr": "Accomplir deux unités surérogatoires"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب صفة العمل في الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Accomplir deux unités surérogatoires ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب صفة العمل في الصلوات",
+        "quoteAr": "ويستحب أن يتنفل بعدها بركعتين",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-015",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Combien de rakʿa forment le witr dans la pratique décrite après le shafʿ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une rakʿa"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux rakʿa"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois rakʿa"
+        },
+        {
+          "id": "d",
+          "textFr": "Quatre rakʿa"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب النوافل والوتر » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une rakʿa ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل والوتر",
+        "quoteAr": "ثم يصلي الوتر ركعة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-016",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle sourate est recommandée à la première rakʿa du shafʿ dans le passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Kâfirûn"
+        },
+        {
+          "id": "b",
+          "textFr": "Sabbih isma rabbika al-aʿlâ"
+        },
+        {
+          "id": "c",
+          "textFr": "Al-Ikhlâs"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Falaq"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب النوافل والوتر » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Sabbih isma rabbika al-aʿlâ ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل والوتر",
+        "quoteAr": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-017",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle sourate est mentionnée pour la deuxième rakʿa du shafʿ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Ikhlâs"
+        },
+        {
+          "id": "b",
+          "textFr": "Al-A‘râf"
+        },
+        {
+          "id": "c",
+          "textFr": "Al-Kâfirûn"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Fâtiha seulement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب النوافل والوتر » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Al-Kâfirûn ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل والوتر",
+        "quoteAr": "قُلْ يَا أَيُّهَا الْكَافِرُونَ",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-018",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle sourate fait partie des lectures citées pour le witr ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Kâfirûn exclusivement"
+        },
+        {
+          "id": "b",
+          "textFr": "Al-Baqara entière"
+        },
+        {
+          "id": "c",
+          "textFr": "Yâ-Sîn en entier"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Ikhlâs"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب النوافل والوتر » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Al-Ikhlâs ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل والوتر",
+        "quoteAr": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-019",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel moment de la nuit est jugé préférable pour les prières nocturnes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La fin de la nuit"
+        },
+        {
+          "id": "b",
+          "textFr": "Le début de la nuit dans tous les cas"
+        },
+        {
+          "id": "c",
+          "textFr": "Le milieu du jour"
+        },
+        {
+          "id": "d",
+          "textFr": "Après le lever du soleil"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب النوافل والوتر » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La fin de la nuit ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل والوتر",
+        "quoteAr": "وأفضل الليل آخره في القيام",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-020",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Si l'on prie le witr en début de nuit puis se réveille, que dit la Risala ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Sabbih isma rabbika al-aʿlâ"
+        },
+        {
+          "id": "b",
+          "textFr": "Ne pas recommencer le witr"
+        },
+        {
+          "id": "c",
+          "textFr": "La fin de la nuit"
+        },
+        {
+          "id": "d",
+          "textFr": "La pureté de l'emplacement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب النوافل والوتر » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ne pas recommencer le witr ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل والوتر",
+        "quoteAr": "ولا يعيد الوتر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-021",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que recommande la Risala au fidèle entrant dans une mosquée avec ses ablutions à un moment où cela est permis ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Accomplir deux unités surérogatoires"
+        },
+        {
+          "id": "b",
+          "textFr": "Les accomplir quand on s'en souvient"
+        },
+        {
+          "id": "c",
+          "textFr": "Prier deux rakʿa avant de s'asseoir"
+        },
+        {
+          "id": "d",
+          "textFr": "Quinze jours dans le cas décrit"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب النوافل » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Prier deux rakʿa avant de s'asseoir ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب النوافل",
+        "quoteAr": "فلا يجلس حتى يصلي ركعتين",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-022",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel est l'effet d'un rire sonore pendant la prière selon le texte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il n'entraîne pas la même reprise que le rire"
+        },
+        {
+          "id": "b",
+          "textFr": "Y compris autour du lever et du coucher du soleil"
+        },
+        {
+          "id": "c",
+          "textFr": "Couvrir suffisamment le corps avant la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Recommencer la prière sans renouveler automatiquement les ablutions"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب أحكام السهو » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Recommencer la prière sans renouveler automatiquement les ablutions ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب أحكام السهو",
+        "quoteAr": "ومن ضحك في الصلاة أعادها ولم يعد الوضوء",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-023",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel traitement le texte réserve-t-il au simple sourire durant la prière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il n'entraîne pas la même reprise que le rire"
+        },
+        {
+          "id": "b",
+          "textFr": "Recommencer la prière sans renouveler automatiquement les ablutions"
+        },
+        {
+          "id": "c",
+          "textFr": "Couvrir suffisamment le corps avant la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil lourd fait perdre les ablutions"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب أحكام السهو » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Il n'entraîne pas la même reprise que le rire ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب أحكام السهو",
+        "quoteAr": "ولا شيء عليه في التبسم",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-024",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Comment le texte traite-t-il les prières manquées dont on se souvient ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Y compris autour du lever et du coucher du soleil"
+        },
+        {
+          "id": "b",
+          "textFr": "Les accomplir quand on s'en souvient"
+        },
+        {
+          "id": "c",
+          "textFr": "Accomplir deux unités surérogatoires"
+        },
+        {
+          "id": "d",
+          "textFr": "Prier deux rakʿa avant de s'asseoir"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب قضاء الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les accomplir quand on s'en souvient ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب قضاء الصلوات",
+        "quoteAr": "ومن ذكر صلاة صلاها متى ما ذكرها",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-025",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pour des prières manquées nombreuses, quels moments peuvent être utilisés pour les rattraper selon la Risala ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les accomplir quand on s'en souvient"
+        },
+        {
+          "id": "b",
+          "textFr": "Il n'entraîne pas la même reprise que le rire"
+        },
+        {
+          "id": "c",
+          "textFr": "Y compris autour du lever et du coucher du soleil"
+        },
+        {
+          "id": "d",
+          "textFr": "Couvrir suffisamment le corps avant la prière"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب قضاء الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Y compris autour du lever et du coucher du soleil ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب قضاء الصلوات",
+        "quoteAr": "وعند طلوع الشمس وعند غروبها",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-026",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle concession le texte mentionne-t-il pour réunir Maghrib et Isha ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Maghrib et Isha"
+        },
+        {
+          "id": "b",
+          "textFr": "Dhuhr et Asr"
+        },
+        {
+          "id": "c",
+          "textFr": "La fin de la nuit"
+        },
+        {
+          "id": "d",
+          "textFr": "Une nuit de pluie"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب الجمع بين الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une nuit de pluie ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب الجمع بين الصلوات",
+        "quoteAr": "ورخص في الجمع بين المغرب والعشاء ليلة المطر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-027",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle réunion de prières est décrite comme sunna à ʿArafât ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dhuhr et Asr"
+        },
+        {
+          "id": "b",
+          "textFr": "Une nuit de pluie"
+        },
+        {
+          "id": "c",
+          "textFr": "Maghrib et Isha"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Kâfirûn"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب الجمع بين الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Dhuhr et Asr ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب الجمع بين الصلوات",
+        "quoteAr": "والجمع بعرفة بين الظهر والعصر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-028",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle réunion est citée à Muzdalifa ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Dhuhr et Asr"
+        },
+        {
+          "id": "b",
+          "textFr": "Maghrib et Isha"
+        },
+        {
+          "id": "c",
+          "textFr": "Une nuit de pluie"
+        },
+        {
+          "id": "d",
+          "textFr": "L'évanouissement"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب الجمع بين الصلوات » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Maghrib et Isha ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب الجمع بين الصلوات",
+        "quoteAr": "جمع المغرب والعشاء بالمزدلفة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-029",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle mesure de pureté est déclarée obligatoire pour le lieu de prière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ne pas recommencer le witr"
+        },
+        {
+          "id": "b",
+          "textFr": "Sabbih isma rabbika al-aʿlâ"
+        },
+        {
+          "id": "c",
+          "textFr": "La pureté de l'emplacement"
+        },
+        {
+          "id": "d",
+          "textFr": "Le dessèchement (jufûf)"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب طهارة الماء والثوب والبقعة » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La pureté de l'emplacement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب طهارة الماء والثوب والبقعة",
+        "quoteAr": "وطهارة البقعة للصلاة واجبة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd-v13-ia-030",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel ordre concernant les vêtements du fidèle est donné dans la description de la Risala ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il n'entraîne pas la même reprise que le rire"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sommeil lourd fait perdre les ablutions"
+        },
+        {
+          "id": "c",
+          "textFr": "Y compris autour du lever et du coucher du soleil"
+        },
+        {
+          "id": "d",
+          "textFr": "Couvrir suffisamment le corps avant la prière"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب اللباس في الصلاة » de الرسالة, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Couvrir suffisamment le corps avant la prière ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الرسالة",
+        "authorAr": "عبد الله بن أبي زيد القيرواني",
+        "chapterAr": "باب اللباس في الصلاة",
+        "quoteAr": "وأقل ما يصلي فيه الرجل من اللباس ثوب ساتر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mtn-alrsalt.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    }
+  ]
+}

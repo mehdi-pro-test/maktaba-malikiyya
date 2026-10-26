@@ -1,0 +1,1240 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "ashal-al-masalik",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "30 questions nouvelles rédigées sous forme de propositions éditoriales. Sources arabes et options non collationnées à une édition de référence. Jamais publier sans revue factuelle et religieuse.",
+  "questions": [
+    {
+      "id": "ashal-al-masalik-v13-ia-001",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type d'eau le poème reconnaît-il comme purificateur quand il reste dans ses caractéristiques essentielles ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’eau mêlée de parfum qui change sa nature"
+        },
+        {
+          "id": "b",
+          "textFr": "L’eau absolue descendant du ciel ou provenant de la terre"
+        },
+        {
+          "id": "c",
+          "textFr": "Une eau modifiée par de l’urine"
+        },
+        {
+          "id": "d",
+          "textFr": "Le lait pur et non dilué"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب أقسام المياه » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L’eau absolue descendant du ciel ou provenant de la terre ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب أقسام المياه",
+        "quoteAr": "وَكُلُّ مَاءٍ نَازِلٍ مِنَ السَّمَا",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-002",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Un changement causé par la terre du cours d'eau enlève-t-il systématiquement son caractère purifiant ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’ajout de sucre"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, elle est pure mais non purificatrice"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, un tel changement naturel est toléré"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sperme, selon la présentation du poème"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب أقسام المياه » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, un tel changement naturel est toléré ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب أقسام المياه",
+        "quoteAr": "مِنْ أَرْضِهِ أَوْ مَا عَلَيْهِ قَدْ جَرَى",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-003",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel changement de l'eau dû à une substance pure séparable est illustré par le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le dépôt naturel d’une source"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sable du lit de la rivière"
+        },
+        {
+          "id": "c",
+          "textFr": "La pluie recueillie sans ajout"
+        },
+        {
+          "id": "d",
+          "textFr": "L’ajout de sucre"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب أقسام المياه » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L’ajout de sucre ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب أقسام المياه",
+        "quoteAr": "كَالسُّكَّرِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-004",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Une eau que le sucre a significativement altérée reste-t-elle utilisable pour lever l'état rituel dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, elle est pure mais non purificatrice"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, un tel changement naturel est toléré"
+        },
+        {
+          "id": "c",
+          "textFr": "La réprobation de cet usage dans le cas indiqué"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, il la cite avec le mucus et la sueur"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب أقسام المياه » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, elle est pure mais non purificatrice ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب أقسام المياه",
+        "quoteAr": "فَطَاهِرٌ مُسْتَعْمَلٌ فِي الْعَادَةْ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-005",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel critère rend une eau impure dans la distinction du poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, elle est pure mais non purificatrice"
+        },
+        {
+          "id": "b",
+          "textFr": "Une altération par une impureté de son goût, odeur ou couleur"
+        },
+        {
+          "id": "c",
+          "textFr": "L’eau absolue descendant du ciel ou provenant de la terre"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, les matières inertes non enivrantes sont citées"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب أقسام المياه » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une altération par une impureté de son goût, odeur ou couleur ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب أقسام المياه",
+        "quoteAr": "بَالنَّجْسِ نَجْسٌ حُكْمُهُ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-006",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que recommande le poème en cas d'emploi d'une eau peu abondante touchée par une impureté qui ne la modifie pas ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’eau absolue descendant du ciel ou provenant de la terre"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, elle est pure mais non purificatrice"
+        },
+        {
+          "id": "c",
+          "textFr": "La réprobation de cet usage dans le cas indiqué"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sang non versé, dans la distinction indiquée"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب أقسام المياه » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La réprobation de cet usage dans le cas indiqué ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب أقسام المياه",
+        "quoteAr": "وَكُرْهُ مَا اسْتُعْمِلَ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-007",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le poème classe-t-il la salive d'un vivant parmi ses éléments ordinairement purs ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Au statut juridique de leurs viandes"
+        },
+        {
+          "id": "b",
+          "textFr": "Le duvet ou les plumes"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, elle est pure mais non purificatrice"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, il la cite avec le mucus et la sueur"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Oui, il la cite avec le mucus et la sueur ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "لُعَابُهُ مُخَاطُهُ وَعَرَقُهْ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-008",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quoi le statut des laits animaux est-il comparé dans les vers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Au statut juridique de leurs viandes"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, les matières inertes non enivrantes sont citées"
+        },
+        {
+          "id": "c",
+          "textFr": "Le duvet ou les plumes"
+        },
+        {
+          "id": "d",
+          "textFr": "L'inspiration d'eau dans les narines"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Au statut juridique de leurs viandes ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "وَسَائِرُ الْأَلْبَانِ كَاللُّحُومِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-009",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle substance odorante et sa poche sont explicitement citées comme pures ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le miel et sa ruche"
+        },
+        {
+          "id": "b",
+          "textFr": "Le musc et sa poche"
+        },
+        {
+          "id": "c",
+          "textFr": "Le savon et son récipient"
+        },
+        {
+          "id": "d",
+          "textFr": "L’huile de sésame et son flacon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le musc et sa poche ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "مِسْكٌ كَذَا فَأْرَتُهُ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-010",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le poème classe-t-il les substances minérales non enivrantes comme pures ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'animal marin mort"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sang non versé, dans la distinction indiquée"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, les matières inertes non enivrantes sont citées"
+        },
+        {
+          "id": "d",
+          "textFr": "Commencer par le côté droit et les parties hautes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Oui, les matières inertes non enivrantes sont citées ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "ثُمَّ الْجَمَادَاتُ الَّتِي لَمْ تُسْكِرِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-011",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type de sang figure dans la liste des choses pures selon le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le duvet ou les plumes"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, il la cite avec le mucus et la sueur"
+        },
+        {
+          "id": "c",
+          "textFr": "La réprobation de cet usage dans le cas indiqué"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sang non versé, dans la distinction indiquée"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le sang non versé, dans la distinction indiquée ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "دَمٌ بِلَا سَفْحٍ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-012",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel animal mort est explicitement cité dans la liste des exceptions de pureté ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'animal marin mort"
+        },
+        {
+          "id": "b",
+          "textFr": "Un animal terrestre mort sans abattage"
+        },
+        {
+          "id": "c",
+          "textFr": "Un oiseau domestique mort"
+        },
+        {
+          "id": "d",
+          "textFr": "Un mammifère sauvage mort"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'animal marin mort ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "وَمَيْتَةُ الْبَحْرِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-013",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel produit d'un oiseau le poème cite-t-il parmi les matières pures s'il est prélevé selon ses conditions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Au statut juridique de leurs viandes"
+        },
+        {
+          "id": "b",
+          "textFr": "Le duvet ou les plumes"
+        },
+        {
+          "id": "c",
+          "textFr": "Le sang non versé, dans la distinction indiquée"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement du boucher"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب الأعيان الطاهرة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le duvet ou les plumes ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان الطاهرة",
+        "quoteAr": "وَزَغَبُ الرِّيشِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-014",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle qualification est donnée aux boissons enivrantes dans l'énumération des impuretés ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le sperme, selon la présentation du poème"
+        },
+        {
+          "id": "b",
+          "textFr": "La couleur, si son retrait est difficile"
+        },
+        {
+          "id": "c",
+          "textFr": "Elles figurent parmi les éléments impurs"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, un tel changement naturel est toléré"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب الأعيان النجسة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elles figurent parmi les éléments impurs ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان النجسة",
+        "quoteAr": "وَكُلُّ الْمُسْكِرِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-015",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel élément corporel est mentionné à la fois avec le madhy et le pus dans la liste des impuretés ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elles figurent parmi les éléments impurs"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, un tel changement naturel est toléré"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, elle est pure mais non purificatrice"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sperme, selon la présentation du poème"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب الأعيان النجسة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le sperme, selon la présentation du poème ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب الأعيان النجسة",
+        "quoteAr": "مَذْيٌّ مَنِيٌّ أَوْ صَدِيدٌ قَيْحُ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-016",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel exemple de vêtement exposé à la saleté bénéficie d'une tolérance évoquée par les vers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le vêtement du boucher"
+        },
+        {
+          "id": "b",
+          "textFr": "Le vêtement du marchand de tissus"
+        },
+        {
+          "id": "c",
+          "textFr": "Le manteau de cérémonie"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement du pèlerin à l’ihrâm"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب إزالة النجاسة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le vêtement du boucher ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب إزالة النجاسة",
+        "quoteAr": "ثَوْبِ قَصَّابٍ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-017",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel autre vêtement de travail est visé par la tolérance des souillures difficiles à éviter ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le vêtement du juge"
+        },
+        {
+          "id": "b",
+          "textFr": "Le vêtement d’une femme qui allaite"
+        },
+        {
+          "id": "c",
+          "textFr": "Le vêtement de l’imam"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement d’un écrivain"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب إزالة النجاسة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le vêtement d’une femme qui allaite ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب إزالة النجاسة",
+        "quoteAr": "وَثَوْبِ الْمُرْضِعَةْ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-018",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pour une souillure difficile à éliminer, quelle caractéristique résiduelle est citée comme excusable ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le vêtement du boucher"
+        },
+        {
+          "id": "b",
+          "textFr": "Le vêtement d’une femme qui allaite"
+        },
+        {
+          "id": "c",
+          "textFr": "La couleur, si son retrait est difficile"
+        },
+        {
+          "id": "d",
+          "textFr": "Elles figurent parmi les éléments impurs"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب إزالة النجاسة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La couleur, si son retrait est difficile ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب إزالة النجاسة",
+        "quoteAr": "فِي رِيحِهَا أَوْ لَوْنِهَا إِنْ عَسُرَا",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-019",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle exigence le vers pose-t-il au matériau utilisé pour l'istijmâr ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une matière alimentaire"
+        },
+        {
+          "id": "b",
+          "textFr": "Pour l'écoulement de madhy"
+        },
+        {
+          "id": "c",
+          "textFr": "Les faire pénétrer par l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Être pur, nettoyant et solide"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب قضاء الحاجة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Être pur, nettoyant et solide ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب قضاء الحاجة",
+        "quoteAr": "بِطَاهِرٍ مُنْقٍ جَمَدْ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-020",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type d'objet est interdit pour l'istijmâr selon le vers ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une matière alimentaire"
+        },
+        {
+          "id": "b",
+          "textFr": "Être pur, nettoyant et solide"
+        },
+        {
+          "id": "c",
+          "textFr": "Pour l'écoulement de madhy"
+        },
+        {
+          "id": "d",
+          "textFr": "Le rinçage de la bouche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب قضاء الحاجة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une matière alimentaire ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب قضاء الحاجة",
+        "quoteAr": "لَا نَقْدٍ او مَطْعُومٍ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-021",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans quelles situations le poème cite-t-il le recours spécifique à l'eau plutôt qu'aux seuls solides ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Être pur, nettoyant et solide"
+        },
+        {
+          "id": "b",
+          "textFr": "Pour l'écoulement de madhy"
+        },
+        {
+          "id": "c",
+          "textFr": "Une matière alimentaire"
+        },
+        {
+          "id": "d",
+          "textFr": "Les faire pénétrer par l’eau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب قضاء الحاجة » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Pour l'écoulement de madhy ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب قضاء الحاجة",
+        "quoteAr": "وَعَيَّنُوا لِلْمَاءِ فِي مَذِيِّ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-022",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel événement lié au cycle féminin fait partie des causes citées du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La fin des lochies"
+        },
+        {
+          "id": "b",
+          "textFr": "Être pur, nettoyant et solide"
+        },
+        {
+          "id": "c",
+          "textFr": "La fin des règles menstruelles"
+        },
+        {
+          "id": "d",
+          "textFr": "Les faire pénétrer par l’eau"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب موجبات الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La fin des règles menstruelles ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب موجبات الغسل",
+        "quoteAr": "فَقَطْعُ الْحَيْضِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-023",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle autre situation postnatale figure parmi les causes du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La fin des règles menstruelles"
+        },
+        {
+          "id": "b",
+          "textFr": "L'animal marin mort"
+        },
+        {
+          "id": "c",
+          "textFr": "Le musc et sa poche"
+        },
+        {
+          "id": "d",
+          "textFr": "La fin des lochies"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب موجبات الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La fin des lochies ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب موجبات الغسل",
+        "quoteAr": "وَالنِّفَاسِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-024",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel nombre d'obligations du ghusl le poème annonce-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Neuf"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب فرائض الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Cinq ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب فرائض الغسل",
+        "quoteAr": "فُروضُهُ خَمْسٌ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-025",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle action concerne expressément les cheveux durant le ghusl selon le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "b",
+          "textFr": "Les faire pénétrer par l’eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Être pur, nettoyant et solide"
+        },
+        {
+          "id": "d",
+          "textFr": "Pour l'écoulement de madhy"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب فرائض الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les faire pénétrer par l’eau ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب فرائض الغسل",
+        "quoteAr": "وَخَلِّلِ الشَّعْرَ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-026",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel geste nasal est cité parmi les sunnas du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’essuyage du visage à sec"
+        },
+        {
+          "id": "b",
+          "textFr": "Le passage des mains sur les cheveux"
+        },
+        {
+          "id": "c",
+          "textFr": "L'inspiration d'eau dans les narines"
+        },
+        {
+          "id": "d",
+          "textFr": "Le frottement du tissu sur les pieds"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب سنن الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'inspiration d'eau dans les narines ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب سنن الغسل",
+        "quoteAr": "وَسُنَّ: الِاسْتِنْشَاقُ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-027",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel geste de la bouche est cité comme sunna du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lavage des poignets trois fois"
+        },
+        {
+          "id": "b",
+          "textFr": "L’essuyage à sec de la langue"
+        },
+        {
+          "id": "c",
+          "textFr": "La récitation du takbîr après le ghusl"
+        },
+        {
+          "id": "d",
+          "textFr": "Le rinçage de la bouche"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب سنن الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le rinçage de la bouche ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب سنن الغسل",
+        "quoteAr": "وَالتَّمَضْمُضُ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-028",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle partie des oreilles le poème dit-il d'essuyer parmi les sunnas du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le conduit ou l'intérieur des oreilles"
+        },
+        {
+          "id": "b",
+          "textFr": "La plante des pieds"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lobe du nez"
+        },
+        {
+          "id": "d",
+          "textFr": "L’arrière des genoux"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب سنن الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le conduit ou l'intérieur des oreilles ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب سنن الغسل",
+        "quoteAr": "مَسْحُ صِمْخَيِ الْأُذْنَيْنِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-029",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel ordre corporel est conseillé lors du ghusl par le poème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La réprobation de cet usage dans le cas indiqué"
+        },
+        {
+          "id": "b",
+          "textFr": "Commencer par le côté droit et les parties hautes"
+        },
+        {
+          "id": "c",
+          "textFr": "Le sang non versé, dans la distinction indiquée"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, les matières inertes non enivrantes sont citées"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب فضائل الغسل » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Commencer par le côté droit et les parties hautes ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب فضائل الغسل",
+        "quoteAr": "وَبِالْيَمِينِ وَالْأَعَالِي فَابْتَدِ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "ashal-al-masalik-v13-ia-030",
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans la liste des annulatifs du wudû, quel effet est donné à l'apostasie ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'inspiration d'eau dans les narines"
+        },
+        {
+          "id": "b",
+          "textFr": "Le conduit ou l'intérieur des oreilles"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle est comptée parmi les annulatifs"
+        },
+        {
+          "id": "d",
+          "textFr": "Au statut juridique de leurs viandes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب نواقض الوضوء » de أسهل المسالك في مذهب الإمام مالك, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle est comptée parmi les annulatifs ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "أسهل المسالك في مذهب الإمام مالك",
+        "authorAr": "محمد البشار",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "يَنْقُضُهُ: الرِّدَّةُ",
+        "url": "https://ar.wikisource.org/wiki/أسهل_المسالك_في_مذهب_الإمام_مالك",
+        "quoteLayer": "poem",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    }
+  ]
+}

@@ -6,7 +6,8 @@
   "regions": ["cdg1"],
   "git": {
     "deploymentEnabled": {
-      "feat/quiz-v1.3-tirage": false
+      "feat/quiz-v1.3-tirage": false,
+      "feat/quiz-v1.3-intermediaire-avance-import": false
     }
   }
 }

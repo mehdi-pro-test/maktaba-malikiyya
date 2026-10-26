@@ -1,0 +1,1270 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "al-mouqaddima-al-izziyya",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "30 questions nouvelles rédigées sous forme de propositions éditoriales. Sources arabes et options non collationnées à une édition de référence. Jamais publier sans revue factuelle et religieuse.",
+  "questions": [
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-001",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel terme arabe l'‘Izziyya emploie-t-elle pour l'eau purificatrice dans l'introduction à la purification ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ṭahūr (طهور)"
+        },
+        {
+          "id": "b",
+          "textFr": "Najas (نجس)"
+        },
+        {
+          "id": "c",
+          "textFr": "Hadath (حدث)"
+        },
+        {
+          "id": "d",
+          "textFr": "Mâ’ musta‘mal (ماء مستعمل)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب الطهارة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ṭahūr (طهور) ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "باب الطهارة",
+        "quoteAr": "الْمَاءُ الطَّهُورُ",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-002",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que dit l'Izziyya de l'eau qui a déjà servi à des ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle devient impure dès le premier usage"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle demeure purifiante, mais est réprouvée si une autre eau existe"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle est toujours interdite même en nécessité"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle ne peut servir qu’à laver des vêtements"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب الطهارة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle demeure purifiante, mais est réprouvée si une autre eau existe ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "باب الطهارة",
+        "quoteAr": "الماء المستعمل في الوضوء والغسل",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-003",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans quel ensemble de phénomènes le texte classe-t-il une altération de l'eau par la végétation aquatique ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les modifications volontaires par un sirop"
+        },
+        {
+          "id": "b",
+          "textFr": "Les altérations produites par une impureté"
+        },
+        {
+          "id": "c",
+          "textFr": "Les modifications inhérentes au milieu naturel de l'eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Les mélanges artificiels avec du lait"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب الطهارة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les modifications inhérentes au milieu naturel de l'eau ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "باب الطهارة",
+        "quoteAr": "أَوْ بِمَا تَوَلَّدَ مِنْهُ",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-004",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle sorte de lait est expressément citée comme pure dans le chapitre des corps ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lait d’une bête morte"
+        },
+        {
+          "id": "b",
+          "textFr": "Le lait transformé par une substance impure"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lait mêlé à l’urine"
+        },
+        {
+          "id": "d",
+          "textFr": "Le lait humain vivant"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في الأعيان الطاهرة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le lait humain vivant ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في الأعيان الطاهرة",
+        "quoteAr": "ولبن الآدمي",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-005",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelles sécrétions d'un être vivant figurent parmi les corps purs ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La salive, la sueur et les larmes"
+        },
+        {
+          "id": "b",
+          "textFr": "Le lait humain vivant"
+        },
+        {
+          "id": "c",
+          "textFr": "Les insectes sans sang circulant, dans les exemples cités"
+        },
+        {
+          "id": "d",
+          "textFr": "La demande de pardon « Ghufrânak »"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في الأعيان الطاهرة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La salive, la sueur et les larmes ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في الأعيان الطاهرة",
+        "quoteAr": "لعابُه ومخاطه ودمعُه",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-006",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle catégorie animale fournit un exemple de dépouille considérée comme pure ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La salive, la sueur et les larmes"
+        },
+        {
+          "id": "b",
+          "textFr": "Les insectes sans sang circulant, dans les exemples cités"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lait humain vivant"
+        },
+        {
+          "id": "d",
+          "textFr": "Les modifications inhérentes au milieu naturel de l'eau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في الأعيان الطاهرة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les insectes sans sang circulant, dans les exemples cités ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في الأعيان الطاهرة",
+        "quoteAr": "كالبق والنمل والدود",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-007",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel liquide corporel est décrit comme blanc et épais, survenant après l'urine ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le manî"
+        },
+        {
+          "id": "b",
+          "textFr": "La sueur"
+        },
+        {
+          "id": "c",
+          "textFr": "Le wadî"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sang menstruel"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في الأعيان النجسة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le wadî ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في الأعيان النجسة",
+        "quoteAr": "والودي وهو ماء أبيض",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-008",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle caractéristique le chapitre attribue-t-il au madhy ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un liquide épais apparaissant après la miction"
+        },
+        {
+          "id": "b",
+          "textFr": "Le sang des règles"
+        },
+        {
+          "id": "c",
+          "textFr": "La transpiration du visage"
+        },
+        {
+          "id": "d",
+          "textFr": "Liquide blanc et fin lié à l'excitation"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في الأعيان النجسة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Liquide blanc et fin lié à l'excitation ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في الأعيان النجسة",
+        "quoteAr": "والمذي",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-009",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Selon le texte, la purification de la souillure vise-t-elle aussi le lieu de prière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, le vêtement, le corps et l'emplacement"
+        },
+        {
+          "id": "b",
+          "textFr": "La prière peut être invalidée selon les conditions exposées"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il faut attendre l'entrée de l'heure"
+        },
+        {
+          "id": "d",
+          "textFr": "Liquide blanc et fin lié à l'excitation"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في إزالة النجاسة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Oui, le vêtement, le corps et l'emplacement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في إزالة النجاسة",
+        "quoteAr": "عن ثوب المصلي وبدنه ومكانه",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-010",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que se passe-t-il si une impureté tombe sur le fidèle pendant sa prière dans le cas présenté ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, le vêtement, le corps et l'emplacement"
+        },
+        {
+          "id": "b",
+          "textFr": "La prière peut être invalidée selon les conditions exposées"
+        },
+        {
+          "id": "c",
+          "textFr": "Les insectes sans sang circulant, dans les exemples cités"
+        },
+        {
+          "id": "d",
+          "textFr": "Les modifications inhérentes au milieu naturel de l'eau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في إزالة النجاسة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La prière peut être invalidée selon les conditions exposées ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في إزالة النجاسة",
+        "quoteAr": "وقع على المصلي وهو في الصلاة",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-011",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel nombre d'obligations du wudû l'Izziyya annonce-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "b",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Neuf"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في فرائض الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Sept ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فرائض الوضوء",
+        "quoteAr": "فرائض الوضوء سبعة",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-012",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quel moment l'intention du wudû se place-t-elle, selon la liste ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Avant même l’arrivée de l’eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Après la sortie du lieu d’ablutions"
+        },
+        {
+          "id": "c",
+          "textFr": "Uniquement au moment du séchage"
+        },
+        {
+          "id": "d",
+          "textFr": "Au lavage du visage"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في فرائض الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Au lavage du visage ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فرائض الوضوء",
+        "quoteAr": "عند غسل وجهه",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-013",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle partie de la tête faut-il essuyer dans la liste des obligations malikites ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'ensemble de la tête"
+        },
+        {
+          "id": "b",
+          "textFr": "Les coudes inclus"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Le lait humain vivant"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في فرائض الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'ensemble de la tête ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فرائض الوضوء",
+        "quoteAr": "مسح جميع الرأس",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-014",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel acte fait partie de l'obligation de continuité dans le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les coudes inclus"
+        },
+        {
+          "id": "b",
+          "textFr": "Enchaîner les actes sans délai excessif"
+        },
+        {
+          "id": "c",
+          "textFr": "Au lavage du visage"
+        },
+        {
+          "id": "d",
+          "textFr": "Éviter les conversations sans nécessité"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في فرائض الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Enchaîner les actes sans délai excessif ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فرائض الوضوء",
+        "quoteAr": "الفور",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-015",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle zone des bras doit être comprise dans le lavage prescrit ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Au lavage du visage"
+        },
+        {
+          "id": "b",
+          "textFr": "L'ensemble de la tête"
+        },
+        {
+          "id": "c",
+          "textFr": "Les coudes inclus"
+        },
+        {
+          "id": "d",
+          "textFr": "L'eau stagnante"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في فرائض الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les coudes inclus ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فرائض الوضوء",
+        "quoteAr": "مع المرفقين",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-016",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel acte de propreté buccale le texte place-t-il parmi les mérites du wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un endroit pur"
+        },
+        {
+          "id": "b",
+          "textFr": "Éviter le gaspillage tout en assurant le lavage"
+        },
+        {
+          "id": "c",
+          "textFr": "La terre"
+        },
+        {
+          "id": "d",
+          "textFr": "Le siwâk"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في فضائل الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le siwâk ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فضائل الوضوء",
+        "quoteAr": "السواك",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-017",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que recommande la section des mérites du wudû concernant la quantité d'eau ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Éviter le gaspillage tout en assurant le lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "Le droit avant le gauche"
+        },
+        {
+          "id": "c",
+          "textFr": "Un endroit pur"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, le vêtement, le corps et l'emplacement"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في فضائل الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Éviter le gaspillage tout en assurant le lavage ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فضائل الوضوء",
+        "quoteAr": "قلة الماء مع إحكامهما",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-018",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel côté des membres est recommandé d'abord pendant le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un endroit pur"
+        },
+        {
+          "id": "b",
+          "textFr": "Le droit avant le gauche"
+        },
+        {
+          "id": "c",
+          "textFr": "Le siwâk"
+        },
+        {
+          "id": "d",
+          "textFr": "Le visage et les mains"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في فضائل الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le droit avant le gauche ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فضائل الوضوء",
+        "quoteAr": "تقديم غسل الميامن",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-019",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel emplacement convient au wudû selon les recommandations du texte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Éviter le gaspillage tout en assurant le lavage"
+        },
+        {
+          "id": "b",
+          "textFr": "Le droit avant le gauche"
+        },
+        {
+          "id": "c",
+          "textFr": "Un endroit pur"
+        },
+        {
+          "id": "d",
+          "textFr": "Le pied gauche"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في فضائل الوضوء » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Un endroit pur ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في فضائل الوضوء",
+        "quoteAr": "مكان طاهر",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-020",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel élément est cité à la sortie des latrines parmi les formules de rappel ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le pied gauche"
+        },
+        {
+          "id": "b",
+          "textFr": "L'eau stagnante"
+        },
+        {
+          "id": "c",
+          "textFr": "La salive, la sueur et les larmes"
+        },
+        {
+          "id": "d",
+          "textFr": "La demande de pardon « Ghufrânak »"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في آداب قضاء الحاجة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La demande de pardon « Ghufrânak » ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في آداب قضاء الحاجة",
+        "quoteAr": "غفرانك",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-021",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle entrée dans les latrines l'Izziyya recommande-t-elle en premier ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le pied gauche"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pied droit"
+        },
+        {
+          "id": "c",
+          "textFr": "Les deux pieds simultanément"
+        },
+        {
+          "id": "d",
+          "textFr": "Aucun ordre n’est cité"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في آداب قضاء الحاجة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le pied gauche ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في آداب قضاء الحاجة",
+        "quoteAr": "يقدم رجله اليسرى في الدخول",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-022",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel pied est conseillé en premier pour sortir des latrines ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le pied gauche"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pied droit"
+        },
+        {
+          "id": "c",
+          "textFr": "Les deux pieds simultanément"
+        },
+        {
+          "id": "d",
+          "textFr": "Aucun ordre n’est cité"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في آداب قضاء الحاجة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le pied droit ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في آداب قضاء الحاجة",
+        "quoteAr": "واليمنى في الخروج",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-023",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel comportement verbal est mentionné parmi les bonnes manières aux toilettes ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'eau stagnante"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pied gauche"
+        },
+        {
+          "id": "c",
+          "textFr": "Éviter les conversations sans nécessité"
+        },
+        {
+          "id": "d",
+          "textFr": "Enchaîner les actes sans délai excessif"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في آداب قضاء الحاجة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Éviter les conversations sans nécessité ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في آداب قضاء الحاجة",
+        "quoteAr": "وألا يتكلم إلا لمهم",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-024",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel emplacement le texte recommande-t-il d'éviter lors de l'accomplissement des besoins ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La demande de pardon « Ghufrânak »"
+        },
+        {
+          "id": "b",
+          "textFr": "Le pied gauche"
+        },
+        {
+          "id": "c",
+          "textFr": "Un endroit pur"
+        },
+        {
+          "id": "d",
+          "textFr": "L'eau stagnante"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في آداب قضاء الحاجة » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'eau stagnante ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في آداب قضاء الحاجة",
+        "quoteAr": "والماء الدائم",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-025",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle partie des membres est essuyée lors du tayammum dans la définition donnée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le visage et les mains"
+        },
+        {
+          "id": "b",
+          "textFr": "Lorsque l'usage de l'eau présente un risque sérieux pour la santé"
+        },
+        {
+          "id": "c",
+          "textFr": "La bague"
+        },
+        {
+          "id": "d",
+          "textFr": "L'ensemble de la tête"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في التيمم » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le visage et les mains ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "مسح الوجه واليدين",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-026",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quand le tayammum peut-il remplacer l'eau selon le passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il faut attendre l'entrée de l'heure"
+        },
+        {
+          "id": "b",
+          "textFr": "Lorsque l'usage de l'eau présente un risque sérieux pour la santé"
+        },
+        {
+          "id": "c",
+          "textFr": "Le visage et les mains"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle demeure purifiante, mais est réprouvée si une autre eau existe"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في التيمم » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Lorsque l'usage de l'eau présente un risque sérieux pour la santé ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "خاف باستعماله حدوث مرض",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-027",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel matériau le texte privilégie-t-il pour le tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Lorsque l'usage de l'eau présente un risque sérieux pour la santé"
+        },
+        {
+          "id": "b",
+          "textFr": "La bague"
+        },
+        {
+          "id": "c",
+          "textFr": "La terre"
+        },
+        {
+          "id": "d",
+          "textFr": "Le siwâk"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في التيمم » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La terre ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "والتراب أفضل من غيره",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-028",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le tayammum se pratique-t-il avant l'entrée de l'heure de la prière selon le texte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La bague"
+        },
+        {
+          "id": "b",
+          "textFr": "Lorsque l'usage de l'eau présente un risque sérieux pour la santé"
+        },
+        {
+          "id": "c",
+          "textFr": "Liquide blanc et fin lié à l'excitation"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il faut attendre l'entrée de l'heure"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في التيمم » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, il faut attendre l'entrée de l'heure ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "ولا يصح التيمم قبل دخول الوقت",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-029",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel bijou porté à la main doit être retiré durant le tayammum, dans le passage mentionné ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La bague"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il faut attendre l'entrée de l'heure"
+        },
+        {
+          "id": "c",
+          "textFr": "Le visage et les mains"
+        },
+        {
+          "id": "d",
+          "textFr": "La terre"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل في التيمم » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La bague ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "ونزع الخاتم",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya-v13-ia-030",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "editorialStatus": "research-draft",
+      "questionFr": "Combien de conditions le matn annonce-t-il pour essuyer les khuffs ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Trois"
+        },
+        {
+          "id": "b",
+          "textFr": "Huit"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Dix"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل في المسح على الخفين » de المقدمة العزية للجماعة الأزهرية, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Huit ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "المقدمة العزية للجماعة الأزهرية",
+        "authorAr": "علي بن محمد المنوفي الشاذلي",
+        "chapterAr": "فصل في المسح على الخفين",
+        "quoteAr": "للمسح عليه ثمانية شروط",
+        "url": "https://www.scribd.com/document/1073307615/المقدمة-العزية-للجماعة-الأزهرية",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "unverified-OCR-needs-collation",
+        "quoteIsCertifiedVerbatim": false,
+        "alternateFacsimileUrl": "https://mc.dlib.nyu.edu/files/books/aub_aco001345/aub_aco001345_lo.pdf"
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    }
+  ]
+}

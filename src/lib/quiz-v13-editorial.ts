@@ -40,7 +40,15 @@ export const candidateBatchSchema = z
                 chapterAr: arabic,
                 quoteAr: arabic.max(1000),
                 url: https,
-                verification: z.literal('consulted-online-transcription'),
+                verification: z.enum([
+                  'consulted-online-transcription',
+                  'unverified-OCR-needs-collation',
+                  'transcription-provisional-to-collate',
+                ]),
+                quoteLayer: z.enum(['matn', 'poem', 'commentary', 'gloss']).optional(),
+                quoteIsCertifiedVerbatim: z.literal(false).optional(),
+                alternateFacsimileUrl: https.optional(),
+                layerAttributionRequiresHumanVerification: z.literal(true).optional(),
                 edition: z.null(),
                 printedPage: z.null(),
               })
@@ -49,10 +57,22 @@ export const candidateBatchSchema = z
             options: z.array(z.object({ id, textFr: text }).strict()).length(4),
             correctOptionId: id,
             explanationFr: text,
-            newComparedToV12: z.literal('manually-screened-not-approved'),
+            newComparedToV12: z.enum(['manually-screened-not-approved', 'editorial-dedup-pending']),
+            distractorsReviewRequired: z.literal(true).optional(),
           })
           .strict()
           .superRefine((q, ctx) => {
+            if (
+              q.source.verification !== 'consulted-online-transcription' &&
+              (!q.source.quoteLayer ||
+                q.source.quoteIsCertifiedVerbatim !== false ||
+                q.distractorsReviewRequired !== true ||
+                q.newComparedToV12 !== 'editorial-dedup-pending')
+            )
+              ctx.addIssue({
+                code: 'custom',
+                message: 'Métadonnées de citation provisoire et relecture requises',
+              });
             if (
               new Set(q.options.map((o) => o.id)).size !== 4 ||
               new Set(q.options.map((o) => normalizePrompt(o.textFr))).size !== 4 ||
@@ -113,6 +133,8 @@ export const candidateReviewSchema = z
           reviewedAt: z.iso.date(),
           citationVerified: z.boolean(),
           attributionVerified: z.boolean(),
+          deduplicationReviewed: z.boolean().optional(),
+          distractorsReviewed: z.boolean().optional(),
           notes: text,
         })
         .strict(),
@@ -161,6 +183,13 @@ export function inspectCandidateLots(base: ResearchBank, lots: CandidateLot[]) {
           throw new Error('Date de revue incohérente');
         if (r.decision === 'approved' && (!r.citationVerified || !r.attributionVerified))
           throw new Error('Citation ou attribution non vérifiée');
+        const question = batch.questions.find((q) => q.id === r.questionId)!;
+        if (
+          r.decision === 'approved' &&
+          question.newComparedToV12 === 'editorial-dedup-pending' &&
+          (r.deduplicationReviewed !== true || r.distractorsReviewed !== true)
+        )
+          throw new Error('Déduplication et distracteurs non vérifiés');
         reviewedIds.add(r.questionId);
       }
     }
@@ -195,7 +224,7 @@ export function inspectCandidateLots(base: ResearchBank, lots: CandidateLot[]) {
               authorAr: q.source.authorAr,
               sectionAr: q.source.chapterAr,
               quoteAr: q.source.quoteAr,
-              quoteLayer: 'matn',
+              quoteLayer: q.source.quoteLayer ?? 'matn',
               locator: '',
               edition: q.source.edition,
               printedPage: q.source.printedPage,

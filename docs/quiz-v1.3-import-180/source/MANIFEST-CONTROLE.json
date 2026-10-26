@@ -1,0 +1,35 @@
+{
+  "createdAt": "2026-10-26",
+  "repo": "https://github.com/mehdi-pro-test/maktaba-malikiyya",
+  "baselineMainSHA": "bc8df4071c87db6037afd86136b0c698406f6223",
+  "questionCountNew": 180,
+  "questionsByBook": {
+    "al-mouqaddima-al-izziyya": 30,
+    "ashal-al-masalik": 30,
+    "ar-risala-ibn-abi-zayd": 30,
+    "moukhtassar-khalil": 30,
+    "sharh-al-dardir": 30,
+    "hashiyat-al-dasuqi": 30
+  },
+  "newPublished": 0,
+  "reviewStatus": "research-draft",
+  "existingV12PerBook": 10,
+  "existingV13BeginnerDrafts": 90,
+  "targetPerBook": 100,
+  "draftsPlusV12ForSixBooksPerBook": 40,
+  "missingToTargetPerEachOfSixBooks": 60,
+  "missingToTargetSixBooks": 360,
+  "checks": {
+    "uniqueIDs": 180,
+    "uniqueNormalizedQuestionTexts": 180,
+    "distinctFourOptionsForAll": true,
+    "allHaveSourceQuoteAndLink": true,
+    "duplicateCheckWithV12": "NOT automatically completed: manual comparison and Codex audit required",
+    "semanticDuplicates": "Must be evaluated by human reviewer",
+    "primaryArabicQuoteVerifiedAgainstFacsimile": "NO",
+    "DardirDasuqiLayerAttributionReviewed": "NO",
+    "DistractorsEditoriallyApproved": "NO"
+  },
+  "publicationPolicy": "NEVER auto publish: ensure Arabic verbatim against source facsimile, author/layer attribution, each explanation and distractor, and explicit approval before website import.",
+  "notes": "Les 180 questions sont rédigées comme candidates, pas comme faits vérifiés. Les liens pointent vers les textes ou leurs reproductions; les citations sont provisoires. Certains distracteurs ont été sélectionnés à partir des autres réponses du même chapitre et requièrent une relecture attentive. Le corpus principal V1.2/V1.3 existe sur le dépôt GitHub et n’est pas copié/modifié ici."
+}
