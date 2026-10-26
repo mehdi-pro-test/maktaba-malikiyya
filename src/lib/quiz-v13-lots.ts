@@ -1,4 +1,14 @@
-// Server-side registry of future editorial lots. No new lot is authorized today.
-// Add a batch AND its independent, verified 1.3-review-1 report after editorial approval.
+// Owner confirmed review and authorized publication of these 90 questions on 2026-10-26.
+// Immutable supplied text; separate reports record the owner's declaration, not a Codex review.
 import type { CandidateLot } from './quiz-v13-editorial';
-export const editorialLots: CandidateLot[] = [];
+import akhdari from '../data/quiz-v1.3/01-akhdari-30-candidats.json' with { type: 'json' };
+import akhdariReview from '../data/quiz-v1.3/01-akhdari-30-candidats-reviews.json' with { type: 'json' };
+import ibnAshir from '../data/quiz-v1.3/02-ibn-ashir-30-candidats.json' with { type: 'json' };
+import ibnAshirReview from '../data/quiz-v1.3/02-ibn-ashir-30-candidats-reviews.json' with { type: 'json' };
+import achmawiyya from '../data/quiz-v1.3/03-achmawiyya-30-candidats.json' with { type: 'json' };
+import achmawiyyaReview from '../data/quiz-v1.3/03-achmawiyya-30-candidats-reviews.json' with { type: 'json' };
+export const editorialLots: CandidateLot[] = [
+  { batch: akhdari, report: akhdariReview },
+  { batch: ibnAshir, report: ibnAshirReview },
+  { batch: achmawiyya, report: achmawiyyaReview },
+];

@@ -12,6 +12,7 @@ import { researchBankSchema, bankDigest } from '../src/lib/quiz-v12';
 import { quizScore } from '../src/lib/quiz';
 import { syntheticPool } from './fixtures/quiz-pool';
 import raw from '../src/data/quiz-v1.2/research.json';
+import { editorialLots } from '../src/lib/quiz-v13-lots';
 import importedHashes from '../docs/quiz-v1.3/IMPORT-SHA256.json';
 const base = researchBankSchema.parse(raw);
 const directory = 'docs/quiz-v1.3-pack/recherche-v1.3';
@@ -138,12 +139,30 @@ describe('Import éditorial additif', () => {
       expect(createHash('sha256').update(readFileSync(file)).digest('hex')).toBe(hash);
     }
   });
-  it('parse les 90 vrais candidats sans jamais les publier', () => {
+  it('garde les 90 candidats non publiés en absence de rapport', () => {
     const result = inspectCandidateLots(base, lots);
     expect(result.inventory.map((i) => i.written)).toEqual([30, 30, 30]);
     expect(result.approved).toEqual([]);
     expect(result.inventory.every((i) => i.approved === 0)).toBe(true);
     expect(result.attributionDifferences).toHaveLength(30); // titre alternatif Achmawiyya à relire
+  });
+  it('active exactement les 90 déclarations de revue du propriétaire sans modifier le contenu', () => {
+    const active = inspectCandidateLots(base, editorialLots);
+    expect(active.approved).toHaveLength(90);
+    expect(active.inventory.map((i) => i.approved)).toEqual([30, 30, 30]);
+    for (const name of [
+      '01-akhdari-30-candidats',
+      '02-ibn-ashir-30-candidats',
+      '03-achmawiyya-30-candidats',
+    ]) {
+      expect(readFileSync(`src/data/quiz-v1.3/${name}.json`)).toEqual(
+        readFileSync(`${directory}/${name}.json`),
+      );
+    }
+    for (const [bookId, questions] of active.approvedByBook) {
+      expect(base.questions.filter((q) => q.bookId === bookId).length + questions.length).toBe(40);
+      expect(drawPublishedQuestions(questions, rng())).toHaveLength(10);
+    }
   });
   it('exige un rapport propre au lot pour toute extension future', () => {
     const batch = syntheticBatch();
