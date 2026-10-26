@@ -46,3 +46,7 @@ Les premiers essais navigateur ont révélé des libellés ambigus et des sélec
 La première exécution complète a aussi révélé une réponse HTTP 200 sur des slugs de quiz invalides après passage aux pages dynamiques (404 rendue après début du streaming Next.js). Un contrôle de routage limité au catalogue des quiz rejette ces chemins avant le streaming ; les quinze routes valides restent dynamiques. Les trois adresses invalides ont été revérifiées en HTTP 404, puis la suite complète relancée. Les assertions historiques 404 sont conservées.
 
 Audit `npm audit --omit=dev` après correction ciblée de la dépendance transitive Zod : **0 vulnérabilité signalée**. Ce résultat concerne les dépendances de Production, pas une certification globale de sécurité. Le pack documentaire original est volontairement exclu du formatage automatique pour conserver ses empreintes, y compris ses espaces d’origine.
+
+## Contrôle hébergé avant mise en Production
+
+La CI GitHub initiale a signalé une ambiguïté intermittente dans le test global mobile : Next.js conservait une copie masquée de la carte. Le test exige désormais une unique carte **visible**, puis vérifie les cinq niveaux visibles et ouvre le quiz depuis cette carte. Aucune assertion de tirage, score, sources ou Rejouer n’est retirée. Les **8 tests ciblés du mode global**, sur les quatre profils navigateur, ont réussi après correction ; la CI complète est relancée avant fusion.

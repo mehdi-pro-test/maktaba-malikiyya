@@ -23,10 +23,13 @@ test('Mode global : dix parmi tous les ouvrages, score 5/10, sources et Rejouer'
     }
   };
   await page.goto('/quiz/niveaux');
-  await expect(page.locator('.quiz-global-card')).toBeVisible();
-  await expect(page.locator('.quiz-level')).toHaveCount(5);
+  // Next may retain an inactive route tree; assert the unique visible catalogue.
+  const card = page.locator('.quiz-global-card:visible');
+  await expect(card).toHaveCount(1);
+  await expect(card).toBeVisible();
+  await expect(page.locator('.quiz-level:visible')).toHaveCount(5);
   await capture('carte');
-  await page.getByRole('link', { name: 'Lancer le mode aléatoire' }).click();
+  await card.getByRole('link', { name: 'Lancer le mode aléatoire' }).click();
   await expect(page).toHaveURL(/\/quiz\/aleatoire$/);
   await capture('introduction');
   const html = await (await request.get(path)).text();
