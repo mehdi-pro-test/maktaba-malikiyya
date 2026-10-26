@@ -102,13 +102,15 @@
     "existingQuestions": 150,
     "reviewEntries": 150,
     "sourceEntries": 33,
-    "missingV13QuestionBank": 210,
+    "missingV13QuestionBank": 180,
     "plannedTotalV13Questions": 1500,
     "verifiedAvailableNewV13QuestionsInThisArchive": 90,
     "totalQuestionsActuallyWrittenIncludingDraft": 240,
     "publishedQuestions": 150,
     "newDraftQuestions": 90,
-    "actualNewV13Approved": 0
+    "actualNewV13Approved": 0,
+    "missingAdditionalBeginnerQcm": 180,
+    "missingAdditionalAll15To1500": 1260
   },
   "checks": {
     "questionsWithWrongNumberOptionsMissingAnswerOrNoReference": [],
