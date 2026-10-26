@@ -1,5 +1,8 @@
 # Qualité des questions, sources arabes et décision de publication
 
+> **Pack unique — précaution :** les 300 nouvelles questions évoquées dans l'ancien rapport de recherche **ne sont pas livrées dans cette archive**. Les sources listées ci-dessous servent seulement de repères bibliographiques à vérifier lors de l'arrivée effective du fichier éditorial. Les 150 items disponibles aujourd'hui sont ceux du dépôt V1.2, dont la liste intégrale figure dans le CSV ci-joint.
+
+
 ## Provenance réelle du lot débutant
 
 Le rapport de recherche approfondie V1.3 indique la constitution de 300 questions (3 × 100) avec titre, auteur, chapitre, citation arabe, édition ou témoin, et lien de source. **Les contrôles structurels annoncés par la recherche ne valent pas relecture doctrinale indépendante.** Certaines pages d'Ibn Ashir restent `null` et `pageVerified: false`.
