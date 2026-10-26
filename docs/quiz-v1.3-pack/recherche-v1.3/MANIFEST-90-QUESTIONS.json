@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-26",
+  "objective": {
+    "books": 3,
+    "questionsPerBook": 100,
+    "expected300": 300
+  },
+  "baseline": {
+    "questionsAll15": 150,
+    "questionsOn3BeginnerBooks": 30
+  },
+  "newDrafts": {
+    "perBook": {
+      "moukhtassar-al-akhdari": 30,
+      "matn-ibn-ashir": 30,
+      "al-achmawiyya": 30
+    },
+    "total": 90,
+    "reviewedOrPublished": 0
+  },
+  "currentTotalsIncludingOld": {
+    "perBook": {
+      "moukhtassar-al-akhdari": 40,
+      "matn-ibn-ashir": 40,
+      "al-achmawiyya": 40
+    },
+    "totalBeginner": 120,
+    "totalAll": 240
+  },
+  "missingToReach100PerBeginner": {
+    "perBook": {
+      "moukhtassar-al-akhdari": 60,
+      "matn-ibn-ashir": 60,
+      "al-achmawiyya": 60
+    },
+    "total": 180
+  },
+  "checks": {
+    "uniqueIds": 90,
+    "uniqueNormalizedPrompts": 90,
+    "duplicateTextExactWithV12": 0,
+    "invalidOptionsOrReferences": 0,
+    "semanticNearDuplicates": "À contrôler en relecture; le contrôle automatique ne les détecte pas toutes"
+  },
+  "publication": "INTERDITE tant que relecture religieuse et collation des citations sur édition de référence n'ont pas validé chaque question",
+  "notes": "90 nouvelles questions-réponses authentiquement rédigées, sans duplication textuelle exacte; les citations proviennent des transcriptions arabes en ligne. Les éditions/pages sont laissées null. Le résultat n'est pas une banque de 300 questions validées."
+}
