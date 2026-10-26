@@ -16,3 +16,7 @@ docs/quiz-v1.3-pack
 
 # Immutable V1.3 supplied content; approvals are in separate formatted reports.
 src/data/quiz-v1.3/*-candidats.json
+
+# Original 180-question delivery and editorial copies retain supplied bytes.
+docs/quiz-v1.3-import-180/source
+src/data/quiz-v1.3-pending-180

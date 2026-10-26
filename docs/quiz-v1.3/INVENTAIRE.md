@@ -1,3 +1,5 @@
+> **État courant après la confirmation des 180 vérifications : 420 questions publiées**, 40 par ouvrage débutant/intermédiaire/avancé et dix pour les six autres. Voir [activation des 180](../quiz-v1.3-import-180/ACTIVATION-2026-10-26.md) et `INVENTAIRE.json`. Les 240 questions décrites ci-dessous sont l’état historique précédent.
+
 # Inventaire courant après activation des 90 nouvelles questions
 
 Le 26 octobre 2026, le propriétaire demande de publier les 90 questions et confirme la vérification de leurs réponses et citations arabes. Les rapports enregistrent cette déclaration sans inventer une identité ou une qualification de relecteur tiers. Codex réalise uniquement l’intégration technique.

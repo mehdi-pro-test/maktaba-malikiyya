@@ -1,0 +1,17 @@
+{
+  "MANIFEST-CONTROLE.json": "58f29344031c4f29565fa2feecd10b76ffd6f4f2eb2ce665ae658204ef3bd6ed",
+  "QUESTIONS-REPONSES-180.csv": "8a737132966396b643e2869336098859eabfebe78c2980e5d4adb467611444f4",
+  "README-COMMENCER-ICI.md": "d2bc88948670df5efe21db4547599518bdeb4eef3c1be70ecc13d629d2fffcd3",
+  "banques/01-al-mouqaddima-al-izziyya-30-candidats.json": "6cf6948c69ce5744a946274c973c93229036ab875c220da8b195424504b2cd4c",
+  "banques/02-ashal-al-masalik-30-candidats.json": "a274677253862c772e00ac5055095669fe9a98c8ff5b01fd1711d55404e53b0d",
+  "banques/03-ar-risala-ibn-abi-zayd-30-candidats.json": "b055b3d56c20d80111048585102ddb7576691169d867c7c41871ecb7f0b95a17",
+  "banques/04-moukhtassar-khalil-30-candidats.json": "72a41c91983a4bd1ced64c10e9bc4136fe7b4376ed7bb73146a5a3d3a410ab7d",
+  "banques/05-sharh-al-dardir-30-candidats.json": "46e0dbc87d46f2105bd22617288a9f3978fbab7a2e61d436979e8ae8f38d2f2d",
+  "banques/06-hashiyat-al-dasuqi-30-candidats.json": "9412aa972d3f504931cd65585235586bd8d351465ae7f08bd17ca677c0a33179",
+  "documentation/CONTROLE-DES-SOURCES.md": "8406df7e856629ac790fbcbe169b299996ebda65e2f178a575a2422887037721",
+  "documentation/PROMPT-CODEX.md": "d1249dd255920d39a41ba39a67bd4ab77327b0dab3cf3e54fbbe60205977c165",
+  "validation-proprietaire/APPROBATION-PROPRIETAIRE-180.json": "3c3edc524047bc6b8e6395d9ce0c0251726402f1c08cccd3d2c7bdd99a759d26",
+  "validation-proprietaire/PROMPT-CODEX-APRES-VALIDATION.md": "39a5d65ea9bf398926b221c5210a1652cbfba82f463066a6e41eab62a12ad317",
+  "validation-proprietaire/README-VALIDATION.md": "99ce19b7f1467200393e6ee50d6646f7e4aede74dd01c86c1fa39a59532f941f",
+  "validation-proprietaire/RELEVE-VERIFICATION.md": "e8a9f6cc8c615ef5249aaeb49d8ac5af33b4148637fb0cf3aec220a4b0453739"
+}

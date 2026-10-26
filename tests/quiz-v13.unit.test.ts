@@ -147,7 +147,12 @@ describe('Import éditorial additif', () => {
     expect(result.attributionDifferences).toHaveLength(30); // titre alternatif Achmawiyya à relire
   });
   it('active exactement les 90 déclarations de revue du propriétaire sans modifier le contenu', () => {
-    const active = inspectCandidateLots(base, editorialLots);
+    const active = inspectCandidateLots(
+      base,
+      editorialLots.filter(
+        (l) => candidateBatchSchema.parse(l.batch).questions[0].level === 'debutant',
+      ),
+    );
     expect(active.approved).toHaveLength(90);
     expect(active.inventory.map((i) => i.approved)).toEqual([30, 30, 30]);
     for (const name of [

@@ -1,0 +1,1240 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "moukhtassar-khalil",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "30 questions nouvelles rédigées sous forme de propositions éditoriales. Sources arabes et options non collationnées à une édition de référence. Jamais publier sans revue factuelle et religieuse.",
+  "questions": [
+    {
+      "id": "moukhtassar-khalil-v13-ia-001",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle source Khalil désigne-t-il par le terme « فيها » dans son introduction ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le Muwatta’ de Mâlik"
+        },
+        {
+          "id": "b",
+          "textFr": "La Risâla d’Ibn Abî Zayd"
+        },
+        {
+          "id": "c",
+          "textFr": "Le Jâmi‘ d’al-Tirmidhî"
+        },
+        {
+          "id": "d",
+          "textFr": "La Mudawwana"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La Mudawwana ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "مشيرا بـ«فيها» للمدونة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-002",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "À qui renvoie la formule « الاختيار » selon l'introduction de Khalil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Lakhmî"
+        },
+        {
+          "id": "b",
+          "textFr": "Un avis toujours unanime"
+        },
+        {
+          "id": "c",
+          "textFr": "Un récit prophétique authentifié"
+        },
+        {
+          "id": "d",
+          "textFr": "Une règle sans aucune divergence"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Al-Lakhmî ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "وبـ«الاختيار» للخمي",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-003",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel auteur Khalil associe-t-il à la mention « الترجيح » ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La Mudawwana"
+        },
+        {
+          "id": "b",
+          "textFr": "Ibn Yûnus"
+        },
+        {
+          "id": "c",
+          "textFr": "Le Muwatta’"
+        },
+        {
+          "id": "d",
+          "textFr": "Le Musnad d’Ahmad"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ibn Yûnus ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "وبـ«الترجيح» لابن يونس",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-004",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel savant Khalil associe-t-il au terme « الظهور » ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La Risâla"
+        },
+        {
+          "id": "b",
+          "textFr": "Le Muwatta’"
+        },
+        {
+          "id": "c",
+          "textFr": "Ibn Rushd"
+        },
+        {
+          "id": "d",
+          "textFr": "Le Minhâj d’an-Nawawî"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ibn Rushd ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "وبـ«الظهور» لابن رشد",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-005",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quel juriste Khalil renvoie-t-il par « القول » ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ibn Rushd"
+        },
+        {
+          "id": "b",
+          "textFr": "L'hésitation des postérieurs dans la transmission ou l'absence de texte antérieur"
+        },
+        {
+          "id": "c",
+          "textFr": "Al-Lakhmî"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Mâzarî"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Al-Mâzarî ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "وبـ«القول» للمازري",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-006",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que signale le mot « خلاف » selon l'introduction du Mukhtasar ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une divergence dans le choix de l'avis le plus reconnu"
+        },
+        {
+          "id": "b",
+          "textFr": "L'hésitation des postérieurs dans la transmission ou l'absence de texte antérieur"
+        },
+        {
+          "id": "c",
+          "textFr": "Al-Mâzarî"
+        },
+        {
+          "id": "d",
+          "textFr": "La laine ou les poils séparés selon les conditions évoquées"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une divergence dans le choix de l'avis le plus reconnu ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "فذلك للاختلاف في التشهير",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-007",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que désigne « التردد » dans le système de notations du Mukhtasar ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La Mudawwana"
+        },
+        {
+          "id": "b",
+          "textFr": "L'hésitation des postérieurs dans la transmission ou l'absence de texte antérieur"
+        },
+        {
+          "id": "c",
+          "textFr": "Un désaccord interne au madhhab"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne pas accomplir la prière en prétendant être certain de l'heure"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'hésitation des postérieurs dans la transmission ou l'absence de texte antérieur ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "لتردد المتأخرين في النقل",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-008",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Qu'annonce Khalil lorsqu'il emploie le terme « لو » ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Mâzarî"
+        },
+        {
+          "id": "b",
+          "textFr": "Al-Lakhmî"
+        },
+        {
+          "id": "c",
+          "textFr": "Un désaccord interne au madhhab"
+        },
+        {
+          "id": "d",
+          "textFr": "L'intention de suivre l'imam"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « مقدمة المؤلف » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Un désaccord interne au madhhab ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "مقدمة المؤلف",
+        "quoteAr": "وبـ«لو» إلى خلاف مذهبي",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-009",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel animal marin mort Khalil range-t-il parmi les choses pures ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le statut du lait suit celui de l'animal concerné"
+        },
+        {
+          "id": "b",
+          "textFr": "La laine ou les poils séparés selon les conditions évoquées"
+        },
+        {
+          "id": "c",
+          "textFr": "Le coucher du soleil"
+        },
+        {
+          "id": "d",
+          "textFr": "Les animaux marins morts"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل بيان الأعيان الطاهرة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les animaux marins morts ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل بيان الأعيان الطاهرة",
+        "quoteAr": "والبحري ولو طالت حياته ببر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-010",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel statut donne-t-il au musc et à sa poche dans son énumération ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ils figurent parmi les substances pures"
+        },
+        {
+          "id": "b",
+          "textFr": "Les animaux marins morts"
+        },
+        {
+          "id": "c",
+          "textFr": "Le statut du lait suit celui de l'animal concerné"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il n'est pas recommencé pour cela"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل بيان الأعيان الطاهرة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ils figurent parmi les substances pures ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل بيان الأعيان الطاهرة",
+        "quoteAr": "ومسك وفأرته",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-011",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type de laine ou de poils reste pur dans les exemples de Khalil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le statut du lait suit celui de l'animal concerné"
+        },
+        {
+          "id": "b",
+          "textFr": "La laine ou les poils séparés selon les conditions évoquées"
+        },
+        {
+          "id": "c",
+          "textFr": "Les animaux marins morts"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne pas accomplir la prière en prétendant être certain de l'heure"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل بيان الأعيان الطاهرة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La laine ou les poils séparés selon les conditions évoquées ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل بيان الأعيان الطاهرة",
+        "quoteAr": "وصوف ووبر وزغب ريش وشعر",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-012",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle distinction l'auteur applique-t-il aux laits animaux dans le chapitre des corps ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ils figurent parmi les substances pures"
+        },
+        {
+          "id": "b",
+          "textFr": "La laine ou les poils séparés selon les conditions évoquées"
+        },
+        {
+          "id": "c",
+          "textFr": "Le statut du lait suit celui de l'animal concerné"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il exclut le recours nécessaire à la terre"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل بيان الأعيان الطاهرة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le statut du lait suit celui de l'animal concerné ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل بيان الأعيان الطاهرة",
+        "quoteAr": "ولبن غيره تابع",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-013",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle source de souillure difficile est tolérée selon le texte dans un vêtement du quotidien ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il exclut le recours nécessaire à la terre"
+        },
+        {
+          "id": "b",
+          "textFr": "Un récipient à eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Parmi les exigences liées au lavage rituel"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement de la nourrice, sous conditions"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل إزالة النجاسة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le vêtement de la nourrice, sous conditions ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل إزالة النجاسة",
+        "quoteAr": "أو ثوب وثوب مرضعة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-014",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel autre professionnel voit sa tenue mentionnée dans les tolérances d'impureté ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le boucher"
+        },
+        {
+          "id": "b",
+          "textFr": "Un récipient à eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept lavages"
+        },
+        {
+          "id": "d",
+          "textFr": "À sept ans"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل إزالة النجاسة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le boucher ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل إزالة النجاسة",
+        "quoteAr": "وثوب قصاب",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-015",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel instrument doit être lavé sept fois après que le chien y a lapé, selon la mention de Khalil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il exclut le recours nécessaire à la terre"
+        },
+        {
+          "id": "b",
+          "textFr": "Un récipient à eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept lavages"
+        },
+        {
+          "id": "d",
+          "textFr": "Il est recommandé"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل إزالة النجاسة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Un récipient à eau ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل إزالة النجاسة",
+        "quoteAr": "غسل إناء ماء",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-016",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle quantité de lavages Khalil indique-t-il pour le récipient concerné par le léchage du chien ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le boucher"
+        },
+        {
+          "id": "b",
+          "textFr": "Un récipient à eau"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept lavages"
+        },
+        {
+          "id": "d",
+          "textFr": "La Mudawwana"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل إزالة النجاسة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Sept lavages ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل إزالة النجاسة",
+        "quoteAr": "سبعا بولوغ كلب",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-017",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le texte exige-t-il de mettre de la terre dans le nettoyage décrit du récipient léché ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un récipient à eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Le boucher"
+        },
+        {
+          "id": "c",
+          "textFr": "Le statut du lait suit celui de l'animal concerné"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il exclut le recours nécessaire à la terre"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل إزالة النجاسة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, il exclut le recours nécessaire à la terre ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل إزالة النجاسة",
+        "quoteAr": "ولا تتريب",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-018",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Comment le matn classe-t-il le frottement d'un membre pendant le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Parmi les exigences liées au lavage rituel"
+        },
+        {
+          "id": "b",
+          "textFr": "Il est recommandé"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, pas systématiquement dans le cas décrit"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement de la nourrice, sous conditions"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Parmi les exigences liées au lavage rituel ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "ودلك",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-019",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Après une coupe des ongles, faut-il systématiquement recommencer le wudû selon Khalil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, pas systématiquement dans le cas décrit"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il n'est pas recommencé pour cela"
+        },
+        {
+          "id": "c",
+          "textFr": "Parmi les exigences liées au lavage rituel"
+        },
+        {
+          "id": "d",
+          "textFr": "La disparition du rouge du crépuscule"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, il n'est pas recommencé pour cela ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "ولا يعيد من قلم ظفره",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-020",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel rôle Khalil attribue-t-il au nettoyage entre les orteils du pied pendant le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Jusqu'aux deux chevilles saillantes"
+        },
+        {
+          "id": "b",
+          "textFr": "Parmi les exigences liées au lavage rituel"
+        },
+        {
+          "id": "c",
+          "textFr": "Il est recommandé"
+        },
+        {
+          "id": "d",
+          "textFr": "L'aube véridique"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Il est recommandé ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "وندب تخليل أصابعهما",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-021",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le texte exige-t-il de défaire obligatoirement les tresses pour essuyer les cheveux ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il est recommandé"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il n'est pas recommencé pour cela"
+        },
+        {
+          "id": "c",
+          "textFr": "Le vêtement de la nourrice, sous conditions"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, pas systématiquement dans le cas décrit"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, pas systématiquement dans le cas décrit ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "ولا ينقض ضفره رجل أو امرأة",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-022",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel lavage des pieds est requis dans la formulation du matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Jusqu'aux deux chevilles saillantes"
+        },
+        {
+          "id": "b",
+          "textFr": "Parmi les exigences liées au lavage rituel"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il n'est pas recommencé pour cela"
+        },
+        {
+          "id": "d",
+          "textFr": "La disparition du rouge du crépuscule"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Jusqu'aux deux chevilles saillantes ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "بكعبيه الناتئين",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-023",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que faire si une personne doute de l'entrée de l'heure de prière selon Khalil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "À sept ans"
+        },
+        {
+          "id": "b",
+          "textFr": "Ne pas accomplir la prière en prétendant être certain de l'heure"
+        },
+        {
+          "id": "c",
+          "textFr": "La disparition du rouge du crépuscule"
+        },
+        {
+          "id": "d",
+          "textFr": "La laine ou les poils séparés selon les conditions évoquées"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب بيان أوقات الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ne pas accomplir la prière en prétendant être certain de l'heure ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "باب بيان أوقات الصلاة",
+        "quoteAr": "وإن شك في دخول الوقت لم تجز",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-024",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel début de temps Khalil donne-t-il au Maghrib ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'aube véridique"
+        },
+        {
+          "id": "b",
+          "textFr": "La disparition du rouge du crépuscule"
+        },
+        {
+          "id": "c",
+          "textFr": "Le coucher du soleil"
+        },
+        {
+          "id": "d",
+          "textFr": "Un récipient à eau"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « باب بيان أوقات الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le coucher du soleil ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "باب بيان أوقات الصلاة",
+        "quoteAr": "ولمغرب غروب الشمس",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-025",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel phénomène marque selon le texte le début de l'heure de Isha ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ne pas accomplir la prière en prétendant être certain de l'heure"
+        },
+        {
+          "id": "b",
+          "textFr": "Le coucher du soleil"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il n'est pas recommencé pour cela"
+        },
+        {
+          "id": "d",
+          "textFr": "La disparition du rouge du crépuscule"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « باب بيان أوقات الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La disparition du rouge du crépuscule ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "باب بيان أوقات الصلاة",
+        "quoteAr": "وللعشاء من غروب حمرة الشفق",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-026",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel signe marque le début de Subh selon Khalil ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'aube véridique"
+        },
+        {
+          "id": "b",
+          "textFr": "La disparition du rouge du crépuscule"
+        },
+        {
+          "id": "c",
+          "textFr": "Ne pas accomplir la prière en prétendant être certain de l'heure"
+        },
+        {
+          "id": "d",
+          "textFr": "Il est recommandé"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « باب بيان أوقات الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'aube véridique ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "باب بيان أوقات الصلاة",
+        "quoteAr": "وللصبح من الفجر الصادق",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-027",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quel âge l'enfant doit-il être invité à prier selon la prescription pédagogique citée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La disparition du rouge du crépuscule"
+        },
+        {
+          "id": "b",
+          "textFr": "À sept ans"
+        },
+        {
+          "id": "c",
+          "textFr": "L'aube véridique"
+        },
+        {
+          "id": "d",
+          "textFr": "Le boucher"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « باب بيان أوقات الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « À sept ans ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "باب بيان أوقات الصلاة",
+        "quoteAr": "وأمر صبي بها لسبع",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-028",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle position Khalil adopte-t-il envers la récitation de la Fâtiha dans la prière individuelle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'intention de suivre l'imam"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, pas systématiquement dans le cas décrit"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle fait partie des obligations de la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement de la nourrice, sous conditions"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle fait partie des obligations de la prière ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "وفاتحة بحركة لسان",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-029",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle intention l'auteur cite-t-il expressément pour le fidèle derrière l'imam ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle fait partie des obligations de la prière"
+        },
+        {
+          "id": "b",
+          "textFr": "Un désaccord interne au madhhab"
+        },
+        {
+          "id": "c",
+          "textFr": "Les animaux marins morts"
+        },
+        {
+          "id": "d",
+          "textFr": "L'intention de suivre l'imam"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'intention de suivre l'imam ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "ونية اقتداء المأموم",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "moukhtassar-khalil-v13-ia-030",
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type de tenue est recommandé pour se rendre à la prière du vendredi ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une belle tenue et une bonne présentation"
+        },
+        {
+          "id": "b",
+          "textFr": "Parmi les exigences liées au lavage rituel"
+        },
+        {
+          "id": "c",
+          "textFr": "Ils figurent parmi les substances pures"
+        },
+        {
+          "id": "d",
+          "textFr": "Le vêtement de la nourrice, sous conditions"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل صلاة الجمعة » de مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une belle tenue et une bonne présentation ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "مختصر خليل",
+        "authorAr": "خليل بن إسحاق الجندي",
+        "chapterAr": "فصل صلاة الجمعة",
+        "quoteAr": "وندب تحسين هيئة وجميل ثياب",
+        "url": "https://www.islamicbook.ws/asol/maliki/mkhtsr-khlil-001.html",
+        "quoteLayer": "matn",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    }
+  ]
+}

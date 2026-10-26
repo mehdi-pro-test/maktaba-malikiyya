@@ -1,0 +1,1283 @@
+{
+  "schemaVersion": "owner-approval-declaration-v1",
+  "recordedAt": "2026-10-26",
+  "declarant": "propriétaire de Maktaba Malikiyya — déclaration dans cette conversation",
+  "exactDeclaration": "j'ai validé les brouillons",
+  "approvalScope": "180 questions-réponses, 30 pour chacun des 3 ouvrages intermédiaires et 3 ouvrages avancés",
+  "decision": "owner-editorial-approved",
+  "independentReligiousReviewer": null,
+  "citationsArabicVerifiedAgainstPrimaryEdition": "non explicitement attesté",
+  "attributionsAuthorAndTextLayerVerified": "non explicitement attesté",
+  "publicationAllowedByThisRecordAlone": false,
+  "reason": "Le validateur de la V1.3 exige citationVerified et attributionVerified attestés pour chaque item.",
+  "originalFilesSha256": {
+    "01-al-mouqaddima-al-izziyya-30-candidats.json": "6cf6948c69ce5744a946274c973c93229036ab875c220da8b195424504b2cd4c",
+    "02-ashal-al-masalik-30-candidats.json": "a274677253862c772e00ac5055095669fe9a98c8ff5b01fd1711d55404e53b0d",
+    "03-ar-risala-ibn-abi-zayd-30-candidats.json": "b055b3d56c20d80111048585102ddb7576691169d867c7c41871ecb7f0b95a17",
+    "04-moukhtassar-khalil-30-candidats.json": "72a41c91983a4bd1ced64c10e9bc4136fe7b4376ed7bb73146a5a3d3a410ab7d",
+    "05-sharh-al-dardir-30-candidats.json": "46e0dbc87d46f2105bd22617288a9f3978fbab7a2e61d436979e8ae8f38d2f2d",
+    "06-hashiyat-al-dasuqi-30-candidats.json": "9412aa972d3f504931cd65585235586bd8d351465ae7f08bd17ca677c0a33179"
+  },
+  "questions": [
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-001",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-002",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-003",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-004",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-005",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-006",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-007",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-008",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-009",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-010",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-011",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-012",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-013",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-014",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-015",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-016",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-017",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-018",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-019",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-020",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-021",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-022",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-023",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-024",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-025",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-026",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-027",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-028",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-029",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-030",
+      "bookId": "al-mouqaddima-al-izziyya",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-001",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-002",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-003",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-004",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-005",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-006",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-007",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-008",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-009",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-010",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-011",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-012",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-013",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-014",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-015",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-016",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-017",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-018",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-019",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-020",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-021",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-022",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-023",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-024",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-025",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-026",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-027",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-028",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-029",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-030",
+      "bookId": "ashal-al-masalik",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-001",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-002",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-003",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-004",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-005",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-006",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-007",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-008",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-009",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-010",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-011",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-012",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-013",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-014",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-015",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-016",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-017",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-018",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-019",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-020",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-021",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-022",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-023",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-024",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-025",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-026",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-027",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-028",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-029",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-030",
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-001",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-002",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-003",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-004",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-005",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-006",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-007",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-008",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-009",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-010",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-011",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-012",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-013",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-014",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-015",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-016",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-017",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-018",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-019",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-020",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-021",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-022",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-023",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-024",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-025",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-026",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-027",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-028",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-029",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-030",
+      "bookId": "moukhtassar-khalil",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-001",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-002",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-003",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-004",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-005",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-006",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-007",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-008",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-009",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-010",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-011",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-012",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-013",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-014",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-015",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-016",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-017",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-018",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-019",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-020",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-021",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-022",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-023",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-024",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-025",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-026",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-027",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-028",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-029",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-030",
+      "bookId": "sharh-al-dardir",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-001",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-002",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-003",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-004",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-005",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-006",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-007",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-008",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-009",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-010",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-011",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-012",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-013",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-014",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-015",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-016",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-017",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-018",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-019",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-020",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-021",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-022",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-023",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-024",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-025",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-026",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-027",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-028",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-029",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-030",
+      "bookId": "hashiyat-al-dasuqi",
+      "ownerDecision": "approved-draft",
+      "citationVerified": null,
+      "attributionVerified": null
+    }
+  ]
+}

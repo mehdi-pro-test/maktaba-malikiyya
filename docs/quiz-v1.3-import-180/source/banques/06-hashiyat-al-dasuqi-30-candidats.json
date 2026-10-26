@@ -1,0 +1,1270 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "hashiyat-al-dasuqi",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "30 questions nouvelles rédigées sous forme de propositions éditoriales. Sources arabes et options non collationnées à une édition de référence. Jamais publier sans revue factuelle et religieuse.",
+  "questions": [
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-001",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Selon la glose, pourquoi le tayammum accompli uniquement avec l'intention de lever le hadath pose-t-il problème ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il est toujours accompli après l’entrée en prière"
+        },
+        {
+          "id": "b",
+          "textFr": "Il ne lève pas le hadath, contrairement à la formulation de l'intention"
+        },
+        {
+          "id": "c",
+          "textFr": "Le tayammum lève définitivement le hadath"
+        },
+        {
+          "id": "d",
+          "textFr": "L’eau seule autorise un acte surérogatoire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Il ne lève pas le hadath, contrairement à la formulation de l'intention ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "لِأَنَّهُ لَا يَرْفَعُ الْحَدَثَ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-002",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans la glose sur l'intention, la détermination de la prière concerne-t-elle sa catégorie ou son occurrence précise ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La prière précise du mardi suivant"
+        },
+        {
+          "id": "b",
+          "textFr": "Le numéro de la rakʿa visée"
+        },
+        {
+          "id": "c",
+          "textFr": "Sa catégorie, obligatoire ou surérogatoire"
+        },
+        {
+          "id": "d",
+          "textFr": "Le nom de la mosquée où elle est accomplie"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Sa catégorie, obligatoire ou surérogatoire ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "تَعْيِينُ نَوْعِهَا لَا شَخْصِهَا",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-003",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que désigne la formule « tayammum pour la prière » sans mention de catégorie dans la discussion ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Toucher le mushaf"
+        },
+        {
+          "id": "b",
+          "textFr": "Il ne lève pas le hadath, contrairement à la formulation de l'intention"
+        },
+        {
+          "id": "c",
+          "textFr": "L'obligation réclame une intention la visant réellement"
+        },
+        {
+          "id": "d",
+          "textFr": "Une intention générale qui exige un examen de sa portée"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une intention générale qui exige un examen de sa portée ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "مِنْ غَيْرِ تَعَرُّضٍ لِفَرْضٍ وَلَا لِنَفْلٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-004",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans la précision de la glose, quel est le problème de viser une obligation avec une intention seulement possible ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'obligation réclame une intention la visant réellement"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle discute la limite de cette formule générale"
+        },
+        {
+          "id": "c",
+          "textFr": "Une intention générale qui exige un examen de sa portée"
+        },
+        {
+          "id": "d",
+          "textFr": "Elles ne sont pas entièrement identiques juridiquement"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'obligation réclame une intention la visant réellement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "فَالْفَرْضُ يَحْتَاجُ لِنِيَّةٍ تَخُصُّهُ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-005",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Comment la glose traite-t-elle l'intention de permettre à la fois obligatoire et surérogatoire sans distinguer ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'obligation réclame une intention la visant réellement"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle discute la limite de cette formule générale"
+        },
+        {
+          "id": "c",
+          "textFr": "Sa catégorie, obligatoire ou surérogatoire"
+        },
+        {
+          "id": "d",
+          "textFr": "Pouvoir accomplir une purification sèche complète"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle discute la limite de cette formule générale ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "الشَّامِلَةَ لِلْفَرْضِ وَالنَّفَلِ مَعًا",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-006",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quel acte la glose rapproche-t-elle l'intention rituelle du tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'obligation réclame une intention la visant réellement"
+        },
+        {
+          "id": "b",
+          "textFr": "Il ne lève pas le hadath, contrairement à la formulation de l'intention"
+        },
+        {
+          "id": "c",
+          "textFr": "Au fait de rendre possible la prière ou une activité conditionnée par la pureté"
+        },
+        {
+          "id": "d",
+          "textFr": "Le caractère nécessaire ou non du qualificatif ajouté au mot eau"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Au fait de rendre possible la prière ou une activité conditionnée par la pureté ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "أَوْ مَسِّ الْمُصْحَفِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-007",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle activité autre que la prière est explicitement évoquée comme permise par une intention de tayammum adaptée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Boire de l’eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Changer de vêtement"
+        },
+        {
+          "id": "c",
+          "textFr": "Écouter un sermon"
+        },
+        {
+          "id": "d",
+          "textFr": "Toucher le mushaf"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية واجبات التيمم » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Toucher le mushaf ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية واجبات التيمم",
+        "quoteAr": "مَسِّ الْمُصْحَفِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-008",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel statut la glose donne-t-elle à la négation de l'intention de tayammum pendant qu'il est en cours ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle compromet la validité du tayammum"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il invalide la prière dans le cas discuté"
+        },
+        {
+          "id": "c",
+          "textFr": "Elles ne sont pas entièrement identiques juridiquement"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, des avis différents y sont recensés"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية أحكام النية » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle compromet la validité du tayammum ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام النية",
+        "quoteAr": "فَيَبْطُلُ بِرَفْضِ النِّيَّةِ فِي الْأَثْنَاءِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-009",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pourquoi le rejet de l'intention après le tayammum est-il traité sévèrement dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elles ne sont pas entièrement identiques juridiquement"
+        },
+        {
+          "id": "b",
+          "textFr": "Le tayammum est décrit comme une purification faible"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle compromet la validité du tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "L'impossibilité ou une grande difficulté de contact"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية أحكام النية » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le tayammum est décrit comme une purification faible ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام النية",
+        "quoteAr": "لِأَنَّهُ طَهَارَةٌ ضَعِيفَةٌ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-010",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "L'auteur présente-t-il une seule position pour le rejet de l'intention après le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, une position unique sans discussion"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle ne discute que la prière du vendredi"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, des avis différents y sont recensés"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle exclut tout avis sur cette question"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية أحكام النية » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, des avis différents y sont recensés ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام النية",
+        "quoteAr": "قَوْلَانِ مُرَجَّحَانِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-011",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "La glose traite-t-elle le refus de l'intention durant une prière comme indifférent ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elles ne sont pas entièrement identiques juridiquement"
+        },
+        {
+          "id": "b",
+          "textFr": "Le tayammum est décrit comme une purification faible"
+        },
+        {
+          "id": "c",
+          "textFr": "Sur le visage ou les mains, membres du tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il invalide la prière dans le cas discuté"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية أحكام النية » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, il invalide la prière dans le cas discuté ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام النية",
+        "quoteAr": "فَيَبْطُلُ بِالرَّفْضِ فِي الْأَثْنَاءِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-012",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel acte de dévotion est rapproché de la prière dans la discussion sur le rejet de l'intention ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'iʿtikâf"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il invalide la prière dans le cas discuté"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, des avis différents y sont recensés"
+        },
+        {
+          "id": "d",
+          "textFr": "Le ghusl"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية أحكام النية » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'iʿtikâf ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام النية",
+        "quoteAr": "وَسَكَتَ عَنْ الِاعْتِكَافِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-013",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel rapport la glose reconnaît-elle entre la purification par tayammum et par eau ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle compromet la validité du tayammum"
+        },
+        {
+          "id": "b",
+          "textFr": "Elles ne sont pas entièrement identiques juridiquement"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, il invalide la prière dans le cas discuté"
+        },
+        {
+          "id": "d",
+          "textFr": "Lavage des zones accessibles et tayammum pour le reste"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية أحكام النية » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elles ne sont pas entièrement identiques juridiquement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام النية",
+        "quoteAr": "لِأَنَّهُ طَهَارَةٌ ضَعِيفَةٌ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-014",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans une blessure hors des membres du tayammum, quel avis laisse la partie blessée sans lavage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Éviter d'éloigner le tayammum de la pratique qu'il accompagne"
+        },
+        {
+          "id": "b",
+          "textFr": "Pouvoir accomplir une purification sèche complète"
+        },
+        {
+          "id": "c",
+          "textFr": "Laver seulement les zones saines"
+        },
+        {
+          "id": "d",
+          "textFr": "Plus de surface blessée que saine"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Laver seulement les zones saines ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "يَغْسِلُ مَا صَحَّ وَيَسْقُطُ مَحَلُّ الْجِرَاحِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-015",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle formule exprime l'approche qui combine deux purifications pour une blessure ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'impossibilité ou une grande difficulté de contact"
+        },
+        {
+          "id": "b",
+          "textFr": "Éviter d'éloigner le tayammum de la pratique qu'il accompagne"
+        },
+        {
+          "id": "c",
+          "textFr": "Elles ne sont pas entièrement identiques juridiquement"
+        },
+        {
+          "id": "d",
+          "textFr": "Lavage des zones accessibles et tayammum pour le reste"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Lavage des zones accessibles et tayammum pour le reste ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "فَيَغْسِلُ الصَّحِيحَ وَيَتَيَمَّمُ لِلْجَرِيحِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-016",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle proportion de blessure est retenue par le troisième avis rapporté ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Plus de surface blessée que saine"
+        },
+        {
+          "id": "b",
+          "textFr": "Pouvoir accomplir une purification sèche complète"
+        },
+        {
+          "id": "c",
+          "textFr": "Lavage des zones accessibles et tayammum pour le reste"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver seulement les zones saines"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Plus de surface blessée que saine ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "أَيْ كَانَ أَكْثَرَ مِنَ الصَّحِيحِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-017",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pourquoi le quatrième avis ordonne-t-il l'eau avant le tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Plus de surface blessée que saine"
+        },
+        {
+          "id": "b",
+          "textFr": "Éviter d'éloigner le tayammum de la pratique qu'il accompagne"
+        },
+        {
+          "id": "c",
+          "textFr": "Lavage des zones accessibles et tayammum pour le reste"
+        },
+        {
+          "id": "d",
+          "textFr": "Non, il mentionne une même obligation pour l'homme et la femme"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Éviter d'éloigner le tayammum de la pratique qu'il accompagne ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "لِئَلَّا يَفْصِلَ بَيْنَ التُّرَابِيَّةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-018",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Sur quels membres la glose situe-t-elle la blessure qui impose de délaisser le contact impossible ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Lavage des zones accessibles et tayammum pour le reste"
+        },
+        {
+          "id": "b",
+          "textFr": "Laver seulement les zones saines"
+        },
+        {
+          "id": "c",
+          "textFr": "Sur le visage ou les mains, membres du tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle discute la limite de cette formule générale"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Sur le visage ou les mains, membres du tayammum ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "الْوَجْهِ وَالْيَدَيْنِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-019",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel principe préside à la préférence donnée au wudû partiel plutôt qu'au tayammum partiel ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Plus de surface blessée que saine"
+        },
+        {
+          "id": "b",
+          "textFr": "L'impossibilité ou une grande difficulté de contact"
+        },
+        {
+          "id": "c",
+          "textFr": "Éviter d'éloigner le tayammum de la pratique qu'il accompagne"
+        },
+        {
+          "id": "d",
+          "textFr": "Le wudû incomplet est prioritaire dans l'hypothèse précisée"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le wudû incomplet est prioritaire dans l'hypothèse précisée ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "وَوُضُوءٌ نَاقِصٌ مُقَدَّمٌ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-020",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel type de purification suit la même analyse que les ablutions dans le traitement de ces blessures ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le ghusl"
+        },
+        {
+          "id": "b",
+          "textFr": "Pouvoir accomplir une purification sèche complète"
+        },
+        {
+          "id": "c",
+          "textFr": "Éviter d'éloigner le tayammum de la pratique qu'il accompagne"
+        },
+        {
+          "id": "d",
+          "textFr": "L'iʿtikâf"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le ghusl ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "وَالْغُسْلُ كَالْوُضُوءِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-021",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "En cas d'impossibilité de toucher la blessure, quelle condition justifie de ne pas la laver ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Laver seulement les zones saines"
+        },
+        {
+          "id": "b",
+          "textFr": "L'impossibilité ou une grande difficulté de contact"
+        },
+        {
+          "id": "c",
+          "textFr": "Sur le visage ou les mains, membres du tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Le tayammum est décrit comme une purification faible"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'impossibilité ou une grande difficulté de contact ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "تَعَذَّرَ أَوْ شَقَّ مَسُّهَا",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-022",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Sur quel fondement un des avis veut-il substituer la terre à l'eau pour une blessure ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Laver seulement les zones saines"
+        },
+        {
+          "id": "b",
+          "textFr": "Lavage des zones accessibles et tayammum pour le reste"
+        },
+        {
+          "id": "c",
+          "textFr": "Pouvoir accomplir une purification sèche complète"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle discute la limite de cette formule générale"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية أحكام الجراح » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Pouvoir accomplir une purification sèche complète ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية أحكام الجراح",
+        "quoteAr": "لِيَأْتِيَ بِطَهَارَةٍ تُرَابِيَّةٍ كَامِلَةٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-023",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel compagnon de discussion jurisprudentielle al-Dasûqî associe-t-il à la qualification de l'eau peu abondante ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Al-Bukhârî"
+        },
+        {
+          "id": "b",
+          "textFr": "Abû Dâwûd"
+        },
+        {
+          "id": "c",
+          "textFr": "An-Nasâ’î"
+        },
+        {
+          "id": "d",
+          "textFr": "Ibn al-Qâsim"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية الماء المطلق » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ibn al-Qâsim ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية الماء المطلق",
+        "quoteAr": "ابْنُ الْقَاسِمِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-024",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel terme arabe désigne l'état purificateur présumé de l'eau chez al-Dasûqî ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La tahûriyya (الطهورية)"
+        },
+        {
+          "id": "b",
+          "textFr": "Najâsa (النجاسة)"
+        },
+        {
+          "id": "c",
+          "textFr": "Hadath (الحدث)"
+        },
+        {
+          "id": "d",
+          "textFr": "Tayammum (التيمم)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية الماء المطلق » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La tahûriyya (الطهورية) ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية الماء المطلق",
+        "quoteAr": "عَلَى الطَّهُورِيَّةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-025",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle distinction est centrale pour classer l'eau de rose par rapport à l'eau de mer ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ibn al-Qâsim"
+        },
+        {
+          "id": "b",
+          "textFr": "Le caractère nécessaire ou non du qualificatif ajouté au mot eau"
+        },
+        {
+          "id": "c",
+          "textFr": "La tahûriyya (الطهورية)"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver la zone limite avec le visage puis l'essuyer avec la tête"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية الماء المطلق » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le caractère nécessaire ou non du qualificatif ajouté au mot eau ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية الماء المطلق",
+        "quoteAr": "بِقَيْدٍ لَازِمٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-026",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pour l'eau de mer, la qualification ajoutée est-elle jugée intrinsèquement indispensable ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le caractère nécessaire ou non du qualificatif ajouté au mot eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Ibn al-Qâsim"
+        },
+        {
+          "id": "c",
+          "textFr": "Non, le qualificatif n'est pas indispensable"
+        },
+        {
+          "id": "d",
+          "textFr": "Sa catégorie, obligatoire ou surérogatoire"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية الماء المطلق » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, le qualificatif n'est pas indispensable ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية الماء المطلق",
+        "quoteAr": "بِقَيْدٍ غَيْرِ لَازِمٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-027",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel effet le commentaire attribue-t-il à l'impossibilité de frotter l'intérieur d'une cavité cicatrisée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Laver la zone limite avec le visage puis l'essuyer avec la tête"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il mentionne une même obligation pour l'homme et la femme"
+        },
+        {
+          "id": "c",
+          "textFr": "Une intention générale qui exige un examen de sa portée"
+        },
+        {
+          "id": "d",
+          "textFr": "L'eau doit encore y parvenir si possible sans frottement"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « حاشية فرائض الوضوء » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'eau doit encore y parvenir si possible sans frottement ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية فرائض الوضوء",
+        "quoteAr": "بِدُونِ دَلْكٍ حَيْثُ أَمْكَنَ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-028",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Lorsque la cavité est suffisamment large pour être frottée, que demande la glose ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Verser l'eau et frotter"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il mentionne une même obligation pour l'homme et la femme"
+        },
+        {
+          "id": "c",
+          "textFr": "Laver la zone limite avec le visage puis l'essuyer avec la tête"
+        },
+        {
+          "id": "d",
+          "textFr": "La tahûriyya (الطهورية)"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « حاشية فرائض الوضوء » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Verser l'eau et frotter ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية فرائض الوضوء",
+        "quoteAr": "وَجَبَ صَبُّ الْمَاءِ فِيهِ وَدَلْكُهُ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-029",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le Dasuqi indique-t-il que les règles de pénétration de l'eau dans des poils clairsemés diffèrent fondamentalement selon le sexe ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'eau doit encore y parvenir si possible sans frottement"
+        },
+        {
+          "id": "b",
+          "textFr": "Non, il mentionne une même obligation pour l'homme et la femme"
+        },
+        {
+          "id": "c",
+          "textFr": "Verser l'eau et frotter"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver la zone limite avec le visage puis l'essuyer avec la tête"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « حاشية فرائض الوضوء » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Non, il mentionne une même obligation pour l'homme et la femme ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية فرائض الوضوء",
+        "quoteAr": "الْمَرْأَةَ كَالرَّجُلِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "hashiyat-al-dasuqi-v13-ia-030",
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel double geste assure le respect de la frontière entre visage et tête selon l'explication ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Non, il mentionne une même obligation pour l'homme et la femme"
+        },
+        {
+          "id": "b",
+          "textFr": "L'eau doit encore y parvenir si possible sans frottement"
+        },
+        {
+          "id": "c",
+          "textFr": "Laver la zone limite avec le visage puis l'essuyer avec la tête"
+        },
+        {
+          "id": "d",
+          "textFr": "Le caractère nécessaire ou non du qualificatif ajouté au mot eau"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « حاشية فرائض الوضوء » de حاشية الدسوقي على الشرح الكبير, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Laver la zone limite avec le visage puis l'essuyer avec la tête ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "حاشية الدسوقي على الشرح الكبير",
+        "authorAr": "محمد بن أحمد الدسوقي",
+        "chapterAr": "حاشية فرائض الوضوء",
+        "quoteAr": "يُغْسَلُ وَيُمْسَحُ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-153",
+        "quoteLayer": "gloss",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    }
+  ]
+}

@@ -1,0 +1,1270 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "sharh-al-dardir",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "30 questions nouvelles rédigées sous forme de propositions éditoriales. Sources arabes et options non collationnées à une édition de référence. Jamais publier sans revue factuelle et religieuse.",
+  "questions": [
+    {
+      "id": "sharh-al-dardir-v13-ia-001",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Combien de piliers de la prière le début du chapitre du Grand Commentaire dénombre-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quinze selon le décompte présenté"
+        },
+        {
+          "id": "b",
+          "textFr": "Dix"
+        },
+        {
+          "id": "c",
+          "textFr": "Douze"
+        },
+        {
+          "id": "d",
+          "textFr": "Dix-sept"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Quinze selon le décompte présenté ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "خَمْسَ عَشْرَةَ فَرِيضَةً",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-002",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Le takbîr d'entrée est-il imposé également au fidèle suivant un imam dans l'explication ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La Fâtiha, dans les situations précisées"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, l'imam ne le prononce pas à sa place"
+        },
+        {
+          "id": "c",
+          "textFr": "L'entrée dans un état interdisant les actes incompatibles avec la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, selon l'avis présenté comme apparent"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Oui, l'imam ne le prononce pas à sa place ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "عَلَى كُلِّ مُصَلٍّ فَرْضًا أَوْ نَفْلًا",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-003",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle formule inaugure rituellement la prière selon l'explication du takbîr initial ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le salâm de sortie"
+        },
+        {
+          "id": "b",
+          "textFr": "Le tashahhud final"
+        },
+        {
+          "id": "c",
+          "textFr": "La takbîrat al-ihrâm"
+        },
+        {
+          "id": "d",
+          "textFr": "Le qunût du Subh"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La takbîrat al-ihrâm ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "تَكْبِيرَةُ الْإِحْرَامِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-004",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que signifie l'ihrâm de la prière selon l'explication linguistique ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, l'imam ne le prononce pas à sa place"
+        },
+        {
+          "id": "b",
+          "textFr": "La Fâtiha, dans les situations précisées"
+        },
+        {
+          "id": "c",
+          "textFr": "Ne pas interrompre la continuité entre le tayammum et son objet"
+        },
+        {
+          "id": "d",
+          "textFr": "L'entrée dans un état interdisant les actes incompatibles avec la prière"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'entrée dans un état interdisant les actes incompatibles avec la prière ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "الدُّخُولُ فِي حُرُمَاتِ الصَّلَاةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-005",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel principe explique pourquoi l'imam ne dispense pas le fidèle de son takbîr d'entrée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les obligations ne sont normalement pas supportées par autrui"
+        },
+        {
+          "id": "b",
+          "textFr": "L'entrée dans un état interdisant les actes incompatibles avec la prière"
+        },
+        {
+          "id": "c",
+          "textFr": "La takbîrat al-ihrâm"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne pas interrompre la continuité entre le tayammum et son objet"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Les obligations ne sont normalement pas supportées par autrui ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "لِأَنَّ الْأَصْلَ فِي الْفَرَائِضِ عَدَمُ الْحَمْلِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-006",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle récitation connaît dans l'explication une règle spécifique de prise en charge par l'imam ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, l'imam ne le prononce pas à sa place"
+        },
+        {
+          "id": "b",
+          "textFr": "La Fâtiha, dans les situations précisées"
+        },
+        {
+          "id": "c",
+          "textFr": "Les obligations ne sont normalement pas supportées par autrui"
+        },
+        {
+          "id": "d",
+          "textFr": "Il recommande d'en préciser la catégorie"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل فرائض الصلاة » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La Fâtiha, dans les situations précisées ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الصلاة",
+        "quoteAr": "جَاءَتْ السُّنَّةُ بِحَمْلِ الْفَاتِحَةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-007",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle intention est requise pour accomplir la purification sèche permettant la prière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’intention de lever le hadath de manière définitive"
+        },
+        {
+          "id": "b",
+          "textFr": "L’intention de se dispenser de toute prière"
+        },
+        {
+          "id": "c",
+          "textFr": "L'intention de rendre la prière permise"
+        },
+        {
+          "id": "d",
+          "textFr": "L’intention de se laver à l’eau"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'intention de rendre la prière permise ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "نِيَّةُ اسْتِبَاحَةِ الصَّلَاةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-008",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quel acte du tayammum l'intention doit-elle normalement accompagner le début ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "En cas de janâba ou de grand hadath"
+        },
+        {
+          "id": "b",
+          "textFr": "Il recommande d'en préciser la catégorie"
+        },
+        {
+          "id": "c",
+          "textFr": "Lavage à l'eau et tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "La première frappe des mains"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La première frappe des mains ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "عِنْدَ الضَّرْبَةِ الْأُولَى",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-009",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Selon l'avis apparent cité, l'intention au moment de l'essuyage du visage peut-elle suffire ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Oui, selon l'avis présenté comme apparent"
+        },
+        {
+          "id": "b",
+          "textFr": "Il recommande d'en préciser la catégorie"
+        },
+        {
+          "id": "c",
+          "textFr": "L'intention de remplir l'obligation de tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, l'imam ne le prononce pas à sa place"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Oui, selon l'avis présenté comme apparent ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "وَأَجْزَأَتْ عِنْدَ مَسْحِ الْوَجْهِ عَلَى الْأَظْهَرِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-010",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle purification, contrairement au wudû à l'eau, ne lève pas elle-même le hadath selon ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le lavage des mains à l’eau"
+        },
+        {
+          "id": "b",
+          "textFr": "Le tayammum"
+        },
+        {
+          "id": "c",
+          "textFr": "Le ghusl à l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Le wudû à l’eau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le tayammum ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "وَلَا يَرْفَعُ التَّيَمُّمُ الْحَدَثَ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-011",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans quel cas le Grand Commentaire exige-t-il une intention tenant compte d'un état majeur ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'intention de remplir l'obligation de tayammum"
+        },
+        {
+          "id": "b",
+          "textFr": "La première frappe des mains"
+        },
+        {
+          "id": "c",
+          "textFr": "En cas de janâba ou de grand hadath"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver la partie saine et accessible"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « En cas de janâba ou de grand hadath ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "نِيَّةُ أَكْبَرَ مِنْ جَنَابَةٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-012",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle alternative à l'intention de permettre la prière est mentionnée pour le tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'intention de rendre la prière permise"
+        },
+        {
+          "id": "b",
+          "textFr": "Une prière obligatoire ou surérogatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle lave la partie saine et laisse la blessure"
+        },
+        {
+          "id": "d",
+          "textFr": "L'intention de remplir l'obligation de tayammum"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « L'intention de remplir l'obligation de tayammum ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "أَوْ فَرْضَ التَّيَمُّمِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-013",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Comment l'auteur décrit-il la désignation de la prière au tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il recommande d'en préciser la catégorie"
+        },
+        {
+          "id": "b",
+          "textFr": "En cas de janâba ou de grand hadath"
+        },
+        {
+          "id": "c",
+          "textFr": "L'intention de rendre la prière permise"
+        },
+        {
+          "id": "d",
+          "textFr": "La Fâtiha, dans les situations précisées"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Il recommande d'en préciser la catégorie ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "وَيُنْدَبُ فَقَطْ تَعْيِينُ الصَّلَاةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-014",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelles deux catégories de prières l'intention de tayammum peut-elle distinguer ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L'intention de remplir l'obligation de tayammum"
+        },
+        {
+          "id": "b",
+          "textFr": "Une prière obligatoire ou surérogatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "En cas de janâba ou de grand hadath"
+        },
+        {
+          "id": "d",
+          "textFr": "L'intention de rendre la prière permise"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « واجبات التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une prière obligatoire ou surérogatoire ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "واجبات التيمم",
+        "quoteAr": "مِنْ فَرْضٍ أَوْ نَفْلٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-015",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel effet le texte attribue-t-il à l'incapacité réelle d'utiliser l'eau pour une purification ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une barbe clairsemée laissant voir la peau"
+        },
+        {
+          "id": "b",
+          "textFr": "Oui, l'imam ne le prononce pas à sa place"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle peut ouvrir la possibilité du tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Oui, selon l'avis présenté comme apparent"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل في التيمم » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle peut ouvrir la possibilité du tayammum ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل في التيمم",
+        "quoteAr": "عَدَمِ الْقُدْرَةِ عَلَى اسْتِعْمَالِهِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-016",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Que recommande-t-on lorsque la blessure peut être lavée sans dommage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "En cas de janâba ou de grand hadath"
+        },
+        {
+          "id": "b",
+          "textFr": "On retient l'implantation habituelle"
+        },
+        {
+          "id": "c",
+          "textFr": "Faire pénétrer l'eau entre les poils"
+        },
+        {
+          "id": "d",
+          "textFr": "Laver la partie saine et accessible"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل في مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Laver la partie saine et accessible ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل في مسح الجرح",
+        "quoteAr": "يَغْسِلُ مَا صَحَّ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-017",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pour une blessure qui ne peut être touchée sur les membres du tayammum, quel acte partiel est envisagé ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Laver le reste lors d'un wudû incomplet"
+        },
+        {
+          "id": "b",
+          "textFr": "La proportion des blessures par rapport aux parties saines"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle lave la partie saine et laisse la blessure"
+        },
+        {
+          "id": "d",
+          "textFr": "Une prière obligatoire ou surérogatoire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Laver le reste lors d'un wudû incomplet ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "وَتَوَضَّأَ وُضُوءًا نَاقِصًا",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-018",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Dans le débat sur une blessure située hors des membres du tayammum, combien d'avis sont annoncés ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Deux"
+        },
+        {
+          "id": "b",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois"
+        },
+        {
+          "id": "d",
+          "textFr": "Cinq"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Quatre ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "فِي الْمَسْأَلَةِ أَرْبَعَةُ أَقْوَالٍ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-019",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Selon le premier de ces avis, que fait la personne blessée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle lave seulement la blessure"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle combine nécessairement eau et terre"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle effectue un tayammum complet"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle attend la guérison sans purification"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle effectue un tayammum complet ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "أَوَّلُهَا يَتَيَمَّمُ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-020",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Selon le deuxième avis cité pour cette blessure, que fait-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle effectue un tayammum complet"
+        },
+        {
+          "id": "b",
+          "textFr": "Laver le reste lors d'un wudû incomplet"
+        },
+        {
+          "id": "c",
+          "textFr": "L'intention de remplir l'obligation de tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle lave la partie saine et laisse la blessure"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Elle lave la partie saine et laisse la blessure ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "ثَانِيهَا يَغْسِلُ مَا صَحَّ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-021",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel critère le troisième avis considère-t-il pour décider du tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La proportion des blessures par rapport aux parties saines"
+        },
+        {
+          "id": "b",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle effectue un tayammum complet"
+        },
+        {
+          "id": "d",
+          "textFr": "Les obligations ne sont normalement pas supportées par autrui"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « La proportion des blessures par rapport aux parties saines ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "إِنْ كَثُرَ الْجُرْحُ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-022",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelles deux formes de purification le quatrième avis propose-t-il de combiner ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ne pas interrompre la continuité entre le tayammum et son objet"
+        },
+        {
+          "id": "b",
+          "textFr": "Lavage à l'eau et tayammum"
+        },
+        {
+          "id": "c",
+          "textFr": "La proportion des blessures par rapport aux parties saines"
+        },
+        {
+          "id": "d",
+          "textFr": "De l'une à l'autre oreille"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Lavage à l'eau et tayammum ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "وَرَابِعُهَا يَجْمَعُهُمَا",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-023",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel ordre le texte donne-t-il lorsqu'on combine lavage et tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Lavage à l'eau et tayammum"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle lave la partie saine et laisse la blessure"
+        },
+        {
+          "id": "c",
+          "textFr": "Commencer par la purification à l'eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Le front situé au-dessus des sourcils"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Commencer par la purification à l'eau ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "وَيُقَدِّمُ الْمَائِيَّةَ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-024",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Pourquoi donner priorité à la purification à l'eau avant la purification sèche dans cette combinaison ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle effectue un tayammum complet"
+        },
+        {
+          "id": "c",
+          "textFr": "Les obligations ne sont normalement pas supportées par autrui"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne pas interrompre la continuité entre le tayammum et son objet"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل مسح الجرح » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Ne pas interrompre la continuité entre le tayammum et son objet ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل مسح الجرح",
+        "quoteAr": "لِئَلَّا يَفْصِلَ بَيْنَ التُّرَابِيَّةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-025",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle partie du corps se lave au wudû, plutôt que de s'essuyer, selon la règle de la face commentée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le visage"
+        },
+        {
+          "id": "b",
+          "textFr": "Le front situé au-dessus des sourcils"
+        },
+        {
+          "id": "c",
+          "textFr": "On retient l'implantation habituelle"
+        },
+        {
+          "id": "d",
+          "textFr": "Le tayammum"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le visage ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "غَسْلِ الْوَجْهِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-026",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "À quelle zone anatomique renvoie le terme « al-jabha » expliqué dans le commentaire ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "De l'une à l'autre oreille"
+        },
+        {
+          "id": "b",
+          "textFr": "Le front situé au-dessus des sourcils"
+        },
+        {
+          "id": "c",
+          "textFr": "Faire pénétrer l'eau entre les poils"
+        },
+        {
+          "id": "d",
+          "textFr": "Commencer par la purification à l'eau"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Le front situé au-dessus des sourcils ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "وَالْجَبْهَةُ مَا ارْتَفَعَ عَنِ الْحَاجِبَيْنِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-027",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Comment est décrite l'étendue supérieure du visage en tenant compte de l'implantation capillaire ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une barbe clairsemée laissant voir la peau"
+        },
+        {
+          "id": "b",
+          "textFr": "De l'une à l'autre oreille"
+        },
+        {
+          "id": "c",
+          "textFr": "On retient l'implantation habituelle"
+        },
+        {
+          "id": "d",
+          "textFr": "Faire pénétrer l'eau entre les poils"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « On retient l'implantation habituelle ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "مَنَابِتِ شَعْرِ الرَّأْسِ الْمُعْتَادِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-028",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel critère permet de décider que l'eau doit parvenir à la peau sous une barbe ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le visage"
+        },
+        {
+          "id": "b",
+          "textFr": "Faire pénétrer l'eau entre les poils"
+        },
+        {
+          "id": "c",
+          "textFr": "Oui, l'imam ne le prononce pas à sa place"
+        },
+        {
+          "id": "d",
+          "textFr": "Une barbe clairsemée laissant voir la peau"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Une barbe clairsemée laissant voir la peau ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "تَظْهَرُ الْبَشَرَةُ تَحْتَهُ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-029",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quel procédé est requis pour atteindre la peau lorsque les poils sont clairsemés ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Faire pénétrer l'eau entre les poils"
+        },
+        {
+          "id": "b",
+          "textFr": "De l'une à l'autre oreille"
+        },
+        {
+          "id": "c",
+          "textFr": "Le front situé au-dessus des sourcils"
+        },
+        {
+          "id": "d",
+          "textFr": "On retient l'implantation habituelle"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « Faire pénétrer l'eau entre les poils ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "إِيصَالُ الْمَاءِ لِلْبَشَرَةِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    },
+    {
+      "id": "sharh-al-dardir-v13-ia-030",
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "editorialStatus": "research-draft",
+      "questionFr": "Quelle limite latérale du visage le commentaire considère-t-il pour les ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "On retient l'implantation habituelle"
+        },
+        {
+          "id": "b",
+          "textFr": "De l'une à l'autre oreille"
+        },
+        {
+          "id": "c",
+          "textFr": "Une barbe clairsemée laissant voir la peau"
+        },
+        {
+          "id": "d",
+          "textFr": "Lavage à l'eau et tayammum"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "Dans le chapitre « فصل فرائض الوضوء » de الشرح الكبير على مختصر خليل, ce point est formulé à travers le passage arabe indiqué en source. La réponse attendue est « De l'une à l'autre oreille ». Une collation et une relecture doctrinale sont exigées avant publication.",
+      "source": {
+        "workTitleAr": "الشرح الكبير على مختصر خليل",
+        "authorAr": "أحمد بن محمد الدردير",
+        "chapterAr": "فصل فرائض الوضوء",
+        "quoteAr": "مَا بَيْنَ الْأُذُنَيْنِ",
+        "url": "https://www.islamarchive.cc/ketab_content/2699/p-230",
+        "quoteLayer": "commentary",
+        "edition": null,
+        "printedPage": null,
+        "verification": "transcription-provisional-to-collate",
+        "quoteIsCertifiedVerbatim": false,
+        "layerAttributionRequiresHumanVerification": true
+      },
+      "newComparedToV12": "editorial-dedup-pending",
+      "distractorsReviewRequired": true
+    }
+  ]
+}

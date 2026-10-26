@@ -19,32 +19,32 @@
     },
     {
       "bookId": "al-mouqaddima-al-izziyya",
-      "published": 10,
+      "published": 40,
       "draft": 0
     },
     {
       "bookId": "ashal-al-masalik",
-      "published": 10,
+      "published": 40,
       "draft": 0
     },
     {
       "bookId": "ar-risala-ibn-abi-zayd",
-      "published": 10,
+      "published": 40,
       "draft": 0
     },
     {
       "bookId": "moukhtassar-khalil",
-      "published": 10,
+      "published": 40,
       "draft": 0
     },
     {
       "bookId": "sharh-al-dardir",
-      "published": 10,
+      "published": 40,
       "draft": 0
     },
     {
       "bookId": "hashiyat-al-dasuqi",
-      "published": 10,
+      "published": 40,
       "draft": 0
     },
     {
@@ -96,9 +96,45 @@
       "written": 30,
       "approved": 30,
       "digest": "1bdeb6102d0f88db639a54f66395c0df98edcafb314503c823b6fb51b9565fdf"
+    },
+    {
+      "bookId": "al-mouqaddima-al-izziyya",
+      "written": 30,
+      "approved": 30,
+      "digest": "c0ca37f0806cd7e441e2a8b89e98f785e127fdc82755a2fe5f8807ada99c4401"
+    },
+    {
+      "bookId": "ashal-al-masalik",
+      "written": 30,
+      "approved": 30,
+      "digest": "5cde60f84458b3de8f950c733333d711474137e3b92fe845082eeef9b35f3751"
+    },
+    {
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "written": 30,
+      "approved": 30,
+      "digest": "de5589b8935ba19db21ef9a534cf40472b7b9d7e442d633928199bf325c995f3"
+    },
+    {
+      "bookId": "moukhtassar-khalil",
+      "written": 30,
+      "approved": 30,
+      "digest": "34a7d4a0fe95803c17dbbbf14e935cda7314165c40bf4efd03dc4149bb158347"
+    },
+    {
+      "bookId": "sharh-al-dardir",
+      "written": 30,
+      "approved": 30,
+      "digest": "56e64556447ea5de84b75faf1f419927dcbd81c1e5a9f59fba13ab3edf005e9f"
+    },
+    {
+      "bookId": "hashiyat-al-dasuqi",
+      "written": 30,
+      "approved": 30,
+      "digest": "60b88acdebd2335378b10cf9b94fed6a51bdff10ec4e366f22f45f406cb65f43"
     }
   ],
-  "publishedV13": 90,
+  "publishedV13": 270,
   "attributionDifferencesRecorded": [
     "al-achmawiyya-v13-001",
     "al-achmawiyya-v13-002",
@@ -131,5 +167,5 @@
     "al-achmawiyya-v13-029",
     "al-achmawiyya-v13-030"
   ],
-  "note": "Contrôle structurel ; 90 approbations fondées sur la confirmation de relecture déclarée du propriétaire. Aucun contrôle religieux indépendant par Codex. Écarts de titre conservés et couverts par cette déclaration. Aucun fichier modifié."
+  "note": "Contrôle structurel ; 270 approbations supplémentaires fondées sur les confirmations déclarées du propriétaire. Aucun contrôle religieux indépendant par Codex. Provenance conservée ; aucun fichier modifié."
 }
