@@ -16,6 +16,7 @@ const returnLink = (context?: QuizContext) => ({
   label: context?.returnLabel ?? 'Retour aux livres',
 });
 import { visibleCategories } from '@/data/categories';
+import { questionPresentation } from '@/lib/quiz-presentation';
 import { isCorrect, quizScore } from '@/lib/quiz';
 function QuestionSources({ question }: { question: Question }) {
   if (question.sources?.some((s) => s.reference))
@@ -67,6 +68,29 @@ function QuestionSources({ question }: { question: Question }) {
           </a>
         </span>
       ))}
+    </p>
+  ) : null;
+}
+function QuestionExplanation({ question }: { question: Question }) {
+  const presentation = questionPresentation(question);
+  return (
+    <>
+      <p>
+        <ArabicText text={presentation.explanation} />
+      </p>
+      {presentation.editorialNotice && (
+        <p className="quiz-editorial-notice">{presentation.editorialNotice}</p>
+      )}
+    </>
+  );
+}
+function QuestionOrigin({ question }: { question: Question }) {
+  return question.origin ? (
+    <p className="quiz-question-origin">
+      <strong>{question.origin.titleFr}</strong> · {question.origin.levelLabel}
+      <span lang="ar" dir="rtl">
+        {question.origin.titleAr}
+      </span>
     </p>
   ) : null;
 }
@@ -254,9 +278,8 @@ function QuizResults({
               {isCorrect(q, answers[q.id] ?? []) ? 'BONNE RÉPONSE' : 'À REVOIR'}
             </span>
             <h2>{q.promptFr}</h2>
-            <p>
-              <ArabicText text={q.explanationFr} />
-            </p>
+            <QuestionOrigin question={q} />
+            <QuestionExplanation question={q} />
             <QuestionSources question={q} />
           </article>
         ))}
@@ -298,7 +321,9 @@ export function QuizGame({
   useEffect(() => {
     if (started && !finished) {
       heading.current?.focus({ preventScroll: true });
-      heading.current?.scrollIntoView({ behavior: 'instant', block: 'start' });
+      // Keep the book/level visible when advancing, while the heading owns keyboard focus.
+      const origin = heading.current?.closest('.quiz-game')?.querySelector('.quiz-question-origin');
+      (origin ?? heading.current)?.scrollIntoView({ behavior: 'instant', block: 'start' });
     }
   }, [started, index, finished]);
   if (count < 10)
@@ -398,6 +423,7 @@ export function QuizGame({
       >
         <span style={{ width: `${((index + (validated ? 1 : 0)) / questions.length) * 100}%` }} />
       </div>
+      <QuestionOrigin question={q} />
       <div className="quiz-question-heading">
         <span className="eyebrow">
           {visibleCategories()
@@ -421,9 +447,7 @@ export function QuizGame({
       {validated && (
         <div className={`quiz-feedback ${correct ? 'success' : 'review'}`} role="status">
           <strong>{correct ? 'Bonne réponse !' : 'Pas tout à fait — voici la correction.'}</strong>
-          <p>
-            <ArabicText text={q.explanationFr} />
-          </p>
+          <QuestionExplanation question={q} />
           <QuestionSources question={q} />
         </div>
       )}

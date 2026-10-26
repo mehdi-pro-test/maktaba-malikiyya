@@ -2417,3 +2417,19 @@ html:has(.quiz-game) {
 .quiz-global .quiz-feedback .muted {
   color: var(--forest);
 }
+
+.quiz-question-origin {
+  color: var(--forest);
+  line-height: 1.7;
+  border-left: 3px solid #b9c3ac;
+  padding-left: 14px;
+  margin: 20px 0;
+}
+.quiz-question-origin span {
+  display: block;
+}
+.quiz-editorial-notice {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--forest);
+}
