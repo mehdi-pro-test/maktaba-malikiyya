@@ -1,5 +1,8 @@
 # Données : intégration de la banque éditoriale V1.3
 
+> **Pack unique — état réel :** seuls les 150 items V1.2 (10/ouvrage) sont présents dans cette archive, dans `src/data/quiz-v1.2/research.json` et l'export CSV ci-joint. La banque éditoriale V1.3 de 300 items mentionnée ci-dessous constitue **un matériel d'entrée futur, absent de ce ZIP**. Toute procédure d'import correspondante est conditionnelle à la livraison réelle de ce JSON, sans rédaction ni fabrication par Codex.
+
+
 ## Matériel d'entrée obligatoire
 
 Pack éditorial distinct `maktaba-malikiyya-v1.3-debutant-300q-codex.zip`, et plus précisément :
