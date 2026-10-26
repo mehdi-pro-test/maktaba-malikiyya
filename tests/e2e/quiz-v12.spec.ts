@@ -43,7 +43,9 @@ test('Les quinze quiz réels sont jouables et montrent la source arabe après va
   test.setTimeout(90000);
   for (const b of raw.books) {
     await page.goto(`/quiz/niveaux/${b.level}/${b.id}`);
-    await expect(page.getByText('10 questions par partie', { exact: true })).toBeVisible();
+    await expect(
+      page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
+    ).toBeVisible();
     await page.getByRole('button', { name: 'Commencer le quiz' }).click();
     await expect(page.locator('.quiz-game h1')).toBeVisible();
     const prompt = await page.locator('.quiz-game h1').innerText();

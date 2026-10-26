@@ -43,7 +43,7 @@ export function QuizLibrary({
                     </p>
                     <p>
                       {book.available
-                        ? '10 questions par partie'
+                        ? `10 questions par partie (${book.approvedCount ?? 10} questions dans la banque)`
                         : `Relecture en cours · ${book.questionsToReview} questions à valider`}
                     </p>
                     <Link className="text-link" href={`/quiz/niveaux/${book.level}/${book.id}`}>

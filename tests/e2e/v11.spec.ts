@@ -92,7 +92,9 @@ test('Mini-panier clavier, focus restauré et seuil France/Europe', async ({ pag
 });
 test('Quiz ouvrage : sélection, score, correction, résultat et rejouer', async ({ page }) => {
   await page.goto(quizPath);
-  await expect(page.getByText('10 questions par partie', { exact: true })).toBeVisible();
+  await expect(
+    page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
+  ).toBeVisible();
   await page.getByRole('button', { name: 'Commencer le quiz' }).click();
   await finishQuiz(page, true);
   await expect(page.getByLabel('Score final : 10 sur 10')).toBeVisible();
