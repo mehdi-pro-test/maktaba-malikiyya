@@ -2398,3 +2398,22 @@ html:has(.quiz-game) {
     gap: 12px;
   }
 }
+
+.quiz-global-card {
+  margin-top: 32px;
+  padding: clamp(22px, 4vw, 36px);
+  border: 1px solid var(--forest);
+  background: #f5f3e8;
+}
+.quiz-global-card h2 {
+  color: var(--forest);
+  font-size: clamp(25px, 4vw, 34px);
+}
+.quiz-global-card p {
+  line-height: 1.7;
+  max-width: 700px;
+}
+
+.quiz-global .quiz-feedback .muted {
+  color: var(--forest);
+}

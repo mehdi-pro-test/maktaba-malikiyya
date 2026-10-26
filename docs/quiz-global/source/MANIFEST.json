@@ -1,0 +1,39 @@
+{
+  "pack": "maktaba-malikiyya-mode-aleatoire-global-doc-codex",
+  "createdAt": "2026-10-26",
+  "baselineRepo": "mehdi-pro-test/maktaba-malikiyya",
+  "baselineCommit": "5713c38f531354b2dc0dcf0decb091bf499ab6fc",
+  "scope": "documentation and Codex implementation plan only; no source code changes",
+  "observedApprovedCountInRepoTest": 610,
+  "expectedNewQuestionCount": 0,
+  "files": {
+    "00-LIRE-EN-PREMIER.md": {
+      "sha256": "0b172a52f0610b20f230b80fcdd9ab6c6e15e8a2e06a630b51af4416ee125728",
+      "bytes": 2166
+    },
+    "01-CADRAGE-FONCTIONNEL.md": {
+      "sha256": "b664a381b5aed130cbc0a2cb0968c7284101e875ef19b90b61e2a225cbd08f80",
+      "bytes": 4206
+    },
+    "02-ARCHITECTURE-TECHNIQUE.md": {
+      "sha256": "9a3a3b256f76f0f91f66006c0786a79375a9a1b543266ad969abd54debbd500a",
+      "bytes": 7771
+    },
+    "03-RECETTE-TESTS.md": {
+      "sha256": "7cef6857e03eafd3038442781d7c6b54fad52236192507b1797e60f626e3def5",
+      "bytes": 4524
+    },
+    "04-NON-REGRESSION.md": {
+      "sha256": "f10bb8db24ca848212c7f080a7b9a475f90769e1cba97a4949cc2c45b65dcd7d",
+      "bytes": 2816
+    },
+    "06-ETAT-DU-DEPOT.md": {
+      "sha256": "a3b78d3003f637d9b9506905bbff9c0ebd399a5628b44f09381f74da85102252",
+      "bytes": 2332
+    },
+    "05-PROMPT-CODEX.md": {
+      "sha256": "ed708c9d30ceabb809241e1778b21273190d3018d0ded6dc1e3ca299aeb25c08",
+      "bytes": 5307
+    }
+  }
+}
