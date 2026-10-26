@@ -1,0 +1,114 @@
+{
+  "archive": "Pack unique V1.3 - photographie de main et consignes Codex",
+  "snapshotBaselineCommit": "c25a20696b6c44ba6e7ba0cac25ba7e9cd640980",
+  "dataSchemaVersion": "1.2-research-1",
+  "existingBankPath": "src/data/quiz-v1.2/research.json",
+  "existingReviewPath": "src/data/quiz-v1.2/reviews.json",
+  "readableCsvPath": "docs/quiz-v1.3-pack/QUESTIONS-REPONSES-V1.2-150.csv",
+  "books": [
+    {
+      "id": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "titleAr": "مختصر الأخضري",
+      "questions": 10
+    },
+    {
+      "id": "matn-ibn-ashir",
+      "level": "debutant",
+      "titleAr": "المرشد المعين على الضروري من علوم الدين",
+      "questions": 10
+    },
+    {
+      "id": "al-achmawiyya",
+      "level": "debutant",
+      "titleAr": "المقدمة العشماوية",
+      "questions": 10
+    },
+    {
+      "id": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "titleAr": "المقدمة العزية للجماعة الأزهرية",
+      "questions": 10
+    },
+    {
+      "id": "ashal-al-masalik",
+      "level": "intermediaire",
+      "titleAr": "أسهل المسالك في مذهب الإمام مالك",
+      "questions": 10
+    },
+    {
+      "id": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "titleAr": "الرسالة",
+      "questions": 10
+    },
+    {
+      "id": "moukhtassar-khalil",
+      "level": "avance",
+      "titleAr": "مختصر خليل",
+      "questions": 10
+    },
+    {
+      "id": "sharh-al-dardir",
+      "level": "avance",
+      "titleAr": "الشرح الكبير على مختصر خليل",
+      "questions": 10
+    },
+    {
+      "id": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "titleAr": "حاشية الدسوقي على الشرح الكبير",
+      "questions": 10
+    },
+    {
+      "id": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "titleAr": "بداية المجتهد ونهاية المقتصد",
+      "questions": 10
+    },
+    {
+      "id": "al-istidhkar",
+      "level": "ultime",
+      "titleAr": "الاستذكار",
+      "questions": 10
+    },
+    {
+      "id": "issal-as-salik",
+      "level": "usul",
+      "titleAr": "إيصال السالك إلى أصول مذهب الإمام مالك",
+      "questions": 10
+    },
+    {
+      "id": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "titleAr": "الورقات مع قرة العين بشرح ورقات إمام الحرمين",
+      "questions": 10
+    },
+    {
+      "id": "murtaqa-al-wusul",
+      "level": "usul",
+      "titleAr": "مرتقى الوصول إلى علم الأصول",
+      "questions": 10
+    },
+    {
+      "id": "maraqi-as-suud",
+      "level": "usul",
+      "titleAr": "مراقي السعود لمبتغي الرقي والصعود",
+      "questions": 10
+    }
+  ],
+  "counts": {
+    "books": 15,
+    "existingQuestions": 150,
+    "reviewEntries": 150,
+    "sourceEntries": 33,
+    "missingV13QuestionBank": 300,
+    "plannedTotalV13Questions": 1500,
+    "verifiedAvailableNewV13QuestionsInThisArchive": 0
+  },
+  "checks": {
+    "questionsWithWrongNumberOptionsMissingAnswerOrNoReference": [],
+    "invalid": 0
+  },
+  "note": "Le chiffre 300 est le contenu annoncé du ZIP éditorial de recherche, mais aucun fichier de ce ZIP n'est monté ou accessible : zéro question V1.3 supplémentaire incluse. Les 150 questions existantes et leurs décisions de revue sont celles du dépôt, non une nouvelle revue doctrinale indépendante."
+}
