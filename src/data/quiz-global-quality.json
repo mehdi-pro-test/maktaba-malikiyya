@@ -1,0 +1,571 @@
+{
+  "scope": "global-mode-only",
+  "assessedAt": "2026-10-26",
+  "notice": "Audit de formulation et de pertinence des propositions ; aucune certification doctrinale. Les décisions éditoriales de publication demeurent inchangées.",
+  "excluded": [
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-005",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-006",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-009",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-010",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-013",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-014",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-015",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-016",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-017",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-018",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-019",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-020",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-023",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-024",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-025",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-026",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-027",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-028",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "al-mouqaddima-al-izziyya-v13-ia-029",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-002",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-004",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-005",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-006",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-007",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-008",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-010",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-011",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-013",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-014",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-015",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-018",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-019",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-020",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-021",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-022",
+      "reason": "ambiguous-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-023",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-025",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-029",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-030",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-005",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-006",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-007",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-008",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-010",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-011",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-012",
+      "reason": "ambiguous-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-013",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-014",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-020",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-021",
+      "reason": "ambiguous-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-022",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-023",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-024",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-025",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-026",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-027",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-028",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-029",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-030",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-002",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-003",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-004",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-005",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-006",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-007",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-008",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-009",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-010",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-011",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-012",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-013",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-014",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-015",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-016",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-017",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-018",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-019",
+      "reason": "ambiguous-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-020",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-021",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-022",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-023",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-024",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-025",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-026",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-027",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-028",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-029",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-030",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-002",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-004",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-005",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-006",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-008",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-009",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-011",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-012",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-013",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-014",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-015",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-016",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-017",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-019",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-020",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-021",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-022",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-023",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-024",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-025",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-026",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-027",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-028",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-029",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "sharh-al-dardir-v13-ia-030",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-003",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-004",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-005",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-006",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-008",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-009",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-011",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-012",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-013",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-014",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-015",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-016",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-017",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-018",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-019",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-020",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-021",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-022",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-025",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-026",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-027",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-028",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-029",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-030",
+      "reason": "off-topic-options"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-04",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-028",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-039",
+      "reason": "missing-context"
+    },
+    {
+      "questionId": "matn-ibn-ashir-v13-005",
+      "reason": "quote-typography"
+    }
+  ]
+}

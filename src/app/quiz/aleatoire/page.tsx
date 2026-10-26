@@ -13,6 +13,9 @@ export default function Page() {
       <nav className="quiz-path-link" aria-label="Parcours de quiz">
         <Link href="/quiz/niveaux">← Retour aux niveaux</Link>
       </nav>
+      <p className="quiz-global-selection-note">
+        Des questions autonomes sélectionnées dans tous les niveaux et ouvrages.
+      </p>
       <QuizGame
         availableCount={globalQuestionCount()}
         loadAttempt={startGlobalQuizAttempt}

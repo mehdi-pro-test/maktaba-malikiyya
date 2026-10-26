@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { liveBank } from '../fixtures/quiz-live-bank';
+import { globalQualityReview } from '../../src/lib/quiz-global-quality';
 import AxeBuilder from '@axe-core/playwright';
 import { mkdirSync } from 'node:fs';
 test('Mode global : dix parmi tous les ouvrages, score 5/10, sources et Rejouer', async ({
@@ -8,7 +9,8 @@ test('Mode global : dix parmi tous les ouvrages, score 5/10, sources et Rejouer'
 }, testInfo) => {
   test.setTimeout(90000);
   const path = '/quiz/aleatoire';
-  const allowed = liveBank.questions;
+  const excluded = new Set(globalQualityReview.excluded.map((r) => r.questionId));
+  const allowed = liveBank.questions.filter((q) => !excluded.has(q.id));
   const target = 5;
   const poolSize = allowed.length;
   const capture = async (name: string) => {
@@ -28,7 +30,7 @@ test('Mode global : dix parmi tous les ouvrages, score 5/10, sources et Rejouer'
   await expect(page).toHaveURL(/\/quiz\/aleatoire$/);
   await capture('introduction');
   const html = await (await request.get(path)).text();
-  for (const q of allowed) expect(html).not.toContain(q.id);
+  for (const q of liveBank.questions) expect(html).not.toContain(q.id);
   const payloads: string[] = [];
   await page.route('**/quiz/aleatoire', async (route) => {
     if (route.request().method() === 'POST' && route.request().headers()['next-action']) {
@@ -62,6 +64,15 @@ test('Mode global : dix parmi tous les ouvrages, score 5/10, sources et Rejouer'
     prompts.push(prompt);
     const q = allowed.find((q) => q.questionFr === prompt)!;
     expect(q).toBeDefined();
+    await expect(page.locator('.quiz-question-origin')).toContainText(
+      q.bookId === 'bidayat-al-mujtahid' || q.bookId === 'al-istidhkar'
+        ? 'Ultime'
+        : /Débutant|Intermédiaire|Avancé|Oussoul/,
+    );
+    await expect(page.locator('.quiz-question-origin')).toBeInViewport();
+    await expect(page.locator('.quiz-question-origin [lang=ar]')).toHaveText(
+      liveBank.books.find((b) => b.id === q.bookId)!.titleAr,
+    );
     if (i === 0) await expect(page.locator('.quiz-game h1')).toBeFocused();
     await expect(page.getByLabel('Références arabes de la correction')).toHaveCount(0);
     const option = q.options.find((o) =>
@@ -70,6 +81,9 @@ test('Mode global : dix parmi tous les ouvrages, score 5/10, sources et Rejouer'
     await page.getByRole('button', { name: option.textFr, exact: true }).click();
     await expect(page.locator('.quiz-game h1')).toHaveText(prompt);
     await page.getByRole('button', { name: 'Valider ma réponse' }).click();
+    await expect(page.locator('.quiz-feedback')).not.toContainText(
+      /avant publication|reste soumise|doit être relue/,
+    );
     await expect(
       page.getByText(`Score : ${Math.min(i + 1, target)}/10`, { exact: true }),
     ).toBeVisible();

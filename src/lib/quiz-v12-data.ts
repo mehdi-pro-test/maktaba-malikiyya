@@ -7,6 +7,7 @@ import { inspectCandidateLots } from './quiz-v13-editorial';
 import { editorialLots } from './quiz-v13-lots';
 import { ultimeAdditions } from './quiz-ultime-data';
 import { candidateBatchSchema } from './quiz-v13-editorial';
+import { quizLevels } from './quiz-v12';
 import { MAX_APPROVED_POOL } from './quiz-draw';
 const bank = researchBankSchema.parse(rawBank);
 const reviews = validateReviewReport(bank, rawReviews);
@@ -36,6 +37,15 @@ export function findQuizBook(level: string, id: string) {
   return library.find((b) => b.level === level && b.id === id);
 }
 export function bookQuestions(level: string, id: string) {
-  if (!findQuizBook(level, id)?.available) return [];
-  return pools.get(id) ?? [];
+  const book = findQuizBook(level, id);
+  if (!book?.available) return [];
+  return (pools.get(id) ?? []).map((q) => ({
+    ...q,
+    origin: {
+      bookId: book.id,
+      titleFr: book.titleFr,
+      titleAr: book.titleAr,
+      levelLabel: quizLevels.find((l) => l.id === book.level)!.label,
+    },
+  }));
 }

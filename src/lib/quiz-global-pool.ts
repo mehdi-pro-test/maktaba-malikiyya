@@ -1,3 +1,4 @@
+import { eligibleForGlobalQuiz } from './quiz-global-quality';
 import type { QuizQuestion } from './quiz';
 /** Consume only the existing public projection; unavailable books are never loaded. */
 export function assembleGlobalPool(
@@ -6,7 +7,7 @@ export function assembleGlobalPool(
 ): QuizQuestion[] {
   const pool = books
     .filter((b) => b.available)
-    .flatMap((b) => questionsFor(b.level, b.id).filter((q) => q.status === 'published'));
+    .flatMap((b) => questionsFor(b.level, b.id).filter(eligibleForGlobalQuiz));
   if (new Set(pool.map((q) => q.id)).size !== pool.length)
     throw new Error('Identifiant dupliqué dans la banque globale');
   return pool;

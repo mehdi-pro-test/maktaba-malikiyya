@@ -1,3 +1,5 @@
+> Évolution suivante : voir [la correction pédagogique](../quiz-pedagogie/README.md). Les 610 questions publiées sont conservées par ouvrage ; le mode global propose désormais une sélection de 469 questions adaptées à une partie autonome. Les chiffres ci-dessous décrivent la livraison initiale du mode global.
+
 # Mode aléatoire global — livraison technique
 
 Base : `origin/main` au commit `5713c38f531354b2dc0dcf0decb091bf499ab6fc`.

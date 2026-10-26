@@ -9,6 +9,14 @@ const questionSchema = z
     id: z.string().min(1),
     status: z.literal('published'),
     category: z.string().min(1),
+    origin: z
+      .object({
+        bookId: z.string().min(1),
+        titleFr: z.string().min(1),
+        titleAr: z.string().min(1),
+        levelLabel: z.string().min(1),
+      })
+      .optional(),
     publicationBasis: z.literal('owner-editorial-approval').optional(),
     sourceVerification: z.literal('not-attested').optional(),
     sources: z
