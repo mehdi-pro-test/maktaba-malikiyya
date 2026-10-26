@@ -26,6 +26,6 @@ it('refuse les entrées malformées et ne charge aucun livre indisponible', asyn
 it('ne complète pas un pool inférieur à dix et refuse un pool excessif', async () => {
   data.bookQuestions.mockReturnValue(syntheticPool(9));
   expect(await startQuizAttempt('debutant', 'synthetic')).toEqual([]);
-  data.bookQuestions.mockReturnValue(syntheticPool(101));
-  await expect(startQuizAttempt('debutant', 'synthetic')).rejects.toThrow(/100/);
+  data.bookQuestions.mockReturnValue(syntheticPool(201));
+  await expect(startQuizAttempt('debutant', 'synthetic')).rejects.toThrow(/200/);
 });

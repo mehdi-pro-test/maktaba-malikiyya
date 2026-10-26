@@ -1,0 +1,974 @@
+{
+  "schemaVersion": "owner-editorial-approval-190-v1",
+  "recordedAt": "2026-10-26",
+  "owner": "mehdi-pro-test",
+  "exactDeclaration": "je valide les questions réponses donc pas de brouillon",
+  "decision": "owner-editorial-approved",
+  "approvalScope": {
+    "books": {
+      "bidayat-al-mujtahid": 140,
+      "al-istidhkar": 50
+    },
+    "questionCount": 190
+  },
+  "publicationAuthorizationByOwner": true,
+  "productionDeploymentAuthorizedByThisDeclaration": false,
+  "independentReligiousReviewer": null,
+  "citationsCheckedAgainstPrimaryEdition": "non explicitement attesté",
+  "comparativeFiqhAttributionsChecked": "non explicitement attesté",
+  "originalResearchBankSha256": "a77fbca1eb81e1a556ae844af5ebcc210f0f4429658f52bd2a93f460d61e9c53",
+  "newOwnerApprovedBankSha256": "aaa66d64eaf0c32321d60639e0f9083e25311779127d678a124d3f5bf96970d5",
+  "method": "Déclaration explicite du propriétaire dans cette conversation; aucune identité de relecteur indépendant inventée.",
+  "questions": [
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-001",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-002",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-003",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-004",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-005",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-006",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-007",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-008",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-009",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-010",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-011",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-012",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-013",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-014",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-015",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-016",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-017",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-018",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-019",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-020",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-021",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-022",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-023",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-024",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-025",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-026",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-027",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-028",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-029",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-030",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-031",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-032",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-033",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-034",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-035",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-036",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-037",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-038",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-039",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-040",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-041",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-042",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-043",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-044",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-045",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-046",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-047",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-048",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-049",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-050",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-051",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-052",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-053",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-054",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-055",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-056",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-057",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-058",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-059",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-060",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-061",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-062",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-063",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-064",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-065",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-066",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-067",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-068",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-069",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-070",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-071",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-072",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-073",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-074",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-075",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-076",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-077",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-078",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-079",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-080",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-081",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-082",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-083",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-084",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-085",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-086",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-087",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-088",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-089",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-090",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-091",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-092",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-093",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-094",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-095",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-096",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-097",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-098",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-099",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-100",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-101",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-102",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-103",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-104",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-105",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-106",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-107",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-108",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-109",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-110",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-111",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-112",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-113",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-114",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-115",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-116",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-117",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-118",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-119",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-120",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-121",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-122",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-123",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-124",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-125",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-126",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-127",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-128",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-129",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-130",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-131",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-132",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-133",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-134",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-135",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-136",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-137",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-138",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-139",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-140",
+      "bookId": "bidayat-al-mujtahid",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-001",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-002",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-003",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-004",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-005",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-006",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-007",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-008",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-009",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-010",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-011",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-012",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-013",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-014",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-015",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-016",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-017",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-018",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-019",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-020",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-021",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-022",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-023",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-024",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-025",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-026",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-027",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-028",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-029",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-030",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-031",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-032",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-033",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-034",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-035",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-036",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-037",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-038",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-039",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-040",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-041",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-042",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-043",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-044",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-045",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-046",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-047",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-048",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-049",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-050",
+      "bookId": "al-istidhkar",
+      "ownerDecision": "approved"
+    }
+  ]
+}

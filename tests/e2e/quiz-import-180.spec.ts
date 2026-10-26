@@ -24,7 +24,7 @@ test('Les 180 questions vérifiées sont jouables dans six banques de 40 sans ex
   ).toHaveCount(9);
   await expect(
     page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
-  ).toHaveCount(6);
+  ).toHaveCount(4);
   const scripts = await page
     .locator('script[src]')
     .evaluateAll((nodes) =>

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { readFileSync, readdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { drawQuestions, drawPublishedQuestions } from '../src/lib/quiz-draw';
+import { drawQuestions, drawPublishedQuestions, MAX_APPROVED_POOL } from '../src/lib/quiz-draw';
 import {
   candidateBatchSchema,
   candidateDigest,
@@ -78,18 +78,21 @@ function syntheticReport(batch = syntheticBatch()) {
   };
 }
 describe('Tirage sans remise', () => {
-  it.each([10, 100])('1000 tirages à partir de %i : dix uniques et entrée immuable', (size) => {
-    const pool = syntheticPool(size);
-    const snapshot = structuredClone(pool);
-    const random = rng();
-    for (let n = 0; n < 1000; n++) {
-      const draw = drawPublishedQuestions(pool, random);
-      expect(draw).toHaveLength(10);
-      expect(new Set(draw.map((q) => q.id)).size).toBe(10);
-      expect(draw.every((q) => pool.includes(q))).toBe(true);
-    }
-    expect(pool).toEqual(snapshot);
-  });
+  it.each([10, 60, 100, 150, 200])(
+    '1000 tirages à partir de %i : dix uniques et entrée immuable',
+    (size) => {
+      const pool = syntheticPool(size);
+      const snapshot = structuredClone(pool);
+      const random = rng();
+      for (let n = 0; n < 1000; n++) {
+        const draw = drawPublishedQuestions(pool, random);
+        expect(draw).toHaveLength(10);
+        expect(new Set(draw.map((q) => q.id)).size).toBe(10);
+        expect(draw.every((q) => pool.includes(q))).toBe(true);
+      }
+      expect(pool).toEqual(snapshot);
+    },
+  );
   it('est reproductible et permet de nouveaux tirages indépendants', () => {
     const pool = syntheticPool();
     expect(drawQuestions(pool, rng(42))).toEqual(drawQuestions(pool, rng(42)));
@@ -110,7 +113,7 @@ describe('Tirage sans remise', () => {
   it('bloque les cas limites et ne complète jamais une banque', () => {
     expect(drawQuestions(syntheticPool(9))).toEqual([]);
     expect(drawQuestions([])).toEqual([]);
-    expect(() => drawQuestions(syntheticPool(101))).toThrow(/100/);
+    expect(() => drawQuestions(syntheticPool(MAX_APPROVED_POOL + 1))).toThrow(/200/);
     expect(() => drawQuestions([...syntheticPool(10), syntheticPool(1)[0]])).toThrow(/dupliqué/);
     for (const n of [1, -1, NaN, Infinity])
       expect(() => drawQuestions(syntheticPool(), () => n)).toThrow(/Aléa/);
