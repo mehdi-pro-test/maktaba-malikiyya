@@ -56,7 +56,9 @@ for (const target of [0, 5, 10])
       } else await route.continue();
     });
     await page.goto('http://127.0.0.1:3101/random');
-    await expect(page.getByText('10 questions par partie', { exact: true })).toBeVisible();
+    await expect(
+      page.getByText('10 questions par partie (100 questions dans la banque)', { exact: true }),
+    ).toBeVisible();
     await page.getByRole('button', { name: 'Commencer le quiz' }).click();
     const prompts: string[] = [];
     for (let i = 0; i < 10; i++) {
