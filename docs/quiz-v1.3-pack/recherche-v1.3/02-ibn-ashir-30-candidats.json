@@ -25,22 +25,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "La croyance ash'arite, le fiqh malikite et la voie d'al-Junayd"
-        },
-        {
-          "id": "b",
           "textFr": "La grammaire, l’astronomie et la logique"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Le commerce, la médecine et le voyage"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "La géographie, l’histoire et le calcul"
+        },
+        {
+          "id": "d",
+          "textFr": "La croyance ash'arite, le fiqh malikite et la voie d'al-Junayd"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « في عَقْدِ الأشعري وفقه مالك وفي طَريقَةِ الجُنَيْدِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -63,22 +63,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Trois"
-        },
-        {
-          "id": "b",
-          "textFr": "Deux"
-        },
-        {
-          "id": "c",
           "textFr": "Quatre"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Sept"
+        },
+        {
+          "id": "c",
+          "textFr": "Trois"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَهْيَ الوُجوبُ الاسْتِحالَةُ الجَوازْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -101,22 +101,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Le nécessaire (wâjib)"
+          "textFr": "Le recommandé"
         },
         {
           "id": "b",
-          "textFr": "L’impossible"
+          "textFr": "Le nécessaire (wâjib)"
         },
         {
           "id": "c",
-          "textFr": "Le permis juridique"
+          "textFr": "L’impossible"
         },
         {
           "id": "d",
-          "textFr": "Le recommandé"
+          "textFr": "Le permis juridique"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « فواجب لا يَقْبَلُ النَّفْيَ بِحالْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -177,22 +177,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Dix-huit ans"
-        },
-        {
-          "id": "b",
           "textFr": "Douze ans"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Vingt-cinq ans"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Trente ans"
+        },
+        {
+          "id": "d",
+          "textFr": "Dix-huit ans"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « بِثَمان عّشْرَةِ ِ حَوْلاَ َ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -215,22 +215,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "L’existence (wujûd)"
-        },
-        {
-          "id": "b",
-          "textFr": "Le sommeil"
-        },
-        {
-          "id": "c",
           "textFr": "La faim"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "L’oubli"
+        },
+        {
+          "id": "c",
+          "textFr": "L’existence (wujûd)"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « يَجِبُ للهِ الوُجــودُ والقــِدَمْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -253,22 +253,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "La puissance (qudra)"
+          "textFr": "La mortalité"
         },
         {
           "id": "b",
-          "textFr": "La faiblesse"
+          "textFr": "La puissance (qudra)"
         },
         {
           "id": "c",
-          "textFr": "Le besoin"
+          "textFr": "La faiblesse"
         },
         {
           "id": "d",
-          "textFr": "La mortalité"
+          "textFr": "Le besoin"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَقُـدْرَةُ إرادَةُ عِلْـــمُ حَيَــا ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -329,22 +329,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Véracité, fidélité et transmission"
-        },
-        {
-          "id": "b",
           "textFr": "Richesse, force et longévité"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Commerce, écriture et royauté"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Voyage, éloquence et médecine"
+        },
+        {
+          "id": "d",
+          "textFr": "Véracité, fidélité et transmission"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « يَجِبُ لِلرُّسْـلِ الكِـرامِ الصِّدْقُ أمــانَةُ تَبـْلـيغُهُـمْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -367,22 +367,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Le mensonge"
-        },
-        {
-          "id": "b",
-          "textFr": "Le fait de manger"
-        },
-        {
-          "id": "c",
           "textFr": "Le sommeil naturel"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "La maladie non déshonorante"
+        },
+        {
+          "id": "c",
+          "textFr": "Le mensonge"
+        },
+        {
+          "id": "d",
+          "textFr": "Le fait de manger"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « مُحَـــالُ الكَـذِبُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -405,22 +405,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Cinq"
+          "textFr": "Dix"
         },
         {
           "id": "b",
-          "textFr": "Trois"
+          "textFr": "Cinq"
         },
         {
           "id": "c",
-          "textFr": "Sept"
+          "textFr": "Trois"
         },
         {
           "id": "d",
-          "textFr": "Dix"
+          "textFr": "Sept"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « قَواعِدُ الإسلامِ خَمْسُ وَاجِباتْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -481,22 +481,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Adorer Dieu comme si on Le voyait"
-        },
-        {
-          "id": "b",
           "textFr": "Ne jamais parler"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Jeûner toute l’année"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Rester toujours seul"
+        },
+        {
+          "id": "d",
+          "textFr": "Adorer Dieu comme si on Le voyait"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « أن تَعْبُدَ اللَّهَ كَأنَّكَ تَــــراه ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -519,22 +519,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Cinq"
-        },
-        {
-          "id": "b",
-          "textFr": "Trois"
-        },
-        {
-          "id": "c",
           "textFr": "Six"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Huit"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « أَقْسـامُ حُكْـمِ الشَّرْعِ خَمْسّةُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -557,22 +557,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Une demande non impérative"
+          "textFr": "Une chose nécessairement impossible"
         },
         {
           "id": "b",
-          "textFr": "Une interdiction catégorique"
+          "textFr": "Une demande non impérative"
         },
         {
           "id": "c",
-          "textFr": "Une obligation certaine"
+          "textFr": "Une interdiction catégorique"
         },
         {
           "id": "d",
-          "textFr": "Une chose nécessairement impossible"
+          "textFr": "Une obligation certaine"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَدونَ الْجَزْمِ مَنْدوبُ وُسِم ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -633,22 +633,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Elle est écartée pour la purification"
-        },
-        {
-          "id": "b",
           "textFr": "Elle est automatiquement recommandée"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Elle devient toujours plus pure"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Elle remplace la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle est écartée pour la purification"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « إِذا تَغَيَّرَ بِنَجْسِ ِ طُرِحَـــا ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -671,22 +671,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Lever l’état d’impureté rituelle"
-        },
-        {
-          "id": "b",
-          "textFr": "Acquérir une réputation"
-        },
-        {
-          "id": "c",
           "textFr": "Réciter un chapitre entier"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Remplacer le ghusl sans motif"
+        },
+        {
+          "id": "c",
+          "textFr": "Lever l’état d’impureté rituelle"
+        },
+        {
+          "id": "d",
+          "textFr": "Acquérir une réputation"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَلْيَنْوِ رَفْعَ حَدّثِ ِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -709,22 +709,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Faire passer l’eau entre les doigts"
+          "textFr": "Ne laver que les ongles"
         },
         {
           "id": "b",
-          "textFr": "Couvrir les doigts de cendre"
+          "textFr": "Faire passer l’eau entre les doigts"
         },
         {
           "id": "c",
-          "textFr": "Laver uniquement les paumes sans les doigts"
+          "textFr": "Couvrir les doigts de cendre"
         },
         {
           "id": "d",
-          "textFr": "Ne laver que les ongles"
+          "textFr": "Laver uniquement les paumes sans les doigts"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « خَلِّلْ أَصابِعَ الْيَدَيْنِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -785,22 +785,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Le doute sur la survenue d’un hadath"
-        },
-        {
-          "id": "b",
           "textFr": "Le doute sur le prix d’un livre"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Le doute sur le jour du mois"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Le doute sur son itinéraire"
+        },
+        {
+          "id": "d",
+          "textFr": "Le doute sur la survenue d’un hadath"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَالشَّكُّ في الْحَدَثِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -823,22 +823,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Les aisselles"
-        },
-        {
-          "id": "b",
-          "textFr": "Les pointes des cheveux seulement"
-        },
-        {
-          "id": "c",
           "textFr": "Les doigts de l’autre personne"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Le vêtement extérieur"
+        },
+        {
+          "id": "c",
+          "textFr": "Les aisselles"
+        },
+        {
+          "id": "d",
+          "textFr": "Les pointes des cheveux seulement"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَالإِبْطِ وَالرُّفْغ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -861,22 +861,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Les lochies (nifâs)"
+          "textFr": "La récitation d’un vers"
         },
         {
           "id": "b",
-          "textFr": "La simple marche"
+          "textFr": "Les lochies (nifâs)"
         },
         {
           "id": "c",
-          "textFr": "L’écoute du Coran"
+          "textFr": "La simple marche"
         },
         {
           "id": "d",
-          "textFr": "La récitation d’un vers"
+          "textFr": "L’écoute du Coran"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « مُوجِبُهُ حَيْضُ ُ إِنْفاسُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -937,22 +937,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Une"
-        },
-        {
-          "id": "b",
           "textFr": "Deux"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Quatre"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Une"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَصَلِّ فَرْضََا وَاحِداََ َ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -975,22 +975,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Jusqu’aux poignets"
-        },
-        {
-          "id": "b",
-          "textFr": "Jusqu’aux épaules"
-        },
-        {
-          "id": "c",
           "textFr": "Jusqu’aux coudes au titre d’obligation"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Uniquement le bout des doigts"
+        },
+        {
+          "id": "c",
+          "textFr": "Jusqu’aux poignets"
+        },
+        {
+          "id": "d",
+          "textFr": "Jusqu’aux épaules"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « لِلْكُوعِ والنِّيَّةُ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -1013,22 +1013,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Seize"
+          "textFr": "Vingt"
         },
         {
           "id": "b",
-          "textFr": "Treize"
+          "textFr": "Seize"
         },
         {
           "id": "c",
-          "textFr": "Sept"
+          "textFr": "Treize"
         },
         {
           "id": "d",
-          "textFr": "Vingt"
+          "textFr": "Sept"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « فَرائِضُ الصَّــلاةِ سِـتَّ عَشَرَهْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -1089,22 +1089,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "La première et la deuxième"
-        },
-        {
-          "id": "b",
           "textFr": "La troisième uniquement"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "La quatrième uniquement"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Après le salâm"
+        },
+        {
+          "id": "d",
+          "textFr": "La première et la deuxième"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « مَـــــعَ الْقِيامِ أوَّلاََ َ والثَّانِيَهْ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -1127,22 +1127,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Obligation collective"
-        },
-        {
-          "id": "b",
-          "textFr": "Obligation individuelle quotidienne"
-        },
-        {
-          "id": "c",
           "textFr": "Acte interdit"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Sunnah du tayammum"
+        },
+        {
+          "id": "c",
+          "textFr": "Obligation collective"
+        },
+        {
+          "id": "d",
+          "textFr": "Obligation individuelle quotidienne"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "Le passage du « المرشد المعين على الضروري من علوم الدين » dit : « وَهْيَ كِفــايَةُ ُ لِمَيْتِ ِ ». Cette formulation justifie la réponse retenue; elle reste soumise à une collation avec une édition fiable et à une revue humaine.",
       "newComparedToV12": "manually-screened-not-approved"
     }
