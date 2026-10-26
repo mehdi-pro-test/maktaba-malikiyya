@@ -1,5 +1,5 @@
 {
-  "archive": "Pack unique V1.3 - photographie de main et consignes Codex",
+  "archive": "Recherche V1.3 : code complet V1.2 + 150 QCM publiés + 90 QCM nouveaux candidats + documentation et prompt",
   "snapshotBaselineCommit": "c25a20696b6c44ba6e7ba0cac25ba7e9cd640980",
   "dataSchemaVersion": "1.2-research-1",
   "existingBankPath": "src/data/quiz-v1.2/research.json",
@@ -102,13 +102,29 @@
     "existingQuestions": 150,
     "reviewEntries": 150,
     "sourceEntries": 33,
-    "missingV13QuestionBank": 300,
+    "missingV13QuestionBank": 210,
     "plannedTotalV13Questions": 1500,
-    "verifiedAvailableNewV13QuestionsInThisArchive": 0
+    "verifiedAvailableNewV13QuestionsInThisArchive": 90,
+    "totalQuestionsActuallyWrittenIncludingDraft": 240,
+    "publishedQuestions": 150,
+    "newDraftQuestions": 90,
+    "actualNewV13Approved": 0
   },
   "checks": {
     "questionsWithWrongNumberOptionsMissingAnswerOrNoReference": [],
     "invalid": 0
   },
-  "note": "Le chiffre 300 est le contenu annoncé du ZIP éditorial de recherche, mais aucun fichier de ce ZIP n'est monté ou accessible : zéro question V1.3 supplémentaire incluse. Les 150 questions existantes et leurs décisions de revue sont celles du dépôt, non une nouvelle revue doctrinale indépendante."
+  "note": "Cette archive contient 90 nouvelles questions-réponses réellement rédigées mais non publiées. Le ZIP Deep Research annoncé de 300 QCM complets n'était pas retrouvé; toute mention du contraire dans les précédents docs est supplantée par ce manifeste et le README courant.",
+  "newEditorialData": {
+    "path": "docs/quiz-v1.3-pack/recherche-v1.3/",
+    "newDraftQuestions": 90,
+    "booksAffected": 3,
+    "newDraftPerBeginnerBook": 30,
+    "newPublicationApprovals": 0,
+    "oldPublishedQuestionsPerBeginnerBook": 10,
+    "totalDraftedPerBeginnerBook": 40,
+    "missingTo100PerBeginnerBook": 60,
+    "missingTo100ForThreeBeginnerBooks": 180,
+    "reviewNeeded": "Oui. Ces 90 questions sont des candidats research-draft, sans approbation humaine indépendante; texte arabe et pertinence doivent être collationnés."
+  }
 }
