@@ -18,7 +18,7 @@ export async function Books({ category }: { category?: string }) {
               <span className="category-tag">
                 {visibleCategories().find((c) => c.slug === p.category)?.nameFr ?? p.category}
               </span>
-              <BookImage src={p.imagePath} title={p.titleFr} />
+              <BookImage src={p.imagePath} title={p.titleFr} altText={p.imageAlt ?? undefined} />
               <span className="visual-caption">Visuel provisoire</span>
               <span className="book-arrow">
                 <ArrowUpRight size={21} />

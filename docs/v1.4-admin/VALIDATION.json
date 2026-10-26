@@ -1,0 +1,53 @@
+{
+  "dateUTC": "2026-10-26T20:49:20.058214+00:00",
+  "branch": "feat/v1.4-admin-unique",
+  "baseMain": "d29c6dfe7862fcd8b34ef00b7543512914bc4d7d",
+  "node": "v24.19.0",
+  "postgres": "17 local uniquement",
+  "productionWrites": false,
+  "productionDeployment": false,
+  "checks": {
+    "npmCi": "passed",
+    "format": "passed",
+    "lint": "passed, no warning",
+    "typescript": "passed",
+    "build": "passed",
+    "unit": {
+      "passed": 147,
+      "files": 16
+    },
+    "integration": {
+      "passed": 64,
+      "files": 10
+    },
+    "playwrightFull": {
+      "passed": 132,
+      "skipped": 0
+    },
+    "playwrightAdminAfterFinalOrderUI": {
+      "passed": 4,
+      "skipped": 0
+    },
+    "productionDependencyAudit": {
+      "reportedVulnerabilities": 0
+    }
+  },
+  "historicalQuestions": 610,
+  "globalEligibleAtEmptyOverlay": 469,
+  "books": 15,
+  "ownerAddressReceivedPrivately": true,
+  "ownerProvisionedInProduction": false,
+  "notAttested": [
+    "Live Vercel Blob upload and persistence after redeployment",
+    "External Stripe payment",
+    "Actual Resend email delivery"
+  ],
+  "screenshots": [
+    "admin-desktop-commande.png",
+    "admin-desktop-dashboard.png",
+    "admin-desktop-quiz-editeur.png",
+    "admin-mobile-commande.png",
+    "admin-mobile-dashboard.png",
+    "admin-mobile-quiz-editeur.png"
+  ]
+}

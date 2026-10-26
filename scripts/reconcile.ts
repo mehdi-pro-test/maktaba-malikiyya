@@ -1,3 +1,4 @@
+import { legacyOrderSelect } from '../src/lib/legacy-select';
 import 'dotenv/config';
 import type Stripe from 'stripe';
 import { db } from '../src/lib/db';
@@ -5,7 +6,10 @@ import { stripeClient } from '../src/lib/payments';
 import { applySession } from '../src/lib/orders';
 import { deliverEmail } from '../src/lib/email';
 const stripe = stripeClient();
-for (const order of await db.order.findMany({ where: { status: 'PENDING_PAYMENT' } })) {
+for (const order of await db.order.findMany({
+  where: { status: 'PENDING_PAYMENT' },
+  select: legacyOrderSelect,
+})) {
   let session: Stripe.Checkout.Session | null = order.stripeSessionId
     ? await stripe.checkout.sessions.retrieve(order.stripeSessionId)
     : null;

@@ -1,0 +1,5 @@
+{
+  "prisma/migrations/202610250001_initial/migration.sql": "1703233706a3174c9633d599a25bdd3a84d6237ebf9acd9daa8f60ba7b233052",
+  "prisma/migrations/202610250002_categories_drafts/migration.sql": "f3c0c849371b5708bc8e429e29b35d7e9a58228f23b17275e92edf9c918a92de",
+  "prisma/migrations/202610250003_akhdari_active/migration.sql": "2a98e3960161eb1571c768db2082843a8de6d7151ab615762f5e792b8e254933"
+}

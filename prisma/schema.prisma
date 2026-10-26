@@ -1,108 +1,329 @@
 generator client {
- provider = "prisma-client-js"
- engineType = "client"
+  provider   = "prisma-client-js"
+  engineType = "client"
 }
+
 datasource db {
- provider = "postgresql"
+  provider = "postgresql"
 }
+
 model Product {
- id String @id
- slug String @unique
- titleFr String
- titleAr String
- category String
- categoryId String?
- categoryRecord Category? @relation(fields:[categoryId],references:[id])
- imagePath String
- priceCents Int
- stockOnHand Int @default(10)
- active Boolean @default(true)
- updatedAt DateTime @updatedAt
- items OrderItem[]
- reservations StockReservation[]
- @@index([categoryId])
+  id                String              @id
+  slug              String              @unique
+  titleFr           String
+  titleAr           String
+  category          String
+  categoryId        String?
+  categoryRecord    Category?           @relation(fields: [categoryId], references: [id])
+  imagePath         String
+  priceCents        Int
+  stockOnHand       Int                 @default(10)
+  descriptionFr     String?
+  descriptionAr     String?
+  lowStockThreshold Int                 @default(3)
+  adminStatus       String              @default("PUBLISHED")
+  version           Int                 @default(0)
+  coverAssetId      String?
+  coverAsset        ProductCoverAsset?  @relation("SelectedCover", fields: [coverAssetId], references: [id], onDelete: Restrict)
+  coverAssets       ProductCoverAsset[] @relation("ProductAssets")
+  movements         InventoryMovement[]
+  active            Boolean             @default(true)
+  updatedAt         DateTime            @updatedAt
+  items             OrderItem[]
+  reservations      StockReservation[]
+
+  @@index([categoryId])
 }
+
 model Order {
- id String @id @default(uuid())
- reference String @unique
- tokenHash String @unique
- email String
- recipient String
- address String
- addressExtra String?
- postalCode String
- city String
- countryCode String
- subtotalCents Int
- shippingCents Int
- totalCents Int
- status String @default("PENDING_PAYMENT")
- stripeSessionId String? @unique
- createdAt DateTime @default(now())
- updatedAt DateTime @updatedAt
- items OrderItem[]
- reservations StockReservation[]
- emailDelivery EmailDelivery?
+  id                 String                  @id @default(uuid())
+  reference          String                  @unique
+  tokenHash          String                  @unique
+  email              String
+  recipient          String
+  address            String
+  addressExtra       String?
+  postalCode         String
+  city               String
+  countryCode        String
+  subtotalCents      Int
+  shippingCents      Int
+  totalCents         Int
+  status             String                  @default("PENDING_PAYMENT")
+  stripeSessionId    String?                 @unique
+  fulfillmentStatus  String                  @default("UNFULFILLED")
+  fulfillmentVersion Int                     @default(0)
+  shippedAt          DateTime?
+  deliveredAt        DateTime?
+  carrier            String?
+  trackingNumber     String?
+  internalNote       String?
+  fulfillmentEvents  OrderFulfillmentEvent[]
+  createdAt          DateTime                @default(now())
+  updatedAt          DateTime                @updatedAt
+  items              OrderItem[]
+  reservations       StockReservation[]
+  emailDelivery      EmailDelivery?
 }
+
 model OrderItem {
- id String @id @default(uuid())
- orderId String
- productId String
- titleFr String
- titleAr String
- unitPriceCents Int
- quantity Int
- order Order @relation(fields:[orderId],references:[id])
- product Product @relation(fields:[productId],references:[id])
+  id             String  @id @default(uuid())
+  orderId        String
+  productId      String
+  titleFr        String
+  titleAr        String
+  unitPriceCents Int
+  quantity       Int
+  order          Order   @relation(fields: [orderId], references: [id])
+  product        Product @relation(fields: [productId], references: [id])
 }
+
 model StockReservation {
- id String @id @default(uuid())
- orderId String
- productId String
- quantity Int
- status String @default("ACTIVE")
- expiresAt DateTime
- order Order @relation(fields:[orderId],references:[id])
- product Product @relation(fields:[productId],references:[id])
- @@index([productId,status])
+  id        String   @id @default(uuid())
+  orderId   String
+  productId String
+  quantity  Int
+  status    String   @default("ACTIVE")
+  expiresAt DateTime
+  order     Order    @relation(fields: [orderId], references: [id])
+  product   Product  @relation(fields: [productId], references: [id])
+
+  @@index([productId, status])
 }
+
 model WebhookEvent {
- eventId String @id
- type String
- processedAt DateTime @default(now())
+  eventId     String   @id
+  type        String
+  processedAt DateTime @default(now())
 }
+
 model EmailDelivery {
- id String @id @default(uuid())
- orderId String @unique
- status String @default("PENDING")
- attempts Int @default(0)
- providerMessageId String?
- createdAt DateTime @default(now())
- updatedAt DateTime @updatedAt
- order Order @relation(fields:[orderId],references:[id])
+  id                String   @id @default(uuid())
+  orderId           String   @unique
+  status            String   @default("PENDING")
+  attempts          Int      @default(0)
+  providerMessageId String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  order             Order    @relation(fields: [orderId], references: [id])
 }
 
 model Category {
- id String @id
- slug String @unique
- nameFr String
- parentId String?
- parent Category? @relation("CategoryHierarchy",fields:[parentId],references:[id])
- children Category[] @relation("CategoryHierarchy")
- sortOrder Int @default(0)
- active Boolean @default(true)
- products Product[]
- drafts CatalogDraft[]
+  id        String         @id
+  slug      String         @unique
+  nameFr    String
+  parentId  String?
+  parent    Category?      @relation("CategoryHierarchy", fields: [parentId], references: [id])
+  children  Category[]     @relation("CategoryHierarchy")
+  sortOrder Int            @default(0)
+  active    Boolean        @default(true)
+  products  Product[]
+  drafts    CatalogDraft[]
 }
+
 model CatalogDraft {
- id String @id
- slug String @unique
- titleFr String
- titleAr String
- categoryId String
- category Category @relation(fields:[categoryId],references:[id])
- imagePath String
- status String @default("DRAFT")
- priceCents Int?
- stockOnHand Int?
+  id          String   @id
+  slug        String   @unique
+  titleFr     String
+  titleAr     String
+  categoryId  String
+  category    Category @relation(fields: [categoryId], references: [id])
+  imagePath   String
+  status      String   @default("DRAFT")
+  priceCents  Int?
+  stockOnHand Int?
+}
+
+model User {
+  id               String     @id
+  ownerSlot        Int        @unique @default(1)
+  email            String     @unique
+  name             String
+  emailVerified    Boolean    @default(false)
+  image            String?
+  twoFactorEnabled Boolean    @default(false)
+  createdAt        DateTime   @default(now())
+  updatedAt        DateTime   @updatedAt
+  sessions         Session[]
+  accounts         Account[]
+  twoFactor        TwoFactor?
+}
+
+model Session {
+  id        String         @id
+  token     String         @unique
+  userId    String
+  user      User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  expiresAt DateTime
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  ipAddress String?
+  userAgent String?
+  mfaProof  AdminMfaProof?
+
+  @@index([userId])
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@unique([providerId, accountId])
+  @@index([userId])
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+}
+
+model TwoFactor {
+  id                      String    @id
+  userId                  String    @unique
+  user                    User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  secret                  String
+  backupCodes             String
+  verified                Boolean   @default(true)
+  failedVerificationCount Int       @default(0)
+  lockedUntil             DateTime?
+
+  @@index([secret])
+}
+
+model RateLimit {
+  id          String @id
+  key         String @unique
+  count       Int
+  lastRequest BigInt
+}
+
+model AdminMfaProof {
+  sessionId  String   @id
+  session    Session  @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  verifiedAt DateTime @default(now())
+  lastSeenAt DateTime @default(now())
+  expiresAt  DateTime
+}
+
+model AdminAuditEvent {
+  id            String   @id @default(uuid())
+  occurredAt    DateTime @default(now())
+  actorId       String
+  action        String
+  entityType    String
+  entityId      String
+  priorSummary  Json?
+  nextSummary   Json?
+  reason        String?
+  correlationId String
+
+  @@index([occurredAt])
+  @@index([entityType, entityId])
+}
+
+model InventoryMovement {
+  id               String   @id @default(uuid())
+  productId        String
+  product          Product  @relation(fields: [productId], references: [id], onDelete: Restrict)
+  type             String
+  delta            Int
+  beforeOnHand     Int
+  afterOnHand      Int
+  reservedAtChange Int
+  reason           String
+  createdAt        DateTime @default(now())
+  adminId          String
+  relatedOrderId   String?
+  idempotencyKey   String   @unique
+  requestDigest    String
+
+  @@index([productId, createdAt])
+}
+
+model OrderFulfillmentEvent {
+  id             String   @id @default(uuid())
+  orderId        String
+  order          Order    @relation(fields: [orderId], references: [id], onDelete: Restrict)
+  fromStatus     String
+  toStatus       String
+  carrier        String?
+  trackingNumber String?
+  reason         String
+  createdAt      DateTime @default(now())
+  adminId        String
+  idempotencyKey String   @unique
+  requestDigest  String
+
+  @@index([orderId, createdAt])
+}
+
+model ProductCoverAsset {
+  id                  String    @id @default(uuid())
+  productId           String
+  product             Product   @relation("ProductAssets", fields: [productId], references: [id], onDelete: Restrict)
+  selectedBy          Product[] @relation("SelectedCover")
+  storageKey          String    @unique
+  url                 String
+  mime                String
+  bytes               Int
+  width               Int
+  height              Int
+  alt                 String
+  usageRightsAttested Boolean
+  adminId             String
+  createdAt           DateTime  @default(now())
+
+  @@index([productId, createdAt])
+}
+
+model QuizQuestionRecord {
+  id               String                 @id
+  bookId           String
+  originId         String?                @unique
+  version          Int                    @default(0)
+  archivedAt       DateTime?
+  activeRevisionId String?                @unique
+  activeRevision   QuizQuestionRevision?  @relation("ActiveRevision", fields: [activeRevisionId], references: [id], onDelete: Restrict)
+  revisions        QuizQuestionRevision[] @relation("RecordRevisions")
+  createdAt        DateTime               @default(now())
+  updatedAt        DateTime               @updatedAt
+
+  @@index([bookId])
+}
+
+model QuizQuestionRevision {
+  id                 String              @id @default(uuid())
+  recordId           String
+  record             QuizQuestionRecord  @relation("RecordRevisions", fields: [recordId], references: [id], onDelete: Restrict)
+  activeFor          QuizQuestionRecord? @relation("ActiveRevision")
+  revision           Int
+  status             String              @default("DRAFT")
+  content            Json
+  globalEligible     Boolean             @default(false)
+  sourceVerification String              @default("NOT_ATTESTED")
+  ownerPublishedAt   DateTime?
+  ownerApprovedBy    String?
+  createdAt          DateTime            @default(now())
+  createdBy          String
+  reason             String
+
+  @@unique([recordId, revision])
 }

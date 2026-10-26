@@ -1,0 +1,33 @@
+// Explicit projections keep the public shop compatible BEFORE the additive migration.
+export const legacyProductSelect = {
+  id: true,
+  slug: true,
+  titleFr: true,
+  titleAr: true,
+  category: true,
+  categoryId: true,
+  imagePath: true,
+  priceCents: true,
+  stockOnHand: true,
+  active: true,
+  updatedAt: true,
+} as const;
+export const legacyOrderSelect = {
+  id: true,
+  reference: true,
+  tokenHash: true,
+  email: true,
+  recipient: true,
+  address: true,
+  addressExtra: true,
+  postalCode: true,
+  city: true,
+  countryCode: true,
+  subtotalCents: true,
+  shippingCents: true,
+  totalCents: true,
+  status: true,
+  stripeSessionId: true,
+  createdAt: true,
+  updatedAt: true,
+} as const;

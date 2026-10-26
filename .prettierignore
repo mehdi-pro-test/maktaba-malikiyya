@@ -28,3 +28,6 @@ src/data/quiz-v1.3-ultime-190/08-VALIDATION-PROPRIETAIRE-190.json
 
 # Supplied global-mode documentation retains its original bytes.
 docs/quiz-global/source
+
+# Supplied V1.4 documentation retained byte-for-byte.
+docs/v1.4-admin/source

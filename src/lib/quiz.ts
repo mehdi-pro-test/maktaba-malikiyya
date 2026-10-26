@@ -18,7 +18,8 @@ const questionSchema = z
       })
       .optional(),
     publicationBasis: z.literal('owner-editorial-approval').optional(),
-    sourceVerification: z.literal('not-attested').optional(),
+    sourceVerification: z.enum(['not-attested', 'owner-collated']).optional(),
+    globalEligible: z.boolean().optional(),
     sources: z
       .array(
         z.object({
@@ -31,7 +32,12 @@ const questionSchema = z
               quoteAr: z.string(),
               quoteLayer: z.string(),
               textCheck: z
-                .enum(['requires-editorial-collation', 'matched-transcription', 'read-facsimile'])
+                .enum([
+                  'requires-editorial-collation',
+                  'matched-transcription',
+                  'read-facsimile',
+                  'owner-collated',
+                ])
                 .optional(),
               locator: z.string(),
               edition: z.string().nullable(),

@@ -138,3 +138,7 @@ Après le chargement du catalogue, le paiement nécessite encore les clés Strip
 V1 bloque les paiements réels. Mentions légales, identité/contact vendeur, CGV, retours, conservation des données, TVA, pays livrés, éditions et visuels définitifs restent à valider. La page Informations les identifie comme incomplets ; elle ne fournit pas de faux renseignements juridiques. Ajouter une politique de rétention, sauvegardes, supervision et protection anti-abus en bordure avant exposition publique. Les confirmations reposent sur un jeton aléatoire 256 bits dont seul le hash est en base, sans adresse/e-mail dans la réponse ; traiter le lien comme confidentiel et limiter les journaux d’accès aux chemins sans query string.
 
 La documentation fournie est conservée dans `docs/specifications`. Le rapport d’exécution est dans `docs/VALIDATION.md`.
+
+## Administration propriétaire V1.4
+
+Le back-office privé, la migration additive, la configuration MFA/Blob et la procédure de retour arrière sont décrits dans [docs/v1.4-admin/README.md](docs/v1.4-admin/README.md). L'accès reste fermé par défaut. Les données de quiz et de catalogue publiées en DB nécessitent des flags distincts de l'ouverture de l'admin ; voir les instructions avant activation ou rollback. Aucun bootstrap de propriétaire n'est exécuté au build.

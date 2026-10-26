@@ -18,6 +18,21 @@ export const shopTables = [
   'EmailDelivery',
   '_MaktabaMigration',
 ];
+const adminTables = [
+  'User',
+  'Session',
+  'Account',
+  'Verification',
+  'TwoFactor',
+  'RateLimit',
+  'AdminMfaProof',
+  'AdminAuditEvent',
+  'InventoryMovement',
+  'OrderFulfillmentEvent',
+  'ProductCoverAsset',
+  'QuizQuestionRecord',
+  'QuizQuestionRevision',
+];
 export function databaseConnection(value: string | undefined) {
   if (!value)
     throw new DatabaseReadinessError(
@@ -48,7 +63,7 @@ export async function checkDatabase(connectionString: string | undefined, bootst
     );
     const names = tables.rows.map((t) => t.tablename);
     if (bootstrap) {
-      if (names.some((name) => !shopTables.includes(name)))
+      if (names.some((name) => ![...shopTables, ...adminTables].includes(name)))
         throw new DatabaseReadinessError(
           'DATABASE_NOT_DEDICATED',
           'Initialisation refusée : cette base contient des tables étrangères à Maktaba. Connectez une nouvelle base dédiée.',
@@ -67,6 +82,14 @@ export async function checkDatabase(connectionString: string | undefined, bootst
       throw new DatabaseReadinessError(
         'DATABASE_SCHEMA_MISSING',
         'La migration V1.1 manque. Sauvegardez la base dédiée puis appliquez npm run db:migrate avant de déployer. Aucune migration automatique des données existantes n’est exécutée.',
+      );
+    if (
+      process.env.ADMIN_DATA_ENABLED === 'true' &&
+      adminTables.some((name) => !names.includes(name))
+    )
+      throw new DatabaseReadinessError(
+        'ADMIN_SCHEMA_MISSING',
+        'La migration additive V1.4 doit être approuvée et appliquée avant activation.',
       );
     const active = await client.query<{ count: number }>(
       'SELECT count(*)::int AS count FROM "Product" WHERE active = true',
