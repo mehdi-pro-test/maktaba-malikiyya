@@ -1,10 +1,11 @@
+import { legacyOrderSelect } from './legacy-select';
 import { Resend } from 'resend';
 import { db } from './db';
 import { money } from './rules';
 export async function deliverEmail(orderId: string) {
   const delivery = await db.emailDelivery.findUnique({
     where: { orderId },
-    include: { order: { include: { items: true } } },
+    include: { order: { select: { ...legacyOrderSelect, items: true } } },
   });
   if (!delivery || delivery.status === 'SENT') return;
   if (!process.env.RESEND_API_KEY || !process.env.RESEND_FROM_EMAIL) {

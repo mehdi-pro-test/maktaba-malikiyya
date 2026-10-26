@@ -1,3 +1,4 @@
+import type { QuizQuestion } from './quiz';
 // This module is imported exclusively by server pages and editorial scripts.
 import 'server-only';
 import rawBank from '@/data/quiz-v1.2/research.json';
@@ -48,4 +49,33 @@ export function bookQuestions(level: string, id: string) {
       levelLabel: quizLevels.find((l) => l.id === book.level)!.label,
     },
   }));
+}
+
+/** Dynamic DB layer is opt-in after the additive migration. Canonical exports stay immutable. */
+export async function currentQuizData() {
+  const { quizDbEnabled } = await import('./admin/config');
+  const pools = new Map<string, QuizQuestion[]>(
+    library.map((b) => [b.id, bookQuestions(b.level, b.id)]),
+  );
+  if (!quizDbEnabled()) return { library, pools };
+  const [{ readQuizOverlay }, { mergeQuizOverlay }] = await Promise.all([
+    import('./quiz-overlay-data'),
+    import('./quiz-overlay'),
+  ]);
+  const records = await readQuizOverlay();
+  for (const b of library)
+    pools.set(
+      b.id,
+      mergeQuizOverlay(pools.get(b.id) ?? [], records, {
+        ...b,
+        levelLabel: quizLevels.find((l) => l.id === b.level)!.label,
+      }),
+    );
+  const current = library.map((b) => ({
+    ...b,
+    approvedCount: pools.get(b.id)!.length,
+    available: b.available && pools.get(b.id)!.length >= 10,
+    questionsToReview: Math.max(0, 10 - pools.get(b.id)!.length),
+  }));
+  return { library: current, pools };
 }

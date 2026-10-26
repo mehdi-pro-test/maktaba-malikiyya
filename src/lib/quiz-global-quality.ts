@@ -27,5 +27,9 @@ if (excludedIds.size !== globalQualityReview.excluded.length)
   throw new Error('Décision pédagogique dupliquée');
 /** Publication approval is necessary, but unsuitable standalone questions stay out of this mode. */
 export function eligibleForGlobalQuiz(question: QuizQuestion) {
-  return question.status === 'published' && !excludedIds.has(question.id);
+  return (
+    question.status === 'published' &&
+    question.globalEligible !== false &&
+    !excludedIds.has(question.id)
+  );
 }

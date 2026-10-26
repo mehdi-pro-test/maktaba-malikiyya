@@ -1,12 +1,13 @@
 import Link from 'next/link';
-import { library } from '@/lib/quiz-v12-data';
+import { currentQuizData } from '@/lib/quiz-v12-data';
 import { ArrowRight, BookOpen, Truck, ShieldCheck } from 'lucide-react';
 import { Books } from '@/components/books';
 import { visibleCategories } from '@/data/categories';
 import { CategoryTabs } from '@/components/category-tabs';
 import { Button } from '@/components/ui/button';
 export const dynamic = 'force-dynamic';
-export default function Home() {
+export default async function Home() {
+  const { library } = await currentQuizData();
   const availableQuizCount = library.filter((book) => book.available).length;
   return (
     <>

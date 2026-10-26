@@ -32,6 +32,12 @@ function QuestionSources({ question }: { question: Question }) {
                   des attributions non attestées.
                 </p>
               )}
+              {r?.textCheck === 'owner-collated' && (
+                <p className="quiz-editorial-notice">
+                  Collation déclarée par le propriétaire ; aucune certification indépendante
+                  revendiquée.
+                </p>
+              )}
               {r && (
                 <>
                   <p lang="ar" dir="rtl">
@@ -486,6 +492,38 @@ export function QuizGame({
           </button>
         )}
       </div>
+    </div>
+  );
+}
+/** Owner-only preview renderer. Rendering never saves or publishes a revision. */
+export function QuizPreview({ question }: { question: Question }) {
+  const [selected, setSelected] = useState<string[]>([]),
+    [validated, setValidated] = useState(false);
+  return (
+    <div key={question.promptFr} className="quiz-preview">
+      <QuestionOrigin question={question} />
+      <h3>{question.promptFr}</h3>
+      <QuizQuestion
+        question={question}
+        selected={selected}
+        validated={validated}
+        toggle={(id) => {
+          if (!validated) setSelected([id]);
+        }}
+      />
+      <button
+        className="button"
+        disabled={!selected.length || validated}
+        onClick={() => setValidated(true)}
+      >
+        Voir la correction de l’aperçu
+      </button>
+      {validated && (
+        <>
+          <QuestionExplanation question={question} />
+          <QuestionSources question={question} />
+        </>
+      )}
     </div>
   );
 }

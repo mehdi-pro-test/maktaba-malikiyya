@@ -1,0 +1,81 @@
+{
+  "title": "Maktaba Malikiyya V1.4 — admin unique",
+  "createdDate": "2026-10-26",
+  "repository": "mehdi-pro-test/maktaba-malikiyya",
+  "observedMainCommit": "d29c6dfe7862fcd8b34ef00b7543512914bc4d7d",
+  "documentOnly": true,
+  "adminIdentityCount": 1,
+  "files": [
+    {
+      "path": "00-COMMENCER-ICI.md",
+      "sha256": "f798b3d2276ccb3bbcc2956dadf481d3d2be98090f13e5683c65894198338140",
+      "bytes": 4055
+    },
+    {
+      "path": "01-AUDIT-EXISTANT.md",
+      "sha256": "1c357a6697e3ce3462b981a602c5f668b2251a63c1806d080fe31a42e0e4916a",
+      "bytes": 4851
+    },
+    {
+      "path": "02-CADRAGE-PERIMETRE.md",
+      "sha256": "80137e62d6811c70922e6edf2cbf3d95d6f5d06ad44e76fc6a57913aad54735c",
+      "bytes": 3951
+    },
+    {
+      "path": "03-UX-UI.md",
+      "sha256": "9534a9863186376ed11065e3f5efbf76f801f1d8cc50149e9295dca210ecadf4",
+      "bytes": 5343
+    },
+    {
+      "path": "04-SECURITE-ADMIN.md",
+      "sha256": "526e4da38ca6883caf4a9d6cb49b695ba023616249bdc711130d4c3b6cf54ec3",
+      "bytes": 4089
+    },
+    {
+      "path": "05-COMMANDES.md",
+      "sha256": "4e4b4a86dc779c9f3929fc7a4f22e3de09a910e243f92b987eb5f6105554ef58",
+      "bytes": 3351
+    },
+    {
+      "path": "06-STOCKS.md",
+      "sha256": "43e2bf52bc90c805967130579d7d8652ba259e4dd5e5c5e8ed526bd5bdfea2c3",
+      "bytes": 2780
+    },
+    {
+      "path": "07-CATALOGUE-IMAGES.md",
+      "sha256": "a7429422f1db558001209656712bb20d7439ff84ab5197eff86d6944bece9b8b",
+      "bytes": 3761
+    },
+    {
+      "path": "08-QUIZ-EDITORIAL.md",
+      "sha256": "1038ffe9e11fc59038f85873e68d77ca27a5d842a890809c92ca6e1295187c9e",
+      "bytes": 5714
+    },
+    {
+      "path": "09-ARCHITECTURE-MIGRATIONS.md",
+      "sha256": "9c5e03ce5c194a4d04ba5ad2c2d2b9a09caa3e53a8db8af390310ebee46d990a",
+      "bytes": 5159
+    },
+    {
+      "path": "10-TESTS-RECETTE.md",
+      "sha256": "1fd02e6ac736300b2286ff3d8dfcd4322f2a6778e256ac3f7028a2eaa512da80",
+      "bytes": 5223
+    },
+    {
+      "path": "11-DEPLOIEMENT-ET-EXPLOITATION.md",
+      "sha256": "b5015d1558e0219984b009241afe0f08c482827e4c05a4dda628dee090f6d6b6",
+      "bytes": 2970
+    },
+    {
+      "path": "12-DECISIONS-HYPOTHESES.md",
+      "sha256": "5a689b3cc255fa38fdaef7217cbc6b620dc215a6ad334b843903b943e2ffde75",
+      "bytes": 2626
+    },
+    {
+      "path": "PROMPT-CODEX-V1.4.md",
+      "sha256": "b6fa6a1341e63749e5976050f664356c5354e50170d82c3d23bacce0870cdc5f",
+      "bytes": 7591
+    }
+  ],
+  "notice": "Audit et consignes; aucune application modifiée ou migration exécutée dans ce paquet."
+}

@@ -2,8 +2,9 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuizLibrary } from '@/components/quiz-library';
 import { quizLevels } from '@/lib/quiz-v12';
-import { library } from '@/lib/quiz-v12-data';
+import { currentQuizData } from '@/lib/quiz-v12-data';
 export const dynamicParams = false;
+export const dynamic = 'force-dynamic';
 export function generateStaticParams() {
   return quizLevels.map((l) => ({ niveau: l.id }));
 }
@@ -14,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ niveau: s
   };
 }
 export default async function Page({ params }: { params: Promise<{ niveau: string }> }) {
+  const { library } = await currentQuizData();
   const { niveau } = await params;
   const level = quizLevels.find((l) => l.id === niveau);
   if (!level) notFound();

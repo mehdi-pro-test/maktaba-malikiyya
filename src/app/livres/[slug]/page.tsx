@@ -13,17 +13,8 @@ export const dynamic = 'force-dynamic';
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const c = visibleCategories().find((c) => c.slug === slug);
-  return {
-    title: c
-      ? `Catégorie ${c.nameFr}`
-      : slug === 'mukhtasar-al-akhdari'
-        ? 'Mukhtasar al-Akhdari'
-        : slug === 'moshaf-coran'
-          ? 'Coran (Moshaf)'
-          : slug === 'sahih-al-bukhari'
-            ? 'Sahih al-Bukhari'
-            : 'Ouvrage en arabe',
-  };
+  const product = c ? null : (await catalog()).find((p) => p.slug === slug);
+  return { title: c ? `Catégorie ${c.nameFr}` : (product?.titleFr ?? 'Ouvrage en arabe') };
 }
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -56,8 +47,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
       </Link>
       <div className="product-layout">
         <div className={`book-visual ${p.category}`}>
-          <BookImage src={p.imagePath} title={p.titleFr} />
-          <span className="visual-caption">Visuel provisoire · aucune édition représentée</span>
+          <BookImage src={p.imagePath} title={p.titleFr} altText={p.imageAlt ?? undefined} />
+          <span className="visual-caption">
+            {p.imageAlt
+              ? 'Couverture fournie par la librairie · édition à vérifier.'
+              : 'Visuel provisoire · aucune édition représentée'}
+          </span>
         </div>
         <div>
           <span className="eyebrow">
@@ -76,6 +71,12 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
               ? `Édition : ${productEditions[p.id]}.`
               : 'Les informations d’édition seront précisées ultérieurement.'}
           </p>
+          {p.descriptionFr && <p className="product-description">{p.descriptionFr}</p>}
+          {p.descriptionAr && (
+            <p className="product-description" lang="ar" dir="rtl">
+              {p.descriptionAr}
+            </p>
+          )}
           {p.status === 'DRAFT' ? (
             <div className="draft-message">
               <span className="eyebrow">BIENTÔT DISPONIBLE</span>

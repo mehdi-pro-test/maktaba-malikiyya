@@ -4,10 +4,12 @@ import { useState } from 'react';
 export function BookImage({
   src,
   title,
+  altText,
   fallbackSrc = '/images/book-fallback.svg',
 }: {
   src: string;
   title: string;
+  altText?: string;
   fallbackSrc?: string;
 }) {
   const [failedSrc, setFailedSrc] = useState<string | null>(null);
@@ -25,10 +27,13 @@ export function BookImage({
     <>
       <Image
         src={current}
+        unoptimized={current.startsWith('https://')}
         alt={
-          current.endsWith('.svg')
-            ? `Couverture graphique provisoire — ${title}`
-            : `Couverture de ${title} — édition à confirmer`
+          !usingFallback && altText
+            ? altText
+            : current.endsWith('.svg')
+              ? `Couverture graphique provisoire — ${title}`
+              : `Couverture de ${title} — édition à confirmer`
         }
         width={420}
         height={500}

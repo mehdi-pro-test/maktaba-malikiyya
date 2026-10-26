@@ -1,13 +1,15 @@
 import Link from 'next/link';
 import { QuizGame } from '@/components/quiz-game';
 import { startGlobalQuizAttempt } from '@/app/quiz/actions';
-import { globalQuestionCount } from '@/lib/quiz-global-data';
+import { currentGlobalQuestionCount } from '@/lib/quiz-global-data';
 export const metadata = {
   title: 'Quiz aléatoire — Tous les ouvrages',
   description:
     'Dix questions tirées au hasard parmi tous les ouvrages et niveaux de la bibliothèque.',
 };
-export default function Page() {
+export const dynamic = 'force-dynamic';
+export default async function Page() {
+  const count = await currentGlobalQuestionCount();
   return (
     <section className="quiz-shell quiz-global">
       <nav className="quiz-path-link" aria-label="Parcours de quiz">
@@ -17,7 +19,7 @@ export default function Page() {
         Des questions autonomes sélectionnées dans tous les niveaux et ouvrages.
       </p>
       <QuizGame
-        availableCount={globalQuestionCount()}
+        availableCount={count}
         loadAttempt={startGlobalQuizAttempt}
         context={{
           mode: 'global',

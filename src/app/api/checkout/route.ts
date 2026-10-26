@@ -59,7 +59,11 @@ export async function POST(request: Request) {
       { idempotencyKey: `checkout/${order.id}` },
     );
     if (session.livemode || !session.url) throw new Error('Session de test indisponible.');
-    await db.order.update({ where: { id: order.id }, data: { stripeSessionId: session.id } });
+    await db.order.update({
+      select: { id: true },
+      where: { id: order.id },
+      data: { stripeSessionId: session.id },
+    });
     return NextResponse.json({ url: session.url }, { headers: { 'Cache-Control': 'no-store' } });
   } catch (error) {
     if (error instanceof RangeError)

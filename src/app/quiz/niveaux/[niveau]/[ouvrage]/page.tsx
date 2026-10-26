@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { QuizGame } from '@/components/quiz-game';
-import { findQuizBook, library } from '@/lib/quiz-v12-data';
+import { findQuizBook, library, currentQuizData } from '@/lib/quiz-v12-data';
 import { startQuizAttempt } from '@/app/quiz/actions';
 import { quizLevels } from '@/lib/quiz-v12';
 export const dynamicParams = false;
+export const dynamic = 'force-dynamic';
 export function generateStaticParams() {
   return library.map((b) => ({ niveau: b.level, ouvrage: b.id }));
 }
@@ -22,7 +23,8 @@ export default async function Page({
   params: Promise<{ niveau: string; ouvrage: string }>;
 }) {
   const { niveau, ouvrage } = await params;
-  const book = findQuizBook(niveau, ouvrage);
+  const snapshot = await currentQuizData();
+  const book = snapshot.library.find((b) => b.level === niveau && b.id === ouvrage);
   const level = quizLevels.find((l) => l.id === niveau);
   if (!book || !level) notFound();
   const back = `/quiz/niveaux/${niveau}`;

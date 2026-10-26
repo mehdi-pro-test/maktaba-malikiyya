@@ -9,6 +9,13 @@ const config: NextConfig = {
   serverExternalPackages: ['@prisma/client'],
   async headers() {
     return [
+      ...['/admin/:path*', '/api/admin/:path*', '/api/auth/:path*'].map((source) => ({
+        source,
+        headers: [
+          { key: 'Cache-Control', value: 'private, no-store' },
+          { key: 'X-Robots-Tag', value: 'noindex, nofollow' },
+        ],
+      })),
       {
         source: '/:path*',
         headers: [
