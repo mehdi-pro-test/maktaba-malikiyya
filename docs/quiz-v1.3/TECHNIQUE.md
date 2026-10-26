@@ -1,3 +1,5 @@
+> **Actualisation :** les trois lots de 30 questions sont désormais enregistrés avec leurs rapports séparés, après la confirmation du propriétaire du 26 octobre 2026. Le registre n’est plus vide. Voir [activation des 90 questions](ACTIVATION-90-2026-10-26.md). Les descriptions de la livraison initiale sans activation ci-dessous sont historiques.
+
 # V1.3 — tirage technique et import futur
 
 ## Base et périmètre

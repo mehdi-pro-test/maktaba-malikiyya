@@ -4,18 +4,18 @@
   "books": [
     {
       "bookId": "moukhtassar-al-akhdari",
-      "published": 10,
-      "draft": 30
+      "published": 40,
+      "draft": 0
     },
     {
       "bookId": "matn-ibn-ashir",
-      "published": 10,
-      "draft": 30
+      "published": 40,
+      "draft": 0
     },
     {
       "bookId": "al-achmawiyya",
-      "published": 10,
-      "draft": 30
+      "published": 40,
+      "draft": 0
     },
     {
       "bookId": "al-mouqaddima-al-izziyya",
@@ -82,24 +82,24 @@
     {
       "bookId": "moukhtassar-al-akhdari",
       "written": 30,
-      "approved": 0,
+      "approved": 30,
       "digest": "44848abd2fc44c0bc13c6e8537ba700a6e435d2b166ccc91e183617890d96033"
     },
     {
       "bookId": "matn-ibn-ashir",
       "written": 30,
-      "approved": 0,
+      "approved": 30,
       "digest": "483d99bb31b37c97e4b5a3f0c0875a345c47c5844724ff735937106e1a3d7ec8"
     },
     {
       "bookId": "al-achmawiyya",
       "written": 30,
-      "approved": 0,
+      "approved": 30,
       "digest": "1bdeb6102d0f88db639a54f66395c0df98edcafb314503c823b6fb51b9565fdf"
     }
   ],
-  "publishedV13": 0,
-  "attributionDifferencesToReview": [
+  "publishedV13": 90,
+  "attributionDifferencesRecorded": [
     "al-achmawiyya-v13-001",
     "al-achmawiyya-v13-002",
     "al-achmawiyya-v13-003",
@@ -131,5 +131,5 @@
     "al-achmawiyya-v13-029",
     "al-achmawiyya-v13-030"
   ],
-  "note": "Contrôle structurel seulement. Doublons sémantiques et exactitude religieuse à relire. Aucun fichier modifié."
+  "note": "Contrôle structurel ; 90 approbations fondées sur la confirmation de relecture déclarée du propriétaire. Aucun contrôle religieux indépendant par Codex. Écarts de titre conservés et couverts par cette déclaration. Aucun fichier modifié."
 }

@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import draftA from '../../docs/quiz-v1.3-pack/recherche-v1.3/01-akhdari-30-candidats.json' with { type: 'json' };
 import draftB from '../../docs/quiz-v1.3-pack/recherche-v1.3/02-ibn-ashir-30-candidats.json' with { type: 'json' };
 import draftC from '../../docs/quiz-v1.3-pack/recherche-v1.3/03-achmawiyya-30-candidats.json' with { type: 'json' };
-import bank from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
+import { liveBank as bank } from '../fixtures/quiz-live-bank';
 const path = '/quiz/niveaux/debutant/moukhtassar-al-akhdari';
 
 test('Introduction sans banque ni brouillons ; démarrage serveur et stabilité de partie', async ({

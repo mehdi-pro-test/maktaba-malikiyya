@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import bank from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
+import { liveBank as bank } from '../fixtures/quiz-live-bank';
 import AxeBuilder from '@axe-core/playwright';
 const quizPath = '/quiz/niveaux/debutant/moukhtassar-al-akhdari';
 const questions = bank.questions.filter((q) => q.bookId === 'moukhtassar-al-akhdari');
@@ -93,7 +93,7 @@ test('Mini-panier clavier, focus restauré et seuil France/Europe', async ({ pag
 test('Quiz ouvrage : sélection, score, correction, résultat et rejouer', async ({ page }) => {
   await page.goto(quizPath);
   await expect(
-    page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
+    page.getByText('10 questions par partie (40 questions dans la banque)', { exact: true }),
   ).toBeVisible();
   await page.getByRole('button', { name: 'Commencer le quiz' }).click();
   await finishQuiz(page, true);

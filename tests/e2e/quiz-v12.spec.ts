@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import raw from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
+import { liveBank as raw } from '../fixtures/quiz-live-bank';
 test('Cinq parcours, quinze ouvrages approuvés et navigation clavier', async ({ page }) => {
   await page.goto('/');
   const header = page.getByRole('navigation', { name: 'Navigation principale', exact: true });
@@ -44,7 +44,10 @@ test('Les quinze quiz réels sont jouables et montrent la source arabe après va
   for (const b of raw.books) {
     await page.goto(`/quiz/niveaux/${b.level}/${b.id}`);
     await expect(
-      page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
+      page.getByText(
+        `10 questions par partie (${raw.questions.filter((q) => q.bookId === b.id).length} questions dans la banque)`,
+        { exact: true },
+      ),
     ).toBeVisible();
     await page.getByRole('button', { name: 'Commencer le quiz' }).click();
     await expect(page.locator('.quiz-game h1')).toBeVisible();
@@ -123,7 +126,7 @@ test('Ancienne adresse redirigée, aucun accès au classique et accueil actualis
   await expect(page.getByRole('button', { name: 'Commencer le quiz' })).toHaveCount(0);
   await page.goto('/');
   await expect(page.locator('.quiz-teaser')).toContainText('15 quiz par niveau et par ouvrage');
-  await expect(page.locator('.quiz-teaser')).toContainText('150 questions disponibles.');
+  await expect(page.locator('.quiz-teaser')).toContainText('240 questions disponibles.');
   await page.getByRole('link', { name: 'Découvrir les quiz', exact: true }).click();
   await expect(page).toHaveURL(/\/quiz\/niveaux$/);
 });

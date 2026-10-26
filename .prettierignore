@@ -13,3 +13,6 @@ docs/quiz-v1.2/recherche
 
 # Supplied V1.3 editorial pack: preserve original bytes.
 docs/quiz-v1.3-pack
+
+# Immutable V1.3 supplied content; approvals are in separate formatted reports.
+src/data/quiz-v1.3/*-candidats.json
