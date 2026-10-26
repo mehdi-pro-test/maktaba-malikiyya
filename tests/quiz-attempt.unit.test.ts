@@ -2,6 +2,7 @@ import { beforeEach, expect, it, vi } from 'vitest';
 import { syntheticPool } from './fixtures/quiz-pool';
 const data = vi.hoisted(() => ({ findQuizBook: vi.fn(), bookQuestions: vi.fn() }));
 vi.mock('../src/lib/quiz-v12-data', () => data);
+vi.mock('../src/lib/quiz-global-data', () => ({ globalQuestions: vi.fn() }));
 import { startQuizAttempt } from '../src/app/quiz/actions';
 beforeEach(() => {
   vi.clearAllMocks();

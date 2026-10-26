@@ -9,6 +9,13 @@ export function drawQuestions<T extends { id: string }>(
 ): T[] {
   if (pool.length > MAX_APPROVED_POOL)
     throw new Error(`Banque supérieure à ${MAX_APPROVED_POOL} : règle éditoriale requise`);
+  return sampleTen(pool, random);
+}
+/** Shared uniform sampler without a per-book capacity limit. */
+export function sampleTen<T extends { id: string }>(
+  pool: readonly T[],
+  random: () => number = Math.random,
+): T[] {
   if (new Set(pool.map((q) => q.id)).size !== pool.length) throw new Error('Identifiant dupliqué');
   if (pool.length < ATTEMPT_SIZE) return [];
   const copy = [...pool];
@@ -24,4 +31,10 @@ export function drawQuestions<T extends { id: string }>(
 export function drawPublishedQuestions(pool: readonly QuizQuestion[], random?: () => number) {
   if (pool.some((q) => q.status !== 'published')) throw new Error('Question non publiée');
   return drawQuestions(pool, random);
+}
+
+/** Global projection only: no per-book capacity rule applies to the combined pool. */
+export function drawGlobalQuestions(pool: readonly QuizQuestion[], random?: () => number) {
+  if (pool.some((q) => q.status !== 'published')) throw new Error('Question non publiée');
+  return sampleTen(pool, random);
 }

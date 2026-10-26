@@ -25,3 +25,6 @@ src/data/quiz-v1.3-pending-180
 docs/quiz-v1.3-ultime-190/source
 src/data/quiz-v1.3-ultime-190/01-BANQUE-190-QUESTIONS-ULTIME.json
 src/data/quiz-v1.3-ultime-190/08-VALIDATION-PROPRIETAIRE-190.json
+
+# Supplied global-mode documentation retains its original bytes.
+docs/quiz-global/source

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ArrowRight, BookOpen, RotateCcw, Sparkles, Check, X } from 'lucide-react';
 import type { QuizQuestion as Question } from '@/lib/quiz';
 export type QuizContext = {
+  mode?: 'global';
   titleFr: string;
   titleAr: string;
   levelLabel: string;
@@ -118,7 +119,13 @@ export function QuizIntro({
           </>
         )}
       </h1>
-      {context && <p>{context.levelLabel} · Un quiz par ouvrage</p>}
+      {context && (
+        <p>
+          {context.mode === 'global'
+            ? 'Tous les niveaux et ouvrages · 10 questions tirées de toute la bibliothèque'
+            : `${context.levelLabel} · Un quiz par ouvrage`}
+        </p>
+      )}
       <p>
         Explorez vos connaissances en sciences islamiques.
         <br />

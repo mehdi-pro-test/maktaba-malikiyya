@@ -2,7 +2,8 @@
 import { randomInt } from 'node:crypto';
 import { z } from 'zod';
 import { bookQuestions, findQuizBook } from '@/lib/quiz-v12-data';
-import { drawPublishedQuestions } from '@/lib/quiz-draw';
+import { globalQuestions } from '@/lib/quiz-global-data';
+import { drawGlobalQuestions, drawPublishedQuestions } from '@/lib/quiz-draw';
 const input = z.tuple([
   z
     .string()
@@ -21,4 +22,9 @@ export async function startQuizAttempt(level: string, bookId: string) {
     bookQuestions(checkedLevel, checkedId),
     () => randomInt(2 ** 32) / 2 ** 32,
   );
+}
+
+/** No client pool or IDs accepted. Read-only, fresh selection on every call. */
+export async function startGlobalQuizAttempt() {
+  return drawGlobalQuestions(globalQuestions(), () => randomInt(2 ** 32) / 2 ** 32);
 }
