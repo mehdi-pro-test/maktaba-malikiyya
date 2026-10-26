@@ -125,8 +125,11 @@ test('Ancienne adresse redirigée, aucun accès au classique et accueil actualis
   await expect(page.getByRole('heading', { name: 'Les quiz par niveau.' })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Commencer le quiz' })).toHaveCount(0);
   await page.goto('/');
-  await expect(page.locator('.quiz-teaser')).toContainText('15 quiz par niveau et par ouvrage');
-  await expect(page.locator('.quiz-teaser')).toContainText('240 questions disponibles.');
+  // Next can retain a hidden route tree while restoring the active homepage.
+  const teaser = page.locator('.quiz-teaser:visible');
+  await expect(teaser).toHaveCount(1);
+  await expect(teaser).toContainText('15 quiz par niveau et par ouvrage');
+  await expect(teaser).toContainText('240 questions disponibles.');
   await page.getByRole('link', { name: 'Découvrir les quiz', exact: true }).click();
   await expect(page).toHaveURL(/\/quiz\/niveaux$/);
 });
