@@ -79,12 +79,10 @@ function ArabicText({ text }: { text: string }) {
   );
 }
 export function QuizIntro({
-  count,
   start,
   context,
   pending = false,
 }: {
-  count: number;
   start: () => void;
   pending?: boolean;
   context?: QuizContext;
@@ -121,7 +119,7 @@ export function QuizIntro({
       <div className="quiz-intro-facts">
         <span>
           <BookOpen size={17} />
-          {count} questions disponibles
+          10 questions par partie
         </span>
         <span>Sans chrono. À votre rythme.</span>
       </div>
@@ -336,7 +334,7 @@ export function QuizGame({
             pending={pending}
           />
         ) : (
-          <QuizIntro count={count} start={replay} context={context} pending={pending} />
+          <QuizIntro start={replay} context={context} pending={pending} />
         )}
       </>
     );
