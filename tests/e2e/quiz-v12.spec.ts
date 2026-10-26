@@ -129,7 +129,7 @@ test('Ancienne adresse redirigée, aucun accès au classique et accueil actualis
   const teaser = page.locator('.quiz-teaser:visible');
   await expect(teaser).toHaveCount(1);
   await expect(teaser).toContainText('15 quiz par niveau et par ouvrage');
-  await expect(teaser).toContainText('240 questions disponibles.');
+  await expect(teaser).toContainText('420 questions disponibles.');
   await page.getByRole('link', { name: 'Découvrir les quiz', exact: true }).click();
   await expect(page).toHaveURL(/\/quiz\/niveaux$/);
 });

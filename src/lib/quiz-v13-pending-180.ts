@@ -1,5 +1,5 @@
 // Editorial-only registry. Never imported by public pages, actions, or quiz-v13-lots.
-// Owner approval is recorded separately; no publication report exists for these six lots.
+// Archival source-only view without reports; active publication decisions are now in quiz-v13-lots.
 import type { CandidateLot } from './quiz-v13-editorial';
 import izziyya from '../data/quiz-v1.3-pending-180/01-al-mouqaddima-al-izziyya-30-candidats.json' with { type: 'json' };
 import masalik from '../data/quiz-v1.3-pending-180/02-ashal-al-masalik-30-candidats.json' with { type: 'json' };

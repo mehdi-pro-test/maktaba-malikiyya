@@ -60,19 +60,48 @@ describe('Import des 180 QCM sans publication', () => {
             q.source.quoteIsCertifiedVerbatim === false && q.distractorsReviewRequired === true,
         ),
     ).toBe(true);
-    const result = inspectCandidateLots(base, [...editorialLots, ...pending180Lots]);
-    expect(result.approved).toHaveLength(90); // only the three already approved beginner lots
-    expect(base.questions.length + result.approved.length).toBe(240);
-    expect(result.inventory.slice(3).map((b) => b.approved)).toEqual([0, 0, 0, 0, 0, 0]);
+    const result = inspectCandidateLots(base, pending180Lots);
+    expect(result.approved).toHaveLength(0); // archival lots alone are still non-publishable
+    expect(base.questions.length + inspectCandidateLots(base, editorialLots).approved.length).toBe(
+      420,
+    );
+    expect(result.inventory.map((b) => b.approved)).toEqual([0, 0, 0, 0, 0, 0]);
     expect(
       new Set(
         [
           ...base.questions,
           ...banks.flatMap((b) => b.questions),
-          ...editorialLots.flatMap((l) => candidateBatchSchema.parse(l.batch).questions),
+          ...editorialLots
+            .filter((l) => candidateBatchSchema.parse(l.batch).questions[0].level === 'debutant')
+            .flatMap((l) => candidateBatchSchema.parse(l.batch).questions),
         ].map((q) => q.id),
       ).size,
     ).toBe(420);
+  });
+  it('active les 180 vérifications déclarées avec six rapports distincts et conserve les anciens lots', () => {
+    const active = inspectCandidateLots(base, editorialLots);
+    expect(active.approved).toHaveLength(270);
+    expect(active.inventory.map((i) => i.approved)).toEqual(Array(9).fill(30));
+    for (const lot of editorialLots.slice(3)) {
+      const report = lot.report as {
+        reviews: {
+          citationVerified: boolean;
+          attributionVerified: boolean;
+          deduplicationReviewed: boolean;
+          distractorsReviewed: boolean;
+        }[];
+      };
+      expect(report.reviews).toHaveLength(30);
+      expect(
+        report.reviews.every(
+          (r) =>
+            r.citationVerified &&
+            r.attributionVerified &&
+            r.deduplicationReviewed &&
+            r.distractorsReviewed,
+        ),
+      ).toBe(true);
+    }
   });
   it('enregistre les 180 approbations éditoriales avec attestations nulles', () => {
     const approval = validateOwnerApproval(owner, files);

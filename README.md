@@ -1,3 +1,5 @@
+> **Activation des 180 questions validée par le propriétaire : 420 questions publiées**. Les trois ouvrages intermédiaires et les trois avancés passent à 40 questions chacun, avec dix questions tirées par partie. Voir [confirmation et périmètre](docs/quiz-v1.3-import-180/ACTIVATION-2026-10-26.md). Les états antérieurs ci-dessous restent historiques.
+
 > **Import éditorial de 180 questions (PR non fusionnée)** : six lots intermédiaires/avancés ajoutés au circuit éditorial, avec l’approbation du propriétaire conservée. Citations et attributions non attestées : **aucune nouvelle publication**, les 240 questions actives sont préservées. Voir [inventaire et points à vérifier](docs/quiz-v1.3-import-180/README.md).
 
 > **Activation V1.3 :** le propriétaire a demandé la publication des 90 nouvelles questions et confirmé leur relecture le 26 octobre 2026. La banque passe à **240 questions publiées**, dont **40 par ouvrage débutant** ; dix sont tirées par partie. Voir [la déclaration enregistrée](docs/quiz-v1.3/ACTIVATION-90-2026-10-26.md) et [l’inventaire courant](docs/quiz-v1.3/INVENTAIRE.md). Les états précédents ci-dessous sont historiques.

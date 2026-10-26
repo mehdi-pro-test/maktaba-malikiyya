@@ -25,7 +25,12 @@ const approval = validateOwnerApproval(
   files,
 );
 const active = inspectCandidateLots(base, editorialLots);
-const combined = inspectCandidateLots(base, [...editorialLots, ...pending180Lots]);
+const previousLots = editorialLots.filter(
+  (l) => candidateBatchSchema.parse(l.batch).questions[0].level === 'debutant',
+);
+const previous = inspectCandidateLots(base, previousLots);
+const combined = active;
+const publishedIds = new Set(active.approved.map((q) => q.id));
 const existing = [
   ...base.questions.map((q) => ({
     id: q.id,
@@ -33,7 +38,7 @@ const existing = [
     questionFr: q.questionFr,
     quoteAr: q.references[0].quoteAr,
   })),
-  ...editorialLots.flatMap((l) =>
+  ...previousLots.flatMap((l) =>
     candidateBatchSchema.parse(l.batch).questions.map((q) => ({ ...q, quoteAr: q.source.quoteAr })),
   ),
 ];
@@ -58,7 +63,7 @@ console.log(
       baseCommit: 'bc8df4071c87db6037afd86136b0c698406f6223',
       imported: 180,
       editorialApprovals: approval.questions.length,
-      newPublished: combined.approved.length - active.approved.length,
+      newPublished: combined.approved.length - previous.approved.length,
       publicTotal: base.questions.length + active.approved.length,
       files: files.map((f) => ({
         name: f.name,
@@ -70,8 +75,12 @@ console.log(
         level: b.level,
         published: 10 + (active.approvedByBook.get(b.id)?.length ?? 0),
         imported: added.filter((q) => q.bookId === b.id).length,
-        missingCitationVerification: added.filter((q) => q.bookId === b.id).length,
-        missingAttributionVerification: added.filter((q) => q.bookId === b.id).length,
+        missingCitationVerification: added.filter(
+          (q) => q.bookId === b.id && !publishedIds.has(q.id),
+        ).length,
+        missingAttributionVerification: added.filter(
+          (q) => q.bookId === b.id && !publishedIds.has(q.id),
+        ).length,
       })),
       exactGlobalPrompts,
       potentialCollisions: potentialEditorialCollisions(existing, added),
@@ -79,7 +88,7 @@ console.log(
         added.some((q) => q.id === id),
       ),
       limits:
-        'Signaux textuels, non-exhaustifs : la déduplication sémantique et la vérification religieuse restent à conclure par l’éditeur. Aucun rapport publiable généré.',
+        'Les 180 vérifications de citation, attribution, distracteurs et déduplication sont enregistrées sur la confirmation déclarée du propriétaire « verif ok / mets en prod ». Aucun contrôle religieux indépendant par Codex. Les 13 signalements et les sources d’origine restent conservés, sans correction de contenu.',
     },
     null,
     2,

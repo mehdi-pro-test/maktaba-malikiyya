@@ -1,0 +1,283 @@
+{
+  "baseCommit": "bc8df4071c87db6037afd86136b0c698406f6223",
+  "imported": 180,
+  "editorialApprovals": 180,
+  "newPublished": 0,
+  "publicTotal": 240,
+  "files": [
+    {
+      "name": "01-al-mouqaddima-al-izziyya-30-candidats.json",
+      "sha256": "6cf6948c69ce5744a946274c973c93229036ab875c220da8b195424504b2cd4c",
+      "canonicalSha256": "c0ca37f0806cd7e441e2a8b89e98f785e127fdc82755a2fe5f8807ada99c4401"
+    },
+    {
+      "name": "02-ashal-al-masalik-30-candidats.json",
+      "sha256": "a274677253862c772e00ac5055095669fe9a98c8ff5b01fd1711d55404e53b0d",
+      "canonicalSha256": "5cde60f84458b3de8f950c733333d711474137e3b92fe845082eeef9b35f3751"
+    },
+    {
+      "name": "03-ar-risala-ibn-abi-zayd-30-candidats.json",
+      "sha256": "b055b3d56c20d80111048585102ddb7576691169d867c7c41871ecb7f0b95a17",
+      "canonicalSha256": "de5589b8935ba19db21ef9a534cf40472b7b9d7e442d633928199bf325c995f3"
+    },
+    {
+      "name": "04-moukhtassar-khalil-30-candidats.json",
+      "sha256": "72a41c91983a4bd1ced64c10e9bc4136fe7b4376ed7bb73146a5a3d3a410ab7d",
+      "canonicalSha256": "34a7d4a0fe95803c17dbbbf14e935cda7314165c40bf4efd03dc4149bb158347"
+    },
+    {
+      "name": "05-sharh-al-dardir-30-candidats.json",
+      "sha256": "46e0dbc87d46f2105bd22617288a9f3978fbab7a2e61d436979e8ae8f38d2f2d",
+      "canonicalSha256": "56e64556447ea5de84b75faf1f419927dcbd81c1e5a9f59fba13ab3edf005e9f"
+    },
+    {
+      "name": "06-hashiyat-al-dasuqi-30-candidats.json",
+      "sha256": "9412aa972d3f504931cd65585235586bd8d351465ae7f08bd17ca677c0a33179",
+      "canonicalSha256": "60b88acdebd2335378b10cf9b94fed6a51bdff10ec4e366f22f45f406cb65f43"
+    }
+  ],
+  "inventory": [
+    {
+      "bookId": "moukhtassar-al-akhdari",
+      "level": "debutant",
+      "published": 40,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "matn-ibn-ashir",
+      "level": "debutant",
+      "published": 40,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "published": 40,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "al-mouqaddima-al-izziyya",
+      "level": "intermediaire",
+      "published": 10,
+      "imported": 30,
+      "missingCitationVerification": 30,
+      "missingAttributionVerification": 30
+    },
+    {
+      "bookId": "ashal-al-masalik",
+      "level": "intermediaire",
+      "published": 10,
+      "imported": 30,
+      "missingCitationVerification": 30,
+      "missingAttributionVerification": 30
+    },
+    {
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "level": "intermediaire",
+      "published": 10,
+      "imported": 30,
+      "missingCitationVerification": 30,
+      "missingAttributionVerification": 30
+    },
+    {
+      "bookId": "moukhtassar-khalil",
+      "level": "avance",
+      "published": 10,
+      "imported": 30,
+      "missingCitationVerification": 30,
+      "missingAttributionVerification": 30
+    },
+    {
+      "bookId": "sharh-al-dardir",
+      "level": "avance",
+      "published": 10,
+      "imported": 30,
+      "missingCitationVerification": 30,
+      "missingAttributionVerification": 30
+    },
+    {
+      "bookId": "hashiyat-al-dasuqi",
+      "level": "avance",
+      "published": 10,
+      "imported": 30,
+      "missingCitationVerification": 30,
+      "missingAttributionVerification": 30
+    },
+    {
+      "bookId": "bidayat-al-mujtahid",
+      "level": "ultime",
+      "published": 10,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "published": 10,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "issal-as-salik",
+      "level": "usul",
+      "published": 10,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "level": "usul",
+      "published": 10,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "murtaqa-al-wusul",
+      "level": "usul",
+      "published": 10,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    },
+    {
+      "bookId": "maraqi-as-suud",
+      "level": "usul",
+      "published": 10,
+      "imported": 0,
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
+    }
+  ],
+  "exactGlobalPrompts": [],
+  "potentialCollisions": [
+    {
+      "questionId": "ashal-al-masalik-v13-ia-024",
+      "comparedId": "ashal-al-masalik-01",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel nombre d'obligations du ghusl le poème annonce-t-il ?",
+      "comparedQuestionFr": "Comment le poème compte-t-il les obligations du wuḍūʾ ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-024",
+      "comparedId": "ashal-al-masalik-05",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "Quel nombre d'obligations du ghusl le poème annonce-t-il ?",
+      "comparedQuestionFr": "Combien d’actes méritoires des ablutions le poème annonce-t-il ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-027",
+      "comparedId": "ashal-al-masalik-v13-ia-026",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel geste de la bouche est cité comme sunna du ghusl ?",
+      "comparedQuestionFr": "Quel geste nasal est cité parmi les sunnas du ghusl ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "ashal-al-masalik-v13-ia-028",
+      "comparedId": "ashal-al-masalik-v13-ia-026",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "Quelle partie des oreilles le poème dit-il d'essuyer parmi les sunnas du ghusl ?",
+      "comparedQuestionFr": "Quel geste nasal est cité parmi les sunnas du ghusl ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-009",
+      "comparedId": "ar-risala-ibn-abi-zayd-v13-ia-008",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "Quelle durée maximale la Risala donne-t-elle ici aux lochies persistantes ?",
+      "comparedQuestionFr": "Quelle durée maximale est mentionnée dans le passage pour des règles persistantes ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "ar-risala-ibn-abi-zayd-v13-ia-017",
+      "comparedId": "ar-risala-ibn-abi-zayd-v13-ia-016",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quelle sourate est mentionnée pour la deuxième rakʿa du shafʿ ?",
+      "comparedQuestionFr": "Quelle sourate est recommandée à la première rakʿa du shafʿ dans le passage ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-004",
+      "comparedId": "moukhtassar-khalil-v13-ia-003",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "Quel savant Khalil associe-t-il au terme « الظهور » ?",
+      "comparedQuestionFr": "Quel auteur Khalil associe-t-il à la mention « الترجيح » ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-005",
+      "comparedId": "moukhtassar-khalil-v13-ia-002",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "À quel juriste Khalil renvoie-t-il par « القول » ?",
+      "comparedQuestionFr": "À qui renvoie la formule « الاختيار » selon l'introduction de Khalil ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "moukhtassar-khalil-v13-ia-005",
+      "comparedId": "moukhtassar-khalil-v13-ia-003",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "À quel juriste Khalil renvoie-t-il par « القول » ?",
+      "comparedQuestionFr": "Quel auteur Khalil associe-t-il à la mention « الترجيح » ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-008",
+      "comparedId": "hashiyat-al-dasuqi-v13-ia-006",
+      "score": 0.556,
+      "sharedQuote": false,
+      "questionFr": "Quel statut la glose donne-t-elle à la négation de l'intention de tayammum pendant qu'il est en cours ?",
+      "comparedQuestionFr": "À quel acte la glose rapproche-t-elle l'intention rituelle du tayammum ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-013",
+      "comparedId": "hashiyat-al-dasuqi-v13-ia-009",
+      "score": 0.125,
+      "sharedQuote": true,
+      "questionFr": "Quel rapport la glose reconnaît-elle entre la purification par tayammum et par eau ?",
+      "comparedQuestionFr": "Pourquoi le rejet de l'intention après le tayammum est-il traité sévèrement dans ce passage ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-025",
+      "comparedId": "hashiyat-al-dasuqi-01",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quelle distinction est centrale pour classer l'eau de rose par rapport à l'eau de mer ?",
+      "comparedQuestionFr": "Quelle distinction permet au Dasūqī de classer l’eau de mer parmi l’eau muṭlaq ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "hashiyat-al-dasuqi-v13-ia-028",
+      "comparedId": "hashiyat-al-dasuqi-09",
+      "score": 0.556,
+      "sharedQuote": false,
+      "questionFr": "Lorsque la cavité est suffisamment large pour être frottée, que demande la glose ?",
+      "comparedQuestionFr": "Si une cavité cicatrisée est assez large pour être lavée et frottée, que précise la glose ?",
+      "status": "editorial-review-required"
+    }
+  ],
+  "newAttributionDifferences": [],
+  "limits": "Signaux textuels, non-exhaustifs : la déduplication sémantique et la vérification religieuse restent à conclure par l’éditeur. Aucun rapport publiable généré."
+}

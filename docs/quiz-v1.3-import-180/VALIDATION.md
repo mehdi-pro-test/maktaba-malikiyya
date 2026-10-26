@@ -1,3 +1,5 @@
+> **Actualisation :** le propriétaire a confirmé « verif ok / mets en prod ». Les six rapports d’approbation sont enregistrés et le total passe à 420 questions publiées. Voir [l’activation déclarée](ACTIVATION-2026-10-26.md). Le bilan initial ci-dessous décrit l’état avant cette confirmation.
+
 # Validation technique de l’import des 180 questions
 
 Contrôles du 26 octobre 2026, sur une branche dédiée issue de `main@bc8df4071c87db6037afd86136b0c698406f6223`. Aucun contenu religieux rédigé ou corrigé. Aucun test hébergé ou de Production effectué pour cet import.

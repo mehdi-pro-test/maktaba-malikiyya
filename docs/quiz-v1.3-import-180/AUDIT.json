@@ -2,8 +2,8 @@
   "baseCommit": "bc8df4071c87db6037afd86136b0c698406f6223",
   "imported": 180,
   "editorialApprovals": 180,
-  "newPublished": 0,
-  "publicTotal": 240,
+  "newPublished": 180,
+  "publicTotal": 420,
   "files": [
     {
       "name": "01-al-mouqaddima-al-izziyya-30-candidats.json",
@@ -64,50 +64,50 @@
     {
       "bookId": "al-mouqaddima-al-izziyya",
       "level": "intermediaire",
-      "published": 10,
+      "published": 40,
       "imported": 30,
-      "missingCitationVerification": 30,
-      "missingAttributionVerification": 30
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
     },
     {
       "bookId": "ashal-al-masalik",
       "level": "intermediaire",
-      "published": 10,
+      "published": 40,
       "imported": 30,
-      "missingCitationVerification": 30,
-      "missingAttributionVerification": 30
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
     },
     {
       "bookId": "ar-risala-ibn-abi-zayd",
       "level": "intermediaire",
-      "published": 10,
+      "published": 40,
       "imported": 30,
-      "missingCitationVerification": 30,
-      "missingAttributionVerification": 30
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
     },
     {
       "bookId": "moukhtassar-khalil",
       "level": "avance",
-      "published": 10,
+      "published": 40,
       "imported": 30,
-      "missingCitationVerification": 30,
-      "missingAttributionVerification": 30
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
     },
     {
       "bookId": "sharh-al-dardir",
       "level": "avance",
-      "published": 10,
+      "published": 40,
       "imported": 30,
-      "missingCitationVerification": 30,
-      "missingAttributionVerification": 30
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
     },
     {
       "bookId": "hashiyat-al-dasuqi",
       "level": "avance",
-      "published": 10,
+      "published": 40,
       "imported": 30,
-      "missingCitationVerification": 30,
-      "missingAttributionVerification": 30
+      "missingCitationVerification": 0,
+      "missingAttributionVerification": 0
     },
     {
       "bookId": "bidayat-al-mujtahid",
@@ -279,5 +279,5 @@
     }
   ],
   "newAttributionDifferences": [],
-  "limits": "Signaux textuels, non-exhaustifs : la déduplication sémantique et la vérification religieuse restent à conclure par l’éditeur. Aucun rapport publiable généré."
+  "limits": "Les 180 vérifications de citation, attribution, distracteurs et déduplication sont enregistrées sur la confirmation déclarée du propriétaire « verif ok / mets en prod ». Aucun contrôle religieux indépendant par Codex. Les 13 signalements et les sources d’origine restent conservés, sans correction de contenu."
 }

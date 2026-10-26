@@ -1,3 +1,5 @@
+> **Actualisation :** le propriétaire a confirmé « verif ok / mets en prod ». Les six rapports d’approbation sont enregistrés et le total passe à 420 questions publiées. Voir [l’activation déclarée](ACTIVATION-2026-10-26.md). Le bilan initial ci-dessous décrit l’état avant cette confirmation.
+
 # Import éditorial de 180 questions — audit et état de publication
 
 Base récupérée : `main@bc8df4071c87db6037afd86136b0c698406f6223` le 26 octobre 2026. Aucun contenu religieux recherché, rédigé ou corrigé. Les 15 fichiers du ZIP sont archivés à l’identique sous `source/`, avec leurs empreintes dans `IMPORT-SHA256.json`.

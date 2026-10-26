@@ -1,8 +1,9 @@
 import { test, expect } from '@playwright/test';
+import { liveBank } from '../fixtures/quiz-live-bank';
 import { pending180Lots } from '../../src/lib/quiz-v13-pending-180';
 import { candidateBatchSchema } from '../../src/lib/quiz-v13-editorial';
 const banks = pending180Lots.map((l) => candidateBatchSchema.parse(l.batch));
-test('Les 180 ajouts éditoriaux restent absents du HTML, du JavaScript et des tentatives publiques', async ({
+test('Les 180 questions vérifiées sont jouables dans six banques de 40 sans exposer la banque entière', async ({
   page,
   request,
 }) => {
@@ -20,10 +21,10 @@ test('Les 180 ajouts éditoriaux restent absents du HTML, du JavaScript et des t
   await expect(page.locator('.quiz-book-card')).toHaveCount(15);
   await expect(
     page.getByText('10 questions par partie (40 questions dans la banque)', { exact: true }),
-  ).toHaveCount(3);
+  ).toHaveCount(9);
   await expect(
     page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
-  ).toHaveCount(12);
+  ).toHaveCount(6);
   const scripts = await page
     .locator('script[src]')
     .evaluateAll((nodes) =>
@@ -42,12 +43,19 @@ test('Les 180 ajouts éditoriaux restent absents du HTML, du JavaScript et des t
     }
     await page.goto(path);
     await expect(
-      page.getByText('10 questions par partie (10 questions dans la banque)', { exact: true }),
+      page.getByText('10 questions par partie (40 questions dans la banque)', { exact: true }),
     ).toBeVisible();
     lastPayload = '';
     await page.getByRole('button', { name: 'Commencer le quiz' }).click();
     await expect(page.getByText('Question 1 sur 10', { exact: true })).toBeVisible();
     expect(lastPayload).toContain('correctOptionIds');
-    for (const id of forbidden) expect(lastPayload).not.toContain(id);
+    const eligible = liveBank.questions.filter((q) => q.bookId === bank.bookId);
+    expect(eligible).toHaveLength(40);
+    const ids = [...lastPayload.matchAll(/"id":"([^"]+)"/g)]
+      .map((m) => m[1])
+      .filter((id) => liveBank.questions.some((q) => q.id === id));
+    expect(ids).toHaveLength(10);
+    expect(new Set(ids).size).toBe(10);
+    expect(ids.every((id) => eligible.some((q) => q.id === id))).toBe(true);
   }
 });
