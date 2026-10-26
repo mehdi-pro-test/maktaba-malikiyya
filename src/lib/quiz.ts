@@ -9,6 +9,8 @@ const questionSchema = z
     id: z.string().min(1),
     status: z.literal('published'),
     category: z.string().min(1),
+    publicationBasis: z.literal('owner-editorial-approval').optional(),
+    sourceVerification: z.literal('not-attested').optional(),
     sources: z
       .array(
         z.object({
@@ -20,6 +22,9 @@ const questionSchema = z
               sectionAr: z.string(),
               quoteAr: z.string(),
               quoteLayer: z.string(),
+              textCheck: z
+                .enum(['requires-editorial-collation', 'matched-transcription', 'read-facsimile'])
+                .optional(),
               locator: z.string(),
               edition: z.string().nullable(),
               printedPage: z.number().nullable(),

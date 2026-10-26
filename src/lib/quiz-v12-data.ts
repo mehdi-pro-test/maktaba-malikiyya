@@ -5,15 +5,25 @@ import rawReviews from '@/data/quiz-v1.2/reviews.json';
 import { researchBankSchema, validateReviewReport, publicLibrary, playableBook } from './quiz-v12';
 import { inspectCandidateLots } from './quiz-v13-editorial';
 import { editorialLots } from './quiz-v13-lots';
+import { ultimeAdditions } from './quiz-ultime-data';
+import { candidateBatchSchema } from './quiz-v13-editorial';
+import { MAX_APPROVED_POOL } from './quiz-draw';
 const bank = researchBankSchema.parse(rawBank);
 const reviews = validateReviewReport(bank, rawReviews);
 const additions = inspectCandidateLots(bank, editorialLots).approvedByBook;
+const ultime = ultimeAdditions(bank, [
+  ...bank.questions,
+  ...editorialLots.flatMap((l) => candidateBatchSchema.parse(l.batch).questions),
+]);
 const pools = new Map(
   bank.books.map((b) => {
     const baseline = playableBook(bank, reviews, b.level, b.id);
     // Existing book authorization remains mandatory for additive lots.
-    const pool = baseline.length ? [...baseline, ...(additions.get(b.id) ?? [])] : [];
-    if (pool.length > 100) throw new Error(`Banque supérieure à 100 : ${b.id}`);
+    const pool = baseline.length
+      ? [...baseline, ...(additions.get(b.id) ?? []), ...(ultime.byBook.get(b.id) ?? [])]
+      : [];
+    if (pool.length > MAX_APPROVED_POOL)
+      throw new Error(`Banque supérieure à ${MAX_APPROVED_POOL} : ${b.id}`);
     return [b.id, pool] as const;
   }),
 );

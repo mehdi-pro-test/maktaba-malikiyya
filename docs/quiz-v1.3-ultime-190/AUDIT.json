@@ -1,0 +1,521 @@
+{
+  "baseCommit": "0633b61cf14dfaac1bf40b5f540ee9abbcca9a52",
+  "sourceHash": "aaa66d64eaf0c32321d60639e0f9083e25311779127d678a124d3f5bf96970d5",
+  "approvedHashMatches": true,
+  "originalResearchHashDeclared": "a77fbca1eb81e1a556ae844af5ebcc210f0f4429658f52bd2a93f460d61e9c53",
+  "originalResearchPayloadAvailable": false,
+  "originalResearchHashCheck": "Comparé au manifeste, non recalculable : le payload de recherche avant approbation n’est pas fourni.",
+  "subExportsMatch": true,
+  "sourceNoticesMatchExceptEditorialState": true,
+  "originalSourceState": "pending",
+  "separateSourceState": "owner-approved-corpus; source-collation-not-independently-attested",
+  "imported": 190,
+  "maxQuestionsPerPool": 200,
+  "uniqueIds": 610,
+  "uniqueNormalizedPrompts": 610,
+  "ownerApprovalCount": 190,
+  "publicationBasis": "owner-editorial-approval",
+  "sourceVerification": "not-attested",
+  "independentScholarlyReview": "not-attested",
+  "inventory": [
+    {
+      "bookId": "moukhtassar-al-akhdari",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "matn-ibn-ashir",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "al-achmawiyya",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "al-mouqaddima-al-izziyya",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "ashal-al-masalik",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "moukhtassar-khalil",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "sharh-al-dardir",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "hashiyat-al-dasuqi",
+      "previous": 40,
+      "newOwnerApproved": 0,
+      "total": 40
+    },
+    {
+      "bookId": "bidayat-al-mujtahid",
+      "previous": 10,
+      "newOwnerApproved": 140,
+      "total": 150
+    },
+    {
+      "bookId": "al-istidhkar",
+      "previous": 10,
+      "newOwnerApproved": 50,
+      "total": 60
+    },
+    {
+      "bookId": "issal-as-salik",
+      "previous": 10,
+      "newOwnerApproved": 0,
+      "total": 10
+    },
+    {
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "previous": 10,
+      "newOwnerApproved": 0,
+      "total": 10
+    },
+    {
+      "bookId": "murtaqa-al-wusul",
+      "previous": 10,
+      "newOwnerApproved": 0,
+      "total": 10
+    },
+    {
+      "bookId": "maraqi-as-suud",
+      "previous": 10,
+      "newOwnerApproved": 0,
+      "total": 10
+    }
+  ],
+  "total": 610,
+  "potentialCollisions": [
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-006",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-002",
+      "score": 0.526,
+      "sharedQuote": false,
+      "questionFr": "Quel pilier du jeûne Ibn Rushd présente-t-il comme objet de désaccord ?",
+      "comparedQuestionFr": "Quel jeûne Ibn Rushd considère-t-il comme obligatoire par le temps lui-même ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-011",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.609,
+      "sharedQuote": false,
+      "questionFr": "Dans le texte, quelle position Ibn Rushd attribue-t-il à Malik quant au jeûne fondé sur la vision individuelle du croissant de Shawwâl ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-018",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-002",
+      "score": 0.476,
+      "sharedQuote": false,
+      "questionFr": "Quel avis minoritaire rapporté par Ibn Rushd considère la saignée par ventouses comme rupture du jeûne ?",
+      "comparedQuestionFr": "Quel jeûne Ibn Rushd considère-t-il comme obligatoire par le temps lui-même ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-021",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-016",
+      "score": 0.48,
+      "sharedQuote": false,
+      "questionFr": "Selon Ibn Rushd, sur quel point Malik et al-Shafi‘i s’accordent-ils à propos du patrimoine de l’orphelin ?",
+      "comparedQuestionFr": "Quel jugement Malik et al-Shafi‘i portent-ils sur la saignée par ventouses pendant le jeûne, selon Ibn Rushd ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-024",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.6,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la zakat des biens appartenant à un esclave ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-024",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-011",
+      "score": 0.48,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la zakat des biens appartenant à un esclave ?",
+      "comparedQuestionFr": "Dans le texte, quelle position Ibn Rushd attribue-t-il à Malik quant au jeûne fondé sur la vision individuelle du croissant de Shawwâl ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-030",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-024",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel pouvoir le texte attribue-t-il à l’imam selon Malik quant à la répartition de la zakat ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la zakat des biens appartenant à un esclave ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-041",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel rang Malik attribue-t-il à la ‘umra dans le passage ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-041",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-030",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel rang Malik attribue-t-il à la ‘umra dans le passage ?",
+      "comparedQuestionFr": "Quel pouvoir le texte attribue-t-il à l’imam selon Malik quant à la répartition de la zakat ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-046",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-006",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel acte Ibn Rushd présente-t-il comme entraînant unanimement la corruption du hajj s’il précède ‘Arafât ?",
+      "comparedQuestionFr": "Quel pilier du jeûne Ibn Rushd présente-t-il comme objet de désaccord ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-049",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-002",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel juriste Ibn Rushd présente-t-il comme tenant le witr pour obligatoire en plus des cinq prières ?",
+      "comparedQuestionFr": "Quel jeûne Ibn Rushd considère-t-il comme obligatoire par le temps lui-même ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-049",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-006",
+      "score": 0.476,
+      "sharedQuote": false,
+      "questionFr": "Quel juriste Ibn Rushd présente-t-il comme tenant le witr pour obligatoire en plus des cinq prières ?",
+      "comparedQuestionFr": "Quel pilier du jeûne Ibn Rushd présente-t-il comme objet de désaccord ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-054",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-035",
+      "score": 0.476,
+      "sharedQuote": false,
+      "questionFr": "Quelle transaction Ibn Rushd mentionne-t-il comme unanimement interdite pour report des deux prestations ?",
+      "comparedQuestionFr": "Quelle condition de validité du hajj Ibn Rushd mentionne-t-il comme non contestée ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-060",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-001",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Combien de causes générales d’invalidité de vente Ibn Rushd rassemble-t-il dans son schéma ?",
+      "comparedQuestionFr": "En combien de grandes catégories Ibn Rushd classe-t-il le jeûne légal selon son statut ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-062",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-061",
+      "score": 0.706,
+      "sharedQuote": false,
+      "questionFr": "Quelle notion constitue une cause générale d’invalidité des ventes en raison d’un surplus usuraire ?",
+      "comparedQuestionFr": "Quelle notion juridique constitue une cause générale d’invalidité en raison de l’incertitude ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-065",
+      "comparedId": "bidayat-al-mujtahid-03",
+      "score": 0.526,
+      "sharedQuote": false,
+      "questionFr": "Quelle différence Ibn Rushd rapporte-t-il sur la vente de chiens, dans l’avis d’Abu Hanifa ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd rapporte-t-il d’Aḥmad sur ce lavage au réveil ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-068",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-066",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Malik et al-Shafi‘i partagent-ils selon le passage sur la vente d’huile rendue impure ?",
+      "comparedQuestionFr": "Quel est l’avis général de l’imam al-Shafi‘i rapporté sur la vente de chiens ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-070",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel produit humain Ibn Rushd rapporte-t-il que Malik et al-Shafi‘i autorisent à vendre ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-070",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-016",
+      "score": 0.48,
+      "sharedQuote": false,
+      "questionFr": "Quel produit humain Ibn Rushd rapporte-t-il que Malik et al-Shafi‘i autorisent à vendre ?",
+      "comparedQuestionFr": "Quel jugement Malik et al-Shafi‘i portent-ils sur la saignée par ventouses pendant le jeûne, selon Ibn Rushd ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-070",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-021",
+      "score": 0.538,
+      "sharedQuote": false,
+      "questionFr": "Quel produit humain Ibn Rushd rapporte-t-il que Malik et al-Shafi‘i autorisent à vendre ?",
+      "comparedQuestionFr": "Selon Ibn Rushd, sur quel point Malik et al-Shafi‘i s’accordent-ils à propos du patrimoine de l’orphelin ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-085",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.545,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la vente d’un bien absent mais précisément décrit ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-085",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-024",
+      "score": 0.583,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la vente d’un bien absent mais précisément décrit ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la zakat des biens appartenant à un esclave ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-099",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Abu Hanifa sur le mariage conclu par une femme sans tuteur ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-099",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-017",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Abu Hanifa sur le mariage conclu par une femme sans tuteur ?",
+      "comparedQuestionFr": "Selon le passage, quel avis est attribué à Abu Hanifa sur la saignée par ventouses du jeûneur ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-099",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-024",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Abu Hanifa sur le mariage conclu par une femme sans tuteur ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la zakat des biens appartenant à un esclave ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-099",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-065",
+      "score": 0.522,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Abu Hanifa sur le mariage conclu par une femme sans tuteur ?",
+      "comparedQuestionFr": "Quelle différence Ibn Rushd rapporte-t-il sur la vente de chiens, dans l’avis d’Abu Hanifa ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-099",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-085",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Ibn Rushd attribue-t-il à Abu Hanifa sur le mariage conclu par une femme sans tuteur ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la vente d’un bien absent mais précisément décrit ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-109",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-065",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quelle différence Ibn Rushd rapporte-t-il au sujet de l’effet d’un rapport illicite sur l’interdiction d’épouser les parentes ?",
+      "comparedQuestionFr": "Quelle différence Ibn Rushd rapporte-t-il sur la vente de chiens, dans l’avis d’Abu Hanifa ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-114",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-113",
+      "score": 0.556,
+      "sharedQuote": false,
+      "questionFr": "Quel avis Abu Hanifa défend-il pour la hirâba commise à l’intérieur de la ville ?",
+      "comparedQuestionFr": "Quel avis Malik soutient-il quant à la qualification de hirâba à l’intérieur de la ville ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-119",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-017",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel avis l’auteur attribue-t-il à al-Shafi‘i et Abu Hanifa sur l’échelle des peines de hirâba ?",
+      "comparedQuestionFr": "Selon le passage, quel avis est attribué à Abu Hanifa sur la saignée par ventouses du jeûneur ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-119",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-031",
+      "score": 0.56,
+      "sharedQuote": false,
+      "questionFr": "Quel avis l’auteur attribue-t-il à al-Shafi‘i et Abu Hanifa sur l’échelle des peines de hirâba ?",
+      "comparedQuestionFr": "Selon le passage, quelle position l’auteur attribue-t-il à al-Shafi‘i sur les huit catégories de zakat ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-119",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-099",
+      "score": 0.462,
+      "sharedQuote": false,
+      "questionFr": "Quel avis l’auteur attribue-t-il à al-Shafi‘i et Abu Hanifa sur l’échelle des peines de hirâba ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Abu Hanifa sur le mariage conclu par une femme sans tuteur ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-119",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-114",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Quel avis l’auteur attribue-t-il à al-Shafi‘i et Abu Hanifa sur l’échelle des peines de hirâba ?",
+      "comparedQuestionFr": "Quel avis Abu Hanifa défend-il pour la hirâba commise à l’intérieur de la ville ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-133",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-128",
+      "score": 0.471,
+      "sharedQuote": false,
+      "questionFr": "Quelle seconde condition importante la majorité pose-t-elle pour le vol susceptible de la peine évoquée ?",
+      "comparedQuestionFr": "Quel critère la majorité exige-t-elle pour la peine de vol discutée ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-136",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-132",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Dans le débat sur la valeur d’un objet volé, quel étalon Malik utilise-t-il généralement pour d’autres marchandises ?",
+      "comparedQuestionFr": "À quel moment Malik évalue-t-il la valeur de l’objet volé d’après la divergence rapportée ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-140",
+      "comparedId": "bidayat-al-mujtahid-08",
+      "score": 0.522,
+      "sharedQuote": false,
+      "questionFr": "Dans la question de la personne possédant une quote-part d’une esclave, quel avis Ibn Rushd attribue-t-il à Malik sur le hadd ?",
+      "comparedQuestionFr": "Pour l’essuyage de la tête, quelle position Ibn Rushd attribue-t-il à Mālik ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-140",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-024",
+      "score": 0.64,
+      "sharedQuote": false,
+      "questionFr": "Dans la question de la personne possédant une quote-part d’une esclave, quel avis Ibn Rushd attribue-t-il à Malik sur le hadd ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la zakat des biens appartenant à un esclave ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "bidayat-al-mujtahid-v13-ultime-140",
+      "comparedId": "bidayat-al-mujtahid-v13-ultime-085",
+      "score": 0.519,
+      "sharedQuote": false,
+      "questionFr": "Dans la question de la personne possédant une quote-part d’une esclave, quel avis Ibn Rushd attribue-t-il à Malik sur le hadd ?",
+      "comparedQuestionFr": "Quel avis Ibn Rushd attribue-t-il à Malik sur la vente d’un bien absent mais précisément décrit ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-010",
+      "comparedId": "al-istidhkar-03",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Comment Ibn ʿAbd al-Barr qualifie-t-il le wudû préalable au ghusl de janâba ?",
+      "comparedQuestionFr": "Quelle réserve Ibn ʿAbd al-Barr apporte-t-il au fait de dépasser trois lavages ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-010",
+      "comparedId": "al-istidhkar-v13-ultime-006",
+      "score": 0.522,
+      "sharedQuote": false,
+      "questionFr": "Comment Ibn ʿAbd al-Barr qualifie-t-il le wudû préalable au ghusl de janâba ?",
+      "comparedQuestionFr": "Dans le récit de ʿÂʾisha utilisé par Ibn ʿAbd al-Barr, par quel acte le Prophète commençait-il le ghusl de janâba ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-030",
+      "comparedId": "al-istidhkar-03",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Dans quelle situation Ibn ʿAbd al-Barr explique-t-il particulièrement la recommandation d’ibrâd pour Dhuhr ?",
+      "comparedQuestionFr": "Quelle réserve Ibn ʿAbd al-Barr apporte-t-il au fait de dépasser trois lavages ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-030",
+      "comparedId": "al-istidhkar-v13-ultime-010",
+      "score": 0.455,
+      "sharedQuote": false,
+      "questionFr": "Dans quelle situation Ibn ʿAbd al-Barr explique-t-il particulièrement la recommandation d’ibrâd pour Dhuhr ?",
+      "comparedQuestionFr": "Comment Ibn ʿAbd al-Barr qualifie-t-il le wudû préalable au ghusl de janâba ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-036",
+      "comparedId": "al-istidhkar-v13-ultime-029",
+      "score": 0.471,
+      "sharedQuote": false,
+      "questionFr": "Quelle condition de temps Malik pose-t-il pour l’intention d’un jeûne obligatoire selon la discussion ?",
+      "comparedQuestionFr": "Dans la discussion des temps de prière, quelle pratique Malik déconseille-t-il selon le passage ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-039",
+      "comparedId": "al-istidhkar-10",
+      "score": 0.519,
+      "sharedQuote": false,
+      "questionFr": "Quel autre imam Ibn ʿAbd al-Barr associe-t-il à la position de Malik sur ce point ?",
+      "comparedQuestionFr": "À quel autre de ses ouvrages Ibn ʿAbd al-Barr renvoie-t-il pour les voies du hadith et les variantes de ses rapporteurs ?",
+      "status": "editorial-review-required"
+    },
+    {
+      "questionId": "al-istidhkar-v13-ultime-047",
+      "comparedId": "al-istidhkar-01",
+      "score": 0.5,
+      "sharedQuote": false,
+      "questionFr": "Quelle variante de transmission Ibn ʿAbd al-Barr relève-t-il chez Ibn al-Qâsim rapporté par Sahnûn ?",
+      "comparedQuestionFr": "Quel problème de transmission Ibn ʿAbd al-Barr relève-t-il dans l’identification de ʿAbd Allāh b. Zayd comme grand-père de ʿAmr ?",
+      "status": "editorial-review-required"
+    }
+  ],
+  "limits": "Rapprochements textuels non exhaustifs, pas de certificat d’absence de doublon doctrinal ni de collation arabe. Décision éditoriale déjà acquise ; aucune nouvelle validation des questions demandée."
+}

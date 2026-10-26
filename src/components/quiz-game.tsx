@@ -24,6 +24,12 @@ function QuestionSources({ question }: { question: Question }) {
           const r = source.reference;
           return (
             <div className="quiz-primary-reference" key={`${source.url}-${index}`}>
+              {r?.textCheck === 'requires-editorial-collation' && (
+                <p className="muted">
+                  Validation éditoriale du propriétaire. Collation de la citation et vérification
+                  des attributions non attestées.
+                </p>
+              )}
               {r && (
                 <>
                   <p lang="ar" dir="rtl">

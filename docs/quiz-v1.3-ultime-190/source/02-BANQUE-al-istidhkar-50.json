@@ -1,0 +1,2826 @@
+{
+  "schemaVersion": "1.3-owner-editorial-approved-190-1",
+  "status": "owner-approved",
+  "publicationAllowed": true,
+  "book": {
+    "id": "al-istidhkar",
+    "titleAr": "الاستذكار",
+    "authorAr": "يوسف بن عبد الله بن عبد البر",
+    "level": "ultime",
+    "existingPublishedQuestions": 10,
+    "coverage": [
+      "ibadat",
+      "muamalat"
+    ],
+    "newOwnerApprovedQuestions": 50
+  },
+  "questions": [
+    {
+      "id": "al-istidhkar-v13-ultime-001",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / المسح على الخفين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans le récit d’Ibn ʿUmar commenté par Ibn ʿAbd al-Barr, quelle condition ʿUmar rappelle-t-il avant l’essuyage sur les khuff ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Avoir d’abord essuyé la tête trois fois"
+        },
+        {
+          "id": "b",
+          "textFr": "Avoir introduit les pieds dans les khuff en état de pureté"
+        },
+        {
+          "id": "c",
+          "textFr": "Effectuer la prière du vendredi avant de les mettre"
+        },
+        {
+          "id": "d",
+          "textFr": "Mettre les khuff seulement au matin"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Avoir introduit les pieds dans les khuff en état de pureté ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / المسح على الخفين » exprime la distinction suivante : « إذا أدخلت رجليك في الخفين وهما طاهرتان فامسح عليهما ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / المسح على الخفين",
+          "quoteAr": "إذا أدخلت رجليك في الخفين وهما طاهرتان فامسح عليهما",
+          "url": "https://www.islamweb.net/ar/library/content/93/140/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-002",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / المسح على الخفين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans le même récit, quelle personne l’avait incité à demander le jugement à son père ʿUmar ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "ʿAbd Allâh ibn Masʿûd"
+        },
+        {
+          "id": "b",
+          "textFr": "Zayd ibn Thâbit"
+        },
+        {
+          "id": "c",
+          "textFr": "Saʿd ibn Abî Waqqâs"
+        },
+        {
+          "id": "d",
+          "textFr": "Abû Hurayra"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Saʿd ibn Abî Waqqâs ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / المسح على الخفين » exprime la distinction suivante : « فقال له سعد: سل أباك إذا قدمت عليه ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / المسح على الخفين",
+          "quoteAr": "فقال له سعد: سل أباك إذا قدمت عليه",
+          "url": "https://www.islamweb.net/ar/library/content/93/140/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-003",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / المسح على الخفين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel événement Ibn ʿUmar évoque-t-il pour vérifier si l’essuyage des khuff reste possible ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La réception d’une aumône"
+        },
+        {
+          "id": "b",
+          "textFr": "La lecture du Coran"
+        },
+        {
+          "id": "c",
+          "textFr": "Être allé aux besoins"
+        },
+        {
+          "id": "d",
+          "textFr": "Un voyage maritime"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Être allé aux besoins ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / المسح على الخفين » exprime la distinction suivante : « وإن جاء أحدنا من الغائط؟ فقال عمر: نعم ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / المسح على الخفين",
+          "quoteAr": "وإن جاء أحدنا من الغائط؟ فقال عمر: نعم",
+          "url": "https://www.islamweb.net/ar/library/content/93/140/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-004",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / المسح على الخفين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Selon le cas rapporté, que répond Malik à quelqu’un qui a oublié d’essuyer ses khuff, puis a prié ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Recommencer systématiquement le ghusl"
+        },
+        {
+          "id": "b",
+          "textFr": "Remplacer la prière par un jeûne"
+        },
+        {
+          "id": "c",
+          "textFr": "Ne refaire ni essuyage ni prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Essuyer les khuff et refaire la prière, sans refaire tout le wudû"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Essuyer les khuff et refaire la prière, sans refaire tout le wudû ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / المسح على الخفين » exprime la distinction suivante : « ليمسح على خفيه وليعد الصلاة، ولا يعد الوضوء ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / المسح على الخفين",
+          "quoteAr": "ليمسح على خفيه وليعد الصلاة، ولا يعد الوضوء",
+          "url": "https://www.islamweb.net/ar/library/content/93/140/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-005",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / المسح على الخفين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle différence Malik fait-il, dans l’explication citée, entre omission par oubli et omission volontaire du wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les deux cas sont toujours identiques"
+        },
+        {
+          "id": "b",
+          "textFr": "L’omission volontaire est la seule excusée"
+        },
+        {
+          "id": "c",
+          "textFr": "L’oubli n’impose pas le même recommencement que l’omission volontaire"
+        },
+        {
+          "id": "d",
+          "textFr": "Aucun membre n’a jamais à être lavé"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « L’oubli n’impose pas le même recommencement que l’omission volontaire ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / المسح على الخفين » exprime la distinction suivante : « ولو تعمد ذلك ابتدأ الوضوء ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / المسح على الخفين",
+          "quoteAr": "ولو تعمد ذلك ابتدأ الوضوء",
+          "url": "https://www.islamweb.net/ar/library/content/93/140/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-006",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / غسل الجنابة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans le récit de ʿÂʾisha utilisé par Ibn ʿAbd al-Barr, par quel acte le Prophète commençait-il le ghusl de janâba ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’essuyage des pieds sur les khuff"
+        },
+        {
+          "id": "b",
+          "textFr": "Le lavage des mains"
+        },
+        {
+          "id": "c",
+          "textFr": "L’ablution sèche"
+        },
+        {
+          "id": "d",
+          "textFr": "La récitation d’un sermon"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Le lavage des mains ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / غسل الجنابة » exprime la distinction suivante : « بدأ بغسل يديه ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / غسل الجنابة",
+          "quoteAr": "بدأ بغسل يديه",
+          "url": "https://www.islamweb.net/ar/library/content/93/163/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-007",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / غسل الجنابة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Après le lavage initial des mains, quel acte est relaté avant la toilette complète du corps ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un tayammum sur pierre"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux prières surérogatoires"
+        },
+        {
+          "id": "c",
+          "textFr": "Un wudû semblable à celui de la prière"
+        },
+        {
+          "id": "d",
+          "textFr": "Une aumône obligatoire"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Un wudû semblable à celui de la prière ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / غسل الجنابة » exprime la distinction suivante : « ثم توضأ كما يتوضأ للصلاة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / غسل الجنابة",
+          "quoteAr": "ثم توضأ كما يتوضأ للصلاة",
+          "url": "https://www.islamweb.net/ar/library/content/93/163/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-008",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / غسل الجنابة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans ce hadith, comment l’eau est-elle portée jusqu’aux racines des cheveux ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "En faisant pénétrer les doigts mouillés parmi les racines"
+        },
+        {
+          "id": "b",
+          "textFr": "En vaporisant l’eau sur les vêtements"
+        },
+        {
+          "id": "c",
+          "textFr": "En lavant uniquement les oreilles"
+        },
+        {
+          "id": "d",
+          "textFr": "En essuyant seulement le turban"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « En faisant pénétrer les doigts mouillés parmi les racines ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / غسل الجنابة » exprime la distinction suivante : « فيخلل بها أصول شعره ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / غسل الجنابة",
+          "quoteAr": "فيخلل بها أصول شعره",
+          "url": "https://www.islamweb.net/ar/library/content/93/163/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-009",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / غسل الجنابة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel nombre de poignées d’eau versées sur la tête est mentionné dans la description du ghusl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Sept"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Une"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Trois ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / غسل الجنابة » exprime la distinction suivante : « ثم يصب على رأسه ثلاث غرفات بيديه ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / غسل الجنابة",
+          "quoteAr": "ثم يصب على رأسه ثلاث غرفات بيديه",
+          "url": "https://www.islamweb.net/ar/library/content/93/163/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-010",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / غسل الجنابة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Comment Ibn ʿAbd al-Barr qualifie-t-il le wudû préalable au ghusl de janâba ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une sunna, non un élément supplémentaire obligatoire au ghusl complet"
+        },
+        {
+          "id": "b",
+          "textFr": "L’unique obligation du ghusl"
+        },
+        {
+          "id": "c",
+          "textFr": "Une cause d’invalidité du ghusl"
+        },
+        {
+          "id": "d",
+          "textFr": "Une interdiction préalable au ghusl"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Une sunna, non un élément supplémentaire obligatoire au ghusl complet ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / غسل الجنابة » exprime la distinction suivante : « فأما السنة فالوضوء قبل الاغتسال ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / غسل الجنابة",
+          "quoteAr": "فأما السنة فالوضوء قبل الاغتسال",
+          "url": "https://www.islamweb.net/ar/library/content/93/163/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-011",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / رؤية الهلال",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "D’après le propos de Malik rapporté dans Al-Istidhkar, que fait celui qui observe seul le croissant de Ramadan ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il commence à jeûner"
+        },
+        {
+          "id": "b",
+          "textFr": "Il termine son jeûne ce soir-là"
+        },
+        {
+          "id": "c",
+          "textFr": "Il attend obligatoirement dix jours"
+        },
+        {
+          "id": "d",
+          "textFr": "Il s’abstient de jeûner jusqu’à la fin du mois"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Il commence à jeûner ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / رؤية الهلال » exprime la distinction suivante : « من رأى هلال رمضان وحده فإنه يصوم ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / رؤية الهلال",
+          "quoteAr": "من رأى هلال رمضان وحده فإنه يصوم",
+          "url": "https://www.islamweb.net/ar/library/content/93/1146/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-012",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / رؤية الهلال",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Pour celui qui aperçoit seul le croissant de Shawwâl, quelle position Malik et Abû Hanîfa ont-ils en commun ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il cesse de prier les jours suivants"
+        },
+        {
+          "id": "b",
+          "textFr": "Il ne distingue pas Ramadan de Shawwâl"
+        },
+        {
+          "id": "c",
+          "textFr": "Il ne rompt pas isolément le jeûne"
+        },
+        {
+          "id": "d",
+          "textFr": "Il rompt toujours immédiatement"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Il ne rompt pas isolément le jeûne ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / رؤية الهلال » exprime la distinction suivante : « فقال مالك وأبو حنيفة: لا يفطر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / رؤية الهلال",
+          "quoteAr": "فقال مالك وأبو حنيفة: لا يفطر",
+          "url": "https://www.islamweb.net/ar/library/content/93/1146/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-013",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / رؤية الهلال",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel avis contraire à Malik Ibn ʿAbd al-Barr attribue-t-il à al-Shâfiʿî lorsqu’un homme voit seul le croissant de Shawwâl avec certitude ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il doit jeûner encore trente jours"
+        },
+        {
+          "id": "b",
+          "textFr": "Il lui est interdit de consommer tout liquide"
+        },
+        {
+          "id": "c",
+          "textFr": "Il peut rompre le jeûne, sauf doute ou crainte d’accusation"
+        },
+        {
+          "id": "d",
+          "textFr": "Il est obligé de recommencer Ramadan"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Il peut rompre le jeûne, sauf doute ou crainte d’accusation ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / رؤية الهلال » exprime la distinction suivante : « وقال الشافعي: يفطر الذي رأى هلال شوال وحده ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / رؤية الهلال",
+          "quoteAr": "وقال الشافعي: يفطر الذي رأى هلال شوال وحده",
+          "url": "https://www.islamweb.net/ar/library/content/93/1146/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-014",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / رؤية الهلال",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Selon le passage, quel minimum de témoins justes Malik requiert-il pour la constatation officielle de Ramadan ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Deux"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois"
+        },
+        {
+          "id": "c",
+          "textFr": "Un"
+        },
+        {
+          "id": "d",
+          "textFr": "Quatre"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Deux ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / رؤية الهلال » exprime la distinction suivante : « أقل من رجلين عدلين ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / رؤية الهلال",
+          "quoteAr": "أقل من رجلين عدلين",
+          "url": "https://www.islamweb.net/ar/library/content/93/1146/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-015",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / رؤية الهلال",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Pour celui qui a personnellement reconnu le croissant de Ramadan puis rompt volontairement son jeûne, qu’ajoute Malik au rattrapage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une simple aumône facultative sans rattrapage"
+        },
+        {
+          "id": "b",
+          "textFr": "Une expiation (kaffâra)"
+        },
+        {
+          "id": "c",
+          "textFr": "Une interdiction de voir le croissant suivant"
+        },
+        {
+          "id": "d",
+          "textFr": "Une nouvelle prière du vendredi"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Une expiation (kaffâra) ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / رؤية الهلال » exprime la distinction suivante : « كان عليه القضاء والكفارة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / رؤية الهلال",
+          "quoteAr": "كان عليه القضاء والكفارة",
+          "url": "https://www.islamweb.net/ar/library/content/93/1146/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-016",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / ما لا يجوز من السلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans le récit transmis de ʿAbd Allâh ibn ʿUmar, comment est qualifiée la majoration imposée par condition dans un prêt ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une donation toujours méritoire"
+        },
+        {
+          "id": "b",
+          "textFr": "Du ribâ"
+        },
+        {
+          "id": "c",
+          "textFr": "Une zakat"
+        },
+        {
+          "id": "d",
+          "textFr": "Un simple témoignage"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Du ribâ ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / ما لا يجوز من السلف » exprime la distinction suivante : « واشترطت عليه أفضل مما أسلفته، فقال عبد الله بن عمر: فذلك الربا ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / ما لا يجوز من السلف",
+          "quoteAr": "واشترطت عليه أفضل مما أسلفته، فقال عبد الله بن عمر: فذلك الربا",
+          "url": "https://www.islamweb.net/ar/library/content/93/2728/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-017",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / ما لا يجوز من السلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "En combien de formes Ibn ʿUmar divise-t-il les prêts dans ce récit ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Trois ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / ما لا يجوز من السلف » exprime la distinction suivante : « السلف على ثلاثة وجوه ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / ما لا يجوز من السلف",
+          "quoteAr": "السلف على ثلاثة وجوه",
+          "url": "https://www.islamweb.net/ar/library/content/93/2728/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-018",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / ما لا يجوز من السلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle finalité est attribuée au premier type de prêt énuméré par Ibn ʿUmar ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cacher le prix d’une vente"
+        },
+        {
+          "id": "b",
+          "textFr": "Rechercher l’agrément de Dieu"
+        },
+        {
+          "id": "c",
+          "textFr": "Se dispenser de toute restitution"
+        },
+        {
+          "id": "d",
+          "textFr": "Obtenir contractuellement un supplément"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Rechercher l’agrément de Dieu ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / ما لا يجوز من السلف » exprime la distinction suivante : « سلف تسلفه تريد به وجه الله ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / ما لا يجوز من السلف",
+          "quoteAr": "سلف تسلفه تريد به وجه الله",
+          "url": "https://www.islamweb.net/ar/library/content/93/2728/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-019",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / ما لا يجوز من السلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Si l’emprunteur rembourse exactement l’équivalent de ce qu’il a reçu, quelle attitude recommande le récit ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Accepter cette restitution"
+        },
+        {
+          "id": "b",
+          "textFr": "Réclamer systématiquement une prime"
+        },
+        {
+          "id": "c",
+          "textFr": "Transformer le prêt en vente à terme"
+        },
+        {
+          "id": "d",
+          "textFr": "Refuser toujours tout remboursement"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Accepter cette restitution ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / ما لا يجوز من السلف » exprime la distinction suivante : « فإن أعطاك مثل الذي أسلفته قبلته ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / ما لا يجوز من السلف",
+          "quoteAr": "فإن أعطاك مثل الذي أسلفته قبلته",
+          "url": "https://www.islamweb.net/ar/library/content/93/2728/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-020",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / ما لا يجوز من السلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle qualification le récit donne-t-il à un surplus librement offert par l’emprunteur, sans condition préalable ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une dette non remboursée"
+        },
+        {
+          "id": "b",
+          "textFr": "Un remerciement"
+        },
+        {
+          "id": "c",
+          "textFr": "Un ribâ nécessaire dans tous les cas"
+        },
+        {
+          "id": "d",
+          "textFr": "Une zakat obligatoire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Un remerciement ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / ما لا يجوز من السلف » exprime la distinction suivante : « طيبة به نفسه فذلك شكر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / ما لا يجوز من السلف",
+          "quoteAr": "طيبة به نفسه فذلك شكر",
+          "url": "https://www.islamweb.net/ar/library/content/93/2728/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-021",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / ما لا يجوز من السلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel critère Ibn ʿAbd al-Barr met-il en avant pour distinguer l’augmentation du prêt tenue pour ribâ ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le seul fait que l’emprunteur soit riche"
+        },
+        {
+          "id": "b",
+          "textFr": "La stipulation préalable de cette augmentation"
+        },
+        {
+          "id": "c",
+          "textFr": "Le fait que le prêteur habite loin"
+        },
+        {
+          "id": "d",
+          "textFr": "La remise exacte du capital initial"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « La stipulation préalable de cette augmentation ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / ما لا يجوز من السلف » exprime la distinction suivante : « إلا أن يشترط تلك الزيادة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / ما لا يجوز من السلف",
+          "quoteAr": "إلا أن يشترط تلك الزيادة",
+          "url": "https://www.islamweb.net/ar/library/content/93/2728/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-022",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / البيع والسلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle combinaison de contrats est expressément visée par l’interdiction citée au début de ce chapitre ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Deux ventes indépendantes au comptant"
+        },
+        {
+          "id": "b",
+          "textFr": "Une vente assortie d’un prêt conditionné"
+        },
+        {
+          "id": "c",
+          "textFr": "Un cadeau non conditionné"
+        },
+        {
+          "id": "d",
+          "textFr": "Une location autonome et un dépôt"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Une vente assortie d’un prêt conditionné ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / البيع والسلف » exprime la distinction suivante : « نهى عن بيع وسلف ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / البيع والسلف",
+          "quoteAr": "نهى عن بيع وسلف",
+          "url": "https://www.islamweb.net/ar/library/content/93/2623/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-023",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / البيع والسلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans l’exemple donné par Malik, pourquoi la vente devient-elle irrégulière ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le bien est remis le jour même"
+        },
+        {
+          "id": "b",
+          "textFr": "Le prix est payé en pièces de monnaie"
+        },
+        {
+          "id": "c",
+          "textFr": "Le vendeur mentionne son domicile"
+        },
+        {
+          "id": "d",
+          "textFr": "L’achat est subordonné à l’octroi d’un prêt"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « L’achat est subordonné à l’octroi d’un prêt ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / البيع والسلف » exprime la distinction suivante : « على أن تسلفني كذا وكذا ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / البيع والسلف",
+          "quoteAr": "على أن تسلفني كذا وكذا",
+          "url": "https://www.islamweb.net/ar/library/content/93/2623/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-024",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / البيع والسلف",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "D’après le passage, qu’advient-il de cette vente si l’on supprime effectivement la condition de prêt ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle se transforme obligatoirement en donation"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle reste interdite même sans aucune condition"
+        },
+        {
+          "id": "c",
+          "textFr": "La vente devient admissible selon l’exemple"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle entraîne une obligation de pèlerinage"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « La vente devient admissible selon l’exemple ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / البيع والسلف » exprime la distinction suivante : « فإن ترك الذي اشترط السلف ما اشترط منه كان ذلك البيع جائزا ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / البيع والسلف",
+          "quoteAr": "فإن ترك الذي اشترط السلف ما اشترط منه كان ذلك البيع جائزا",
+          "url": "https://www.islamweb.net/ar/library/content/93/2623/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-025",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / الربا في الدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans l’exemple de dette à terme commenté, que signifie la formule « réduis et je paie plus tôt » ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Abandonner une part de la créance contre un paiement anticipé"
+        },
+        {
+          "id": "b",
+          "textFr": "Allonger le terme en majorant la dette"
+        },
+        {
+          "id": "c",
+          "textFr": "Transformer le prêt en hypothèque"
+        },
+        {
+          "id": "d",
+          "textFr": "Échanger deux biens au comptant"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Abandonner une part de la créance contre un paiement anticipé ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / الربا في الدين » exprime la distinction suivante : « فيضع عنه صاحب الحق ويعجله الآخر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / الربا في الدين",
+          "quoteAr": "فيضع عنه صاحب الحق ويعجله الآخر",
+          "url": "https://www.islamweb.net/ar/library/content/93/2685/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-026",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / الربا في الدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel jugement est rapporté d’Ibn ʿUmar pour le créancier qui réduit la dette contre une échéance anticipée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il y voit la zakat de l’argent"
+        },
+        {
+          "id": "b",
+          "textFr": "Il réprouve cette opération"
+        },
+        {
+          "id": "c",
+          "textFr": "Il l’assimile à un prêt de biens fongibles"
+        },
+        {
+          "id": "d",
+          "textFr": "Il la rend obligatoire"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Il réprouve cette opération ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / الربا في الدين » exprime la distinction suivante : « فكره ذلك عبد الله بن عمر ونهى عنه ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / الربا في الدين",
+          "quoteAr": "فكره ذلك عبد الله بن عمر ونهى عنه",
+          "url": "https://www.islamweb.net/ar/library/content/93/2685/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-027",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / الربا في الدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Selon Al-Istidhkâr, quelle position Malik et Abû Hanîfa partagent-ils sur « réduis et anticipe » ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Ils la rangent parmi les actes du hajj"
+        },
+        {
+          "id": "b",
+          "textFr": "Ils la considèrent comme une donation automatique"
+        },
+        {
+          "id": "c",
+          "textFr": "Ils la considèrent comme du ribâ"
+        },
+        {
+          "id": "d",
+          "textFr": "Ils l’imposent dans les ventes"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Ils la considèrent comme du ribâ ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / الربا في الدين » exprime la distinction suivante : « واتفق مالك وأبو حنيفة وأصحابهما إلا زفر على أن ضع وتعجل ربا ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / الربا في الدين",
+          "quoteAr": "واتفق مالك وأبو حنيفة وأصحابهما إلا زفر على أن ضع وتعجل ربا",
+          "url": "https://www.islamweb.net/ar/library/content/93/2685/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-028",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "muamalat",
+      "chapterAr": "كتاب البيوع / الربا في الدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle divergence Al-Istidhkâr rapporte-t-il sur ce point chez al-Shâfiʿî ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il adopte toujours l’avis de Zafar"
+        },
+        {
+          "id": "b",
+          "textFr": "Il n’a traité que des prières"
+        },
+        {
+          "id": "c",
+          "textFr": "Il ne connaît aucun avis sur la dette"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux avis lui sont attribués"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Deux avis lui sont attribués ». Le passage arabe de « الاستذكار » sur « كتاب البيوع / الربا في الدين » exprime la distinction suivante : « واختلف في ذلك قول الشافعي ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب البيوع / الربا في الدين",
+          "quoteAr": "واختلف في ذلك قول الشافعي",
+          "url": "https://www.islamweb.net/ar/library/content/93/2685/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-029",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب وقوت الصلاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans la discussion des temps de prière, quelle pratique Malik déconseille-t-il selon le passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Prier avant l’aube pour Subh"
+        },
+        {
+          "id": "b",
+          "textFr": "Prier Maghrib après le coucher du soleil"
+        },
+        {
+          "id": "c",
+          "textFr": "Prier ʿIshâ après sa disparition"
+        },
+        {
+          "id": "d",
+          "textFr": "Prier Dhuhr exactement au zénith, sans attendre"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Prier Dhuhr exactement au zénith, sans attendre ». Le passage arabe de « الاستذكار » sur « كتاب وقوت الصلاة » exprime la distinction suivante : « وكان مالك يكره أن تصلى الظهر عند زوال الشمس ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب وقوت الصلاة",
+          "quoteAr": "وكان مالك يكره أن تصلى الظهر عند زوال الشمس",
+          "url": "https://www.islamweb.net/ar/library/content/93/23/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-030",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب وقوت الصلاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans quelle situation Ibn ʿAbd al-Barr explique-t-il particulièrement la recommandation d’ibrâd pour Dhuhr ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Par temps froid et couvert uniquement"
+        },
+        {
+          "id": "b",
+          "textFr": "Par forte chaleur"
+        },
+        {
+          "id": "c",
+          "textFr": "À la nouvelle lune"
+        },
+        {
+          "id": "d",
+          "textFr": "Seulement lors du hajj"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Par forte chaleur ». Le passage arabe de « الاستذكار » sur « كتاب وقوت الصلاة » exprime la distinction suivante : « الإبراد يكون في الحر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب وقوت الصلاة",
+          "quoteAr": "الإبراد يكون في الحر",
+          "url": "https://www.islamweb.net/ar/library/content/93/23/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-031",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب وقوت الصلاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Comment l’auteur présente-t-il la nature du report recommandé de Dhuhr dans ce passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une obligation de prier après ʿAsr"
+        },
+        {
+          "id": "b",
+          "textFr": "Une interdiction de prier tous les jours chauds"
+        },
+        {
+          "id": "c",
+          "textFr": "Une substitution de Dhuhr par un jeûne"
+        },
+        {
+          "id": "d",
+          "textFr": "Un choix et une recommandation, non une invalidité générale"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Un choix et une recommandation, non une invalidité générale ». Le passage arabe de « الاستذكار » sur « كتاب وقوت الصلاة » exprime la distinction suivante : « وهذا كله استحباب واختيار ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب وقوت الصلاة",
+          "quoteAr": "وهذا كله استحباب واختيار",
+          "url": "https://www.islamweb.net/ar/library/content/93/23/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-032",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "D’après Ibn ʿAbd al-Barr, quel droit de l’autorité est admis au sujet de la zakat exigible ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’exiger seulement des voyageurs"
+        },
+        {
+          "id": "b",
+          "textFr": "En réclamer le paiement"
+        },
+        {
+          "id": "c",
+          "textFr": "En transformer le taux à volonté"
+        },
+        {
+          "id": "d",
+          "textFr": "En supprimer toute obligation"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « En réclamer le paiement ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة » exprime la distinction suivante : « لا خلاف بين العلماء أن للإمام المطالبة بالزكاة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة",
+          "quoteAr": "لا خلاف بين العلماء أن للإمام المطالبة بالزكاة",
+          "url": "https://www.islamweb.net/ar/library/content/93/1075/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-033",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Si le redevable reconnaît lui-même son obligation de zakat, que peut faire l’autorité selon le passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Lui demander uniquement un serment commercial"
+        },
+        {
+          "id": "b",
+          "textFr": "En percevoir le montant exigible"
+        },
+        {
+          "id": "c",
+          "textFr": "Exiger à sa place le paiement d’une autre personne"
+        },
+        {
+          "id": "d",
+          "textFr": "Supprimer le paiement jusqu’à l’année suivante"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « En percevoir le montant exigible ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة » exprime la distinction suivante : « من أقر بوجوبها عليه ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة",
+          "quoteAr": "من أقر بوجوبها عليه",
+          "url": "https://www.islamweb.net/ar/library/content/93/1075/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-034",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel élément de preuve peut également autoriser l’autorité à percevoir la zakat contestée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La couleur des vêtements du propriétaire"
+        },
+        {
+          "id": "b",
+          "textFr": "Une preuve testimoniale établie"
+        },
+        {
+          "id": "c",
+          "textFr": "Une rumeur sans identification"
+        },
+        {
+          "id": "d",
+          "textFr": "La seule profession du collecteur"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Une preuve testimoniale établie ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة » exprime la distinction suivante : « أو قامت عليه بها بينة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة",
+          "quoteAr": "أو قامت عليه بها بينة",
+          "url": "https://www.islamweb.net/ar/library/content/93/1075/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-035",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel rapport Abû Bakr rappelle-t-il entre la salât et la zakat dans le propos cité ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La prière n’est prescrite qu’aux commerçants"
+        },
+        {
+          "id": "b",
+          "textFr": "La zakat remplace systématiquement la prière"
+        },
+        {
+          "id": "c",
+          "textFr": "Le jeûne supprime les deux"
+        },
+        {
+          "id": "d",
+          "textFr": "On ne doit pas séparer les deux obligations"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « On ne doit pas séparer les deux obligations ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة » exprime la distinction suivante : « والله لأقاتلن من فرق بين الصلاة والزكاة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة",
+          "quoteAr": "والله لأقاتلن من فرق بين الصلاة والزكاة",
+          "url": "https://www.islamweb.net/ar/library/content/93/1075/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-036",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / النية",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle condition de temps Malik pose-t-il pour l’intention d’un jeûne obligatoire selon la discussion ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La former après le coucher du soleil suivant"
+        },
+        {
+          "id": "b",
+          "textFr": "Attendre systématiquement le milieu de journée"
+        },
+        {
+          "id": "c",
+          "textFr": "La former pendant la nuit précédant le jour"
+        },
+        {
+          "id": "d",
+          "textFr": "La formuler obligatoirement après Dhuhr"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « La former pendant la nuit précédant le jour ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / النية » exprime la distinction suivante : « لا يصوم إلا من بيت من الليل ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / النية",
+          "quoteAr": "لا يصوم إلا من بيت من الليل",
+          "url": "https://islamweb.net/ar/library/content/93/1148/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-037",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / النية",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel cas Malik estime-t-il couvert par une intention formulée dès la première nuit de Ramadan ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Les jours successifs du mois entier"
+        },
+        {
+          "id": "b",
+          "textFr": "Les prières des jours suivants"
+        },
+        {
+          "id": "c",
+          "textFr": "Tout jeûne surérogatoire de l’année"
+        },
+        {
+          "id": "d",
+          "textFr": "Uniquement la première demi-journée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Les jours successifs du mois entier ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / النية » exprime la distinction suivante : « من بيت الصيام أول ليلة من رمضان أجزأه ذلك عن سائر الشهر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / النية",
+          "quoteAr": "من بيت الصيام أول ليلة من رمضان أجزأه ذلك عن سائر الشهر",
+          "url": "https://islamweb.net/ar/library/content/93/1148/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-038",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / النية",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Pour un vœu de jeûne à jours consécutifs, quelle conséquence le passage tire-t-il de l’intention initiale ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Elle interdit de jeûner le deuxième jour"
+        },
+        {
+          "id": "b",
+          "textFr": "Elle peut couvrir les jours restants de cette séquence"
+        },
+        {
+          "id": "c",
+          "textFr": "Elle annule le vœu définitivement"
+        },
+        {
+          "id": "d",
+          "textFr": "Elle transforme le jeûne en expiation de prière"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Elle peut couvrir les jours restants de cette séquence ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / النية » exprime la distinction suivante : « أجزأه ذلك عن باقي أيام الشهر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / النية",
+          "quoteAr": "أجزأه ذلك عن باقي أيام الشهر",
+          "url": "https://islamweb.net/ar/library/content/93/1148/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-039",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / النية",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel autre imam Ibn ʿAbd al-Barr associe-t-il à la position de Malik sur ce point ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Abû Yûsuf uniquement"
+        },
+        {
+          "id": "b",
+          "textFr": "Ahmad ibn Hanbal uniquement"
+        },
+        {
+          "id": "c",
+          "textFr": "Sufyân ibn ʿUyayna uniquement"
+        },
+        {
+          "id": "d",
+          "textFr": "Al-Layth ibn Saʿd"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Al-Layth ibn Saʿd ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / النية » exprime la distinction suivante : « ومذهب الليث في هذا كله كمذهب مالك ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / النية",
+          "quoteAr": "ومذهب الليث في هذا كله كمذهب مالك",
+          "url": "https://islamweb.net/ar/library/content/93/1148/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-040",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / المريض",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans la discussion des dispenses du malade, à quoi Ibn ʿAbd al-Barr fait-il appel pour évaluer l’état de la personne ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "À sa conscience et sa sincérité"
+        },
+        {
+          "id": "b",
+          "textFr": "Au choix d’un vendeur"
+        },
+        {
+          "id": "c",
+          "textFr": "À son revenu exclusivement"
+        },
+        {
+          "id": "d",
+          "textFr": "Au nombre de ses enfants"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « À sa conscience et sa sincérité ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / المريض » exprime la distinction suivante : « شيء يؤتمن عليه المسلم ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / المريض",
+          "quoteAr": "شيء يؤتمن عليه المسلم",
+          "url": "https://www.islamweb.net/ar/library/content/93/1201/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-041",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / المريض",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle condition rend la rupture du jeûne licite pour le malade selon l’affirmation commentée ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un simple goût pour la nourriture"
+        },
+        {
+          "id": "b",
+          "textFr": "La préférence pour un autre mois"
+        },
+        {
+          "id": "c",
+          "textFr": "Un état de maladie effectivement établi"
+        },
+        {
+          "id": "d",
+          "textFr": "L’envie de changer son horaire"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Un état de maladie effectivement établi ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / المريض » exprime la distinction suivante : « فإذا صح مرضه صح له الفطر ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / المريض",
+          "quoteAr": "فإذا صح مرضه صح له الفطر",
+          "url": "https://www.islamweb.net/ar/library/content/93/1201/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-042",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الصيام / المريض",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Selon l’opinion restrictive citée dans ce passage, quelle gravité la maladie doit-elle atteindre ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Être un trouble sans gêne pour jeûner"
+        },
+        {
+          "id": "b",
+          "textFr": "Provoquer uniquement un léger inconfort"
+        },
+        {
+          "id": "c",
+          "textFr": "Nécessiter un déplacement géographique"
+        },
+        {
+          "id": "d",
+          "textFr": "Rendre la personne incapable de supporter le jeûne"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Rendre la personne incapable de supporter le jeûne ». Le passage arabe de « الاستذكار » sur « كتاب الصيام / المريض » exprime la distinction suivante : « ولا يطيق الصيام ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الصيام / المريض",
+          "quoteAr": "ولا يطيق الصيام",
+          "url": "https://www.islamweb.net/ar/library/content/93/1201/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-043",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة / الذهب والورق",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans l’exemple de Malik sur dix dinars investis, à combien la somme a-t-elle augmenté au terme de l’année ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quinze dinars"
+        },
+        {
+          "id": "b",
+          "textFr": "Trente dinars"
+        },
+        {
+          "id": "c",
+          "textFr": "Vingt dinars"
+        },
+        {
+          "id": "d",
+          "textFr": "Quarante dinars"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « Vingt dinars ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة / الذهب والورق » exprime la distinction suivante : « كانت له عشرة دنانير فتجر فيها فحال عليها الحول وقد بلغت عشرين دينارا ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة / الذهب والورق",
+          "quoteAr": "كانت له عشرة دنانير فتجر فيها فحال عليها الحول وقد بلغت عشرين دينارا",
+          "url": "https://www.islamweb.net/ar/library/content/93/996/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-044",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة / الذهب والورق",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle obligation Malik applique-t-il dans ce cas de dix dinars devenus vingt au terme du hawl ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Reporter systématiquement cinq années"
+        },
+        {
+          "id": "b",
+          "textFr": "Ne payer aucune zakat même après le seuil"
+        },
+        {
+          "id": "c",
+          "textFr": "Transformer les dinars en récolte"
+        },
+        {
+          "id": "d",
+          "textFr": "Acquitter la zakat immédiatement"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Acquitter la zakat immédiatement ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة / الذهب والورق » exprime la distinction suivante : « إنه يزكيها مكانها ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة / الذهب والورق",
+          "quoteAr": "إنه يزكيها مكانها",
+          "url": "https://www.islamweb.net/ar/library/content/93/996/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-045",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الزكاة / الذهب والورق",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans le cas d’un seuil atteint après les opérations citées, à partir de quel moment le nouveau hawl court-il selon Malik ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Depuis le jour de la prochaine ʿumra"
+        },
+        {
+          "id": "b",
+          "textFr": "Depuis la date de versement de cette zakat"
+        },
+        {
+          "id": "c",
+          "textFr": "Depuis la naissance du propriétaire"
+        },
+        {
+          "id": "d",
+          "textFr": "Depuis le début de l’année solaire suivante"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Depuis la date de versement de cette zakat ». Le passage arabe de « الاستذكار » sur « كتاب الزكاة / الذهب والورق » exprime la distinction suivante : « ثم لا زكاة فيها حتى يحول عليها الحول من يوم زكيت ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الزكاة / الذهب والورق",
+          "quoteAr": "ثم لا زكاة فيها حتى يحول عليها الحول من يوم زكيت",
+          "url": "https://www.islamweb.net/ar/library/content/93/996/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-046",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / باب جامع الوضوء",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Dans le récit discuté au « Bab jamiʿ al-wudû », combien de pierres sont mentionnées pour l’istijmâr ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Six"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
+        }
+      ],
+      "correctOptionId": "d",
+      "explanationFr": "La réponse est « Trois ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / باب جامع الوضوء » exprime la distinction suivante : « أولا يجد أحدكم ثلاثة أحجار؟ ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / باب جامع الوضوء",
+          "quoteAr": "أولا يجد أحدكم ثلاثة أحجار؟",
+          "url": "https://islamweb.com/ar/library/content/93/111/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-047",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / باب جامع الوضوء",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quelle variante de transmission Ibn ʿAbd al-Barr relève-t-il chez Ibn al-Qâsim rapporté par Sahnûn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le renvoi du hadith à une autre sourate"
+        },
+        {
+          "id": "b",
+          "textFr": "La suppression du nom de Malik dans toutes les versions"
+        },
+        {
+          "id": "c",
+          "textFr": "L’ajout d’Abû Hurayra au bout de la chaîne"
+        },
+        {
+          "id": "d",
+          "textFr": "L’ajout d’Ibn ʿAbbâs comme auteur du Muwaṭṭaʾ"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « L’ajout d’Abû Hurayra au bout de la chaîne ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / باب جامع الوضوء » exprime la distinction suivante : « إلا ابن القاسم في رواية سحنون ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / باب جامع الوضوء",
+          "quoteAr": "إلا ابن القاسم في رواية سحنون",
+          "url": "https://islamweb.com/ar/library/content/93/111/",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-048",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / باب غسل اليدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Pour Ibn ʿAbd al-Barr, quel statut la majorité des savants donne-t-elle au lavage des mains avant leur entrée dans le récipient ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une cause systématique de ghusl"
+        },
+        {
+          "id": "b",
+          "textFr": "Une recommandation, non une obligation"
+        },
+        {
+          "id": "c",
+          "textFr": "Une interdiction absolue même si les mains sont sales"
+        },
+        {
+          "id": "d",
+          "textFr": "Une condition du jeûne"
+        }
+      ],
+      "correctOptionId": "b",
+      "explanationFr": "La réponse est « Une recommandation, non une obligation ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / باب غسل اليدين » exprime la distinction suivante : « أن ذلك ندب لا إيجاب وسنة لا فرض ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / باب غسل اليدين",
+          "quoteAr": "أن ذلك ندب لا إيجاب وسنة لا فرض",
+          "url": "https://almntqim.com/٢١١٩_الاستذكار-ابن-عبد-البر-ج-١/١٥٢_الصفحة",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-049",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / باب غسل اليدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Selon la nuance rapportée de Malik, à qui est-il recommandé de laver les mains avant le récipient ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Seulement aux personnes riches"
+        },
+        {
+          "id": "b",
+          "textFr": "Exclusivement aux voyageurs de nuit"
+        },
+        {
+          "id": "c",
+          "textFr": "À toute personne devant faire ses ablutions après un état de non-pureté"
+        },
+        {
+          "id": "d",
+          "textFr": "Uniquement aux hommes lors du vendredi"
+        }
+      ],
+      "correctOptionId": "c",
+      "explanationFr": "La réponse est « À toute personne devant faire ses ablutions après un état de non-pureté ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / باب غسل اليدين » exprime la distinction suivante : « سواء قام من نوم أو غيره أن يغسل يده ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / باب غسل اليدين",
+          "quoteAr": "سواء قام من نوم أو غيره أن يغسل يده",
+          "url": "https://almntqim.com/٢١١٩_الاستذكار-ابن-عبد-البر-ج-١/١٥٢_الصفحة",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    },
+    {
+      "id": "al-istidhkar-v13-ultime-050",
+      "bookId": "al-istidhkar",
+      "level": "ultime",
+      "domain": "ibadat",
+      "chapterAr": "كتاب الطهارة / باب غسل اليدين",
+      "status": "owner-approved",
+      "scholarlyReview": {
+        "status": "not-attested",
+        "reviewer": null,
+        "reviewedAt": null,
+        "notes": "Absence de certification indépendante et de collation exhaustive attestée ; ne pas remplacer par une revue savante fictive."
+      },
+      "questionFr": "Quel élément fait exception à la tolérance de l’introduction de la main dans l’eau de purification dans le propos rapporté ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Une impureté réelle présente sur la main"
+        },
+        {
+          "id": "b",
+          "textFr": "Le fait que la personne soit debout"
+        },
+        {
+          "id": "c",
+          "textFr": "Le fait que le récipient soit en céramique"
+        },
+        {
+          "id": "d",
+          "textFr": "Le fait que l’eau soit froide"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "La réponse est « Une impureté réelle présente sur la main ». Le passage arabe de « الاستذكار » sur « كتاب الطهارة / باب غسل اليدين » exprime la distinction suivante : « إلا أن يكون في يده نجاسة ». Cette réponse concerne précisément le récit ou l’avis que le commentaire examine.",
+      "references": [
+        {
+          "workTitleAr": "الاستذكار",
+          "authorAr": "يوسف بن عبد الله بن عبد البر",
+          "sectionAr": "كتاب الطهارة / باب غسل اليدين",
+          "quoteAr": "إلا أن يكون في يده نجاسة",
+          "url": "https://almntqim.com/٢١١٩_الاستذكار-ابن-عبد-البر-ج-١/١٥٢_الصفحة",
+          "quoteLayer": "author-or-reported-view",
+          "edition": null,
+          "printedPage": null,
+          "pdfPage": null,
+          "textCheck": "requires-editorial-collation"
+        }
+      ],
+      "reviewNote": "Approuvée par le propriétaire le 26/10/2026; la citation, le niveau de texte et les avis rapportés ne sont pas indépendamment certifiés.",
+      "ownerApproval": {
+        "decision": "approved",
+        "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+        "reviewedAt": "2026-10-26",
+        "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+      }
+    }
+  ],
+  "editorialOwnerApproval": {
+    "decision": "approved",
+    "reviewer": "mehdi-pro-test — validation éditoriale déclarée par le propriétaire dans la conversation",
+    "reviewedAt": "2026-10-26",
+    "basis": "validation explicite dans la conversation ; aucune expertise religieuse indépendante revendiquée"
+  },
+  "publicationMeaning": "Le propriétaire autorise l’intégration/activation éditoriale. Le déploiement en Production, la fusion et toute attestation de collation des sources ne sont pas déclarés faits."
+}

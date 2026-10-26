@@ -1,3 +1,5 @@
+> **PR Ultime — 190 ajouts propriétaire-approuvés (non déployée)** : Bidāya passe à 150 et Al-Istidhkār à 60 questions sur cette branche, soit 610 au total, avec dix questions par partie. La certification des citations/attributions reste distincte et non attestée. Voir [intégration et limites](docs/quiz-v1.3-ultime-190/README.md). La Production n’est pas modifiée par cette PR.
+
 > **Activation des 180 questions validée par le propriétaire : 420 questions publiées**. Les trois ouvrages intermédiaires et les trois avancés passent à 40 questions chacun, avec dix questions tirées par partie. Voir [confirmation et périmètre](docs/quiz-v1.3-import-180/ACTIVATION-2026-10-26.md). Les états antérieurs ci-dessous restent historiques.
 
 > **Import éditorial de 180 questions (PR non fusionnée)** : six lots intermédiaires/avancés ajoutés au circuit éditorial, avec l’approbation du propriétaire conservée. Citations et attributions non attestées : **aucune nouvelle publication**, les 240 questions actives sont préservées. Voir [inventaire et points à vérifier](docs/quiz-v1.3-import-180/README.md).

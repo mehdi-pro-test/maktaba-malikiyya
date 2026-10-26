@@ -7,7 +7,8 @@
   "git": {
     "deploymentEnabled": {
       "feat/quiz-v1.3-tirage": false,
-      "feat/quiz-v1.3-intermediaire-avance-import": false
+      "feat/quiz-v1.3-intermediaire-avance-import": false,
+      "feat/quiz-v1.3-ultime-190-approuvees": false
     }
   }
 }

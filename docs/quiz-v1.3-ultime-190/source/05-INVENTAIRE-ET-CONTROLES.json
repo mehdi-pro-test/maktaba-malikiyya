@@ -1,0 +1,43 @@
+{
+  "totalNewQuestions": 190,
+  "byBook": {
+    "bidayat-al-mujtahid": 140,
+    "al-istidhkar": 50
+  },
+  "bidayaByTheme": {
+    "ibadat": 51,
+    "muamalat": 60,
+    "hudud": 29
+  },
+  "sourceRecords": 22,
+  "questionsWithFourOptions": 190,
+  "questionsWithAnswerAndExplanation": 190,
+  "questionsWithArabicQuoteAndHttpsSource": 190,
+  "uniqueIds": 190,
+  "uniqueNormalizedStems": 190,
+  "revisionStatus": "190 owner-editorial-approved — not draft",
+  "existingHistoricalQuestionsPerBook": {
+    "bidayat-al-mujtahid": 10,
+    "al-istidhkar": 10
+  },
+  "ambiguityWarnings": [
+    "Citation courte à confronter au passage arabe original et à l’édition",
+    "Avis comparés à vérifier pour Ibn Rushd",
+    "Certaines mauvaises réponses doivent être relues pour être plausibles",
+    "Contrôle des doublons sémantiques avec les questions déjà importées nécessaire"
+  ],
+  "automationDisclaimer": "Les assertions structurelles ne prouvent pas la validité juridique ou l’authenticité de chaque citation.",
+  "potentialPublishedTotalsAfterCodexIntegrationAndChecks": {
+    "bidayat-al-mujtahid": 150,
+    "al-istidhkar": 60
+  },
+  "userApprovedCount": 190,
+  "ownerApprovalDate": "2026-10-26",
+  "ownerApprovalScope": "190 questions-réponses (140 + 50), déclaration explicite dans cette conversation",
+  "independentFiqhReviewAttested": false,
+  "fullPrimaryCitationCollationAttested": false,
+  "techChangeRequired": "Le moteur actuel MAX_APPROVED_POOL=100 doit accepter au moins 150 pour Bidaya, sans retirer le tirage 10 sans remise.",
+  "originalBankSha256": "a77fbca1eb81e1a556ae844af5ebcc210f0f4429658f52bd2a93f460d61e9c53",
+  "approvedBankSha256": "aaa66d64eaf0c32321d60639e0f9083e25311779127d678a124d3f5bf96970d5",
+  "warning": "La validation du propriétaire porte sur les questions/réponses. Elle ne prouve pas une vérification exhaustive des transcriptions arabes, de la pagination ni des divergences entre écoles."
+}

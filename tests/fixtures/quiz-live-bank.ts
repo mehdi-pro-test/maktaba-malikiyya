@@ -2,13 +2,19 @@
 import raw from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
 import { researchBankSchema } from '../../src/lib/quiz-v12';
 import { editorialLots } from '../../src/lib/quiz-v13-lots';
+import { ultimeAdditions } from '../../src/lib/quiz-ultime-data';
 import { inspectCandidateLots, candidateBatchSchema } from '../../src/lib/quiz-v13-editorial';
 const base = researchBankSchema.parse(raw);
 const approved = new Set(inspectCandidateLots(base, editorialLots).approved.map((q) => q.id));
+const ultime = ultimeAdditions(base, [
+  ...base.questions,
+  ...editorialLots.flatMap((l) => candidateBatchSchema.parse(l.batch).questions),
+]);
 export const liveBank = {
   books: base.books,
   questions: [
     ...base.questions,
+    ...ultime.bank.questions.filter((q) => ultime.questions.some((p) => p.id === q.id)),
     ...editorialLots.flatMap((lot) =>
       candidateBatchSchema
         .parse(lot.batch)

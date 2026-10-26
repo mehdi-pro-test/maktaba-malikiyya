@@ -10,6 +10,8 @@ import {
 import { inspectCandidateLots } from '../src/lib/quiz-v13-editorial';
 import { editorialLots } from '../src/lib/quiz-v13-lots';
 import { pending180Lots } from '../src/lib/quiz-v13-pending-180';
+import { ultimeAdditions } from '../src/lib/quiz-ultime-data';
+import { candidateBatchSchema } from '../src/lib/quiz-v13-editorial';
 const bank = researchBankSchema.parse(raw);
 const report = validateReviewReport(bank, reviews);
 const directory = 'docs/quiz-v1.3-pack/recherche-v1.3';
@@ -18,6 +20,10 @@ const lots = readdirSync(directory)
   .map((f) => ({ batch: JSON.parse(readFileSync(`${directory}/${f}`, 'utf8')) }));
 const delivered = inspectCandidateLots(bank, [...lots, ...pending180Lots]);
 const audit = inspectCandidateLots(bank, editorialLots);
+const ultime = ultimeAdditions(bank, [
+  ...bank.questions,
+  ...editorialLots.flatMap((l) => candidateBatchSchema.parse(l.batch).questions),
+]);
 console.log(
   JSON.stringify(
     {
@@ -25,14 +31,20 @@ console.log(
       approvalsV12: report.reviews.length,
       books: publicLibrary(bank, report).map((b) => ({
         bookId: b.id,
-        published: b.available ? 10 + (audit.approvedByBook.get(b.id)?.length ?? 0) : 0,
+        published: b.available
+          ? 10 +
+            (audit.approvedByBook.get(b.id)?.length ?? 0) +
+            (ultime.byBook.get(b.id)?.length ?? 0)
+          : 0,
         draft:
           delivered.inventory
             .filter((i) => i.bookId === b.id)
             .reduce((sum, i) => sum + i.written, 0) - (audit.approvedByBook.get(b.id)?.length ?? 0),
       })),
       candidateBatches: audit.inventory,
-      publishedV13: audit.approved.length,
+      publishedV13: audit.approved.length + ultime.questions.length,
+      ownerEditorialApprovedWithoutSourceCertification: ultime.questions.length,
+      sourceCertificationForUltime: ultime.sourceVerification,
       attributionDifferencesRecorded: audit.attributionDifferences,
       note: `Contrôle structurel ; ${audit.approved.length} approbations supplémentaires fondées sur les confirmations déclarées du propriétaire. Aucun contrôle religieux indépendant par Codex. Provenance conservée ; aucun fichier modifié.`,
     },

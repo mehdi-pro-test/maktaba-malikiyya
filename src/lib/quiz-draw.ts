@@ -1,14 +1,14 @@
 import type { QuizQuestion } from './quiz';
 
 export const ATTEMPT_SIZE = 10;
-export const MAX_APPROVED_POOL = 100;
+export const MAX_APPROVED_POOL = 200;
 /** Fisher–Yates on a copy. RNG must return a value in [0, 1). */
 export function drawQuestions<T extends { id: string }>(
   pool: readonly T[],
   random: () => number = Math.random,
 ): T[] {
   if (pool.length > MAX_APPROVED_POOL)
-    throw new Error('Banque supérieure à 100 : règle éditoriale requise');
+    throw new Error(`Banque supérieure à ${MAX_APPROVED_POOL} : règle éditoriale requise`);
   if (new Set(pool.map((q) => q.id)).size !== pool.length) throw new Error('Identifiant dupliqué');
   if (pool.length < ATTEMPT_SIZE) return [];
   const copy = [...pool];
