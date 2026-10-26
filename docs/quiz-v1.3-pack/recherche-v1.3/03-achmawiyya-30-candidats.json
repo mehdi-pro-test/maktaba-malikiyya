@@ -25,22 +25,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Cinq"
-        },
-        {
-          "id": "b",
-          "textFr": "Deux"
-        },
-        {
-          "id": "c",
           "textFr": "Sept"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Onze"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فأما الأحداث فخمسة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -63,22 +63,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Le wadî"
+          "textFr": "La salive"
         },
         {
           "id": "b",
-          "textFr": "La sueur"
+          "textFr": "Le wadî"
         },
         {
           "id": "c",
-          "textFr": "Les larmes"
+          "textFr": "La sueur"
         },
         {
           "id": "d",
-          "textFr": "La salive"
+          "textFr": "Les larmes"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « المذي، والودي، والبول ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -139,22 +139,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Il l’annule"
-        },
-        {
-          "id": "b",
           "textFr": "Il n’a jamais aucun effet"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Il remplace les ablutions"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Il rend le ghusl obligatoire à chaque fois"
+        },
+        {
+          "id": "d",
+          "textFr": "Il l’annule"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « طويل ثقيل ينقض الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -177,22 +177,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Il ne l’annule pas"
-        },
-        {
-          "id": "b",
-          "textFr": "Il impose toujours le ghusl"
-        },
-        {
-          "id": "c",
           "textFr": "Il annule forcément le wudû"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Il remplace la prière"
+        },
+        {
+          "id": "c",
+          "textFr": "Il ne l’annule pas"
+        },
+        {
+          "id": "d",
+          "textFr": "Il impose toujours le ghusl"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « قصير خفيف لا ينقض الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -215,22 +215,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Refaire les ablutions à titre recommandé"
+          "textFr": "Jeûner un jour"
         },
         {
           "id": "b",
-          "textFr": "Effectuer systématiquement le ghusl"
+          "textFr": "Refaire les ablutions à titre recommandé"
         },
         {
           "id": "c",
-          "textFr": "Ne pas prier jusqu’au lendemain"
+          "textFr": "Effectuer systématiquement le ghusl"
         },
         {
           "id": "d",
-          "textFr": "Jeûner un jour"
+          "textFr": "Ne pas prier jusqu’au lendemain"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « طويل خفيف يستحب منه الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -291,22 +291,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Le wudû n’est pas annulé"
-        },
-        {
-          "id": "b",
           "textFr": "Le ghusl devient obligatoire"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Le wudû est toujours annulé"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Le jeûne est rompu"
+        },
+        {
+          "id": "d",
+          "textFr": "Le wudû n’est pas annulé"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « لم يقصد اللذة ولم يجدها، فلا وضوء عليه ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -329,22 +329,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "La ventouse (hijâma)"
-        },
-        {
-          "id": "b",
-          "textFr": "L’émission d’urine"
-        },
-        {
-          "id": "c",
           "textFr": "Le vent intestinal"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Le sommeil profond"
+        },
+        {
+          "id": "c",
+          "textFr": "La ventouse (hijâma)"
+        },
+        {
+          "id": "d",
+          "textFr": "L’émission d’urine"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « ولا حجامة، ولا فصد ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -367,22 +367,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Il ne l’annule pas en soi"
+          "textFr": "Il annule toute prière passée"
         },
         {
           "id": "b",
-          "textFr": "Il rend le tayammum obligatoire"
+          "textFr": "Il ne l’annule pas en soi"
         },
         {
           "id": "c",
-          "textFr": "Il impose toujours le ghusl"
+          "textFr": "Il rend le tayammum obligatoire"
         },
         {
           "id": "d",
-          "textFr": "Il annule toute prière passée"
+          "textFr": "Il impose toujours le ghusl"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « ولا قيء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -443,22 +443,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Du ciel ou de la terre"
-        },
-        {
-          "id": "b",
           "textFr": "Uniquement d’un puits profond"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Uniquement de la mer"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Uniquement d’une réserve couverte"
+        },
+        {
+          "id": "d",
+          "textFr": "Du ciel ou de la terre"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « سواء نزل من السماء، أو نبع من الأرض ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -481,22 +481,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Impure, elle ne convient plus au wudû"
-        },
-        {
-          "id": "b",
-          "textFr": "Obligatoirement meilleure pour le wudû"
-        },
-        {
-          "id": "c",
           "textFr": "Une eau recommandée pour le ghusl"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Une eau à utiliser sans examen"
+        },
+        {
+          "id": "c",
+          "textFr": "Impure, elle ne convient plus au wudû"
+        },
+        {
+          "id": "d",
+          "textFr": "Obligatoirement meilleure pour le wudû"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فالماء نجس لا يصح منه الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -519,22 +519,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Pure en soi mais non purificatrice"
+          "textFr": "Toujours identique à l’eau absolue"
         },
         {
           "id": "b",
-          "textFr": "Toujours impure"
+          "textFr": "Pure en soi mais non purificatrice"
         },
         {
           "id": "c",
-          "textFr": "Nécessairement interdite à la boisson"
+          "textFr": "Toujours impure"
         },
         {
           "id": "d",
-          "textFr": "Toujours identique à l’eau absolue"
+          "textFr": "Nécessairement interdite à la boisson"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « كالماء المخلوط بالزعفران والورد والعجين ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -595,22 +595,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Lors du lavage du visage"
-        },
-        {
-          "id": "b",
           "textFr": "Après le salâm de la prière"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Après le tayammum"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Au moment de ranger le récipient"
+        },
+        {
+          "id": "d",
+          "textFr": "Lors du lavage du visage"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « النية عند غسل الوجه ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -633,22 +633,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "La barbe légère laissant voir la peau"
-        },
-        {
-          "id": "b",
-          "textFr": "Uniquement la barbe très dense"
-        },
-        {
-          "id": "c",
           "textFr": "Uniquement la barbe teinte"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Aucune barbe, jamais"
+        },
+        {
+          "id": "c",
+          "textFr": "La barbe légère laissant voir la peau"
+        },
+        {
+          "id": "d",
+          "textFr": "Uniquement la barbe très dense"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « إن كان شعر اللحية خفيفا تظهر البشرة تحته ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -671,22 +671,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Huit"
+          "textFr": "Douze"
         },
         {
           "id": "b",
-          "textFr": "Quatre"
+          "textFr": "Huit"
         },
         {
           "id": "c",
-          "textFr": "Dix"
+          "textFr": "Quatre"
         },
         {
           "id": "d",
-          "textFr": "Douze"
+          "textFr": "Dix"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما سنن الوضوء فثمانية ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -747,22 +747,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "À droite"
-        },
-        {
-          "id": "b",
           "textFr": "Derrière soi"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Au milieu du chemin"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Toujours à gauche"
+        },
+        {
+          "id": "d",
+          "textFr": "À droite"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « ووضع الإناء على اليمين إن كان مفتوحا ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -785,22 +785,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Quatre"
-        },
-        {
-          "id": "b",
-          "textFr": "Deux"
-        },
-        {
-          "id": "c",
           "textFr": "Six"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Neuf"
+        },
+        {
+          "id": "c",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "d",
+          "textFr": "Deux"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما سننه فأربعة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -823,22 +823,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Six"
+          "textFr": "Seize"
         },
         {
           "id": "b",
-          "textFr": "Trois"
+          "textFr": "Six"
         },
         {
           "id": "c",
-          "textFr": "Dix"
+          "textFr": "Trois"
         },
         {
           "id": "d",
-          "textFr": "Seize"
+          "textFr": "Dix"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما فضائله فستة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -899,22 +899,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Quatre"
-        },
-        {
-          "id": "b",
           "textFr": "Deux"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Sept"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Onze"
+        },
+        {
+          "id": "d",
+          "textFr": "Quatre"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فأما فرائضه فأربعة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -937,22 +937,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Rendre la prière permise"
-        },
-        {
-          "id": "b",
-          "textFr": "Lever toujours l’état rituel de façon permanente"
-        },
-        {
-          "id": "c",
           "textFr": "Se dispenser de prier"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Se purifier par un parfum"
+        },
+        {
+          "id": "c",
+          "textFr": "Rendre la prière permise"
+        },
+        {
+          "id": "d",
+          "textFr": "Lever toujours l’état rituel de façon permanente"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وهي أن ينوي استباحة الصلاة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -975,22 +975,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "La première frappe sur le sol"
+          "textFr": "Le salut final de la prière"
         },
         {
           "id": "b",
-          "textFr": "Trois lavages de la tête"
+          "textFr": "La première frappe sur le sol"
         },
         {
           "id": "c",
-          "textFr": "Le lavage des coudes à l’eau"
+          "textFr": "Trois lavages de la tête"
         },
         {
           "id": "d",
-          "textFr": "Le salut final de la prière"
+          "textFr": "Le lavage des coudes à l’eau"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « والضربة الأولى ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -1051,22 +1051,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Le sable"
-        },
-        {
-          "id": "b",
           "textFr": "La graisse"
         },
         {
-          "id": "c",
+          "id": "b",
           "textFr": "Le tissu de soie"
         },
         {
-          "id": "d",
+          "id": "c",
           "textFr": "Le parfum liquide"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sable"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "d",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « من تراب أو رمل أو حجارة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -1089,22 +1089,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Cinq"
-        },
-        {
-          "id": "b",
-          "textFr": "Trois"
-        },
-        {
-          "id": "c",
           "textFr": "Sept"
         },
         {
-          "id": "d",
+          "id": "b",
           "textFr": "Neuf"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Trois"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "c",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فأما شروط وجوبها فخمسة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     },
@@ -1127,22 +1127,22 @@
       "options": [
         {
           "id": "a",
-          "textFr": "Six"
+          "textFr": "Quinze"
         },
         {
           "id": "b",
-          "textFr": "Deux"
+          "textFr": "Six"
         },
         {
           "id": "c",
-          "textFr": "Dix"
+          "textFr": "Deux"
         },
         {
           "id": "d",
-          "textFr": "Quinze"
+          "textFr": "Dix"
         }
       ],
-      "correctOptionId": "a",
+      "correctOptionId": "b",
       "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما شروط صحتها فستة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
       "newComparedToV12": "manually-screened-not-approved"
     }
