@@ -1,0 +1,1150 @@
+{
+  "schemaVersion": "1.3-research-candidates-1",
+  "createdAt": "2026-10-26",
+  "bookId": "al-achmawiyya",
+  "status": "not-for-publication",
+  "editorialReviewRequired": true,
+  "notice": "Brouillon éditorial nouveau. La source textuelle est consultable en arabe, mais édition et pagination non collationnées. Aucune de ces questions n'est publiée ni approuvée.",
+  "questions": [
+    {
+      "id": "al-achmawiyya-v13-001",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "فأما الأحداث فخمسة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien d’événements (ahdâth) sont explicitement énumérés comme annulatifs du wudû dans l’Achmawiyya ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Onze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فأما الأحداث فخمسة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-002",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "المذي، والودي، والبول",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Parmi les liquides provenant de l’avant, lequel le texte cite-t-il en plus de l’urine et du madhy ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le wadî"
+        },
+        {
+          "id": "b",
+          "textFr": "La sueur"
+        },
+        {
+          "id": "c",
+          "textFr": "Les larmes"
+        },
+        {
+          "id": "d",
+          "textFr": "La salive"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « المذي، والودي، والبول ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-003",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "الغائط، والريح",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel gaz corporel est expressément classé parmi les émissions annulant les ablutions ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le vent provenant du derrière"
+        },
+        {
+          "id": "b",
+          "textFr": "L’air expiré"
+        },
+        {
+          "id": "c",
+          "textFr": "L’éternuement"
+        },
+        {
+          "id": "d",
+          "textFr": "Le souffle dans un instrument"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « الغائط، والريح ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-004",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "طويل ثقيل ينقض الوضوء",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel effet le texte donne-t-il au sommeil long et profond sur le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il l’annule"
+        },
+        {
+          "id": "b",
+          "textFr": "Il n’a jamais aucun effet"
+        },
+        {
+          "id": "c",
+          "textFr": "Il remplace les ablutions"
+        },
+        {
+          "id": "d",
+          "textFr": "Il rend le ghusl obligatoire à chaque fois"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « طويل ثقيل ينقض الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-005",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "قصير خفيف لا ينقض الوضوء",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel effet le texte donne-t-il au sommeil bref et léger sur le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il ne l’annule pas"
+        },
+        {
+          "id": "b",
+          "textFr": "Il impose toujours le ghusl"
+        },
+        {
+          "id": "c",
+          "textFr": "Il annule forcément le wudû"
+        },
+        {
+          "id": "d",
+          "textFr": "Il remplace la prière"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « قصير خفيف لا ينقض الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-006",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "طويل خفيف يستحب منه الوضوء",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle conduite est recommandée après un sommeil long mais léger selon le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Refaire les ablutions à titre recommandé"
+        },
+        {
+          "id": "b",
+          "textFr": "Effectuer systématiquement le ghusl"
+        },
+        {
+          "id": "c",
+          "textFr": "Ne pas prier jusqu’au lendemain"
+        },
+        {
+          "id": "d",
+          "textFr": "Jeûner un jour"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « طويل خفيف يستحب منه الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-007",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "بالجنون والإغماء والسكر",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel trouble de la conscience est cité parmi les causes annulant le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "L’évanouissement"
+        },
+        {
+          "id": "b",
+          "textFr": "Une légère distraction"
+        },
+        {
+          "id": "c",
+          "textFr": "Le chagrin"
+        },
+        {
+          "id": "d",
+          "textFr": "La fatigue musculaire"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « بالجنون والإغماء والسكر ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-008",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "لم يقصد اللذة ولم يجدها، فلا وضوء عليه",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Concernant un toucher sans intention de plaisir ni plaisir ressenti, que dit le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le wudû n’est pas annulé"
+        },
+        {
+          "id": "b",
+          "textFr": "Le ghusl devient obligatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Le wudû est toujours annulé"
+        },
+        {
+          "id": "d",
+          "textFr": "Le jeûne est rompu"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « لم يقصد اللذة ولم يجدها، فلا وضوء عليه ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-009",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "ولا حجامة، ولا فصد",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel acte médical le matn cite-t-il parmi ceux qui n’annulent pas à eux seuls le wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La ventouse (hijâma)"
+        },
+        {
+          "id": "b",
+          "textFr": "L’émission d’urine"
+        },
+        {
+          "id": "c",
+          "textFr": "Le vent intestinal"
+        },
+        {
+          "id": "d",
+          "textFr": "Le sommeil profond"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « ولا حجامة، ولا فصد ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-010",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب نواقض الوضوء",
+        "quoteAr": "ولا قيء",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel effet le matn attribue-t-il au vomissement sur le wudû dans sa liste des non-annulatifs ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Il ne l’annule pas en soi"
+        },
+        {
+          "id": "b",
+          "textFr": "Il rend le tayammum obligatoire"
+        },
+        {
+          "id": "c",
+          "textFr": "Il impose toujours le ghusl"
+        },
+        {
+          "id": "d",
+          "textFr": "Il annule toute prière passée"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « ولا قيء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-011",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب أقسام المياه التي يجوز منها الوضوء",
+        "quoteAr": "الماء على قسمين: مخلوط وغير مخلوط",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "En combien de catégories l’Achmawiyya classe-t-elle d’abord l’eau ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Deux : mélangée et non mélangée"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois : chaude, froide et tiède"
+        },
+        {
+          "id": "c",
+          "textFr": "Quatre : rivière, mer, neige et rosée"
+        },
+        {
+          "id": "d",
+          "textFr": "Cinq : selon la couleur du vase"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « الماء على قسمين: مخلوط وغير مخلوط ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-012",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب أقسام المياه التي يجوز منها الوضوء",
+        "quoteAr": "سواء نزل من السماء، أو نبع من الأرض",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "D’où peut provenir l’eau non mélangée utilisée pour le wudû selon l’Achmawiyya ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Du ciel ou de la terre"
+        },
+        {
+          "id": "b",
+          "textFr": "Uniquement d’un puits profond"
+        },
+        {
+          "id": "c",
+          "textFr": "Uniquement de la mer"
+        },
+        {
+          "id": "d",
+          "textFr": "Uniquement d’une réserve couverte"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « سواء نزل من السماء، أو نبع من الأرض ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-013",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب أقسام المياه التي يجوز منها الوضوء",
+        "quoteAr": "فالماء نجس لا يصح منه الوضوء",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Que devient une eau dont une impureté change les caractéristiques selon le passage ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Impure, elle ne convient plus au wudû"
+        },
+        {
+          "id": "b",
+          "textFr": "Obligatoirement meilleure pour le wudû"
+        },
+        {
+          "id": "c",
+          "textFr": "Une eau recommandée pour le ghusl"
+        },
+        {
+          "id": "d",
+          "textFr": "Une eau à utiliser sans examen"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فالماء نجس لا يصح منه الوضوء ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-014",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب أقسام المياه التي يجوز منها الوضوء",
+        "quoteAr": "كالماء المخلوط بالزعفران والورد والعجين",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Comment est classée une eau mélangée à du safran qui la modifie, lorsque ce mélange peut être évité ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Pure en soi mais non purificatrice"
+        },
+        {
+          "id": "b",
+          "textFr": "Toujours impure"
+        },
+        {
+          "id": "c",
+          "textFr": "Nécessairement interdite à la boisson"
+        },
+        {
+          "id": "d",
+          "textFr": "Toujours identique à l’eau absolue"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « كالماء المخلوط بالزعفران والورد والعجين ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-015",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب أقسام المياه التي يجوز منها الوضوء",
+        "quoteAr": "كالماء المتغير بالسبخة أو الحمأة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel type de changement naturel de l’eau est toléré par le matn ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Un changement dû aux terrains salins difficilement évitable"
+        },
+        {
+          "id": "b",
+          "textFr": "Un changement dû à l’urine"
+        },
+        {
+          "id": "c",
+          "textFr": "Un changement volontaire dû à la pâte"
+        },
+        {
+          "id": "d",
+          "textFr": "Un changement par une impureté qui modifie l’eau"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « كالماء المتغير بالسبخة أو الحمأة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-016",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الوضوء",
+        "quoteAr": "النية عند غسل الوجه",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "À quel moment l’Achmawiyya situe-t-elle l’intention obligatoire du wudû ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Lors du lavage du visage"
+        },
+        {
+          "id": "b",
+          "textFr": "Après le salâm de la prière"
+        },
+        {
+          "id": "c",
+          "textFr": "Après le tayammum"
+        },
+        {
+          "id": "d",
+          "textFr": "Au moment de ranger le récipient"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « النية عند غسل الوجه ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-017",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الوضوء",
+        "quoteAr": "إن كان شعر اللحية خفيفا تظهر البشرة تحته",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Pour quel type de barbe faut-il faire parvenir l’eau à travers les poils au wudû selon l’Achmawiyya ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La barbe légère laissant voir la peau"
+        },
+        {
+          "id": "b",
+          "textFr": "Uniquement la barbe très dense"
+        },
+        {
+          "id": "c",
+          "textFr": "Uniquement la barbe teinte"
+        },
+        {
+          "id": "d",
+          "textFr": "Aucune barbe, jamais"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « إن كان شعر اللحية خفيفا تظهر البشرة تحته ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-018",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الوضوء",
+        "quoteAr": "وأما سنن الوضوء فثمانية",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de sunnas du wudû l’Achmawiyya annonce-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Huit"
+        },
+        {
+          "id": "b",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "c",
+          "textFr": "Dix"
+        },
+        {
+          "id": "d",
+          "textFr": "Douze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما سنن الوضوء فثمانية ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-019",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الوضوء",
+        "quoteAr": "وأما فضائله فسبعة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien d’actes méritoires du wudû l’Achmawiyya annonce-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Sept"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Quinze"
+        },
+        {
+          "id": "d",
+          "textFr": "Vingt"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما فضائله فسبعة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-020",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الوضوء",
+        "quoteAr": "ووضع الإناء على اليمين إن كان مفتوحا",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel placement du récipient est méritoire selon le matn lorsqu’il est ouvert ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "À droite"
+        },
+        {
+          "id": "b",
+          "textFr": "Derrière soi"
+        },
+        {
+          "id": "c",
+          "textFr": "Au milieu du chemin"
+        },
+        {
+          "id": "d",
+          "textFr": "Toujours à gauche"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « ووضع الإناء على اليمين إن كان مفتوحا ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-021",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الغسل وسننه وفضائله",
+        "quoteAr": "وأما سننه فأربعة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de sunnas du ghusl le texte énumère-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Six"
+        },
+        {
+          "id": "d",
+          "textFr": "Neuf"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما سننه فأربعة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-022",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الغسل وسننه وفضائله",
+        "quoteAr": "وأما فضائله فستة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien d’actes méritoires du ghusl l’Achmawiyya énumère-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Six"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois"
+        },
+        {
+          "id": "c",
+          "textFr": "Dix"
+        },
+        {
+          "id": "d",
+          "textFr": "Seize"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما فضائله فستة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-023",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب فرائض الغسل وسننه وفضائله",
+        "quoteAr": "غسل الأعالي قبل الأسافل",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel ordre corporel est conseillé dans les mérites du ghusl selon le texte ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Laver les parties hautes avant les parties basses"
+        },
+        {
+          "id": "b",
+          "textFr": "Laver seulement le côté gauche"
+        },
+        {
+          "id": "c",
+          "textFr": "Commencer par les pieds à chaque fois"
+        },
+        {
+          "id": "d",
+          "textFr": "Ne jamais laver le haut du corps"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « غسل الأعالي قبل الأسافل ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-024",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب التيمم",
+        "quoteAr": "فأما فرائضه فأربعة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien d’obligations l’Achmawiyya énumère-t-elle pour le tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Quatre"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Onze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فأما فرائضه فأربعة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-025",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب التيمم",
+        "quoteAr": "وهي أن ينوي استباحة الصلاة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quelle formule explicite l’intention du tayammum dans l’Achmawiyya ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Rendre la prière permise"
+        },
+        {
+          "id": "b",
+          "textFr": "Lever toujours l’état rituel de façon permanente"
+        },
+        {
+          "id": "c",
+          "textFr": "Se dispenser de prier"
+        },
+        {
+          "id": "d",
+          "textFr": "Se purifier par un parfum"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وهي أن ينوي استباحة الصلاة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-026",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب التيمم",
+        "quoteAr": "والضربة الأولى",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel geste initial est compté parmi les obligations du tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "La première frappe sur le sol"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois lavages de la tête"
+        },
+        {
+          "id": "c",
+          "textFr": "Le lavage des coudes à l’eau"
+        },
+        {
+          "id": "d",
+          "textFr": "Le salut final de la prière"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « والضربة الأولى ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-027",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب التيمم",
+        "quoteAr": "وأما سننه فثلاثة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de sunnas du tayammum le texte énumère-t-il ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Trois"
+        },
+        {
+          "id": "b",
+          "textFr": "Une"
+        },
+        {
+          "id": "c",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "d",
+          "textFr": "Huit"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما سننه فثلاثة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-028",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب التيمم",
+        "quoteAr": "من تراب أو رمل أو حجارة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Quel matériau figure expressément parmi les surfaces pures du tayammum ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Le sable"
+        },
+        {
+          "id": "b",
+          "textFr": "La graisse"
+        },
+        {
+          "id": "c",
+          "textFr": "Le tissu de soie"
+        },
+        {
+          "id": "d",
+          "textFr": "Le parfum liquide"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « من تراب أو رمل أو حجارة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-029",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب شروط الصلاة",
+        "quoteAr": "فأما شروط وجوبها فخمسة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de conditions d’obligation de la prière l’Achmawiyya énumère-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Cinq"
+        },
+        {
+          "id": "b",
+          "textFr": "Trois"
+        },
+        {
+          "id": "c",
+          "textFr": "Sept"
+        },
+        {
+          "id": "d",
+          "textFr": "Neuf"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « فأما شروط وجوبها فخمسة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    },
+    {
+      "id": "al-achmawiyya-v13-030",
+      "bookId": "al-achmawiyya",
+      "level": "debutant",
+      "editorialStatus": "research-draft",
+      "source": {
+        "workTitleAr": "متن العشماوية في مذهب الإمام مالك",
+        "authorAr": "عبد الباري العشماوي",
+        "chapterAr": "باب شروط الصلاة",
+        "quoteAr": "وأما شروط صحتها فستة",
+        "url": "https://usul.ai/ar/t/matn-cashmawiyya",
+        "verification": "consulted-online-transcription",
+        "edition": null,
+        "printedPage": null
+      },
+      "questionFr": "Combien de conditions de validité de la prière l’Achmawiyya énumère-t-elle ?",
+      "options": [
+        {
+          "id": "a",
+          "textFr": "Six"
+        },
+        {
+          "id": "b",
+          "textFr": "Deux"
+        },
+        {
+          "id": "c",
+          "textFr": "Dix"
+        },
+        {
+          "id": "d",
+          "textFr": "Quinze"
+        }
+      ],
+      "correctOptionId": "a",
+      "explanationFr": "L’« متن العشماوية في مذهب الإمام مالك » donne pour ce point le passage : « وأما شروط صحتها فستة ». La réponse s'appuie sur cette formulation, sous réserve de collation éditoriale et de relecture spécialisée avant publication.",
+      "newComparedToV12": "manually-screened-not-approved"
+    }
+  ]
+}
