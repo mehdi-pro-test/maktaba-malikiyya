@@ -1,39 +1,41 @@
-# Maktaba Malikiyya — PACK UNIQUE Codex V1.3
+# PACK UNIQUE — Reprise éditoriale Maktaba Malikiyya V1.3
 
-**Commencer ici.** Archive de la branche documentaire `docs/pack-unique-quiz-v1.3-20261026`, basée sur `main@c25a20696b6c44ba6e7ba0cac25ba7e9cd640980` (26/10/2026). Le ZIP GitHub de cette branche contient la **copie complète du code du site** à cette révision, les **150 questions-réponses V1.2** et tous les documents du présent dossier. Ce pack ne change aucun fichier applicatif : les ajouts sont cantonnés à `docs/quiz-v1.3-pack/`.
+**Archive unique du dépôt GitHub + documentation + banque de questions existantes et nouvelles.**
 
-## Contenu réel vérifié (ne pas confondre avec la cible)
+Cette branche documentaire est dérivée de `main@c25a20696b6c44ba6e7ba0cac25ba7e9cd640980`. Elle **n'altère aucun code applicatif, prix, stock, commande ni migration**; elle ajoute des fichiers sous `docs/quiz-v1.3-pack/`. Codex doit vérifier si `main` a reçu depuis des commits et partir de la dernière version.
 
-- **150 questions-réponses réellement présentes** dans `src/data/quiz-v1.2/research.json`, réparties entre 15 ouvrages, 10 par ouvrage.
-- Leurs **150 décisions de relecture enregistrées** dans `src/data/quiz-v1.2/reviews.json`, validées sur déclaration du propriétaire. Elles ne valent pas certification d'un relecteur religieux indépendant.
-- Un **export CSV complet** des 150 questions en `docs/quiz-v1.3-pack/QUESTIONS-REPONSES-V1.2-150.csv` : texte de chaque question, 4 choix, réponse correcte, explication, citation arabe et URL source. Le **JSON original** demeure la source technique de référence.
-- Les **33 notices de sources** figurent dans `research.json`.
-- **Le lot éditorial V1.3 de 300 questions débutantes n'est PAS présent** : le ZIP indépendant annoncé dans l'espace Deep Research n'était pas accessible à la génération de ce pack. Aucune question V1.3 nouvelle n'a été reconstruite ou inventée. Pour obtenir effectivement 100 questions par ouvrage débutant, il faut importer ce **vrai fichier éditorial** (pas la description du fichier). Ne pas considérer une banque de 10 comme une banque de 100.
-- **Objectif à terme : 1 500 questions (100 par ouvrage)**. Le pack ne contient aujourd'hui que les 150 questions V1.2. Les 1 350 questions additionnelles sont hors de cette archive.
+## Quelles questions-réponses sont physiquement dans ce ZIP ?
 
-## Documentation comprise dans le ZIP
+| Bloc | Ouvrages | Questions complètes | Statut |
+| --- | ---: | ---: | --- |
+| Base V1.2 | 15 | **150** (10 par ouvrage) | publiées dans `src/data/quiz-v1.2/research.json`, revue propriétaire enregistrée |
+| Reprise V1.3, lot A | 3 débutants | **90** (30 par ouvrage) | `research-draft`, non publiées, relecture spécialisée nécessaire |
+| **Total rédigé dans l'archive** | 15 | **240** | 150 publiées + 90 candidats |
+| Objectif de trois ouvrages débutants | 3 | **300** | actuellement 120 dont 90 candidats, reste 180 à rédiger |
+| Objectif final quinze ouvrages | 15 | **1 500** | actuellement 240, reste 1 260 à rédiger |
 
-- `PROMPT-A-COLLER-DANS-CODEX.md` : prompt autonome, prioritaire.
-- `01-ETAT-DU-REPO.md` : photographie précise des routes, composants et décisions V1.2.
-- `02-DONNEES-IMPORT-ET-DEDUP.md` : règles pour l'import éventuel de la banque éditoriale V1.3 et la déduplication.
-- `03-TIRAGE-ALEATOIRE.md` : 10 questions distinctes par partie, 10/100 quand 100 existent, rejouer.
-- `04-REVUE-ET-SOURCES.md` : bibliographie et barrières de publication.
-- `05-TESTS-ET-NON-REGRESSION.md` : matrice de tests et de sécurité.
-- `06-LIVRAISON.md` : état réel et règles d'acceptation.
-- `MANIFEST-ET-ETAT-EDITORIAL.json` : comptes réels et statut du lot absent.
-- `QUESTIONS-REPONSES-V1.2-150.csv` : consultation humaine facile des réponses et références.
-- Et **tous les fichiers du dépôt** : code source, scripts, tests, SQL versionné, anciennes documentations.
+**Ne jamais confondre contenu rédigé, contenu validé et contenu publié.** En particulier, **le ZIP éditorial de 300 questions précédemment annoncé n'a pas été retrouvé** : cette nouvelle recherche a réellement produit 90 nouvelles questions, pas 300. Les trente anciennes (10 × 3) + les 90 nouvelles représentent 120 questions, soit 40 par ouvrage débutant.
 
-**Priorité en cas de contradiction :** présent README + `PROMPT-A-COLLER-DANS-CODEX.md` + décisions récentes du propriétaire `docs/quiz-v1.2/NAVIGATION-QUIZ.md`; les autres textes peuvent décrire un état historique et parler d'un deuxième ZIP **qui n'est pas livré ici**.
+## Où sont les données ?
 
-## Procédure de passage à Codex
+- `src/data/quiz-v1.2/research.json` : 150 anciens QCM complets (source de vérité applicative).
+- `src/data/quiz-v1.2/reviews.json` : 150 avis enregistrés, portant sur l'empreinte V1.2.
+- `docs/quiz-v1.3-pack/QUESTIONS-REPONSES-V1.2-150.csv` : export pour lire les 150 questions.
+- `docs/quiz-v1.3-pack/recherche-v1.3/01-akhdari-30-candidats.json` : 30 nouveaux QCM d'Akhdari.
+- `docs/quiz-v1.3-pack/recherche-v1.3/02-ibn-ashir-30-candidats.json` : 30 nouveaux QCM d'Ibn Ashir.
+- `docs/quiz-v1.3-pack/recherche-v1.3/03-achmawiyya-30-candidats.json` : 30 nouveaux QCM d'al-'Achmawiyya.
+- `docs/quiz-v1.3-pack/recherche-v1.3/QUESTIONS-REPONSES-NOUVELLES-90.csv` : export lisible de toutes les nouvelles questions-réponses.
+- `docs/quiz-v1.3-pack/recherche-v1.3/MANIFEST-90-QUESTIONS.json` : état contrôlé des 90 questions.
+- `docs/quiz-v1.3-pack/recherche-v1.3/README.md` : sources, vérifications et limites.
 
-1. Télécharger **ce ZIP unique** puis le transmettre à Codex.
-2. Copier le contenu de `PROMPT-A-COLLER-DANS-CODEX.md` dans Codex.
-3. Codex doit lire les données existantes et adapter **le moteur** sans rédiger d'autres questions.
-4. Si la banque V1.3 de 300 questions manque, Codex peut préparer le tirage dynamique avec les 10 questions V1.2 par ouvrage et les fixtures de test; il **ne doit pas prétendre** livrer 100/ouvrage en Production.
-5. Une fois la vraie banque éditoriale de 300 questions disponible, la fusionner dans **une nouvelle version du même ZIP unique** et déclencher son import avec revue séparée. Ne pas publier sans approbation.
+## Le développement Codex
+
+Lire `PROMPT-A-COLLER-DANS-CODEX.md`, `01-ETAT-DU-REPO.md`, `02-DONNEES-IMPORT-ET-DEDUP.md`, `03-TIRAGE-ALEATOIRE.md`, `04-REVUE-ET-SOURCES.md`, `05-TESTS-ET-NON-REGRESSION.md` et `06-LIVRAISON.md`. Certains de ces documents antérieurs parlent d'un corpus V1.3 de 300 questions **qui n'est pas présent** et d'un ZIP externe : la vérité de ce pack est le tableau ci-dessus.
+
+Ne pas demander à Codex de rechercher, inventer ou corriger le contenu religieux : il est intégrateur uniquement.
+
+Le tirage doit être sans remise : 10 questions différentes tirées uniformément d'un pool d'au moins 10 questions **approuvées** de cet ouvrage, stable durant une partie et renouvelé lors de « Rejouer ». Actuellement 10 questions sont approuvées par ouvrage; ne jamais présenter les 90 nouveaux brouillons comme publiés.
 
 ## Non-régression
 
-Le site a déjà supprimé l'ancien quiz classique ; `/quiz` redirige vers `/quiz/niveaux` et le header mène aux niveaux. Ne pas le restaurer. Préserver intégralement boutique, Akhdari à 15€ / stock initial 15, Coran et Bukhari, panier, prix/stocks courants, commandes, Stripe en test, Resend, Prisma/Neon, sauvegardes, CI. Toute modification doit passer par branche/PR et tests, sans migration Production ni déploiement sans accord.
+La V1.2 actuelle a supprimé l'ancien quiz classique : `/quiz` redirige vers les niveaux. Préserver les quinze pages quiz, l'accueil, la boutique, les frais de livraison, panier, Akhdari actuel, Stripe TEST, Resend, Neon/Prisma Production, workflows et sauvegardes. Aucune fusion/déploiement sans accord.
