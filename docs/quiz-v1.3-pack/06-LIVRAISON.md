@@ -1,23 +1,21 @@
-# Livraison Codex V1.3 — paquet consolidé
+# Livraison de la reprise éditoriale V1.3 — ZIP unique
 
-## Périmètre effectivement joint
+## Inventaire exact
 
-Ce ZIP est un instantané du dépôt GitHub V1.2 actuel **avec** la documentation technique V1.3. Il contient les **150 questions-réponses déjà publiées** dans `src/data/quiz-v1.2/research.json` et les **150 décisions de relecture** dans `src/data/quiz-v1.2/reviews.json`, ainsi qu'un export lisible dans le dossier de ce pack.
+Le ZIP est **une copie intégrale de la branche de documentation GitHub** dérivée du site V1.2 courant, accompagnée de ces ajouts sous `docs/quiz-v1.3-pack/`. **Aucun code applicatif ni donnée de commande modifiés.**
 
-**Il ne contient pas** la banque séparée de 300 questions débutantes issue de la recherche approfondie V1.3, car cet artefact n'était pas disponible dans la conversation lors de la constitution de cette archive. Ne pas affirmer qu'il s'agit d'une livraison de 300 ou 1 500 questions V1.3. Aucune question nouvelle n'a été fabriquée pour combler cette absence.
+- **150 QCM publiés** des quinze livres dans `src/data/quiz-v1.2/research.json` et leurs **150 validations enregistrées** dans `src/data/quiz-v1.2/reviews.json`.
+- **90 nouveaux QCM rédigés**, 30 par matn débutant, dans `recherche-v1.3/*.json`. **Statut brouillon `research-draft`; non validés / non publiés.**
+- **Exports CSV** des 150 anciens QCM et des 90 nouveaux pour lecture et contrôle des réponses, choix et citations.
+- `MANIFEST-ET-ETAT-EDITORIAL.json` et `recherche-v1.3/MANIFEST-90-QUESTIONS.json` inventorient les données et contrôles, sans certifier la justesse doctrinale.
+- Documentation complète et prompt `PROMPT-A-COLLER-DANS-CODEX.md`.
 
-## Travail technique
+**Résultat : 240 questions rédigées dans l'archive, dont 150 déjà publiées et 90 nouvelles candidates.** Pour la cible prioritaire de 100 par matn débutant, il manque 60 questions par livre, soit 180. L'ancien ZIP de recherche contenant prétendument 300 questions n'a pas été retrouvé; il n'est pas présenté comme livré.
 
-1. Vérifier le HEAD de `origin/main` puis partir du dernier `main` (sans régression des commits plus récents).
-2. Créer `feat/quiz-v1.3-random-10` et préserver les données et revues V1.2 inchangées.
-3. Implémenter un tirage sans remplacement de 10 parmi N questions **effectivement disponibles, uniques et approuvées** par ouvrage. Si N=10, les dix existantes restent jouables. Si N=100, le tirage doit varier à chaque nouvelle partie. Ne pas afficher 100 si N=10.
-4. Les 300 questions débutantes peuvent être importées **uniquement lorsque leur fichier source réel aura été fourni**. Sinon, signaler le manque et ne rien inventer.
-5. Tester le scoring, la stabilité du tirage, le replay, les citations arabes, les routes, la boutique et la sécurité; ne pas déployer et ouvrir une PR non fusionnée.
+## Mission Codex
 
-## Protection
+Seulement implémenter le tirage d'exactement 10 questions distinctes sans remplacement, réinitialisé à `Rejouer`, à partir des questions **publiées et autorisées**; si la banque comporte 10 items, elles restent jouables; si elle en comporte 100 à l'avenir, en sélectionner 10. Ne pas mettre en ligne les 90 brouillons, ne pas inventer des questions pour compléter les banques. Prévoir leur import après validation éditoriale dans une étape distincte.
 
-La V1.2 du propriétaire a supprimé le quiz classique et fait pointer `/quiz` vers `/quiz/niveaux`; cette décision prévaut sur la V1.1 historique. Ne modifier ni Prisma/Neon Production, ni stocks, ni checkout/Stripe TEST, ni commandes, ni Resend, ni workflows de sauvegarde.
+## Protection et recette
 
-## Livrables
-
-Une PR non fusionnée, une trace des tests exécutés et des limitations, un tableau clair des questions disponibles/validées par livre, et une demande explicite du vrai fichier éditorial V1.3 pour achever les banques 100/ouvrage.
+Partir du dernier HEAD `main` réel, travailler en PR non fusionnée, préserver la décision du propriétaire de retirer le quiz classique (`/quiz` redirige vers `/quiz/niveaux`). Ne toucher ni aux prix/stocks, ni aux commandes, ni Stripe TEST, ni Resend, ni Prisma/Neon Production, ni sauvegardes. Exécuter format, lint, typecheck, unitaires, E2E desktop/mobile et tests PostgreSQL seulement sur une BD locale de test si besoin. Déclarer les échecs ou tests non exécutés. **Aucune fusion, migration Production ni mise en ligne sans accord.**
