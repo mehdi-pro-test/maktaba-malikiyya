@@ -1,43 +1,27 @@
-# Qualité des questions, sources arabes et décision de publication
+# Recherche V1.3 — provenance, relecture et publication
 
-> **Pack unique — précaution :** les 300 nouvelles questions évoquées dans l'ancien rapport de recherche **ne sont pas livrées dans cette archive**. Les sources listées ci-dessous servent seulement de repères bibliographiques à vérifier lors de l'arrivée effective du fichier éditorial. Les 150 items disponibles aujourd'hui sont ceux du dépôt V1.2, dont la liste intégrale figure dans le CSV ci-joint.
+## Contenu réel
 
+Le pack GitHub contient **90 nouvelles questions** (30 pour chacun des trois matn débutants) avec réponses et références dans `docs/quiz-v1.3-pack/recherche-v1.3/`. Ces QCM ont été rédigés après consultation de transcriptions arabes en ligne; ils ne proviennent pas d'un ZIP précédent supposé de 300 questions. Les 150 anciennes questions restent dans la V1.2 et conservent leurs validations existantes.
 
-## Provenance réelle du lot débutant
+## Sources des 90 nouvelles candidates
 
-Le rapport de recherche approfondie V1.3 indique la constitution de 300 questions (3 × 100) avec titre, auteur, chapitre, citation arabe, édition ou témoin, et lien de source. **Les contrôles structurels annoncés par la recherche ne valent pas relecture doctrinale indépendante.** Certaines pages d'Ibn Ashir restent `null` et `pageVerified: false`.
+| Matn et auteur | Texte consulté | Contrôle restant |
+|---|---|---|
+| **مختصر الأخضري** — عبد الرحمن الأخضري | https://arabic-keyboard.info/books/ar/read-book/متن-الأخضري-في-العبادات-على-مذهب-الإمام-مالك | Collation avec édition fiable; distinctions obligations, sunnas, mérites et exceptions; revue des sujets fins |
+| **المرشد المعين** — عبد الواحد بن عاشر | https://chariaa.weebly.com/160515781606-157515761606-1593157515881585.html | Contrôle de chaque vers, car la transcription en ligne contient des graphies/diacritiques dégradés; comparer notamment avec https://www.habous.gov.ma |
+| **المقدمة العشماوية** — عبد الباري العشماوي | https://usul.ai/ar/t/matn-cashmawiyya | Contrôle des citations, du chapitre et des formulations; édition et pages exactes uniquement si effectivement consultées |
 
-Ouvrages et sources de consultation principales identifiées dans le rapport :
+Les questions sont conservées avec `editorialStatus: research-draft`; la citation `quoteAr` est une transcription de travail, **pas une preuve de lecture d'un fac-similé**. Aucune identité de relecteur ou validation doctrinale nouvelle n'est revendiquée. La cohérence structurelle automatique et l'absence de doublon textuel exact avec la V1.2 ont été contrôlées; cela **ne garantit pas** l'exactitude de chaque réponse ni l'absence de questions quasi identiques.
 
-- **مختصر الأخضري** : https://shamela.ws/book/9548 ; texte numérisé avec pagination annoncée conforme à l'imprimé.
-- **المقدمة العشماوية** : https://shamela.ws/book/37326 ; en complément Wellcome MS Arabic 847 : https://wellcomecollection.org/works/s5uzycfn.
-- **المرشد المعين / متن ابن عاشر** : scan Maktabat al-Qahira https://archive.org/download/Ibn_Achir/Ibn_Achir01.pdf ; pagination individuelle à consolider selon le rapport.
+## Barrières
 
-Ces liens sont des **références de corpus**, non une certification automatique de chacune des 300 questions. Consulter les URL détaillées contenues dans le JSON éditorial et les rapports. Ne pas inventer une page imprimée, ne pas substituer une page d'accueil à un passage précis et ne pas copier des scans/couvertures sans vérifier les droits.
+1. Un second lecteur compétent examine chaque question, chaque distracteur, la bonne réponse et sa justification par le texte du bon ouvrage, avec distinction du matn des commentaires.
+2. La citation est confrontée à un témoin éditorial fiable. Toute divergence bloque la publication de la question jusqu'à résolution; les pages et éditions inconnues restent null.
+3. Les items rejetés sont corrigés dans une nouvelle version signée, jamais silencieusement réécrits en Production.
+4. Un rapport d'approbation explicite par question, daté et lié à l'empreinte canonique du lot V1.3, est obligatoire avant passage à `published`.
+5. Les quinze quiz V1.2 et le site commercial continuent à fonctionner indépendamment des 90 nouveaux brouillons.
 
-## Contrôles éditoriaux demandés
+## Objectif quantitatif
 
-Pour chaque item :
-1. Enoncé français exact et non ambigu ; traduction arabe si elle figure dans le dataset.
-2. Quatre choix plausibles, distincts, un et un seul correct.
-3. Bonne réponse soutenue par le passage cité ; la courte citation n'est pas hors sujet.
-4. Livre/auteur/chapitre/édition/layer matn-commentaire cohérents ; pas de mélange sharh/hashiya.
-5. Lien HTTPS utilisable et provenance du scan vérifiable, page uniquement si réellement contrôlée.
-6. Sans doublon sémantique dans l'ouvrage ou avec les dix questions déjà validées dans la V1.2.
-7. Distinctions du droit malikite et éventuelles divergences explicitement formulées.
-8. Relecture humaine qualifiée avant passage en Production si nécessaire.
-
-Les données V1.3 `research_verified` doivent rester en revue; des questions structurellement valides peuvent malgré tout nécessiter une correction de doctrine, de formulation ou de référence. Codex doit **signaler** ces cas, pas prendre la place d'un relecteur ni d'un auteur de contenu.
-
-## Registre d'approbation
-
-Conserver par question : `questionId`, `bookId`, empreinte du corpus ou de l'item, statut, relecteur réel, date, décision, remarque. Ne **pas** renseigner automatiquement un nom de relecteur fictif. Une révision du libellé/source/bonne réponse invalide l'approbation concernée et nécessite une nouvelle décision.
-
-## Les 12 autres banques
-
-Intermédiaire : al-Izziyya, Ashal al-Masalik, Risala d'Ibn Abi Zayd.
-Avancé : Mukhtasar Khalil, Sharh al-Dardir, Hashiya ad-Dasuqi.
-Ultime : Bidayat al-Mujtahid, al-Istidhkar.
-Oussoul : Issal as-Salik, al-Waraqat avec Sharh al-Hattab, Murtaqa al-Wusul, Maraqi as-Su'ud.
-
-Ces douze banques **de 100** restent à produire sur le plan éditorial; les 10 questions V1.2 par ouvrage sont à conserver, sans promettre la disponibilité de 100 questions.
+Chaque livre débutant a aujourd'hui 10 QCM publiés + 30 QCM nouveaux à relire = **40 rédigés sur 100**. Il manque **180 questions inédites pour les trois livres débutants**. Le total de 1 500 questions pour les quinze livres n'est pas atteint. Ne rien fabriquer pour gonfler ces comptes.
