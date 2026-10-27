@@ -22,6 +22,7 @@ export default defineConfig({
       env: {
         DATABASE_URL: process.env.DATABASE_URL ?? '',
         ADMIN_ENABLED: 'false',
+        MEMBER_ACCOUNTS_ENABLED: 'false',
         ADMIN_DATA_ENABLED: 'false',
         QUIZ_DB_ENABLED: 'false',
       },
@@ -43,27 +44,35 @@ export default defineConfig({
     },
   ],
   projects: [
-    { name: 'admin-desktop', testMatch: 'admin.spec.ts', use: { ...devices['Desktop Chrome'] } },
+    {
+      name: 'admin-desktop',
+      testMatch: /(?:admin|member)\.spec\.ts$/,
+      use: { ...devices['Desktop Chrome'] },
+    },
     {
       name: 'admin-mobile',
-      testMatch: 'admin.spec.ts',
+      testMatch: /(?:admin|member)\.spec\.ts$/,
       dependencies: ['admin-desktop'],
       use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' },
     },
-    { name: 'desktop', testIgnore: 'admin.spec.ts', use: { ...devices['Desktop Chrome'] } },
+    {
+      name: 'desktop',
+      testIgnore: /(?:admin|member)\.spec\.ts$/,
+      use: { ...devices['Desktop Chrome'] },
+    },
     {
       name: 'mobile',
-      testIgnore: 'admin.spec.ts',
+      testIgnore: /(?:admin|member)\.spec\.ts$/,
       use: { ...devices['iPhone 13'], defaultBrowserType: 'chromium' },
     },
     {
       name: 'firefox',
-      testIgnore: 'admin.spec.ts',
+      testIgnore: /(?:admin|member)\.spec\.ts$/,
       use: { ...devices['Desktop Firefox'], launchOptions: {} },
     },
     {
       name: 'webkit-mobile',
-      testIgnore: 'admin.spec.ts',
+      testIgnore: /(?:admin|member)\.spec\.ts$/,
       use: {
         ...devices['iPhone 13'],
         launchOptions: process.env.PLAYWRIGHT_WEBKIT_EXECUTABLE_PATH

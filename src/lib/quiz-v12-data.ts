@@ -1,4 +1,5 @@
 import type { QuizQuestion } from './quiz';
+import { applyEditorialV15 } from './quiz-editorial-v15';
 // This module is imported exclusively by server pages and editorial scripts.
 import 'server-only';
 import rawBank from '@/data/quiz-v1.2/research.json';
@@ -40,7 +41,7 @@ export function findQuizBook(level: string, id: string) {
 export function bookQuestions(level: string, id: string) {
   const book = findQuizBook(level, id);
   if (!book?.available) return [];
-  return (pools.get(id) ?? []).map((q) => ({
+  return (pools.get(id) ?? []).map(applyEditorialV15).map((q) => ({
     ...q,
     origin: {
       bookId: book.id,

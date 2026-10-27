@@ -729,12 +729,14 @@ export async function QuizPage({ id }: { id?: string }) {
             <CommandForm
               command="quiz-baseline"
               input={{ id, version: record.version }}
-              label="Restaurer exactement la version historique"
+              label="Restaurer la version de référence"
               reason
             />
           )}
           {baseline && !record?.activeRevisionId && !record?.archivedAt && (
-            <p>Version publique actuelle : banque historique immuable.</p>
+            <p>
+              Version publique actuelle : banque de référence avec corrections éditoriales V1.5.
+            </p>
           )}
           {record?.revisions.map((revision) => (
             <div key={revision.id} className="admin-revision">
@@ -764,7 +766,8 @@ export async function QuizPage({ id }: { id?: string }) {
           ))}
           {!record?.revisions.length && (
             <p>
-              Version historique JSON conservée. Enregistrez un brouillon pour créer une révision.
+              Archives JSON conservées. La version de référence inclut les corrections éditoriales
+              V1.5. Enregistrez un brouillon pour créer une révision.
             </p>
           )}
           <CommandForm

@@ -171,7 +171,7 @@ export async function archiveQuizQuestion(actor: OwnerActor, raw: unknown) {
     return record.id;
   });
 }
-/** Restore the exact canonical version, including its original provenance, without patching JSON. */
+/** Restore the reference bank (including the V1.5 editorial overlay) without patching archived JSON. */
 export async function restoreHistoricalQuiz(actor: OwnerActor, raw: unknown) {
   const { z } = await import('zod');
   const input = z

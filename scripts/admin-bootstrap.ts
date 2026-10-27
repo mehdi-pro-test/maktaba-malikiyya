@@ -6,7 +6,7 @@ if (!process.argv.includes('--confirm-bootstrap'))
   throw new Error('Usage privé : --confirm-bootstrap requis.');
 const config = adminConfig();
 try {
-  if (await db.user.count())
+  if (await db.user.count({ where: { ownerSlot: 1 } }))
     throw new Error('Le propriétaire existe déjà. Aucun second compte créé.');
   const password = process.env.ADMIN_BOOTSTRAP_PASSWORD;
   if (!password || password.length < 14)

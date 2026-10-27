@@ -12,7 +12,7 @@ async function auth(path: string, body: unknown) {
     throw new Error('Connexion refusée. Vérifiez les informations ou réessayez plus tard.');
   return data;
 }
-export function LoginForm() {
+export function LoginForm({ members = false }: { members?: boolean }) {
   const router = useRouter(),
     [factor, setFactor] = useState(false),
     [backup, setBackup] = useState(false),
@@ -35,13 +35,15 @@ export function LoginForm() {
             router.push('/admin');
             router.refresh();
           } else {
-            const result = await auth('sign-in/email', {
-              email: values.get('email'),
+            const identifier = String(values.get(members ? 'identity' : 'email') ?? '').trim();
+            const byEmail = identifier.includes('@');
+            const result = await auth(members && !byEmail ? 'sign-in/username' : 'sign-in/email', {
+              [members && !byEmail ? 'username' : 'email']: identifier,
               password: values.get('password'),
             });
             if (result.twoFactorRedirect) setFactor(true);
             else {
-              router.push('/admin/activation');
+              router.push(result.redirectTo ?? '/admin/activation');
               router.refresh();
             }
           }
@@ -71,8 +73,14 @@ export function LoginForm() {
       ) : (
         <>
           <label>
-            Adresse e-mail
-            <input name="email" type="email" autoComplete="username" required />
+            {members ? 'Pseudo ou e-mail administrateur' : 'Adresse e-mail'}
+            <input
+              name={members ? 'identity' : 'email'}
+              type={members ? 'text' : 'email'}
+              autoComplete="username"
+              maxLength={254}
+              required
+            />
           </label>
           <label>
             Mot de passe
@@ -176,7 +184,7 @@ export function ActivationForm() {
     </div>
   );
 }
-export function LogoutButton() {
+export function LogoutButton({ destination = '/admin/connexion' }: { destination?: string }) {
   const router = useRouter();
   return (
     <button
@@ -184,7 +192,7 @@ export function LogoutButton() {
       className="admin-link-button"
       onClick={async () => {
         await auth('sign-out', {});
-        router.push('/admin/connexion');
+        router.push(destination);
         router.refresh();
       }}
     >
@@ -236,7 +244,7 @@ export function RecoveryCodesForm() {
   );
 }
 
-export function PasswordForm() {
+export function PasswordForm({ member = false }: { member?: boolean }) {
   const router = useRouter(),
     [pending, setPending] = useState(false),
     [error, setError] = useState('');
@@ -255,12 +263,20 @@ export function PasswordForm() {
           return;
         }
         try {
-          await auth('change-password', {
+          const body = {
             currentPassword: f.get('currentPassword'),
             newPassword: f.get('newPassword'),
             revokeOtherSessions: true,
-          });
-          router.push('/admin/connexion');
+          };
+          if (member) {
+            const r = await fetch('/api/compte/mot-de-passe', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify(body),
+            });
+            if (!r.ok) throw new Error('Modification refusée. Vérifiez votre mot de passe actuel.');
+          } else await auth('change-password', body);
+          router.push(member ? '/connexion' : '/admin/connexion');
           router.refresh();
         } catch (error) {
           setError((error as Error).message);
@@ -296,8 +312,10 @@ export function PasswordForm() {
         />
       </label>
       <p>
-        Toutes les sessions seront révoquées. Une nouvelle connexion avec second facteur sera
-        nécessaire.
+        Toutes les sessions seront révoquées.{' '}
+        {member
+          ? 'Reconnectez-vous avec votre nouveau mot de passe.'
+          : 'Une nouvelle connexion avec second facteur sera nécessaire.'}
       </p>
       <button className="button" disabled={pending}>
         {pending ? 'Modification…' : 'Changer mon mot de passe'}

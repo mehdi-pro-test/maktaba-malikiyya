@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { ChevronDown } from 'lucide-react';
+import { AccountLink } from './account-link';
 import { visibleCategories } from '@/data/categories';
 export function Navigation() {
   const [open, setOpen] = useState(false);
@@ -70,6 +71,7 @@ export function Navigation() {
       >
         Quiz
       </Link>
+      <AccountLink />
     </nav>
   );
 }

@@ -47,6 +47,7 @@ export function adminE2EEnv(config: AdminE2EConfig) {
   return {
     DATABASE_URL: config.databaseURL,
     ADMIN_ENABLED: 'true',
+    MEMBER_ACCOUNTS_ENABLED: 'true',
     ADMIN_DATA_ENABLED: 'true',
     QUIZ_DB_ENABLED: 'true',
     ADMIN_EMAIL: config.email,

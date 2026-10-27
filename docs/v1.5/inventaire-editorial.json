@@ -1,0 +1,83 @@
+{
+  "reviewed": 610,
+  "rewritten": 476,
+  "wrongOptionsRewritten": 1408,
+  "promptsClarified": 13,
+  "books": [
+    {
+      "bookId": "al-achmawiyya",
+      "reviewed": 40,
+      "rewritten": 34
+    },
+    {
+      "bookId": "al-istidhkar",
+      "reviewed": 60,
+      "rewritten": 47
+    },
+    {
+      "bookId": "al-mouqaddima-al-izziyya",
+      "reviewed": 40,
+      "rewritten": 31
+    },
+    {
+      "bookId": "al-waraqat-sharh-al-hattab",
+      "reviewed": 10,
+      "rewritten": 4
+    },
+    {
+      "bookId": "ar-risala-ibn-abi-zayd",
+      "reviewed": 40,
+      "rewritten": 31
+    },
+    {
+      "bookId": "ashal-al-masalik",
+      "reviewed": 40,
+      "rewritten": 29
+    },
+    {
+      "bookId": "bidayat-al-mujtahid",
+      "reviewed": 150,
+      "rewritten": 131
+    },
+    {
+      "bookId": "hashiyat-al-dasuqi",
+      "reviewed": 40,
+      "rewritten": 33
+    },
+    {
+      "bookId": "issal-as-salik",
+      "reviewed": 10,
+      "rewritten": 3
+    },
+    {
+      "bookId": "maraqi-as-suud",
+      "reviewed": 10,
+      "rewritten": 5
+    },
+    {
+      "bookId": "matn-ibn-ashir",
+      "reviewed": 40,
+      "rewritten": 28
+    },
+    {
+      "bookId": "moukhtassar-al-akhdari",
+      "reviewed": 40,
+      "rewritten": 30
+    },
+    {
+      "bookId": "moukhtassar-khalil",
+      "reviewed": 40,
+      "rewritten": 36
+    },
+    {
+      "bookId": "murtaqa-al-wusul",
+      "reviewed": 10,
+      "rewritten": 3
+    },
+    {
+      "bookId": "sharh-al-dardir",
+      "reviewed": 40,
+      "rewritten": 31
+    }
+  ]
+}

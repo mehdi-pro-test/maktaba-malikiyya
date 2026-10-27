@@ -25,8 +25,8 @@ async function login(page: Page) {
   await page
     .context()
     .setExtraHTTPHeaders({ 'x-forwarded-for': '127.0.1.' + (Math.floor(Math.random() * 200) + 1) });
-  await page.goto(base + '/admin/connexion');
-  await field(page, 'Adresse e-mail').fill(config().email);
+  await page.goto(base + '/connexion');
+  await field(page, 'Pseudo ou e-mail administrateur').fill(config().email);
   await field(page, 'Mot de passe', { exact: true }).fill(config().password);
   await page.getByRole('button', { name: 'Se connecter', exact: true }).click();
   await expect(field(page, 'Code de l’application d’authentification')).toBeVisible();
@@ -34,6 +34,11 @@ async function login(page: Page) {
   await field(page, 'Code de l’application d’authentification').fill(code);
   await page.getByRole('button', { name: 'Vérifier le second facteur' }).click();
   await expect(page.getByRole('heading', { name: 'Tableau de bord', exact: true })).toBeVisible();
+  await expect(
+    page
+      .getByRole('navigation', { name: 'Navigation principale' })
+      .getByRole('link', { name: /Administration/ }),
+  ).toBeVisible();
 }
 async function command(page: Page, command: string, input: unknown) {
   return page.request.post(base + '/api/admin/mutate', {
@@ -48,7 +53,7 @@ async function capture(page: Page, name: string, project: string) {
     fullPage: true,
   });
 }
-test('anonyme et mot de passe seul : aucune donnée privée, aucune mutation, aucune inscription', async ({
+test('anonyme et mot de passe seul : aucune donnée privée, aucune mutation, aucune inscription propriétaire', async ({
   page,
   request,
 }) => {
@@ -82,8 +87,8 @@ test('anonyme et mot de passe seul : aucune donnée privée, aucune mutation, au
       })
     ).status(),
   ).toBe(404);
-  await page.goto(base + '/admin/connexion');
-  await field(page, 'Adresse e-mail').fill(config().email);
+  await page.goto(base + '/connexion');
+  await field(page, 'Pseudo ou e-mail administrateur').fill(config().email);
   await field(page, 'Mot de passe', { exact: true }).fill(config().password);
   await page.getByRole('button', { name: 'Se connecter', exact: true }).click();
   await expect(field(page, 'Code de l’application d’authentification')).toBeVisible();
@@ -348,7 +353,7 @@ test('parcours réel : connexion MFA, catalogue, stock, logistique, publication 
       .filter({ has: page.getByRole('heading', { name: 'Publication de question', exact: true }) }),
   ).toBeVisible();
   await page.getByRole('button', { name: 'Se déconnecter', exact: true }).click();
-  await expect(page).toHaveURL(base + '/admin/connexion');
+  await expect(page).toHaveURL(base + '/connexion');
   const after = await page.request.get(base + '/api/admin/export-commandes');
   expect(after.status()).toBe(401);
 });
