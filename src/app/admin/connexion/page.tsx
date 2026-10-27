@@ -1,7 +1,10 @@
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
+import { memberAccountsEnabled } from '@/lib/admin/config';
 import { adminConfig, adminEnabled } from '@/lib/admin/config';
 import { LoginForm } from '@/components/admin/auth-forms';
 export default function Page() {
+  if (memberAccountsEnabled()) redirect('/connexion');
   let ready = false;
   try {
     adminConfig();

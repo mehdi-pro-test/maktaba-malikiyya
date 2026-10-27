@@ -2,6 +2,8 @@ import { z } from 'zod';
 export const adminDataEnabled = () => process.env.ADMIN_DATA_ENABLED === 'true';
 export const adminEnabled = () => process.env.ADMIN_ENABLED === 'true' && adminDataEnabled();
 export const quizDbEnabled = () => process.env.QUIZ_DB_ENABLED === 'true' && adminDataEnabled();
+export const memberAccountsEnabled = () =>
+  process.env.MEMBER_ACCOUNTS_ENABLED === 'true' && adminDataEnabled();
 export function adminConfig() {
   const parsed = z
     .object({

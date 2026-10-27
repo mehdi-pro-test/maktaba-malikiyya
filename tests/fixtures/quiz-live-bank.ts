@@ -1,3 +1,4 @@
+import { applyEditorialV15 } from '../../src/lib/quiz-editorial-v15';
 // Current approved public corpus for assertions against a randomized live game.
 import raw from '../../src/data/quiz-v1.2/research.json' with { type: 'json' };
 import { researchBankSchema } from '../../src/lib/quiz-v12';
@@ -10,7 +11,7 @@ const ultime = ultimeAdditions(base, [
   ...base.questions,
   ...editorialLots.flatMap((l) => candidateBatchSchema.parse(l.batch).questions),
 ]);
-export const liveBank = {
+export const originalLiveBank = {
   books: base.books,
   questions: [
     ...base.questions,
@@ -31,4 +32,20 @@ export const liveBank = {
         })),
     ),
   ],
+};
+export const liveBank = {
+  books: originalLiveBank.books,
+  questions: originalLiveBank.questions.map((q) => {
+    const current = applyEditorialV15({
+      id: q.id,
+      promptFr: q.questionFr,
+      options: q.options.map((o) => ({ id: o.id, label: o.textFr })),
+      correctOptionIds: [q.correctOptionId],
+    });
+    return {
+      ...q,
+      questionFr: current.promptFr,
+      options: current.options.map((o) => ({ id: o.id, textFr: o.label })),
+    };
+  }),
 };

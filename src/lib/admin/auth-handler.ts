@@ -1,5 +1,10 @@
 import { z } from 'zod';
 import { limitedText } from './http';
+import { memberAccountsEnabled } from './config';
+import { registrationInput, memberUsername } from '../site-auth-rules';
+import { siteSessionView } from '../site-session';
+import { memberEmail } from '../site-auth-rules';
+import { createOwnerAuth } from './auth';
 import 'server-only';
 import { applySetCookies } from 'better-auth/cookies';
 import { db } from '../db';
@@ -8,6 +13,8 @@ import { adminConfig, adminEnabled, assertSameOrigin } from './config';
 import { ownerIdentity, requireOwnerSession } from './session-core';
 const allowed = new Set([
   '/sign-in/email',
+  '/sign-in/username',
+  '/sign-up/username',
   '/sign-out',
   '/change-password',
   '/two-factor/enable',
@@ -17,7 +24,7 @@ const allowed = new Set([
 ]);
 export async function adminAuthHandler(request: Request) {
   const responseHeaders = { 'Cache-Control': 'private, no-store' };
-  if (!adminEnabled())
+  if (!adminEnabled() && !memberAccountsEnabled())
     return Response.json(
       { error: 'Administration désactivée' },
       { status: 503, headers: responseHeaders },
@@ -30,6 +37,11 @@ export async function adminAuthHandler(request: Request) {
     );
   try {
     adminConfig();
+    if (['/sign-in/username', '/sign-up/username'].includes(path) && !memberAccountsEnabled())
+      return Response.json(
+        { error: 'Inscription indisponible.' },
+        { status: 503, headers: responseHeaders },
+      );
     let sensitiveOwner: { id: string; sessionId: string } | undefined;
     if (request.method === 'POST') {
       assertSameOrigin(request.headers);
@@ -38,33 +50,51 @@ export async function adminAuthHandler(request: Request) {
       const raw = await limitedText(request, 8192);
       const parsed = JSON.parse(raw);
       const schema =
-        path === '/change-password'
-          ? z
-              .object({
-                currentPassword: z.string().max(128),
-                newPassword: z.string().min(14).max(128),
-                revokeOtherSessions: z.literal(true),
-              })
-              .strict()
-          : path === '/sign-in/email'
-            ? z.object({ email: z.email().max(254), password: z.string().max(128) }).strict()
-            : path.includes('verify-')
-              ? z.object({ code: z.string().min(1).max(40) }).strict()
-              : path === '/two-factor/enable'
-                ? z
-                    .object({ password: z.string().max(128), method: z.literal('totp').optional() })
-                    .strict()
-                : path === '/two-factor/generate-backup-codes'
-                  ? z.object({ password: z.string().max(128) }).strict()
-                  : z.object({}).strict();
+        path === '/sign-up/username'
+          ? registrationInput
+          : path === '/sign-in/username'
+            ? z.object({ username: memberUsername, password: z.string().max(128) }).strict()
+            : path === '/change-password'
+              ? z
+                  .object({
+                    currentPassword: z.string().max(128),
+                    newPassword: z.string().min(14).max(128),
+                    revokeOtherSessions: z.literal(true),
+                  })
+                  .strict()
+              : path === '/sign-in/email'
+                ? z.object({ email: z.email().max(254), password: z.string().max(128) }).strict()
+                : path.includes('verify-')
+                  ? z.object({ code: z.string().min(1).max(40) }).strict()
+                  : path === '/two-factor/enable'
+                    ? z
+                        .object({
+                          password: z.string().max(128),
+                          method: z.literal('totp').optional(),
+                        })
+                        .strict()
+                    : path === '/two-factor/generate-backup-codes'
+                      ? z.object({ password: z.string().max(128) }).strict()
+                      : z.object({}).strict();
       const body = schema.parse(parsed) as Record<string, unknown>;
+      if (path === '/sign-up/username') {
+        const username = body.username as string;
+        body.email = memberEmail(username);
+        body.name = username;
+        body.displayUsername = username;
+      }
       const safeHeaders = new Headers(request.headers);
       safeHeaders.delete('content-length');
-      request = new Request(request.url, {
-        method: request.method,
-        headers: safeHeaders,
-        body: JSON.stringify(body),
-      });
+      request = new Request(
+        path === '/sign-up/username'
+          ? new URL('/api/auth/sign-up/email', request.url)
+          : request.url,
+        {
+          method: request.method,
+          headers: safeHeaders,
+          body: JSON.stringify(body),
+        },
+      );
       if (body.trustDevice || body.disableSession || (body.method && body.method !== 'totp'))
         throw new Error('Option non autorisée');
       if (path === '/two-factor/enable') {
@@ -76,7 +106,7 @@ export async function adminAuthHandler(request: Request) {
       if (['/two-factor/generate-backup-codes', '/change-password'].includes(path))
         sensitiveOwner = await requireOwnerSession(request.headers);
     }
-    const auth = ownerAuth(),
+    const auth = path === '/sign-up/username' ? createOwnerAuth(false, true) : ownerAuth(),
       response = await auth.handler(request);
     if (
       request.method === 'POST' &&
@@ -163,13 +193,23 @@ export async function adminAuthHandler(request: Request) {
     // No session token is returned in JSON. Better Auth owns the signed HttpOnly cookies.
     const body = !response.ok
       ? { error: 'Connexion refusée. Vérifiez vos informations ou réessayez plus tard.' }
-      : path === '/sign-in/email'
+      : ['/sign-in/email', '/sign-in/username', '/sign-up/username'].includes(path)
         ? { twoFactorRedirect: result.twoFactorRedirect === true }
         : path === '/two-factor/enable'
           ? { totpURI: result.totpURI, backupCodes: result.backupCodes }
           : path === '/two-factor/generate-backup-codes'
             ? { backupCodes: result.backupCodes }
             : { ok: true };
+    if (
+      response.ok &&
+      ['/sign-in/email', '/sign-in/username', '/sign-up/username'].includes(path) &&
+      !('twoFactorRedirect' in result && result.twoFactorRedirect === true)
+    ) {
+      const merged = new Headers(request.headers);
+      applySetCookies(merged, response.headers.getSetCookie());
+      const view = await siteSessionView(merged);
+      Object.assign(body, { redirectTo: view.mode === 'member' ? '/quiz/niveaux' : view.href });
+    }
     return new Response(JSON.stringify(body), { status: response.status, headers: safe });
   } catch {
     return Response.json(

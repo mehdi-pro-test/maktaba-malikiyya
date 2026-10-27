@@ -38,3 +38,20 @@ export function drawGlobalQuestions(pool: readonly QuizQuestion[], random?: () =
   if (pool.some((q) => q.status !== 'published')) throw new Error('Question non publiée');
   return sampleTen(pool, random);
 }
+
+/** Shuffle only at creation of an attempt; IDs and scoring remain unchanged. */
+export function shuffleAttemptChoices(
+  questions: readonly QuizQuestion[],
+  random: () => number = Math.random,
+): QuizQuestion[] {
+  return questions.map((q) => {
+    const options = [...q.options];
+    for (let i = options.length - 1; i > 0; i--) {
+      const value = random();
+      if (!Number.isFinite(value) || value < 0 || value >= 1) throw new Error('Aléa invalide');
+      const j = Math.floor(value * (i + 1));
+      [options[i], options[j]] = [options[j], options[i]];
+    }
+    return { ...q, options };
+  });
+}

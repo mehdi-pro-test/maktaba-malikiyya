@@ -2433,3 +2433,35 @@ html:has(.quiz-game) {
   line-height: 1.7;
   color: var(--forest);
 }
+
+/* Shared login entry, public accounts stay outside the administration. */
+.header nav .account-link {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.account-mode {
+  font-size: 0.65rem;
+  padding: 0.15rem 0.3rem;
+  border: 1px solid currentColor;
+  border-radius: 3px;
+}
+.account-portal {
+  padding: 2rem 1rem;
+  background: var(--cream, #f8f4e9);
+}
+.account-portal .admin-login {
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  .header nav {
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    justify-content: center;
+  }
+  .header nav .account-link {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

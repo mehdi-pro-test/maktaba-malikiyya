@@ -142,3 +142,5 @@ La documentation fournie est conservée dans `docs/specifications`. Le rapport d
 ## Administration propriétaire V1.4
 
 Le back-office privé, la migration additive, la configuration MFA/Blob et la procédure de retour arrière sont décrits dans [docs/v1.4-admin/README.md](docs/v1.4-admin/README.md). L'accès reste fermé par défaut. Les données de quiz et de catalogue publiées en DB nécessitent des flags distincts de l'ouverture de l'admin ; voir les instructions avant activation ou rollback. Aucun bootstrap de propriétaire n'est exécuté au build.
+
+Documentation de la connexion commune et de la révision des distracteurs : [V1.5](docs/v1.5/README.md).
